@@ -19,7 +19,7 @@ from typing import Optional
 from sources import communes, flexsis_fictif, load
 from sources.metiers import by_id
 
-from .signals import (ASSUMPTIONS, TODAY, Signal, company_signals, history_signals, job_signals, norm_company,
+from .signals import (ASSUMPTIONS, TODAY, Signal, announcement_signals, company_signals, history_signals, job_signals, norm_company,
                       permit_signals, simap_signals)
 
 HORIZON_J = 56          # "besoin proche" = dans les 8 semaines
@@ -77,7 +77,7 @@ def _dedup_weight(weights: list[float]) -> float:
 
 def collect_signals(real_clients: bool = True) -> tuple[list[Signal], dict]:
     fx = flexsis_fictif.generate(real_clients=real_clients)
-    sigs = simap_signals() + permit_signals() + job_signals() + company_signals() + history_signals(fx["fx_demandes"])
+    sigs = simap_signals() + permit_signals() + announcement_signals() + job_signals() + company_signals() + history_signals(fx["fx_demandes"])
     return sigs, fx
 
 

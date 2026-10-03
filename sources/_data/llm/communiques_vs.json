@@ -1,0 +1,153 @@
+{
+ "task": "communiques_vs",
+ "schema_version": 2,
+ "model": "gpt-5.6-luna",
+ "updated_at": "2026-10-03T17:11:23",
+ "count": 9,
+ "items": {
+  "51237240": {
+   "hash": "2c22b02d9dba",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": ""
+   }
+  },
+  "51109627": {
+   "hash": "0a68ed43212d",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Du 5 au 11 octobre 2026, le Canton du Valais s’associe pour la première fois à la « semaine de la santé mentale »."
+   }
+  },
+  "51133448": {
+   "hash": "14930255e458",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Régulation complète de la meute de loups de Nanz",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "L’OFEV a autorisé la régulation complète de la meute de Nanz."
+   }
+  },
+  "51239077": {
+   "hash": "372ec7d9851c",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "« Remise des diplômes d’avocat et de notaire »"
+   }
+  },
+  "51178038": {
+   "hash": "8de71774c3f4",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Le communiqué porte sur la hausse des primes d’assurance-maladie 2027, sans annoncer de chantier ou projet de construction."
+   }
+  },
+  "51254720": {
+   "hash": "93650dc19b6d",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Du 7 au 10 octobre 2026, Sion accueillera le colloque international NeoAlps26"
+   }
+  },
+  "51265412": {
+   "hash": "b09865a45178",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Aucun projet de chantier concret annoncé dans ce bulletin.",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Le Conseil d’Etat s’est penché sur 101 dossiers lors de sa séance hebdomadaire du mercredi 30 septembre 2026."
+   }
+  },
+  "51255871": {
+   "hash": "122783e74d5c",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Mesure prioritaire du Chablais de la 3e correction du Rhône",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "tres_grand",
+    "commune": null,
+    "maitre_ouvrage": "Cantons de Vaud et du Valais",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Cet ouvrage majeur de la 3e correction du Rhône permettra de renforcer durablement la protection du Chablais contre les crues, tout en améliorant la biodiversité, l’accueil du public et les usages des espaces riverains."
+   }
+  },
+  "51108131": {
+   "hash": "bc435987987c",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Aucun projet de chantier concret annoncé.",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Le Conseil d’Etat s’est penché sur 114 dossiers lors de sa séance hebdomadaire du mercredi 23 septembre 2026."
+   }
+  }
+ }
+}

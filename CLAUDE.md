@@ -29,6 +29,20 @@ web/         React 19 + TS + Vite + Tailwind v4 + shadcn/ui (preset radix-nova, 
 Après toute modif du moteur ou un fetch : `python3 -m prototype.export` (racine du repo), puis vérifier
 `cd web && npx tsc -b && npx oxlint src`.
 
+## Couche LLM (OpenAI, clé dans `.env` gitignoré, modèle `OPENAI_MODEL`)
+
+- `prototype/extract.py` : texte brut (`text` des records) -> fiche JSON stricte + citation (`preuve`), cache versionné
+  `sources/_data/llm/<tâche>.json` (id + empreinte du texte -> démo hors ligne, seuls les nouveaux records partent).
+  Tâches : `permis` (type, ampleur, certitude, corps de métier, entreprise) et `grands_projets` / `presse` /
+  `communiques_vs` (annonces de projet). `python3 -m prototype.extract <tâche>` ; `… eval` compare LLM / regex.
+- Le LLM fournit des **faits**, jamais de niveau ni de volume. `signals.py` : fiche LLM d'abord, regex en repli ;
+  entreprise = nom exact du permis (regex) sinon LLM ; certitude « faible » = poids de tri × 0,7.
+  Annonces de projet = signal Projet de **zone**, long terme (`delai_plans_debut_j` 6–18 mois, `delai_presse_debut_j`
+  12–36 mois, validés), **sans renfort chiffré**. Signaux marqués `ia` + `preuve` (badge « Extrait par IA »).
+- `prototype/emails.py` : emails de prospection pré-rédigés (alertes entreprise AGIR/PRÉPARER, FR ou DE selon le
+  district) -> `web/public/data/emails.json` ; `components/alerts/email-dialog.tsx` (bouton « Générer un email »).
+  Ordre : `python3 -m prototype.export && python3 -m prototype.emails`.
+
 ## Règles du moteur (validées avec l'utilisateur — ne pas changer sans demander)
 
 - On compte des **familles** de signaux, pas des signaux : Projet, Recrutement, Entreprise, Historique.

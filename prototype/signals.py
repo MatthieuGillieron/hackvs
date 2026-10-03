@@ -24,6 +24,9 @@ ASSUMPTIONS = {
     "delai_adjudication_debut_j": (21, 90),     # adjudication -> démarrage (= moment où l'entreprise staffe)
     "delai_annonce_besoin_j": (0, 30),          # une annonce = besoin déjà là ou imminent
     "annonce_difficile_j": 21,                  # en ligne depuis + de 21 j = n'arrive pas à recruter
+    # annonces de projet sans date de début (fiches LLM) : long terme, jamais AGIR seules, pas de renfort chiffré
+    "delai_plans_debut_j": (180, 540),          # plans en consultation publique -> début des travaux (6–18 mois)
+    "delai_presse_debut_j": (365, 1095),        # projet annoncé dans la presse -> début des travaux (12–36 mois)
 }
 
 BTP = {"macon", "coffreur", "ferrailleur", "manoeuvre", "grutier", "machiniste", "charpentier", "menuisier",
@@ -270,6 +273,56 @@ def permit_signals() -> list[Signal]:
                       "requerant": r["company"], "architecte": (r["extra"].get("architects") or [None])[-1],
                       "permis_id": r["id"],
                       **({"ia": True, "preuve": f["preuve"], "certitude": f["certitude"]} if f else {})},
+            ))
+    return out
+
+
+# ------------------------------------------------------------------ PROJET : ANNONCES (plans, presse, communiqués)
+
+ANNONCE_SOURCES = {  # source -> (type de signal, libellé, délai)
+    "grands_projets": ("plans_consultation", "Plans en consultation", "delai_plans_debut_j"),
+    "presse": ("presse", "Presse", "delai_presse_debut_j"),
+    "communiques_vs": ("communique", "Communiqué de l'État", "delai_presse_debut_j"),
+}
+NATURE_METIERS = {
+    "batiment": ["macon", "coffreur", "manoeuvre"],
+    "infrastructure_genie_civil": ["machiniste", "manoeuvre", "macon"],
+    "energie": ["electricien", "machiniste", "manoeuvre"],
+    "industriel_logistique": ["macon", "electricien", "manoeuvre"],
+    "amenagement": ["paysagiste", "machiniste", "manoeuvre"],
+}
+
+
+def announcement_signals() -> list[Signal]:
+    """Projets lus par le LLM dans des textes sans structure : signal de zone à long terme, sans volume."""
+    from prototype.extract import extracted
+    out = []
+    for src, (typ, prefix, delay) in ANNONCE_SOURCES.items():
+        llm = extracted(src)
+        for r in load(src):
+            f = llm.get(r["id"])
+            if not f or not f["projet_chantier"] or not f["resume"] or f["ampleur"] == "petit":
+                continue
+            c = communes.lookup(f["commune"] or "") if f["commune"] else None
+            district = c["extra"]["district"] if c else _district(r)
+            if not district:
+                continue
+            m = re.fullmatch(r"(\d{4})(?:-(\d{2}))?", f["debut_travaux"] or "")
+            if m:
+                start = date(int(m[1]), int(m[2] or 1), 1)
+                win = (start, start + timedelta(days=90 if m[2] else 365))
+            else:
+                lo, hi = ASSUMPTIONS[delay]
+                win = (_d(r["date"]) + timedelta(days=lo), _d(r["date"]) + timedelta(days=hi))
+            if win[1] < TODAY:
+                continue
+            ms = (f["corps_de_metier"] or NATURE_METIERS.get(f["nature"], ["manoeuvre"]))[:4]
+            chf = f" ({f['montant_chf'] / 1e6:.0f} MCHF)" if f["montant_chf"] and f["montant_chf"] >= 1e6 else ""
+            out.append(Signal(
+                "projet", typ, f["entreprise_travaux"], district, ms, win, None,
+                {"tres_grand": 14, "grand": 10}.get(f["ampleur"], 6),
+                f"{prefix} {f['commune'] or district} : {f['resume']}{chf}", r["url"], r["date"],
+                meta={"ia": True, "preuve": f["preuve"], "commune": f["commune"], "ampleur": f["ampleur"]},
             ))
     return out
 

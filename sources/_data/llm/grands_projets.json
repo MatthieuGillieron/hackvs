@@ -1,0 +1,2028 @@
+{
+ "task": "grands_projets",
+ "schema_version": 2,
+ "model": "gpt-5.6-luna",
+ "updated_at": "2026-10-03T17:11:49",
+ "count": 120,
+ "items": {
+  "eae204a1-39c3-44d0-92fb-293eaaab265f": {
+   "hash": "f69effe7c5e1",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Remembrement urbain administratif du secteur Prés-Bottet à Leytron",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Leytron",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Mise en consultation publique des plans – Remembrement urbain du secteur Prés-Bottet, Leytron"
+   }
+  },
+  "3d7faa0a-7eda-417a-b978-faa55e0a935f": {
+   "hash": "b4d8aa0a7406",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification des itinéraires de mobilité de loisirs à Massongex",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Massongex",
+    "maitre_ouvrage": "Commune de Massongex",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Projet de modification des plans des itinéraires de chemins pédestres, de roller et de voies cyclables"
+   }
+  },
+  "e6e118b2-2df3-4173-83f8-3156bd2ca75f": {
+   "hash": "1d27302d6540",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification des itinéraires de mobilité dans le secteur du Chablais",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Monthey",
+    "maitre_ouvrage": "Commune de Monthey",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Projet de modification des plans des itinéraires de chemins pédestres, de roller et de voies cyclables"
+   }
+  },
+  "923a87db-c22e-41a9-834f-8d0cbc8e050f": {
+   "hash": "8dff53f81344",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification des plans d’itinéraires pédestres, roller et cyclables",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Collombey-Muraz",
+    "maitre_ouvrage": "Commune de Collombey-Muraz",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Projet de modification des plans des itinéraires de chemins pédestres, de roller et de voies cyclables"
+   }
+  },
+  "1e57627e-fea2-4f6b-a392-824df7e17ec4": {
+   "hash": "d8ad1cb66774",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Aucun chantier : approbation de mensuration officielle",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": "Canton du Valais - Service de la géoinformation",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Les lots de la mensuration officielle Termen lot 5 et Leukerbad lot 5 ont été approuvés au standard MO93 et ils ont été intégrés dans la base de données centralisée de la mensuration officielle Valais (Badoc MO VS)."
+   }
+  },
+  "b999a115-d755-4fae-a036-aa79aa4b3cd7": {
+   "hash": "86ce10dcb6df",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Déplacement d’un gazoduc et du poste BEMO à Monthey",
+    "nature": "energie",
+    "ampleur": "moyen",
+    "commune": "Monthey",
+    "maitre_ouvrage": "Gaznat SA, CIMO Compagnie industrielle de Monthey SA et Swissgas",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Procédure d’approbation des plans R-PGV.164 concernant le déplacement du gazoduc et du poste BEMO dans le cadre de la MP Chablais, Monthey"
+   }
+  },
+  "8feea297-1d70-4dcb-858e-8a9b2270547e": {
+   "hash": "8c8c7d200450",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Réparation du mur de rive érodé du Rhône à Mörel-Filet",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "moyen",
+    "commune": "Mörel-Filet",
+    "maitre_ouvrage": "Kraftwerke Rhone Binna AG",
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "macon",
+     "ferrailleur",
+     "manoeuvre",
+     "machiniste"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Kraftwerk Mörel - Sanierung der unterspülten Ufermauer Rhone, Mörel-Filet"
+   }
+  },
+  "1aa3b922-e81a-4a8c-b64c-563dbbfa915f": {
+   "hash": "d62ed9d12c4a",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Remplacement de deux passerelles et aménagement de leurs accès à Vérossaz",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "petit",
+    "commune": "Vérossaz",
+    "maitre_ouvrage": "Commune de Vérossaz",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Objet : Remplacement des deux passerelles de la Teune à Vérossaz, au-dessus des torrents de Champi et du Draversey, avec aménagement des accès et adaptation locale du réseau des chemins pédestres cantonal (Réseau LIML)."
+   }
+  },
+  "2e0d4ac3-9ec1-452b-8866-69e7683d5a62": {
+   "hash": "cda06743ec74",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Remplacement d’une conduite de gaz par forage dirigé à Collombey-Muraz",
+    "nature": "energie",
+    "ampleur": "moyen",
+    "commune": "Collombey-Muraz",
+    "maitre_ouvrage": "Holdinova SA",
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "machiniste",
+     "manoeuvre"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "La nouvelle conduite de gaz sera installée par forage dirigé. Ces travaux seront réalisés en coordination avec ledit projet de 3ème correction du Rhône."
+   }
+  },
+  "9e380280-ca88-4a45-b40a-d1b41678e73d": {
+   "hash": "f120b96bb22f",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Déplacement d’une conduite de gaz 5 bar sous le Rhône à Monthey",
+    "nature": "energie",
+    "ampleur": "moyen",
+    "commune": "Monthey",
+    "maitre_ouvrage": "Gaznat SA",
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "machiniste",
+     "manoeuvre"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "La nouvelle conduite traversera le Rhône en forage dirigé en passant à plus de 6.5 m sous le lit du Rhône réaménagé."
+   }
+  },
+  "cf490395-bbba-4f23-bbb4-614777a1f486": {
+   "hash": "7638a853d810",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Suppression d’un passage à niveau et création d’un chemin piétonnier",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "moyen",
+    "commune": "Val-d’Illiez",
+    "maitre_ouvrage": "Transports Publics du Chablais (TPC)",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": 600000,
+    "preuve": "Le projet consiste en une suppression du PN « RC 111 », qui est un PN piéton situé dans le périmètre de la gare de Val-d’Illiez, pour des raisons de sécurité et l’aménagement d’un chemin piétonnier de substitution. Ces modifications sont devisées à Fr. 600’000.-."
+   }
+  },
+  "3f461fe0-da58-4d1c-98c7-10f6d58c649a": {
+   "hash": "40c8ef2b1893",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Savièse",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Toute personne qui prétend avoir un droit sur la parcelle dite de la Chambre Neuve à Vuisse (...) est prié de s'annoncer auprès du notaire soussigné."
+   }
+  },
+  "682d464f-66d1-4050-b69f-6119562b9d7a": {
+   "hash": "7451bbdcc26c",
+   "data": {
+    "projet_chantier": true,
+    "resume": "3e correction du Rhône – mesure prioritaire du Chablais",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "tres_grand",
+    "commune": "Vouvry, Collombey-Muraz, Monthey et Massongex",
+    "maitre_ouvrage": "Canton du Valais – Service des dangers naturels",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Description du projet: – Projet d’aménagement de cours d’eau avec étude d'impact sur l'environnement, demandes d’autorisation de défrichement et d'essartage, intervention technique dans les eaux piscicoles, intervention dans les eaux souterraines, constructions dans l'espace réservé aux eaux, espace réservé aux eaux superficielles du Rhône, déplacement de l’itinéraire de la voie cyclable cantonale, modification d’un pont mixte route-rail et de passerelles sur le Rhône."
+   }
+  },
+  "d7197a9f-64fc-497b-97cd-545b3a450c08": {
+   "hash": "9f93c98cf883",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Mensuration officielle dans une zone alpestre d’Ayent",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Ayent",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "MENSURATION OFFICIELLE – LOT 13, Premier relevé (Zone alpestre)"
+   }
+  },
+  "46ba5ce7-c7be-47fd-94cd-2f467dfaf749": {
+   "hash": "914693b82b77",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Val de Bagnes",
+    "maitre_ouvrage": "Commune de Val de Bagnes - Police municipale",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Sommation concernant une remorque pour luge à moteur abandonnée."
+   }
+  },
+  "2a65a28f-7859-42f5-bff8-89d469facf13": {
+   "hash": "24a45ac9b1d0",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification administrative d’itinéraires de chemins pédestres",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Ayent",
+    "maitre_ouvrage": "Commune d’Ayent",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Projet de modification des itinéraires de chemins pédestres"
+   }
+  },
+  "41eb19ad-6c71-4a08-aac6-7b7488f038ba": {
+   "hash": "f0b23f093913",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Mise à l’enquête d’un plan de zones de dangers géologiques",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Albinen",
+    "maitre_ouvrage": "Commune d’Albinen",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Die Gemeinde Albinen legt ... den Gefahrenzonenplan «geologische Gefahrenzonen: Rutsch- und Sturzprozesse» ... während 30 Tagen zur öffentlichen Einsichtnahme auf."
+   }
+  },
+  "1a68b4db-4843-44f8-8e1c-e9c99f19a47a": {
+   "hash": "31b645a2b58a",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Consultation pour une piste de mobilité douce aux Plavaux",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Collombey-Muraz",
+    "maitre_ouvrage": "Commune de Collombey-Muraz",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Mise en consultation publique des plans – Aménagement d’une piste de mobilité douce aux Plavaux, Collombey-Muraz"
+   }
+  },
+  "3a589ea6-d5ff-489c-b355-cb86eddef095": {
+   "hash": "a834b5722a69",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification de la signalisation et du stationnement au chemin de l’Agasse",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Sion",
+    "maitre_ouvrage": "Ville de Sion",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "mise en place d’une nouvelle signalisation dans la zone à vignette 7, au chemin de l’Agasse, pour la modification de la durée maximale de stationnement"
+   }
+  },
+  "56fb3a88-7c4c-40f4-926d-4165886bf1f4": {
+   "hash": "8895a8b45a27",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Consultation du plan sectoriel des transports, sans chantier concret annoncé",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "La consultation relative à l’édition 2027 du plan sectoriel des transports, partie Infrastructure route (SIN) comprend 60 fiches d’objet"
+   }
+  },
+  "9ad81f39-4f5a-4b4b-8a6b-890f67b2d096": {
+   "hash": "b30b07a0fda2",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Rénovation d’un mur de soutènement ferroviaire à Bellwald",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "moyen",
+    "commune": "Bellwald",
+    "maitre_ouvrage": "Matterhorn Gotthard Infrastruktur AG (MGI)",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Das Bauvorhaben beinhaltet im Wesentlichen die Erneuerung der talseitigen Naturstein-Stützmauer auf dem Abschnitt Fürgangen – Niederwald (km 21.336 bis km 21.464)."
+   }
+  },
+  "1c3216a5-71a4-4a63-8b4f-13edc9829729": {
+   "hash": "90d05b9a5b6b",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Ferden",
+    "maitre_ouvrage": "Canton du Valais - Service de la géoinformation",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "AMTLICHE VERMESSUNG – Los 5, Ersterhebung (Alpgebiet)"
+   }
+  },
+  "9807391f-7622-439b-ade1-913f921f442c": {
+   "hash": "a03b8082be76",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification de la signalisation et du stationnement à Sion",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Sion",
+    "maitre_ouvrage": "Ville de Sion",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "La Ville de Sion porte à la connaissance des usagers de la route la mise en place d'une nouvelle signalisation à la route des Ecussons 10 portant la durée de stationnement du parking à max. 5h00."
+   }
+  },
+  "93f88cca-a296-44d2-b375-e6549a5ac978": {
+   "hash": "4a920abb762b",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Mise à jour des périmètres de protection des sources",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Vouvry",
+    "maitre_ouvrage": "Commune de Vouvry",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Projet de mise à jour des délimitations des zones et périmètre de protection et des secteurs Aa des sources"
+   }
+  },
+  "63c044de-6069-411a-959e-5afceff97d31": {
+   "hash": "324bc39057f5",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Construction d’une télécabine 10 places et d’une buvette à Hérémence",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "grand",
+    "commune": "Hérémence",
+    "maitre_ouvrage": "Theytaz Bazar SA",
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "macon",
+     "grutier",
+     "machiniste",
+     "electricien",
+     "serrurier"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Projet de construction d'une télécabine Le Chargeur - Blava en remplacement du téléphérique de la Grande Dixence. Objet : Construction d'une télécabine à 10 places Le Chargeur - Blava avec buvette à la station amont. Démolition du téléphérique actuel et déplacement de la station amont."
+   }
+  },
+  "e0b27ccb-9c88-4b8f-9507-415b061a6cc1": {
+   "hash": "a2a5ecfc7c29",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Mise à l’enquête de zones de protection des eaux souterraines",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Leukerbad",
+    "maitre_ouvrage": "Commune de Leukerbad",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Die Gemeindeverwaltung von Leukerbad legt ... das Projekt der Grundwasserschutzzonen ... zur öffentlichen Einsichtnahme auf."
+   }
+  },
+  "c1d38473-d369-4c2a-9139-2fdf2a50ced3": {
+   "hash": "1617436a458e",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Signalisation d’un arrêt pour écopoint existant à Sion",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Sion",
+    "maitre_ouvrage": "Ville de Sion",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Mise en œuvre d’une nouvelle signalisation à la route de la Lienne 54 pour la place d’arrêt de l’écopoint existant, par la pose du panneau suivant : OSR 2.50 : Interdiction de parquer"
+   }
+  },
+  "645f9a57-6030-4c8d-ac64-d7ac1b11cf5a": {
+   "hash": "4740b81d490d",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Evionnaz",
+    "maitre_ouvrage": "Commune d'Evionnaz",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Mise en consultation publique des plans – Zones de danger géologique"
+   }
+  },
+  "1a393a55-5b8a-408e-8d03-95ef97b6077d": {
+   "hash": "ae6b8a29355a",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Mise à jour des zones de protection de sources à Vouvry et Saint-Gingolph",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Saint-Gingolph",
+    "maitre_ouvrage": "Commune de Saint-Gingolph",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Projet de mise à jour des délimitations des zones de protection des sources Les Crosses et Vieux Chalets de Taney"
+   }
+  },
+  "bd92cb14-bcdc-41f7-9b51-f4da2cea0653": {
+   "hash": "ee2a16193da6",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Nouveau marquage au sol pour un arrêt de bus à Sion",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Sion",
+    "maitre_ouvrage": "Ville de Sion",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Mise en consultation publique des plans – Marquage au sol – Rue de l’Avenir – Mise en œuvre d’un arrêt de bus (Lignes internationales)"
+   }
+  },
+  "a9192599-4b13-412e-bf2e-6314d78fd2f8": {
+   "hash": "5cb99379f661",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Révision globale du plan d’affectation d’Ausserberg",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Ausserberg",
+    "maitre_ouvrage": "Commune d’Ausserberg",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Die Gesamtrevision beinhaltet die Aktualisierung der Nutzungsplanung (Zonennutzungspläne, Bau- und Zonenreglement und erläuternder Bericht)."
+   }
+  },
+  "216a12aa-a392-4419-8f09-7c0321c662b1": {
+   "hash": "1958a83de1ab",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Mise à l’enquête de zones de protection des eaux souterraines",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Grächen",
+    "maitre_ouvrage": "Commune de Grächen",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Die Gemeindeverwaltung von Grächen legt ... das Projekt der Grundwasserschutzzonen ... zur öffentlichen Einsichtnahme auf."
+   }
+  },
+  "5ce1d0d4-c451-436b-bbe1-bdd3ac879eea": {
+   "hash": "ddca48c3af3d",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification d’un itinéraire VTT sans travaux constructifs à Troistorrents",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Troistorrents",
+    "maitre_ouvrage": "Commune de Troistorrents",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "L’itinéraire emprunte uniquement des routes et des chemins existants. Aucune mesure constructive n’est prévue."
+   }
+  },
+  "123a7b2d-5a8b-40d9-a572-edb6a3b023bc": {
+   "hash": "bc07b8ed386b",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Pose de panneaux solaires sur le tapis roulant du Crêt du Midi",
+    "nature": "energie",
+    "ampleur": "petit",
+    "commune": "Chalais",
+    "maitre_ouvrage": "Société de la Télécabine de Vercorin SA",
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "electricien"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Pose de panneaux solaires sur la longueur ouest de la galerie de couverture du tapis roulant du Crêt du Midi, à Vercorin, et plantation d'Arolles le long du tracé."
+   }
+  },
+  "766c18fa-566c-4f2d-ad14-c216934e72b7": {
+   "hash": "30c08f8d625c",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Hérémence",
+    "maitre_ouvrage": "Commune d'Hérémence",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Le document relatif à cette information d'avant-projet de révision partielle du PAZ et du RCCZ peut être consulté au bureau communal."
+   }
+  },
+  "d4df7a77-2de4-47dc-a17e-bdfa6ab98ea4": {
+   "hash": "605dc3a8f3fe",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification d’itinéraires VTT sans travaux constructifs",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Collombey-Muraz",
+    "maitre_ouvrage": "Commune de Collombey-Muraz",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "L’itinéraire emprunte uniquement des routes et des chemins existants. Aucune mesure constructive n’est prévue."
+   }
+  },
+  "966c0fab-fea7-4778-8b3b-e4a8a74d4e41": {
+   "hash": "a851d9c1a1dd",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Révisions du plan d’affectation à Bettmeralp, sans chantier concret annoncé",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Bettmeralp",
+    "maitre_ouvrage": "Commune de Bettmeralp",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Mise en consultation publique des plans – Teilrevisionen der Nutzungsplanung, Bettmeralp"
+   }
+  },
+  "0fb4881b-2b6a-4e9b-b07e-e17e951246ab": {
+   "hash": "71c9da6ee730",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Création de zones réservées pour adapter l’aménagement du territoire",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Mont-Noble",
+    "maitre_ouvrage": "Commune de Mont-Noble",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Le but poursuivi est de permettre, à l’intérieur de ces nouvelles zones réservées 2026, une adaptation du plan d’affectation des zones (PAZ) et de la réglementation y relative."
+   }
+  },
+  "baa300d6-e5f4-4137-bfb4-c17c53fdc839": {
+   "hash": "bdc65be533d0",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification locale de chemins VTT à Vionnaz",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Vionnaz",
+    "maitre_ouvrage": "Commune de Vionnaz",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "L’itinéraire emprunte uniquement des routes et des chemins existants. Des mesures constructives sont prévues localement pour améliorer la cohabitation entre randonneurs et cyclistes (place d’évitement et reprofilage du chemin)."
+   }
+  },
+  "2b198251-8ca5-439c-bb5f-75d52727d2a8": {
+   "hash": "b63105b41d2f",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification d’itinéraires VTT sans travaux constructifs",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Massongex",
+    "maitre_ouvrage": "Commune de Massongex",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "L’itinéraire emprunte uniquement des routes et des chemins existants. Aucune mesure constructive n’est prévue."
+   }
+  },
+  "ae1cabca-9268-494b-8c3c-4fd2f908a918": {
+   "hash": "bedf826b0f1c",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification d’itinéraires VTT sans travaux constructifs",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Saint-Maurice",
+    "maitre_ouvrage": "Commune de Saint-Maurice",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "L’itinéraire emprunte uniquement des routes et des chemins pédestres existants. Aucune mesure constructive n’est prévue."
+   }
+  },
+  "008cad46-f25a-45a7-b8bc-654867ffa92d": {
+   "hash": "4aaaebd36d66",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Révision du plan d’affectation d’Unterbäch",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Unterbäch",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Gesamtrevision der Nutzungsplanung Unterbäch"
+   }
+  },
+  "5224fa1d-0000-4e4a-97b0-0d4eb784b035": {
+   "hash": "1b266b8f736b",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Nouvelle station Gravière et câbles souterrains 16 kV à Chamoson",
+    "nature": "energie",
+    "ampleur": "moyen",
+    "commune": "Chamoson",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "electricien",
+     "machiniste",
+     "manoeuvre"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Station transformatrice Gravière (Chamoson) - Nouvelle construction sur la parcelle 1929 en remplacement de la station actuelle ; Ligne souterraine 16 kV entre les stations Losentse et Gravière (Chamoson)."
+   }
+  },
+  "24ab2ebc-8844-4d9d-8f38-2650bfc7fc24": {
+   "hash": "86b4dd3cb59b",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Assainissement de la migration piscicole aux prises d’eau de la Navisence",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "moyen",
+    "commune": "Anniviers",
+    "maitre_ouvrage": "Forces Motrices de la Gougra SA (FMG SA)",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "FMG SA [...] étudie plusieurs variantes d’ouvrages de dévalaison [...] pour assurer la dévalaison des poissons. [...] La décision d’approbation des plans fixera les délais pour la réalisation des mesures."
+   }
+  },
+  "6a3e50bf-a19d-420f-ae99-cfce14ed8056": {
+   "hash": "4649fbc08179",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Consultation sur des itinéraires de mobilité de loisirs à Monthey",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Monthey",
+    "maitre_ouvrage": "Ville de Monthey",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Mise en consultation publique des plans – Projet de modification des itinéraires de mobilité de loisirs estivaux avec demande d'exploitation préjudiciable à la forêt, Monthey"
+   }
+  },
+  "c1e78478-d2d9-4f5a-ad1d-a4579d5b21ea": {
+   "hash": "b70ea61383b5",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Système de dotation hydraulique à la prise d’eau de Praperoz",
+    "nature": "energie",
+    "ampleur": "moyen",
+    "commune": "Hérémence",
+    "maitre_ouvrage": "Leteygeon SA",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "demande d’approbation des plans concernant un système de dotation à la prise d'eau de Praperoz"
+   }
+  },
+  "77433ed2-2d82-478d-bfb1-6b2b55e02cbb": {
+   "hash": "96df6c65d2be",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification d’itinéraires VTT sans travaux significatifs",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Vérossaz",
+    "maitre_ouvrage": "Commune de Vérossaz",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "L’itinéraire emprunte uniquement des routes et des chemins existants. Exceptée une petite passerelle en bois (construction minime ou peu importante), aucune mesure constructive n’est prévue."
+   }
+  },
+  "aa2121b0-253c-4940-a797-a67b4809cd98": {
+   "hash": "050e521b5963",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Réaménagement du giratoire Bahnhof–Kleegärtenstrasse Nord à Viège",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "moyen",
+    "commune": "Visp",
+    "maitre_ouvrage": "Gemeinde Visp",
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "machiniste",
+     "manoeuvre",
+     "macon"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Die Projektpläne für die Umgestaltung des Kreisels Bahnhof–Kleegärtenstrasse Nord werden während 30 Tagen öffentlich aufgelegt."
+   }
+  },
+  "3f3203b6-302b-4696-9921-4a54a7b4a434": {
+   "hash": "844fd37f1347",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Rinçage du bassin de compensation de la Turtmänna",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": "Forces Motrices de la Gougra SA",
+    "entreprise_travaux": "HYDRO Exploitation SA",
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "HYDRO Exploitation SA bringt hiermit der Bevölkerung zur Kenntnis, dass die Spülung des Ausgleichsbeckens im Turtmanntal ... während 1 Tag stattfinden wird."
+   }
+  },
+  "6650df5c-8518-4f72-891c-35da892c1df0": {
+   "hash": "016bb81f2a62",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Remplacement de la vanne de vidange du barrage de Salanfe",
+    "nature": "energie",
+    "ampleur": "petit",
+    "commune": "Evionnaz",
+    "maitre_ouvrage": "Salanfe SA",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Le Département des finances et de l'énergie rend notoire qu'il a reçu de la société Salanfe SA une demande d’approbation des plans concernant le remplacement de la vanne de vidange de fond du barrage de Salanfe."
+   }
+  },
+  "c6d65178-f3d3-466b-9000-abfa1b9b3e06": {
+   "hash": "c822909c81e8",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Révision du PAZ et des alignements routiers communaux",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Saxon",
+    "maitre_ouvrage": "Commune de Saxon",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Mise en consultation publique des plans – Révision du PAZ communal, Saxon"
+   }
+  },
+  "6ca499d8-98b5-4b79-b227-6efdc765aa23": {
+   "hash": "550decad1c1c",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Revitalisation et création de milieux humides aux Rochers du Soir",
+    "nature": "amenagement",
+    "ampleur": "moyen",
+    "commune": "Salvan",
+    "maitre_ouvrage": "Nant de Drance SA",
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "machiniste",
+     "manoeuvre"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Mesure de compensation environnementale N°8 « Rochers du Soir » : Revitalisation, valorisation et création de milieux humides et aquatique en zone agricole protégée et en milieux forestier par l'augmentation des surfaces colonisables par la flore et la faune. En assurant un équilibrage des déblais et remblais sur site, aucune production de déchets n'est prévue."
+   }
+  },
+  "725d6dd5-3cf1-46c2-b409-84e175eb1243": {
+   "hash": "b406edaa8eee",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Protection contre les crues de la Tovachère et du bisse de Praperron",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "moyen",
+    "commune": "Crans-Montana",
+    "maitre_ouvrage": "Commune de Crans-Montana",
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "machiniste",
+     "manoeuvre"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "l'administration communale de Crans-Montana soumet à l'enquête publique le projet d'exécution des mesures de protection contre les crues La Tovachère-Bisse de Praperron – Corin-de-la-Crête."
+   }
+  },
+  "6a855212-0074-4d4e-9074-abf9f620d61f": {
+   "hash": "e2882842b5a5",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Saas-Grund",
+    "maitre_ouvrage": "Einwohnergemeinde Saas-Grund",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Mise en consultation publique d’un plan des zones de danger nivo-glaciaire (carte des dangers d’avalanches), sans annonce de travaux."
+   }
+  },
+  "758af3f7-0997-412d-b884-1b52617d5b6d": {
+   "hash": "d307772dad69",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Ouvrages de protection contre les chutes de pierres à Collombey-Muraz",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "moyen",
+    "commune": "Collombey-Muraz",
+    "maitre_ouvrage": "Administration communale de Collombey-Muraz",
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "machiniste",
+     "manoeuvre"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Ce projet comprend notamment la construction de 9 rangées de filets contre les chutes de pierres d’une longueur totale de 130 m dans le secteur de la croix du Rovra, la construction de 2 rangées de filets d’une longueur de 100 m dans le secteur de la Barme, ainsi que la pose d’un treillis plaqué au lieu-dit « Vervoz »."
+   }
+  },
+  "6986fe0c-b4ea-4380-bced-c93081d0668a": {
+   "hash": "8f305b5baaf1",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Nouvelle station Gravière et liaisons souterraines 16 kV à Chamoson",
+    "nature": "energie",
+    "ampleur": "moyen",
+    "commune": "Chamoson",
+    "maitre_ouvrage": "BKW Energie AG",
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "electricien",
+     "machiniste",
+     "manoeuvre"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Nouvelle construction sur la parcelle 1929 en remplacement de la station actuelle (S-0122197) ; Ligne souterraine 16 kV entre les stations Losentse et Gravière (Chamoson) ; Ligne souterraine 16 kV entre les stations Gravière (Chamoson) et Ravannay ; Ligne souterraine 16 kV entre les stations Gravière (Chamoson) et Stand de Tir"
+   }
+  },
+  "c5651ab6-679c-4fd0-a6f4-2b12809600e7": {
+   "hash": "e49e8aa3cd01",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Suppression de places de parc et création d’une place de livraison",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Sion",
+    "maitre_ouvrage": "Ville de Sion",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "suppression de 4 places de parc au chemin des Collines ainsi que de la création d’une place livreur"
+   }
+  },
+  "9076a4e8-624e-44ef-9571-78e3a7809ed2": {
+   "hash": "e89cf7bb2d02",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Aménagement d’un arrêt de bus au bord du lac Grenon",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "petit",
+    "commune": "Crans-Montana",
+    "maitre_ouvrage": "Commune de Crans-Montana",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Titre de la mise à enquête des plans: Aménagement d’un arrêt de bus au bord du lac Grenon – Route des Sommets de Crans, Crans-Montana"
+   }
+  },
+  "fe667e27-f5c2-4ae5-8f2b-4c15b0292267": {
+   "hash": "89dc48e4765e",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification de signalisation et du régime de stationnement",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Sion",
+    "maitre_ouvrage": "Ville de Sion",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "mise en conformité de la signalisation des places de parc ... par la pose des panneaux suivants"
+   }
+  },
+  "df00b610-e1db-4b4f-ad16-e794765104ff": {
+   "hash": "d348fb99e21e",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification du réseau des voies de loisirs hivernales",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Ried-Brig",
+    "maitre_ouvrage": "Commune de Ried-Brig",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Gemäss dem kantonalen Gesetz über die Wege des Freizeitverkehrs (GWFV) legt die Gemeinde Ried-Brig zur Abänderung die Pläne der Winterfreizeitverkehrswege zur öffentlichen Einsichtnahme auf."
+   }
+  },
+  "cdd9628a-6791-4763-8e67-bfa1d4ef85f8": {
+   "hash": "a6cd81c512ea",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Nouvelle station transformatrice Rhône à Saxon",
+    "nature": "energie",
+    "ampleur": "moyen",
+    "commune": "Saxon",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "electricien"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Une nouvelle station va être construite sur la parcelle N° 3647 Saxon. Celle-ci remplacera le couplage existant et permettra la reprise du réseau BT et le raccordement de la future inst. photovoltaïque sur les parois anti-bruit de l'autoroute."
+   }
+  },
+  "d987dd00-55f3-405e-90c9-c0dade2555cb": {
+   "hash": "f5221efc281a",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Nouvelle station transformatrice et lignes souterraines 16 kV à Sion",
+    "nature": "energie",
+    "ampleur": "moyen",
+    "commune": "Sion",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "electricien",
+     "machiniste",
+     "manoeuvre"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Construction nouvelle station transformatrice sur la parcelle N° 17063 Sion ; Bouclage de la station OSEO avec la nouvelle station Hermann Geiger ; Raccordement de la station Hermann Geiger au réseau"
+   }
+  },
+  "b15869c2-125f-4ea7-9c93-8900d58b4be5": {
+   "hash": "a33e62baf631",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Mise sous protection du Rathaus historique de Leuk",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Leuk",
+    "maitre_ouvrage": "État du Valais, Service immobilier et patrimoine",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "... legt das Departement ... das Unterschutzstellungsdossier für das Rathaus von nationaler Bedeutung ... öffentlich auf ..."
+   }
+  },
+  "31dc7624-198b-43e0-925a-281ed584231b": {
+   "hash": "8e641f3dd9c4",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Nouveau tunnel ferroviaire Täsch-Zermatt, pont et galerie",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "grand",
+    "commune": "Täsch, Zermatt et Randa",
+    "maitre_ouvrage": "Matterhorn Gotthard Infrastruktur AG (MGI)",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Das Projekt umfasst den Neubau eines Tunnels zwischen Täsch und Zermatt mit Bahntunnel und Sicherheitsstollen, den Neubau einer Eisenbahnbrücke über die Vispa in Täsch sowie den Ersatzneubau einer Galerie in Zermatt."
+   }
+  },
+  "d54130dd-4015-4dbf-ac07-adb3d154eb10": {
+   "hash": "3cbc4558d909",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Mise en conformité de panneaux de signalisation à Sion",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Sion",
+    "maitre_ouvrage": "Ville de Sion",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "La Ville de Sion porte à la connaissance des usagers de la route de la mise en conformité de la signalisation des places de parc à la Promenade des Pêcheurs par la pose des panneaux suivants : - OSR 2.50 : Interdiction de parquer muni de la plaque complémentaire «Excepté Remorque Chevaux»."
+   }
+  },
+  "48bb4961-ccb6-47bd-9191-ea9b99371db0": {
+   "hash": "442c266c3acd",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Nouvelle station transformatrice et ligne souterraine 16,5 kV à Monthey",
+    "nature": "energie",
+    "ampleur": "moyen",
+    "commune": "Monthey",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Construction d'une nouvelle station MT/BT ST173 Outre-Vièze 2 sur la parcelle N° 1434 ; Remplacement de la station existante obsolète S-0052712 ; Nouvelle ligne souterraine entre la station transformatrice existante Champian 2 et la nouvelle station transformatrice Outre-Vièze 2"
+   }
+  },
+  "ea5851c6-5449-40c9-9e0b-0cd0b6e21fcb": {
+   "hash": "f3937f499450",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Station transformatrice et lignes souterraines 17 kV à Troistorrents",
+    "nature": "energie",
+    "ampleur": "petit",
+    "commune": "Troistorrents",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "electricien",
+     "manoeuvre"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Pose d'une cabine préfabriquée Bétontec grandeur G sur la parcelle N° 1821, avec un appareillage MT Schneider Electric AirSet 2L-1T, un transformateur 160 kVA 17/21 kV et un tableau BT. [...] Pose d'un câble XKDT 3x1x150mm2 Al (15m) jonctionné à la ligne existante Le Jorrat - Savolaires"
+   }
+  },
+  "19e06f07-9f8e-4761-bfc3-2c75f419511e": {
+   "hash": "f159ae144dbd",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Optimisation et extension du barrage de protection Mattmatte",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "moyen",
+    "commune": "St. Niklaus",
+    "maitre_ouvrage": "Commune de St. Niklaus",
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "machiniste",
+     "manoeuvre",
+     "paysagiste"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Die Arbeiten umfassen: Optimierung des bestehenden Erddammes auf einer Länge von ca. 110 m’; Erweiterung des bestehenden Schutzdammes in Richtung Nord auf einer Länge von ca. 60 m’; zusätzlich punktuelle Massnahmen (Umleitung Wanderweg, Holzereiarbeiten, Begrünungen bzw. Aufforstungen)."
+   }
+  },
+  "535d967d-8ccf-44bb-8dc1-1477bfcc89c2": {
+   "hash": "9f74fbed6e59",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification d’itinéraires VTT à Saint-Gingolph",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Saint-Gingolph",
+    "maitre_ouvrage": "Commune de Saint-Gingolph",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Projet de modification des itinéraires de mobilité de loisirs estivaux; la Commune de St-Gingolph soumet à l’enquête publique la modification partielle de son réseau de pistes pour VTT."
+   }
+  },
+  "9aa2ce1f-2338-47b8-b3ee-0a134c5553ec": {
+   "hash": "346041bcc7c2",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Révision globale du plan d’affectation de Grächen",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Grächen",
+    "maitre_ouvrage": "Commune de Grächen",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Gesamtrevision Nutzungsplanung - Mitwirkungsverfahren"
+   }
+  },
+  "29baf460-5436-4f6b-a2fa-8ae881fa6712": {
+   "hash": "7507e4e609f4",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification d’itinéraires VTT sans travaux constructifs",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Vionnaz",
+    "maitre_ouvrage": "Commune de Vionnaz",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "L'itinéraire emprunte uniquement des routes et des chemins existants. Aucune mesure constructive n'est prévue."
+   }
+  },
+  "02b930af-d87f-42ec-9f29-125b0446b2c5": {
+   "hash": "3b6b7eb8f304",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification des réseaux pédestre, randonnée et VTT à Bellwald",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Bellwald",
+    "maitre_ouvrage": "Commune de Bellwald",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Mise en consultation publique des plans – Abänderung des Fuss- und Wanderweg- sowie des Mountainbikenetzes"
+   }
+  },
+  "b446af5f-7cd9-4ded-9282-a740d612cc14": {
+   "hash": "70e9636bf46e",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Assainissement de la Sportplatzstrasse à Susten",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "moyen",
+    "commune": "Leuk",
+    "maitre_ouvrage": "Commune de Leuk",
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "machiniste",
+     "manoeuvre"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Mise en consultation publique des plans – Sanierung Sportplatzstrasse, Susten, Leuk"
+   }
+  },
+  "7cadf381-4176-4908-bb4a-5b6cbcd547b2": {
+   "hash": "887a867ba6da",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification d’itinéraires VTT sans travaux constructifs",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Port-Valais",
+    "maitre_ouvrage": "Commune de Port-Valais",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "L’itinéraire emprunte uniquement des routes et des chemins existants. Aucune mesure constructive n’est prévue."
+   }
+  },
+  "2d554c0b-a69e-47e6-a1aa-e26d674972b2": {
+   "hash": "5a700d235327",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Mise hors service d’une conduite de gaz au secteur Les Paluds",
+    "nature": "energie",
+    "ampleur": "petit",
+    "commune": "Massongex",
+    "maitre_ouvrage": "Oléoduc du Rhône S.A.",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Mise hors service de la conduite OdR dans le secteur Les Paluds (modification du projet de déplacement de la conduite) (R-PGV.137)"
+   }
+  },
+  "64598693-81d1-4e19-ac0b-a46975a3e536": {
+   "hash": "2ed20d85876a",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Nouvelle station transformatrice et lignes souterraines 16 kV à Grimisuat",
+    "nature": "energie",
+    "ampleur": "moyen",
+    "commune": "Grimisuat",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "electricien",
+     "machiniste",
+     "manoeuvre"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "S-2650915.1 Station transformatrice RESIDENCE DU PARC - Nouveau projet sur la parcelle N° 548 ; L-0204362.2 Ligne souterraine 16kV Résidence du Parc - Centre scolaire Grimisuat ; L-2650919.1 Ligne souterraine 16kV Résidence du Parc - Grimisuat"
+   }
+  },
+  "ea288276-8a3c-44aa-a931-e6bb61ae01e0": {
+   "hash": "9928f77d6bbd",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification du plan d’affectation et élaboration d’un PAD à Liddes",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Liddes",
+    "maitre_ouvrage": "Commune de Liddes",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Mise en consultation publique des plans – Modification partielle du plan d'affectation des zones et élaboration du PAD «Vichères-Bavon»"
+   }
+  },
+  "817a9cf8-8521-4a04-8f17-67241ea70f61": {
+   "hash": "707a376e7477",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Nouvelle station transformatrice et lignes souterraines 16 kV à Ayent",
+    "nature": "energie",
+    "ampleur": "moyen",
+    "commune": "Ayent",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "electricien",
+     "machiniste"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Nouvelle station transformatrice sur la parcelle 5210 ; Nouvelle ligne pour connecter la nouvelle station RTE DE LA GIETE DELE 14 au réseau"
+   }
+  },
+  "c268dcb5-0442-4b1e-94d1-4d30f09923f7": {
+   "hash": "285dad595569",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Station transformatrice et ligne souterraine 17 kV à Troistorrents",
+    "nature": "energie",
+    "ampleur": "moyen",
+    "commune": "Troistorrents",
+    "maitre_ouvrage": "null",
+    "entreprise_travaux": "null",
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Pose d'une cabine préfabriquée Bétontec grandeur G sur la parcelle N° 1575 [...] Pose d'un câble XKDT 3x1x150 mm2 Al (250m) jonctionné à la ligne existante Collaire - Thiesaz."
+   }
+  },
+  "68a1288e-72b3-415e-90b4-acbc6c0aec3b": {
+   "hash": "b30be3b5b2ac",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Autorisation de vidange du barrage de l’Hospitalet",
+    "nature": "energie",
+    "ampleur": "petit",
+    "commune": "Bourg-Saint-Pierre",
+    "maitre_ouvrage": "Tunnel du Grand-St-Bernard SA",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Projet d'autorisation de vidange du barrage de l’Hospitalet"
+   }
+  },
+  "e1993d78-9259-452a-8086-bca1210122f5": {
+   "hash": "46996b0ffe4e",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification du plan des itinéraires VTT au secteur Pépinet",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Crans-Montana",
+    "maitre_ouvrage": "Commune de Crans-Montana",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Mise en consultation publique des plans – Modification partielle du plan des itinéraires de pistes pour VTT, Secteur Pépinet, Crans-Montana"
+   }
+  },
+  "01b5106b-7406-47fe-8168-7315b484b79a": {
+   "hash": "b14e86ebf77d",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Nouvelle station transformatrice et lignes souterraines 16 kV",
+    "nature": "energie",
+    "ampleur": "moyen",
+    "commune": "Saint-Léonard",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "electricien",
+     "machiniste",
+     "manoeuvre"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "S-2652783.1 Station transformatrice CALIFORNIE – Nouveau projet sur la parcelle N° 147 ; L-0236008.2 Ligne souterraine 16kV CALIFORNIE - GARE ; L-2652784.1 Ligne souterraine 16kV CALIFORNIE - EPURATION ST-LEONARD"
+   }
+  },
+  "8de2b536-be17-4680-8b41-90d19325cbab": {
+   "hash": "9c62bfa18f4f",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Mensuration officielle sans chantier de construction",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Eggerberg",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Öffentliche Auflage der Grenzfeststellung"
+   }
+  },
+  "90303899-4921-4512-a48a-2e1b08bf506d": {
+   "hash": "b3e6435b8a77",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Prolongation d’une zone réservée pour planifier un camping",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Collonges",
+    "maitre_ouvrage": "Commune de Collonges",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Le but de la zone réservée est de permettre les réflexions nécessaires en vue de planifier l’affectation future du camping existant."
+   }
+  },
+  "52c13464-e02b-4d54-81b5-f5e48bfb0efd": {
+   "hash": "2eb6fa418f80",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Projet d’extension complète du tunnel de base du Lötschberg",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "tres_grand",
+    "commune": null,
+    "maitre_ouvrage": "BLS Netz AG",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Planvorlage der BLS Netz AG betreffend Ausbau Lötschberg-Basistunnel (LBTA): Auflageprojekt Vollausbau"
+   }
+  },
+  "d29d999a-394c-48e4-bf1f-7d08c620d662": {
+   "hash": "a9270b703dab",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Aucun chantier concret annoncé, seulement un plan d’aménagement en consultation.",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Brig-Glis",
+    "maitre_ouvrage": "Ville de Brig-Glis",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Mise en consultation publique des plans – Vorentwurf des Gestaltungsplans Zwingarten"
+   }
+  },
+  "f4f3af1c-6f52-463d-966a-3cde0f25c6d0": {
+   "hash": "51baf658e560",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Réaménagement de la rue des Cèdres à Martigny",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "moyen",
+    "commune": "Martigny",
+    "maitre_ouvrage": "Ville de Martigny - Travaux publics",
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "machiniste",
+     "manoeuvre",
+     "macon"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Objet: Réaménagement de la rue des Cèdres"
+   }
+  },
+  "cf9baead-33c5-40d5-be29-c2a50769e19c": {
+   "hash": "68475f10bd37",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Approbation de lots de mensuration officielle",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": "Canton du Valais – Service de la géoinformation",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Les lots de la mensuration officielle ... ont été approuvés ... et intégrés dans la base de données centralisée de la mensuration officielle Valais."
+   }
+  },
+  "f994a52a-8156-436e-b6d1-2ade2ea77355": {
+   "hash": "df0480c82486",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Interdiction de circuler au chemin du Grand-Lac",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Sion",
+    "maitre_ouvrage": "Ville de Sion",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "La Ville de Sion porte à la connaissance des usagers de la route de l’interdiction de circuler au chemin du Grand-Lac [...] par la pose des panneaux suivants."
+   }
+  },
+  "9b6db9c5-c2e4-4251-a0e0-c5cfe0d48d73": {
+   "hash": "ed5b71b87ba4",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Classement et protection de la chapelle Saint-Christophe à Evolène",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Evolène",
+    "maitre_ouvrage": "État du Valais",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Le Conseil d’Etat a décidé de classer et de mettre sous protection la chapelle Saint-Christophe à Evolène."
+   }
+  },
+  "e3ac4d9d-6bd8-4fae-b2ce-92257167a8f4": {
+   "hash": "93909a38eb75",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Consultation pour la révision du plan liée à une future télécabine",
+    "nature": "amenagement",
+    "ampleur": "grand",
+    "commune": "Embd",
+    "maitre_ouvrage": "Commune d’Embd",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Teilrevision Zonennutzungsplan \"Neubau Luftseilbahn Kalpetran-Embd\" - Mitwirkungsverfahren"
+   }
+  },
+  "99eeb4a7-7f07-48be-9e4f-5419dc30df69": {
+   "hash": "538a6c75ad0e",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Révision du plan de zones pour une zone de camping à Täsch",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Täsch",
+    "maitre_ouvrage": "Commune de Täsch",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Die Teilrevision umfasst die Umzonung von Landwirtschaftszone in eine Zone für Camping und die Anpassung des Bau- und Zonenreglements."
+   }
+  },
+  "7610a29b-276d-4e37-9756-7338a273f008": {
+   "hash": "0ef360533401",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Réfection de l’Illasweg et réaménagement de parkings à Stalden",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "moyen",
+    "commune": "Stalden",
+    "maitre_ouvrage": "Commune de Stalden",
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "machiniste",
+     "manoeuvre"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Das Sanierungsprojekt vom Illasweg und die neue Gestaltung der Parkplätze beinhalten im Wesentlichen folgende Arbeiten: Erneuerung der kompletten Infrastruktur vom Illasweg inkl. Oberbau. Neugestaltung der Parkplätze Richtung Matter- und Saastal."
+   }
+  },
+  "71852703-81bb-495a-b44a-e63994a1faf8": {
+   "hash": "385e7fb6751c",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Remaniement parcellaire Eyholz T9, secteur Nord",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Visp",
+    "maitre_ouvrage": "Commission d’exécution du remaniement parcellaire Eyholz T9",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Öffentliche Auflage Baulandumlegung „Eyholz T9, Sektor Nord“: Alter Bestand, Neuer Bestand: Ansprüche und Neuzuteilung"
+   }
+  },
+  "e9c66b0f-a6a3-4e40-b7b3-32f60802c1ed": {
+   "hash": "07514c53cf6b",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Dossier de défrichement pour un réseau de chemins avec passerelle suspendue",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Inden",
+    "maitre_ouvrage": "Commune d’Inden",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Ergänzende Auflage des Rodungsdossiers zur Planauflage der Ergänzung des Fuss- und Wanderwegnetzes im Gebiet Lochwald/Leiterngraben und Zang mit einer Hängebrücke"
+   }
+  },
+  "191a0990-cc15-479d-86bf-72541eac637a": {
+   "hash": "0f1a996bedec",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Zone réservée cantonale sans chantier annoncé",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Anniviers",
+    "maitre_ouvrage": "Canton du Valais / Commune d’Anniviers",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Le but poursuivi par la zone réservée cantonale est de permettre [...] une adaptation du plan d’affectation et de la réglementation y relative"
+   }
+  },
+  "8b1a0e96-f955-4949-9cf9-e2cdc35a645e": {
+   "hash": "59c8860c7d47",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Mise sous protection patrimoniale du bâtiment « le Ritz »",
+    "nature": "batiment",
+    "ampleur": "petit",
+    "commune": "Hérémence",
+    "maitre_ouvrage": "État du Valais",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Le Conseil d’Etat a décidé de classer et de mettre sous protection le bâtiment dit « le Ritz » à Hérémence."
+   }
+  },
+  "b6303289-8814-45f3-add6-e542cdabfec0": {
+   "hash": "f1d8c5a35132",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Mise à l’enquête de zones de danger nivologique",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Chamoson",
+    "maitre_ouvrage": "Commune de Chamoson",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "l’Administration communale met à l’enquête publique le projet de zones de danger nivologique de la commune de Chamoson."
+   }
+  },
+  "4426a967-ce86-40de-a41e-ed1f6ec60ec0": {
+   "hash": "5b304451ce48",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Réseau pédestre complété par une passerelle suspendue à Leukerbad",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "petit",
+    "commune": "Leukerbad",
+    "maitre_ouvrage": "Commune de Leukerbad",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Ergänzung des Fuss- und Wanderwegnetzes im Gebiet Lochwald/Leiterngraben und Zang mit einer Hängebrücke"
+   }
+  },
+  "0dceb4cb-1d34-4a9f-b72d-b32f8f351a64": {
+   "hash": "733cd19d06d1",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Nouvelle station Gravière et lignes souterraines 16 kV à Chamoson",
+    "nature": "energie",
+    "ampleur": "moyen",
+    "commune": "Chamoson",
+    "maitre_ouvrage": "EnBAG AG",
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "electricien",
+     "machiniste",
+     "manoeuvre"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Station transformatrice Gravière (Chamoson) - Nouvelle construction sur la parcelle 1929 en remplacement de la station actuelle ; Ligne souterraine 16 kV entre les stations Losentse et Gravière ; Ligne souterraine 16 kV entre les stations Gravière (Chamoson) et Ravannay ; Ligne souterraine 16 kV entre les stations Gravière (Chamoson) et Stand de Tir."
+   }
+  },
+  "831af68e-1f2a-4722-ba82-47ba0578e445": {
+   "hash": "0f7e06ece603",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Nouvelle station transformatrice et lignes souterraines 16 kV à Chamoson",
+    "nature": "energie",
+    "ampleur": "grand",
+    "commune": "Chamoson",
+    "maitre_ouvrage": "HYDRO Exploitation SA",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Station transformatrice Gravière (Chamoson) - Nouvelle construction sur la parcelle 1929 en remplacement de la station actuelle ; Ligne souterraine 16 kV entre les stations Losentse et Gravière ; Ligne souterraine 16 kV entre les stations Gravière (Chamoson) et Ravannay ; Ligne souterraine 16 kV entre les stations Gravière (Chamoson) et Stand de Tir"
+   }
+  },
+  "7c1e0d86-b4f7-4237-b607-725b5d6903be": {
+   "hash": "ffbcfa434b8d",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Centrale hydroélectrique Ganterbach-Saltina à Ried-Brig et Brig-Glis",
+    "nature": "energie",
+    "ampleur": "grand",
+    "commune": "Ried-Brig et Brig-Glis",
+    "maitre_ouvrage": "KW Stockalper AG",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Genehmigungsverfahren Wasserrechtskonzessionen und Plangenehmigung für die Wasserkraftanlage Ganterbach-Saltina"
+   }
+  },
+  "ca26aab0-bfd0-4d74-a0c1-a1efc4dae844": {
+   "hash": "0d0cf071055c",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Giratoire des Maretsons et restructuration des RC 71 et 503",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "moyen",
+    "commune": "Fully",
+    "maitre_ouvrage": "Canton du Valais – Service de la mobilité",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "exécution d'un carrefour giratoire aux Maretsons et restructuration routière sur les RC n° 71 & 503"
+   }
+  },
+  "398a1a8b-7308-494b-8ccb-a1a8978a181a": {
+   "hash": "d7405dc593ea",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Nouvelle station transformatrice et lignes électriques souterraines 17 kV",
+    "nature": "energie",
+    "ampleur": "petit",
+    "commune": "Troistorrents",
+    "maitre_ouvrage": "Département des finances et de l’énergie",
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "electricien",
+     "manoeuvre",
+     "machiniste"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Pose d'une cabine préfabriquée Bétontec grandeur H sur la parcelle n° 1434, avec un appareillage MT Siemens 8DJH 2L-1T, un transformateur 630 kVA 17/21 kV et un tableau BT. Pose d'un câble XKDT 3x1x240mm2 Al (90m) jonctionné au câble existant Centre - Eglise. Pose d'un câble XKDT 3x1x240mm2 Al (49m) jonctionné au câble existant Centre - Grand Hôtel."
+   }
+  },
+  "1c8b2ed0-e4d0-4648-8b19-3f99c977a35f": {
+   "hash": "021dc27727de",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Construction du tapis roulant de ski Zauberteppich 1 à Riederalp",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "petit",
+    "commune": "Riederalp",
+    "maitre_ouvrage": "Ski- Snowboardschule Riederalp",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Baubewilligung für das Förderband Zauberteppich 1"
+   }
+  },
+  "5ac139d2-8498-45ae-84c6-3ac1b1c3db37": {
+   "hash": "8bc435309032",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Modification du plan VTT au Châtelard, sans ouvrage prévu",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Lens",
+    "maitre_ouvrage": "Commune de Lens",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Aucun ouvrage au sens de l’art. 7 du Règlement sur les itinéraires de mobilité de loisirs du 21 décembre 2011 n’est prévu."
+   }
+  },
+  "4b30c06a-2c21-4d8b-bebd-c0302a879335": {
+   "hash": "f8d655b3e973",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Nouvelle station transformatrice et câble 17 kV à Troistorrents",
+    "nature": "energie",
+    "ampleur": "petit",
+    "commune": "Troistorrents",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "electricien",
+     "machiniste",
+     "manoeuvre"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Pose d'une cabine préfabriquée Bétontec grandeur H, sur la parcelle N° 4393, avec un appareillage MT Schneider Electric AirSet 2L-1T, un transformateur 250 kVA 17/21 kV et un tableau BT. [...] Pose d'un câble XKDT 3x1x150mmn2 Al (135m) jonctionné à la ligne Es-Cortaz 2 - Les Revers"
+   }
+  },
+  "1f303df2-b75d-4729-bc08-a233b974170e": {
+   "hash": "171a1ba4dc1e",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Station transformatrice et ligne 17 kV à Troistorrents",
+    "nature": "energie",
+    "ampleur": "petit",
+    "commune": "Troistorrents",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "electricien",
+     "manoeuvre"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Pose d'une cabine préfabriquée Betontec Grandeur G, sur la parcelle N° 464, avec un appareillage MT Schneider Electric AirSet 2L-1T, un transformateur 250 kVA 17/21 kV et un tableau BT. – Pose d'un câble XKDT 3x1x95mm2 Al (25m) jonctionné à la ligne existante Comba - Bonévouette."
+   }
+  },
+  "759cb31c-f76f-40a3-9a96-4eefbc9a7801": {
+   "hash": "e9f54152ed7c",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Nouvelle station transformatrice et ligne électrique 17 kV à Troistorrents",
+    "nature": "energie",
+    "ampleur": "petit",
+    "commune": "Troistorrents",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "electricien"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Pose d'une cabine préfabriquée Bétontec grandeur H, sur la parcelle N° 4393, avec un appareillage MT Schneider Electric AirSet 2L-1T, un transformateur 250 kVA 17/21 kV et un tableau BT. [...] Pose d'un câble XKDT 3x1x150mmn2 Al (135m) jonctionné à la ligne Es-Cortaz 2 - Les Revers"
+   }
+  },
+  "7f5f50b7-0766-4225-a74c-dd7a9c9e22bf": {
+   "hash": "619b99ce32df",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Classement et protection de monuments historiques à Noble-Contrée",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Noble-Contrée",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Le Conseil d’Etat du Canton du Valais a décidé [...] de classer les objets [...] comme objets digne d’être protégés d’importance cantonale/régionale [...] et de mettre sous protection [...] l’objet portant le n° 2."
+   }
+  },
+  "707e115f-e6e5-439c-a901-41b0dc65ce6d": {
+   "hash": "3ea2741379bb",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Révision d’affectation des zones au lieu-dit Djeva",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Monthey",
+    "maitre_ouvrage": "Ville de Monthey",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "REVISION PARTIELLE DU PLAN D'AFFECTATION DES ZONES ET DU REGLEMENT COMMUNAL DES CONSTRUCTIONS ET DES ZONES - Secteur au lieu-dit \"DJEVA\""
+   }
+  },
+  "1e64b371-9dd4-4103-934c-23be2cb0d899": {
+   "hash": "17a2e8b601ea",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Autorisation de construire le tapis roulant Prinzenland à Fiescheralp",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "petit",
+    "commune": "Fiesch",
+    "maitre_ouvrage": "Skischule Fiesch",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Baubewilligung für das Förderband Prinzenland"
+   }
+  },
+  "e016b143-e1c3-47ac-a75b-e644e683142b": {
+   "hash": "d43a65f39647",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Rénovation de la Sandstrasse à Steg",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "petit",
+    "commune": "Steg-Hohtenn",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Sanierung Sandstrasse in Steg"
+   }
+  },
+  "6e90baa1-dca4-4a22-a459-35e0bebd6e98": {
+   "hash": "9217778addbd",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Nouvelle station transformatrice et lignes souterraines 16 kV à Chamoson",
+    "nature": "energie",
+    "ampleur": "moyen",
+    "commune": "Chamoson",
+    "maitre_ouvrage": "IED Gruppe AG, succursale de Viège",
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "electricien",
+     "manoeuvre",
+     "machiniste"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Station transformatrice Gravière (Chamoson) - Nouvelle construction sur la parcelle 1929 en remplacement de la station actuelle ; Ligne souterraine 16 kV entre les stations Losentse et Gravière ; Ligne souterraine 16 kV entre les stations Gravière (Chamoson) et Ravannay."
+   }
+  },
+  "58d3e590-cd7f-4141-a0ae-c37b471af34b": {
+   "hash": "623ae9c29fef",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Vidange et rinçage du bassin d'accumulation de Ferden",
+    "nature": "energie",
+    "ampleur": "petit",
+    "commune": "Ferden",
+    "maitre_ouvrage": "Kraftwerk Lötschen AG",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": "2026-08",
+    "montant_chf": null,
+    "preuve": "Die Kraftwerk Lötschen AG bringt hiermit der Bevölkerung zur Kenntnis, dass zwischen dem 10. August 2026 und 10. Oktober 2026 während 1 Woche das Staubecken Ferden entleert und gespült wird."
+   }
+  },
+  "a3f41b65-9f4f-4761-aab4-2d633910183d": {
+   "hash": "c7fe42a1fad5",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Aménagement d’un parking provisoire à Massongex",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "petit",
+    "commune": "Massongex",
+    "maitre_ouvrage": "Département de la Mobilité, du Territoire et de l’Environnement",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Demande de construction dans l’Espace Réservé aux Eaux liée à l’aménagement d’un parking provisoire"
+   }
+  },
+  "f402b531-0054-4549-a7eb-ae7d7cb56414": {
+   "hash": "4d8cc28c9dfb",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Vidange et rinçage opérationnels du bassin de compensation de Mattsand",
+    "nature": "energie",
+    "ampleur": "petit",
+    "commune": "St. Niklaus",
+    "maitre_ouvrage": "Aletsch AG",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "zwischen 19. Juli 2026 und 05. September 2026 während 1 Woche das Ausgleichsbecken Mattsand entleert und gespült wird."
+   }
+  },
+  "7c84125f-c4bb-44f3-aaff-4b07d7007711": {
+   "hash": "39aa6bb61513",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Création de structures métalliques contre les avalanches à Zermatt",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "moyen",
+    "commune": "Zermatt",
+    "maitre_ouvrage": "Commune de Zermatt",
+    "entreprise_travaux": null,
+    "corps_de_metier": [
+     "serrurier",
+     "machiniste",
+     "manoeuvre"
+    ],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Die Arbeiten umfassen das Erstellen von Stahlstützwerken."
+   }
+  },
+  "9106c5c1-7469-448b-bbff-c57daeb6dd96": {
+   "hash": "0a0ac7881bb9",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Agrandissement d’une zone de stationnement avec pose de signalisation à Sion",
+    "nature": "amenagement",
+    "ampleur": "petit",
+    "commune": "Sion",
+    "maitre_ouvrage": "Ville de Sion – Travaux publics et Environnement",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "La Ville de Sion porte à la connaissance des usagers de la route de l’agrandissement de la zone à vignettes 4 [...] par la pose du panneau suivant."
+   }
+  },
+  "0101dc55-4164-4b3c-b73c-ba55390b009f": {
+   "hash": "49fae5f16b18",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Assainissement intérieur des locaux de transformation de la laiterie de Liddes",
+    "nature": "industriel_logistique",
+    "ampleur": "petit",
+    "commune": "Liddes",
+    "maitre_ouvrage": "Laiterie de Liddes",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "possibilité d'octroi d'une aide à l'investissement [...] pour le projet d'assainissement intérieurs des locaux de transformation de la laiterie de Liddes."
+   }
+  }
+ }
+}

@@ -20,6 +20,9 @@ export const SIGNAL_TYPE_LABEL: Record<string, string> = {
   adjudication: "Adjudication SIMAP",
   appel_offres: "Appel d'offres SIMAP",
   permis: "Mise à l'enquête",
+  plans_consultation: "Plans en consultation",
+  presse: "Presse",
+  communique: "Communiqué de l'État",
   annonce_directe: "Annonce d'emploi",
   agences_concurrentes: "Agence concurrente",
   tension_zone: "Tension de recrutement",
@@ -97,6 +100,7 @@ export function weeksRange(window: [string, string], today: string): string {
 export const SOURCE_GROUPS: Record<string, { label: string; types: string[] }> = {
   simap: { label: "SIMAP (marchés publics)", types: ["adjudication", "appel_offres"] },
   permis: { label: "Mises à l'enquête", types: ["permis"] },
+  annonces_projet: { label: "Grands projets et presse", types: ["plans_consultation", "presse", "communique"] },
   annonces: { label: "Annonces d'emploi", types: ["annonce_directe", "agences_concurrentes", "tension_zone"] },
   fosc: { label: "Registre du commerce (FOSC)", types: ["augmentation", "fusion", "ouverture"] },
   historique: { label: "Historique Flexsis (simulé)", types: ["client_recurrent"] },
@@ -126,6 +130,11 @@ export function shortReasons(signals: Signal[], max = 3): string[] {
         out.push(`${n > 1 ? `${n} mises à l'enquête` : "Mise à l'enquête"}${communes.length ? ` (${communes.slice(0, 2).join(", ")})` : ""}`)
         break
       }
+      case "plans_consultation":
+      case "presse":
+      case "communique":
+        out.push(n > 1 ? `${n} grands projets annoncés` : s.label.replace(/ \(\d+ MCHF\)$/, "").replace(/^[^:]+: /, ""))
+        break
       case "annonce_directe": {
         const age = s.label.match(/depuis (\d+) j/)
         out.push(n > 1 ? `${n} annonces d'emploi ouvertes` : age ? `Annonce en ligne depuis ${age[1]} j` : "Annonce d'emploi récente")

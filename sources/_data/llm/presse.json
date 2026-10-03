@@ -1,0 +1,873 @@
+{
+ "task": "presse",
+ "schema_version": 2,
+ "model": "gpt-5.6-luna",
+ "updated_at": "2026-10-03T17:11:31",
+ "count": 54,
+ "items": {
+  "1516456": {
+   "hash": "2872dcce2493",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Prix pour un assistant virtuel destiné au personnel soignant",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Prix créateurs BCVs: un assistant virtuel pour le personnel soignant décroche le coup de cœur"
+   }
+  },
+  "1516286": {
+   "hash": "ab3ed5ec9e0c",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "«Quand tu pêches sans hameçon, tu peux aller un bout…» L’actu de la semaine dans la tête d’Hugolin"
+   }
+  },
+  "1516443": {
+   "hash": "17c5ee49fae3",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Soirée féminine à Sion, sans projet de chantier annoncé.",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Sion",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "«Maman sort danser»: la soirée 100% féminine à Sion qui fait réagir les internautes valaisans"
+   }
+  },
+  "1516408": {
+   "hash": "d66768767685",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Aucun projet de chantier identifié dans cet article.",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Avant de partir, Guy Parmelin fâche les vignerons, Valaisans en tête"
+   }
+  },
+  "1516096": {
+   "hash": "9cabc9807fbd",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Article consacré à une chanteuse sédunoise et au Tremplin Suisse 2026.",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Sion",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "« Mila Thiessoz ne devait plus pouvoir chanter: la Sédunoise gagne le Tremplin Suisse 2026 »"
+   }
+  },
+  "1516436": {
+   "hash": "ec9e15e9a5b8",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Article historique sur le fromage et l’évolution d’Anniviers",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Grimentz",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "«Le fromage des morts» d’Anniviers: comment des meules racontent 150 ans d’évolution de la vallée"
+   }
+  },
+  "1515804": {
+   "hash": "60a5d69fee84",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Interview sur la concurrence déloyale dans la viticulture valaisanne",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "«Acheter du raisin, c’est d’abord le payer»: Philippe Nantermod dénonce la concurrence déloyale valaisanne"
+   }
+  },
+  "1516396": {
+   "hash": "aaf64351ebf2",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Article sportif sur le BBC Monthey-Chablais",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "À nouveau privé d’une pièce importante, le BBC Monthey-Chablais s’en va défier Pully-Lausanne"
+   }
+  },
+  "1515865": {
+   "hash": "f68a36cc58a0",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Article sur la cuisine médiévale à Sion, sans projet de chantier.",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Sion",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Que mangeait-on il y a 700 ans? A Sion, 131 recettes racontent la cuisine du Moyen Âge"
+   }
+  },
+  "1516380": {
+   "hash": "99987261f1a7",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Aucun projet de chantier concret annoncé.",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Foire du Valais: le 2e visiteur, l’oscar du «rookie» de l’année, Top Gun avec Viola Amherdt… nos histoires décalées"
+   }
+  },
+  "1516133": {
+   "hash": "dddd8c8fffe0",
+   "data": {
+    "projet_chantier": false,
+    "resume": "École de ski formant de jeunes athlètes et à la vie active",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Dans les coulisses de l’école qui forme les futurs Rast, Meillard et Odermatt: «On les prépare aussi à la vie active»"
+   }
+  },
+  "1516473": {
+   "hash": "e916c6231008",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Projet Cervin Coliseum à Sion financé par 450 millions privés",
+    "nature": "batiment",
+    "ampleur": "tres_grand",
+    "commune": "Sion",
+    "maitre_ouvrage": "Christian Constantin",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": 450000000,
+    "preuve": "Christian Constantin et le Cervin Coliseum: «Les 450 millions seront des fonds privés, certainement de ma poche»"
+   }
+  },
+  "1516425": {
+   "hash": "740f11bc0453",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Null",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Zermatt",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Incendie d’un garage automobile à Zermatt : 3 blessés, dont 2 héliportés à Lausanne et Zurich"
+   }
+  },
+  "1516255": {
+   "hash": "288c403ed311",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "En manque de réserves, 2 caisses maladie valaisannes vont disparaître par fusion en 2027"
+   }
+  },
+  "1516332": {
+   "hash": "820d3da5747f",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Zermatt",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Garage en feu à Zermatt: incendie maîtrisé et trafic ferroviaire rétabli"
+   }
+  },
+  "1512942": {
+   "hash": "055d3387685a",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "« Une Valaisanne a perdu son bébé mort pendant la grossesse: comment raconter l’indicible? Les coulisses de l’info »"
+   }
+  },
+  "1516381": {
+   "hash": "84d16b54cb67",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "La Banque cantonale du Valais se dote d’un nouveau directeur général chargé de la gestion de fortune"
+   }
+  },
+  "1515933": {
+   "hash": "ba7ed4f54b32",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Aucun projet de chantier concret annoncé.",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "« Ces déchets qui mettent le feu aux centres de tri et la table ronde Crans-Montana: ce que vous avez aimé… ou pas cette semaine »"
+   }
+  },
+  "1516239": {
+   "hash": "01681d08b5c9",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Martigny",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Foire du Valais: dédicaces, pop-corn, concours, quiz… les animations du stand du «Nouvelliste» et de RhôneFM"
+   }
+  },
+  "1516122": {
+   "hash": "094353d47c90",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Les caisses maladie disposent de 2,8 milliards de réserves «en trop». Quelles conséquences en Valais?"
+   }
+  },
+  "1516187": {
+   "hash": "db626857c8a1",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Article consacré au cinéma et à la Foire du Valais",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Le cinéma se sent comme à la maison en Valais: 4 choses à savoir alors que la Foire célèbre le 7e art"
+   }
+  },
+  "1516394": {
+   "hash": "8e174798e226",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Distinction académique, aucun chantier annoncé",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "HES-SO Valais-Wallis: Natalie Sarrasin distinguée dans le domaine de l’intelligence artificielle"
+   }
+  },
+  "1516439": {
+   "hash": "6018bc1a0774",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Projet de futur stade de 21 000 places à Sion",
+    "nature": "batiment",
+    "ampleur": "tres_grand",
+    "commune": "Sion",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "FC Sion: le projet de futur stade à 21 000 places est déposé en enquête préalable"
+   }
+  },
+  "1516235": {
+   "hash": "ffd23c01d3aa",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Sierre",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Article consacré à Madeleine Eggs, doyenne du Valais, sans annonce de chantier ou de projet de construction."
+   }
+  },
+  "1516321": {
+   "hash": "6ba687b3d3e9",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "« 9 arrestations après des vols par effraction dans deux garages et une carrosserie »"
+   }
+  },
+  "1516300": {
+   "hash": "5f994e66154b",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Crans-Montana: feu vert fédéral aux JO 2038 sans passer par le peuple, «une victoire pour le Valais»"
+   }
+  },
+  "1516283": {
+   "hash": "9162f0dfbb83",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "la cavalière Sophie Gillioz collectionne les médailles aux championnats suisses d’équitation western"
+   }
+  },
+  "1515486": {
+   "hash": "3397210cbebb",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Aucun chantier concret annoncé, seulement une hausse des ventes électriques.",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "La vente de véhicules 100% électriques explose en Valais"
+   }
+  },
+  "1516170": {
+   "hash": "a893127f95f5",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Pétanque à Martigny-Croix : comment un petit club de village a réussi un exploit historique en Valais"
+   }
+  },
+  "1516109": {
+   "hash": "88ce3487b0ac",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Article sportif sur les performances de deux cyclistes valaisans.",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Européens de cyclisme: pourquoi Valentine Rousseaux et Valentin Darbellay n’étaient pas attendus à ce niveau"
+   }
+  },
+  "1516070": {
+   "hash": "66ae7d45d59b",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "L'article traite de l'évolution de la précarité et des activités de Caritas Valais, sans annoncer de chantier ou de projet de construction."
+   }
+  },
+  "1512735": {
+   "hash": "252b73487c49",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Une prime à 58 francs, une caisse avec un seul assuré: les étonnants débuts de la LAMAL en Valais"
+   }
+  },
+  "1516160": {
+   "hash": "b821dc58da1c",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Une fresque monumentale au Lac Souterrain, le nouveau polar de Jean-Yves Gabbud… L’actu culturelle en bref"
+   }
+  },
+  "1516236": {
+   "hash": "7b2813de2785",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Réaménagement de Muraz avec davantage de place pour les piétons",
+    "nature": "amenagement",
+    "ampleur": "moyen",
+    "commune": "Sierre",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Sierre: le réaménagement de Muraz donnera plus de place aux piétons… mais son parking divise"
+   }
+  },
+  "1516229": {
+   "hash": "7d731a3043b6",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "L’article décrit une performance musicale sur une tyrolienne, sans annoncer de chantier ou de projet de construction mobilisant des ouvriers."
+   }
+  },
+  "https://canal9.ch/fr/lactualite-du-haut-valais-de-la-semaine-du-28-septembre-2026/": {
+   "hash": "2b4ee748868d",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": ""
+   }
+  },
+  "1516326": {
+   "hash": "592d64048898",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Troisième correction du Rhône dans le Chablais valaisan",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "tres_grand",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Troisième correction du Rhône: malgré les révisions valaisannes, le projet avance dans le Chablais"
+   }
+  },
+  "https://canal9.ch/fr/vendredi-02-10-2026/": {
+   "hash": "2722bf5b1042",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Vendredi 02.10.2026"
+   }
+  },
+  "https://canal9.ch/fr/pre-foire-du-club-des-amis-et-des-affaires-cest-le-facebook-du-valais/": {
+   "hash": "b375eca0f4f6",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "«Pré-foire du club des amis et des affaires»"
+   }
+  },
+  "https://canal9.ch/de/50-jahr-jubilaum-ein-rundgang-durch-die-ara-visp-die-grosste-abwasserreinigungsanlage-im-oberwallis/": {
+   "hash": "b5b67f09d66a",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Visite de l’ARA de Viège à l’occasion de son 50e anniversaire",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Viège",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "50-Jahr-Jubiläum: Ein Rundgang durch die ARA Visp, die grösste Abwasserreinigungsanlage im Oberwallis"
+   }
+  },
+  "https://canal9.ch/fr/la-premiere-foire-du-valais-de-la-directrice-carole-moos/": {
+   "hash": "d5f23f65451f",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Aucun projet de chantier ou industriel annoncé.",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "La première Foire du Valais de la directrice Carole Moos"
+   }
+  },
+  "1516151": {
+   "hash": "6acc20b627ad",
+   "data": {
+    "projet_chantier": false,
+    "resume": "La bourgeoisie de Fully renforce la protection de la châtaigneraie",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Fully",
+    "maitre_ouvrage": "Bourgeoisie de Fully",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Après les abus des dernières années, la bourgeoisie serre la vis. «La forêt est en danger»"
+   }
+  },
+  "https://canal9.ch/de/die-unterwalliser-nachrichten-der-woche-vom-28-september-2026/": {
+   "hash": "4fd80ae7882d",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Aucun projet de chantier annoncé dans cet extrait.",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Jeden Freitag fasst unsere welsche Redaktion die wichtigsten Themen der Woche zusammen, um Ihnen das aktuelle Geschehen aus dem anderen Teil des Kantons näherzubringen."
+   }
+  },
+  "https://canal9.ch/de/gemeinderatswahlen-fusionsgemeinde-visp-drei-kandidatinnen-drei-perspektiven/": {
+   "hash": "efd92a5bad92",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "« Gemeinderatswahlen Fusionsgemeinde Visp: Drei Kandidatinnen, drei Perspektiven. »"
+   }
+  },
+  "https://canal9.ch/fr/le-debrief-de-jean-marc-dupont-et-raphael-naoux/": {
+   "hash": "efdc4e08bb7a",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Retour sur l’actualité de la semaine, avec au programme les coûts de la santé."
+   }
+  },
+  "https://canal9.ch/de/tagesinfo-vom-02-10-2026/": {
+   "hash": "f31010c50a6e",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Une passerelle piétonne de remplacement a été mise en place à Staldbach.",
+    "nature": "infrastructure_genie_civil",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Fussgängerbrücke Staldbach: Ersatzbrücke heute"
+   }
+  },
+  "1788627": {
+   "hash": "4b8f2d05b878",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Le texte annonce uniquement la désignation de la start-up Sof-IA comme « coup de coeur » du Prix Créateurs BCVs."
+   }
+  },
+  "1788647": {
+   "hash": "81858e3241b6",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Table ronde sur le rôle urbain des complexes sportifs valaisans",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "A la Foire du Valais, une table-ronde s'intéressait ce vendredi aux stades et patinoires devenant les nouveaux cœurs des villes valaisannes."
+   }
+  },
+  "1788310": {
+   "hash": "c3475f462abd",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Abandon du lien entre importations de vin et raisins suisses",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Le Conseil fédéral abandonne l'idée de lier les importations de vin à l'achat de raisins suisses."
+   }
+  },
+  "1788211": {
+   "hash": "1d5e34191a2d",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Ouverture de la Foire du Valais 2026",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "La 66ème Foire du Valais a ouvert ses portes ce vendredi."
+   }
+  },
+  "1788075": {
+   "hash": "232b94fc3250",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Étude valaisanne récompensée par un prix cardiovasculaire",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Le « Coup de cœur » revient à une étude valaisanne sur"
+   }
+  },
+  "1787029": {
+   "hash": "3da8ec33b72b",
+   "data": {
+    "projet_chantier": false,
+    "resume": "",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": null,
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Deux groupes, auteurs de vols par effraction dans des garages valaisans, ont été interpellés en trois jours en Valais."
+   }
+  },
+  "1788054": {
+   "hash": "3bfef23da8bf",
+   "data": {
+    "projet_chantier": false,
+    "resume": "Incendie d’un garage maîtrisé à Zermatt",
+    "nature": "autre",
+    "ampleur": "petit",
+    "commune": "Zermatt",
+    "maitre_ouvrage": null,
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "L'incendie d'un garage à Zermatt a été maîtrisé"
+   }
+  },
+  "https://canal9.ch/fr/le-projet-du-futur-stade-du-fc-sion-depose-en-enquete-prealable/": {
+   "hash": "be3619182f3b",
+   "data": {
+    "projet_chantier": true,
+    "resume": "Projet de nouveau stade du FC Sion de 21'000 places",
+    "nature": "batiment",
+    "ampleur": "grand",
+    "commune": null,
+    "maitre_ouvrage": "FC Sion",
+    "entreprise_travaux": null,
+    "corps_de_metier": [],
+    "debut_travaux": null,
+    "montant_chf": null,
+    "preuve": "Le projet du futur stade du FC Sion déposé en enquête préalable. Le Cervin Colliseum pourra accueillir 21’000 spectateurs en configuration football"
+   }
+  }
+ }
+}

@@ -95,8 +95,51 @@ def _permis_input(r: dict) -> str:
     return (r["text"] or r["title"] or "")[:3000]
 
 
+# ------------------------------------------------------------------ ANNONCES DE PROJET (plans, presse, communiqués)
+
+PROJET_SCHEMA = {
+    "type": "object",
+    "additionalProperties": False,
+    "properties": {
+        "projet_chantier": {"type": "boolean",
+                            "description": "Le texte annonce un chantier ou un projet de construction / industriel "
+                                           "concret en Valais qui mobilisera des ouvriers (bâtiment, génie civil, "
+                                           "énergie, usine, logistique). Faux pour mensuration, chemins pédestres "
+                                           "sans travaux, politique, culture, faits divers, sport."},
+        "resume": {"type": "string", "description": "Le projet en français, 80 caractères max."},
+        "nature": {"type": "string", "enum": ["batiment", "infrastructure_genie_civil", "energie",
+                                               "industriel_logistique", "amenagement", "autre"]},
+        "ampleur": {"type": "string", "enum": ["petit", "moyen", "grand", "tres_grand"],
+                    "description": "tres_grand = chantier de plusieurs années ou > 50 MCHF (ex. correction du "
+                                   "Rhône, stade, usine) ; grand = plusieurs mois et équipes ; moyen = un ouvrage "
+                                   "courant ; petit = intervention ponctuelle."},
+        "commune": {"type": ["string", "null"], "description": "Commune valaisanne principale du projet."},
+        "maitre_ouvrage": {"type": ["string", "null"], "description": "Qui commande / porte le projet."},
+        "entreprise_travaux": {"type": ["string", "null"],
+                               "description": "Entreprise d'exécution nommée (jamais un bureau d'ingénieurs)."},
+        "corps_de_metier": {"type": "array", "items": {"type": "string", "enum": BTP_METIERS}},
+        "debut_travaux": {"type": ["string", "null"],
+                          "description": "Début des travaux s'il est annoncé, au format AAAA-MM (ou AAAA)."},
+        "montant_chf": {"type": ["number", "null"], "description": "Montant annoncé en CHF si chiffré."},
+        "preuve": {"type": "string", "description": "Extrait exact du texte qui justifie la fiche."},
+    },
+    "required": ["projet_chantier", "resume", "nature", "ampleur", "commune", "maitre_ouvrage",
+                 "entreprise_travaux", "corps_de_metier", "debut_travaux", "montant_chf", "preuve"],
+}
+
+PROJET_PROMPT = """Tu lis des publications valaisannes (Bulletin officiel, presse, communiqués de l'État) pour une
+agence d'intérim du bâtiment, de l'industrie et de la logistique. Repère les projets qui créeront du travail pour
+des ouvriers. N'invente rien : null si absent, montant et date seulement s'ils sont écrits. Réponds en français."""
+
+
+def _projet_input(r: dict) -> str:
+    return f"Source : {r['source']} ({r['kind']}), {r['date']}\n{(r['text'] or r['title'] or '')[:3000]}"
+
+
 TASKS = {
     "permis": {"source": "permis_construire", "schema": PERMIS_SCHEMA, "prompt": PERMIS_PROMPT, "input": _permis_input},
+    **{src: {"source": src, "schema": PROJET_SCHEMA, "prompt": PROJET_PROMPT, "input": _projet_input}
+       for src in ("grands_projets", "presse", "communiques_vs")},
 }
 
 
@@ -144,6 +187,11 @@ def save_cache(task: str, items: dict, model: str) -> None:
     }, ensure_ascii=False, indent=1), "utf-8")
 
 
+def _clean(v):
+    """Le modèle écrit parfois la chaîne "null" au lieu de null."""
+    return None if isinstance(v, str) and v.strip().lower() in ("", "null", "none", "n/a", "inconnu") else v
+
+
 def extracted(task: str) -> dict:
     """id -> fiche, pour les enregistrements dont le texte n'a pas changé depuis l'extraction."""
     t = TASKS[task]
@@ -152,7 +200,7 @@ def extracted(task: str) -> dict:
     for r in load(t["source"]):
         c = cache.get(r["id"])
         if c and c["hash"] == _hash(t["input"](r)):
-            out[r["id"]] = c["data"]
+            out[r["id"]] = {k: _clean(v) for k, v in c["data"].items()}
     return out
 
 
