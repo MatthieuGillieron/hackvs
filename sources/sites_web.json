@@ -1,0 +1,18 @@
+{
+  "_doc": "Sites crawlés par sources/sites_web.py. Ajouter les sites des entreprises clientes dans 'entreprises'.",
+  "communes": [
+    {"name": "Sion", "url": "https://www.sion.ch/", "bfs": 6266},
+    {"name": "Sierre", "url": "https://www.sierre.ch/", "bfs": 6248},
+    {"name": "Martigny", "url": "https://www.martigny.ch/", "bfs": 6136},
+    {"name": "Monthey", "url": "https://www.monthey.ch/", "bfs": 6153},
+    {"name": "Brig-Glis", "url": "https://www.brig-glis.ch/", "bfs": 6002},
+    {"name": "Visp", "url": "https://www.visp.ch/de", "bfs": 6297},
+    {"name": "Naters", "url": "https://www.naters.ch/", "bfs": 6007},
+    {"name": "Conthey", "url": "https://www.conthey.ch/", "bfs": 6023},
+    {"name": "Val de Bagnes", "url": "https://www.valdebagnes.ch/", "bfs": 6037},
+    {"name": "Collombey-Muraz", "url": "https://www.collombey-muraz.ch/", "bfs": 6152},
+    {"name": "Fully", "url": "https://fully.ch/", "bfs": 6133},
+    {"name": "Savièse", "url": "https://www.saviese.ch/", "bfs": 6265}
+  ],
+  "entreprises": []
+}

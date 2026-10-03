@@ -1,0 +1,1585 @@
+{
+ "source": "meteo",
+ "fetched_at": "2026-10-03T11:37:53",
+ "params": {},
+ "count": 10,
+ "records": [
+  {
+   "source": "meteo",
+   "id": "6153",
+   "kind": "forecast",
+   "date": "2026-10-03",
+   "title": "Prévisions 16 jours — Monthey",
+   "text": "Monthey: 0 jours de gel, 1 jours de forte pluie (>=10mm), 0 jours de neige sur 16 jours.",
+   "url": "https://open-meteo.com/en/docs?latitude=46.255&longitude=6.954",
+   "canton": "VS",
+   "commune": "Monthey",
+   "bfs": 6153,
+   "company": null,
+   "lat": 46.255,
+   "lon": 6.954,
+   "extra": {
+    "frost_days": [],
+    "heavy_rain_days": [
+     "2026-10-08"
+    ],
+    "snow_days": [],
+    "daily": [
+     {
+      "time": "2026-10-03",
+      "temperature_2m_max": 21.4,
+      "temperature_2m_min": 13.0,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 11.5
+     },
+     {
+      "time": "2026-10-04",
+      "temperature_2m_max": 21.9,
+      "temperature_2m_min": 13.4,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 14.4
+     },
+     {
+      "time": "2026-10-05",
+      "temperature_2m_max": 20.9,
+      "temperature_2m_min": 13.0,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 17.3
+     },
+     {
+      "time": "2026-10-06",
+      "temperature_2m_max": 20.9,
+      "temperature_2m_min": 14.4,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 18.4
+     },
+     {
+      "time": "2026-10-07",
+      "temperature_2m_max": 19.5,
+      "temperature_2m_min": 14.9,
+      "precipitation_sum": 5.1,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 19.1
+     },
+     {
+      "time": "2026-10-08",
+      "temperature_2m_max": 17.3,
+      "temperature_2m_min": 11.2,
+      "precipitation_sum": 61.35,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 31.7
+     },
+     {
+      "time": "2026-10-09",
+      "temperature_2m_max": 13.3,
+      "temperature_2m_min": 10.3,
+      "precipitation_sum": 1.8,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 33.1
+     },
+     {
+      "time": "2026-10-10",
+      "temperature_2m_max": 12.7,
+      "temperature_2m_min": 7.8,
+      "precipitation_sum": 5.7,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 27.7
+     },
+     {
+      "time": "2026-10-11",
+      "temperature_2m_max": 13.7,
+      "temperature_2m_min": 5.9,
+      "precipitation_sum": 7.8,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 32.4
+     },
+     {
+      "time": "2026-10-12",
+      "temperature_2m_max": 17.2,
+      "temperature_2m_min": 2.1,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 39.2
+     },
+     {
+      "time": "2026-10-13",
+      "temperature_2m_max": 19.5,
+      "temperature_2m_min": 7.6,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 30.2
+     },
+     {
+      "time": "2026-10-14",
+      "temperature_2m_max": 19.3,
+      "temperature_2m_min": 7.1,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 25.2
+     },
+     {
+      "time": "2026-10-15",
+      "temperature_2m_max": 22.4,
+      "temperature_2m_min": 9.5,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 41.4
+     },
+     {
+      "time": "2026-10-16",
+      "temperature_2m_max": 22.5,
+      "temperature_2m_min": 10.2,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 31.7
+     },
+     {
+      "time": "2026-10-17",
+      "temperature_2m_max": 21.8,
+      "temperature_2m_min": 10.9,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 28.8
+     },
+     {
+      "time": "2026-10-18",
+      "temperature_2m_max": 14.2,
+      "temperature_2m_min": 5.2,
+      "precipitation_sum": 1.05,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 18.4
+     }
+    ],
+    "district": "District de Monthey"
+   }
+  },
+  {
+   "source": "meteo",
+   "id": "6136",
+   "kind": "forecast",
+   "date": "2026-10-03",
+   "title": "Prévisions 16 jours — Martigny",
+   "text": "Martigny: 1 jours de gel, 1 jours de forte pluie (>=10mm), 2 jours de neige sur 16 jours.",
+   "url": "https://open-meteo.com/en/docs?latitude=46.102&longitude=7.073",
+   "canton": "VS",
+   "commune": "Martigny",
+   "bfs": 6136,
+   "company": null,
+   "lat": 46.102,
+   "lon": 7.073,
+   "extra": {
+    "frost_days": [
+     "2026-10-12"
+    ],
+    "heavy_rain_days": [
+     "2026-10-08"
+    ],
+    "snow_days": [
+     "2026-10-10",
+     "2026-10-11"
+    ],
+    "daily": [
+     {
+      "time": "2026-10-03",
+      "temperature_2m_max": 22.6,
+      "temperature_2m_min": 15.0,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 20.5
+     },
+     {
+      "time": "2026-10-04",
+      "temperature_2m_max": 22.8,
+      "temperature_2m_min": 13.9,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 21.6
+     },
+     {
+      "time": "2026-10-05",
+      "temperature_2m_max": 23.2,
+      "temperature_2m_min": 14.1,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 21.2
+     },
+     {
+      "time": "2026-10-06",
+      "temperature_2m_max": 23.5,
+      "temperature_2m_min": 14.5,
+      "precipitation_sum": 0.9,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 20.9
+     },
+     {
+      "time": "2026-10-07",
+      "temperature_2m_max": 22.3,
+      "temperature_2m_min": 14.8,
+      "precipitation_sum": 0.9,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 19.1
+     },
+     {
+      "time": "2026-10-08",
+      "temperature_2m_max": 17.2,
+      "temperature_2m_min": 9.4,
+      "precipitation_sum": 16.35,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 25.6
+     },
+     {
+      "time": "2026-10-09",
+      "temperature_2m_max": 12.1,
+      "temperature_2m_min": 8.3,
+      "precipitation_sum": 0.3,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 24.8
+     },
+     {
+      "time": "2026-10-10",
+      "temperature_2m_max": 13.2,
+      "temperature_2m_min": 6.1,
+      "precipitation_sum": 6.0,
+      "snowfall_sum": 1.89,
+      "wind_gusts_10m_max": 25.9
+     },
+     {
+      "time": "2026-10-11",
+      "temperature_2m_max": 11.7,
+      "temperature_2m_min": 4.4,
+      "precipitation_sum": 7.8,
+      "snowfall_sum": 3.15,
+      "wind_gusts_10m_max": 17.6
+     },
+     {
+      "time": "2026-10-12",
+      "temperature_2m_max": 15.4,
+      "temperature_2m_min": -0.3,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 18.7
+     },
+     {
+      "time": "2026-10-13",
+      "temperature_2m_max": 18.3,
+      "temperature_2m_min": 6.0,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 22.3
+     },
+     {
+      "time": "2026-10-14",
+      "temperature_2m_max": 21.1,
+      "temperature_2m_min": 5.4,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 18.7
+     },
+     {
+      "time": "2026-10-15",
+      "temperature_2m_max": 22.5,
+      "temperature_2m_min": 7.5,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 21.6
+     },
+     {
+      "time": "2026-10-16",
+      "temperature_2m_max": 22.8,
+      "temperature_2m_min": 8.6,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 17.6
+     },
+     {
+      "time": "2026-10-17",
+      "temperature_2m_max": 23.0,
+      "temperature_2m_min": 8.8,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 19.8
+     },
+     {
+      "time": "2026-10-18",
+      "temperature_2m_max": 12.2,
+      "temperature_2m_min": 6.3,
+      "precipitation_sum": 1.8,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 13.5
+     }
+    ],
+    "district": "District de Martigny"
+   }
+  },
+  {
+   "source": "meteo",
+   "id": "6266",
+   "kind": "forecast",
+   "date": "2026-10-03",
+   "title": "Prévisions 16 jours — Sion",
+   "text": "Sion: 0 jours de gel, 1 jours de forte pluie (>=10mm), 2 jours de neige sur 16 jours.",
+   "url": "https://open-meteo.com/en/docs?latitude=46.233&longitude=7.36",
+   "canton": "VS",
+   "commune": "Sion",
+   "bfs": 6266,
+   "company": null,
+   "lat": 46.233,
+   "lon": 7.36,
+   "extra": {
+    "frost_days": [],
+    "heavy_rain_days": [
+     "2026-10-08"
+    ],
+    "snow_days": [
+     "2026-10-10",
+     "2026-10-11"
+    ],
+    "daily": [
+     {
+      "time": "2026-10-03",
+      "temperature_2m_max": 24.6,
+      "temperature_2m_min": 14.6,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 27.0
+     },
+     {
+      "time": "2026-10-04",
+      "temperature_2m_max": 25.0,
+      "temperature_2m_min": 13.9,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 32.8
+     },
+     {
+      "time": "2026-10-05",
+      "temperature_2m_max": 25.1,
+      "temperature_2m_min": 13.9,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 20.9
+     },
+     {
+      "time": "2026-10-06",
+      "temperature_2m_max": 25.0,
+      "temperature_2m_min": 14.3,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 22.3
+     },
+     {
+      "time": "2026-10-07",
+      "temperature_2m_max": 22.4,
+      "temperature_2m_min": 13.8,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 25.9
+     },
+     {
+      "time": "2026-10-08",
+      "temperature_2m_max": 16.2,
+      "temperature_2m_min": 10.1,
+      "precipitation_sum": 14.4,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 23.8
+     },
+     {
+      "time": "2026-10-09",
+      "temperature_2m_max": 13.4,
+      "temperature_2m_min": 9.5,
+      "precipitation_sum": 1.5,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 22.7
+     },
+     {
+      "time": "2026-10-10",
+      "temperature_2m_max": 12.2,
+      "temperature_2m_min": 6.3,
+      "precipitation_sum": 6.9,
+      "snowfall_sum": 2.52,
+      "wind_gusts_10m_max": 16.9
+     },
+     {
+      "time": "2026-10-11",
+      "temperature_2m_max": 11.0,
+      "temperature_2m_min": 3.9,
+      "precipitation_sum": 7.2,
+      "snowfall_sum": 5.04,
+      "wind_gusts_10m_max": 21.2
+     },
+     {
+      "time": "2026-10-12",
+      "temperature_2m_max": 13.7,
+      "temperature_2m_min": 1.2,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 25.2
+     },
+     {
+      "time": "2026-10-13",
+      "temperature_2m_max": 15.6,
+      "temperature_2m_min": 3.5,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 25.9
+     },
+     {
+      "time": "2026-10-14",
+      "temperature_2m_max": 18.7,
+      "temperature_2m_min": 6.4,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 22.0
+     },
+     {
+      "time": "2026-10-15",
+      "temperature_2m_max": 21.0,
+      "temperature_2m_min": 5.6,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 31.0
+     },
+     {
+      "time": "2026-10-16",
+      "temperature_2m_max": 21.6,
+      "temperature_2m_min": 9.1,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 24.1
+     },
+     {
+      "time": "2026-10-17",
+      "temperature_2m_max": 21.4,
+      "temperature_2m_min": 10.3,
+      "precipitation_sum": 0.6,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 23.8
+     },
+     {
+      "time": "2026-10-18",
+      "temperature_2m_max": 13.1,
+      "temperature_2m_min": 6.0,
+      "precipitation_sum": 0.75,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 13.2
+     }
+    ],
+    "district": "District de Sion"
+   }
+  },
+  {
+   "source": "meteo",
+   "id": "6248",
+   "kind": "forecast",
+   "date": "2026-10-03",
+   "title": "Prévisions 16 jours — Sierre",
+   "text": "Sierre: 1 jours de gel, 1 jours de forte pluie (>=10mm), 2 jours de neige sur 16 jours.",
+   "url": "https://open-meteo.com/en/docs?latitude=46.292&longitude=7.535",
+   "canton": "VS",
+   "commune": "Sierre",
+   "bfs": 6248,
+   "company": null,
+   "lat": 46.292,
+   "lon": 7.535,
+   "extra": {
+    "frost_days": [
+     "2026-10-12"
+    ],
+    "heavy_rain_days": [
+     "2026-10-08"
+    ],
+    "snow_days": [
+     "2026-10-10",
+     "2026-10-11"
+    ],
+    "daily": [
+     {
+      "time": "2026-10-03",
+      "temperature_2m_max": 25.5,
+      "temperature_2m_min": 14.1,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 23.0
+     },
+     {
+      "time": "2026-10-04",
+      "temperature_2m_max": 26.4,
+      "temperature_2m_min": 12.3,
+      "precipitation_sum": 0.3,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 28.8
+     },
+     {
+      "time": "2026-10-05",
+      "temperature_2m_max": 24.5,
+      "temperature_2m_min": 13.1,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 20.5
+     },
+     {
+      "time": "2026-10-06",
+      "temperature_2m_max": 24.7,
+      "temperature_2m_min": 13.9,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 17.6
+     },
+     {
+      "time": "2026-10-07",
+      "temperature_2m_max": 20.8,
+      "temperature_2m_min": 13.4,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 24.5
+     },
+     {
+      "time": "2026-10-08",
+      "temperature_2m_max": 16.0,
+      "temperature_2m_min": 9.2,
+      "precipitation_sum": 15.3,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 25.6
+     },
+     {
+      "time": "2026-10-09",
+      "temperature_2m_max": 12.7,
+      "temperature_2m_min": 8.3,
+      "precipitation_sum": 1.2,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 28.8
+     },
+     {
+      "time": "2026-10-10",
+      "temperature_2m_max": 12.6,
+      "temperature_2m_min": 6.9,
+      "precipitation_sum": 4.95,
+      "snowfall_sum": 2.1,
+      "wind_gusts_10m_max": 25.2
+     },
+     {
+      "time": "2026-10-11",
+      "temperature_2m_max": 12.2,
+      "temperature_2m_min": 3.2,
+      "precipitation_sum": 7.2,
+      "snowfall_sum": 5.04,
+      "wind_gusts_10m_max": 20.5
+     },
+     {
+      "time": "2026-10-12",
+      "temperature_2m_max": 15.1,
+      "temperature_2m_min": -2.3,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 23.8
+     },
+     {
+      "time": "2026-10-13",
+      "temperature_2m_max": 16.4,
+      "temperature_2m_min": 2.1,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 24.8
+     },
+     {
+      "time": "2026-10-14",
+      "temperature_2m_max": 17.8,
+      "temperature_2m_min": 4.4,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 22.7
+     },
+     {
+      "time": "2026-10-15",
+      "temperature_2m_max": 20.1,
+      "temperature_2m_min": 4.6,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 31.7
+     },
+     {
+      "time": "2026-10-16",
+      "temperature_2m_max": 21.2,
+      "temperature_2m_min": 6.6,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 28.1
+     },
+     {
+      "time": "2026-10-17",
+      "temperature_2m_max": 21.3,
+      "temperature_2m_min": 7.2,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 25.9
+     },
+     {
+      "time": "2026-10-18",
+      "temperature_2m_max": 12.9,
+      "temperature_2m_min": 4.4,
+      "precipitation_sum": 0.3,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 18.1
+     }
+    ],
+    "district": "District de Sierre"
+   }
+  },
+  {
+   "source": "meteo",
+   "id": "6297",
+   "kind": "forecast",
+   "date": "2026-10-03",
+   "title": "Prévisions 16 jours — Visp",
+   "text": "Visp: 0 jours de gel, 1 jours de forte pluie (>=10mm), 2 jours de neige sur 16 jours.",
+   "url": "https://open-meteo.com/en/docs?latitude=46.294&longitude=7.882",
+   "canton": "VS",
+   "commune": "Visp",
+   "bfs": 6297,
+   "company": null,
+   "lat": 46.294,
+   "lon": 7.882,
+   "extra": {
+    "frost_days": [],
+    "heavy_rain_days": [
+     "2026-10-08"
+    ],
+    "snow_days": [
+     "2026-10-10",
+     "2026-10-11"
+    ],
+    "daily": [
+     {
+      "time": "2026-10-03",
+      "temperature_2m_max": 23.9,
+      "temperature_2m_min": 11.8,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 14.4
+     },
+     {
+      "time": "2026-10-04",
+      "temperature_2m_max": 24.6,
+      "temperature_2m_min": 11.5,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 16.6
+     },
+     {
+      "time": "2026-10-05",
+      "temperature_2m_max": 24.4,
+      "temperature_2m_min": 12.8,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 21.6
+     },
+     {
+      "time": "2026-10-06",
+      "temperature_2m_max": 23.5,
+      "temperature_2m_min": 14.3,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 25.2
+     },
+     {
+      "time": "2026-10-07",
+      "temperature_2m_max": 18.0,
+      "temperature_2m_min": 14.2,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 30.2
+     },
+     {
+      "time": "2026-10-08",
+      "temperature_2m_max": 15.3,
+      "temperature_2m_min": 9.1,
+      "precipitation_sum": 11.4,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 30.6
+     },
+     {
+      "time": "2026-10-09",
+      "temperature_2m_max": 11.6,
+      "temperature_2m_min": 7.7,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 45.0
+     },
+     {
+      "time": "2026-10-10",
+      "temperature_2m_max": 13.0,
+      "temperature_2m_min": 6.4,
+      "precipitation_sum": 3.9,
+      "snowfall_sum": 1.89,
+      "wind_gusts_10m_max": 36.7
+     },
+     {
+      "time": "2026-10-11",
+      "temperature_2m_max": 14.0,
+      "temperature_2m_min": 4.9,
+      "precipitation_sum": 5.7,
+      "snowfall_sum": 3.99,
+      "wind_gusts_10m_max": 36.7
+     },
+     {
+      "time": "2026-10-12",
+      "temperature_2m_max": 17.4,
+      "temperature_2m_min": 0.3,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 28.4
+     },
+     {
+      "time": "2026-10-13",
+      "temperature_2m_max": 17.9,
+      "temperature_2m_min": 3.1,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 29.5
+     },
+     {
+      "time": "2026-10-14",
+      "temperature_2m_max": 19.4,
+      "temperature_2m_min": 3.7,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 28.8
+     },
+     {
+      "time": "2026-10-15",
+      "temperature_2m_max": 20.1,
+      "temperature_2m_min": 3.0,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 40.3
+     },
+     {
+      "time": "2026-10-16",
+      "temperature_2m_max": 20.9,
+      "temperature_2m_min": 5.9,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 30.6
+     },
+     {
+      "time": "2026-10-17",
+      "temperature_2m_max": 21.2,
+      "temperature_2m_min": 5.2,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 29.2
+     },
+     {
+      "time": "2026-10-18",
+      "temperature_2m_max": 12.9,
+      "temperature_2m_min": 1.0,
+      "precipitation_sum": 0.3,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 22.3
+     }
+    ],
+    "district": "Bezirk Visp"
+   }
+  },
+  {
+   "source": "meteo",
+   "id": "6002",
+   "kind": "forecast",
+   "date": "2026-10-03",
+   "title": "Prévisions 16 jours — Brig-Glis",
+   "text": "Brig-Glis: 0 jours de gel, 1 jours de forte pluie (>=10mm), 2 jours de neige sur 16 jours.",
+   "url": "https://open-meteo.com/en/docs?latitude=46.316&longitude=7.988",
+   "canton": "VS",
+   "commune": "Brig-Glis",
+   "bfs": 6002,
+   "company": null,
+   "lat": 46.316,
+   "lon": 7.988,
+   "extra": {
+    "frost_days": [],
+    "heavy_rain_days": [
+     "2026-10-08"
+    ],
+    "snow_days": [
+     "2026-10-10",
+     "2026-10-11"
+    ],
+    "daily": [
+     {
+      "time": "2026-10-03",
+      "temperature_2m_max": 24.9,
+      "temperature_2m_min": 11.3,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 7.2
+     },
+     {
+      "time": "2026-10-04",
+      "temperature_2m_max": 25.3,
+      "temperature_2m_min": 10.9,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 13.7
+     },
+     {
+      "time": "2026-10-05",
+      "temperature_2m_max": 24.2,
+      "temperature_2m_min": 11.8,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 14.4
+     },
+     {
+      "time": "2026-10-06",
+      "temperature_2m_max": 23.0,
+      "temperature_2m_min": 13.4,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 27.4
+     },
+     {
+      "time": "2026-10-07",
+      "temperature_2m_max": 17.1,
+      "temperature_2m_min": 13.8,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 25.2
+     },
+     {
+      "time": "2026-10-08",
+      "temperature_2m_max": 15.2,
+      "temperature_2m_min": 10.4,
+      "precipitation_sum": 10.5,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 33.5
+     },
+     {
+      "time": "2026-10-09",
+      "temperature_2m_max": 11.8,
+      "temperature_2m_min": 9.0,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 59.0
+     },
+     {
+      "time": "2026-10-10",
+      "temperature_2m_max": 14.4,
+      "temperature_2m_min": 6.2,
+      "precipitation_sum": 4.5,
+      "snowfall_sum": 1.89,
+      "wind_gusts_10m_max": 46.4
+     },
+     {
+      "time": "2026-10-11",
+      "temperature_2m_max": 13.8,
+      "temperature_2m_min": 4.7,
+      "precipitation_sum": 5.7,
+      "snowfall_sum": 3.99,
+      "wind_gusts_10m_max": 36.7
+     },
+     {
+      "time": "2026-10-12",
+      "temperature_2m_max": 17.2,
+      "temperature_2m_min": 0.1,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 28.4
+     },
+     {
+      "time": "2026-10-13",
+      "temperature_2m_max": 17.7,
+      "temperature_2m_min": 2.9,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 29.5
+     },
+     {
+      "time": "2026-10-14",
+      "temperature_2m_max": 19.2,
+      "temperature_2m_min": 3.5,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 28.8
+     },
+     {
+      "time": "2026-10-15",
+      "temperature_2m_max": 19.9,
+      "temperature_2m_min": 2.8,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 40.3
+     },
+     {
+      "time": "2026-10-16",
+      "temperature_2m_max": 20.7,
+      "temperature_2m_min": 5.7,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 30.6
+     },
+     {
+      "time": "2026-10-17",
+      "temperature_2m_max": 21.0,
+      "temperature_2m_min": 5.0,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 29.2
+     },
+     {
+      "time": "2026-10-18",
+      "temperature_2m_max": 13.6,
+      "temperature_2m_min": 0.9,
+      "precipitation_sum": 0.15,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 22.3
+     }
+    ],
+    "district": "Bezirk Brig"
+   }
+  },
+  {
+   "source": "meteo",
+   "id": "6037",
+   "kind": "forecast",
+   "date": "2026-10-03",
+   "title": "Prévisions 16 jours — Val de Bagnes",
+   "text": "Val de Bagnes: 1 jours de gel, 1 jours de forte pluie (>=10mm), 2 jours de neige sur 16 jours.",
+   "url": "https://open-meteo.com/en/docs?latitude=46.083&longitude=7.217",
+   "canton": "VS",
+   "commune": "Val de Bagnes",
+   "bfs": 6037,
+   "company": null,
+   "lat": 46.083,
+   "lon": 7.217,
+   "extra": {
+    "frost_days": [
+     "2026-10-12"
+    ],
+    "heavy_rain_days": [
+     "2026-10-08"
+    ],
+    "snow_days": [
+     "2026-10-10",
+     "2026-10-11"
+    ],
+    "daily": [
+     {
+      "time": "2026-10-03",
+      "temperature_2m_max": 19.6,
+      "temperature_2m_min": 11.7,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 9.0
+     },
+     {
+      "time": "2026-10-04",
+      "temperature_2m_max": 19.8,
+      "temperature_2m_min": 12.4,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 9.7
+     },
+     {
+      "time": "2026-10-05",
+      "temperature_2m_max": 20.9,
+      "temperature_2m_min": 11.1,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 17.6
+     },
+     {
+      "time": "2026-10-06",
+      "temperature_2m_max": 21.2,
+      "temperature_2m_min": 10.8,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 17.6
+     },
+     {
+      "time": "2026-10-07",
+      "temperature_2m_max": 20.3,
+      "temperature_2m_min": 11.7,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 15.8
+     },
+     {
+      "time": "2026-10-08",
+      "temperature_2m_max": 13.8,
+      "temperature_2m_min": 6.3,
+      "precipitation_sum": 20.1,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 27.4
+     },
+     {
+      "time": "2026-10-09",
+      "temperature_2m_max": 9.7,
+      "temperature_2m_min": 5.3,
+      "precipitation_sum": 1.5,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 28.1
+     },
+     {
+      "time": "2026-10-10",
+      "temperature_2m_max": 10.9,
+      "temperature_2m_min": 3.2,
+      "precipitation_sum": 6.3,
+      "snowfall_sum": 1.89,
+      "wind_gusts_10m_max": 29.9
+     },
+     {
+      "time": "2026-10-11",
+      "temperature_2m_max": 8.8,
+      "temperature_2m_min": 1.5,
+      "precipitation_sum": 7.8,
+      "snowfall_sum": 3.15,
+      "wind_gusts_10m_max": 17.6
+     },
+     {
+      "time": "2026-10-12",
+      "temperature_2m_max": 12.5,
+      "temperature_2m_min": -3.2,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 18.7
+     },
+     {
+      "time": "2026-10-13",
+      "temperature_2m_max": 15.4,
+      "temperature_2m_min": 3.1,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 22.3
+     },
+     {
+      "time": "2026-10-14",
+      "temperature_2m_max": 18.2,
+      "temperature_2m_min": 2.5,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 18.7
+     },
+     {
+      "time": "2026-10-15",
+      "temperature_2m_max": 19.6,
+      "temperature_2m_min": 4.6,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 21.6
+     },
+     {
+      "time": "2026-10-16",
+      "temperature_2m_max": 19.9,
+      "temperature_2m_min": 5.7,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 17.6
+     },
+     {
+      "time": "2026-10-17",
+      "temperature_2m_max": 20.1,
+      "temperature_2m_min": 5.9,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 19.8
+     },
+     {
+      "time": "2026-10-18",
+      "temperature_2m_max": 9.7,
+      "temperature_2m_min": 3.3,
+      "precipitation_sum": 1.65,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 12.1
+     }
+    ],
+    "district": "District d'Entremont"
+   }
+  },
+  {
+   "source": "meteo",
+   "id": "6253",
+   "kind": "forecast",
+   "date": "2026-10-03",
+   "title": "Prévisions 16 jours — Crans-Montana",
+   "text": "Crans-Montana: 7 jours de gel, 1 jours de forte pluie (>=10mm), 2 jours de neige sur 16 jours.",
+   "url": "https://open-meteo.com/en/docs?latitude=46.311&longitude=7.481",
+   "canton": "VS",
+   "commune": "Crans-Montana",
+   "bfs": 6253,
+   "company": null,
+   "lat": 46.311,
+   "lon": 7.481,
+   "extra": {
+    "frost_days": [
+     "2026-10-11",
+     "2026-10-12",
+     "2026-10-13",
+     "2026-10-14",
+     "2026-10-15",
+     "2026-10-16",
+     "2026-10-18"
+    ],
+    "heavy_rain_days": [
+     "2026-10-08"
+    ],
+    "snow_days": [
+     "2026-10-10",
+     "2026-10-11"
+    ],
+    "daily": [
+     {
+      "time": "2026-10-03",
+      "temperature_2m_max": 17.1,
+      "temperature_2m_min": 10.3,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 13.7
+     },
+     {
+      "time": "2026-10-04",
+      "temperature_2m_max": 17.4,
+      "temperature_2m_min": 10.3,
+      "precipitation_sum": 4.2,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 40.7
+     },
+     {
+      "time": "2026-10-05",
+      "temperature_2m_max": 18.0,
+      "temperature_2m_min": 8.7,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 14.4
+     },
+     {
+      "time": "2026-10-06",
+      "temperature_2m_max": 18.3,
+      "temperature_2m_min": 8.1,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 14.8
+     },
+     {
+      "time": "2026-10-07",
+      "temperature_2m_max": 14.9,
+      "temperature_2m_min": 7.3,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 25.6
+     },
+     {
+      "time": "2026-10-08",
+      "temperature_2m_max": 9.7,
+      "temperature_2m_min": 2.9,
+      "precipitation_sum": 15.45,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 25.6
+     },
+     {
+      "time": "2026-10-09",
+      "temperature_2m_max": 6.4,
+      "temperature_2m_min": 2.0,
+      "precipitation_sum": 1.2,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 28.8
+     },
+     {
+      "time": "2026-10-10",
+      "temperature_2m_max": 6.3,
+      "temperature_2m_min": 0.3,
+      "precipitation_sum": 4.95,
+      "snowfall_sum": 2.1,
+      "wind_gusts_10m_max": 25.2
+     },
+     {
+      "time": "2026-10-11",
+      "temperature_2m_max": 5.6,
+      "temperature_2m_min": -3.5,
+      "precipitation_sum": 7.2,
+      "snowfall_sum": 5.04,
+      "wind_gusts_10m_max": 20.5
+     },
+     {
+      "time": "2026-10-12",
+      "temperature_2m_max": 8.4,
+      "temperature_2m_min": -9.0,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 23.8
+     },
+     {
+      "time": "2026-10-13",
+      "temperature_2m_max": 9.7,
+      "temperature_2m_min": -4.6,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 24.8
+     },
+     {
+      "time": "2026-10-14",
+      "temperature_2m_max": 11.1,
+      "temperature_2m_min": -2.3,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 22.7
+     },
+     {
+      "time": "2026-10-15",
+      "temperature_2m_max": 13.5,
+      "temperature_2m_min": -2.1,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 31.7
+     },
+     {
+      "time": "2026-10-16",
+      "temperature_2m_max": 14.6,
+      "temperature_2m_min": -0.1,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 28.1
+     },
+     {
+      "time": "2026-10-17",
+      "temperature_2m_max": 14.6,
+      "temperature_2m_min": 0.5,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 25.9
+     },
+     {
+      "time": "2026-10-18",
+      "temperature_2m_max": 6.6,
+      "temperature_2m_min": -1.9,
+      "precipitation_sum": 0.3,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 18.1
+     }
+    ],
+    "district": "District de Sierre"
+   }
+  },
+  {
+   "source": "meteo",
+   "id": "6300",
+   "kind": "forecast",
+   "date": "2026-10-03",
+   "title": "Prévisions 16 jours — Zermatt",
+   "text": "Zermatt: 5 jours de gel, 1 jours de forte pluie (>=10mm), 2 jours de neige sur 16 jours.",
+   "url": "https://open-meteo.com/en/docs?latitude=46.02&longitude=7.749",
+   "canton": "VS",
+   "commune": "Zermatt",
+   "bfs": 6300,
+   "company": null,
+   "lat": 46.02,
+   "lon": 7.749,
+   "extra": {
+    "frost_days": [
+     "2026-10-12",
+     "2026-10-13",
+     "2026-10-14",
+     "2026-10-15",
+     "2026-10-18"
+    ],
+    "heavy_rain_days": [
+     "2026-10-08"
+    ],
+    "snow_days": [
+     "2026-10-10",
+     "2026-10-11"
+    ],
+    "daily": [
+     {
+      "time": "2026-10-03",
+      "temperature_2m_max": 17.7,
+      "temperature_2m_min": 7.5,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 17.3
+     },
+     {
+      "time": "2026-10-04",
+      "temperature_2m_max": 18.1,
+      "temperature_2m_min": 7.0,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 22.0
+     },
+     {
+      "time": "2026-10-05",
+      "temperature_2m_max": 15.4,
+      "temperature_2m_min": 7.7,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 23.4
+     },
+     {
+      "time": "2026-10-06",
+      "temperature_2m_max": 14.6,
+      "temperature_2m_min": 8.2,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 18.4
+     },
+     {
+      "time": "2026-10-07",
+      "temperature_2m_max": 10.5,
+      "temperature_2m_min": 7.5,
+      "precipitation_sum": 1.2,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 23.4
+     },
+     {
+      "time": "2026-10-08",
+      "temperature_2m_max": 9.7,
+      "temperature_2m_min": 4.1,
+      "precipitation_sum": 13.95,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 35.3
+     },
+     {
+      "time": "2026-10-09",
+      "temperature_2m_max": 7.0,
+      "temperature_2m_min": 2.0,
+      "precipitation_sum": 0.3,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 76.3
+     },
+     {
+      "time": "2026-10-10",
+      "temperature_2m_max": 8.2,
+      "temperature_2m_min": 0.5,
+      "precipitation_sum": 3.6,
+      "snowfall_sum": 2.52,
+      "wind_gusts_10m_max": 75.2
+     },
+     {
+      "time": "2026-10-11",
+      "temperature_2m_max": 4.8,
+      "temperature_2m_min": 0.8,
+      "precipitation_sum": 5.4,
+      "snowfall_sum": 3.78,
+      "wind_gusts_10m_max": 39.2
+     },
+     {
+      "time": "2026-10-12",
+      "temperature_2m_max": 7.5,
+      "temperature_2m_min": -6.8,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 34.6
+     },
+     {
+      "time": "2026-10-13",
+      "temperature_2m_max": 6.0,
+      "temperature_2m_min": -5.1,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 27.0
+     },
+     {
+      "time": "2026-10-14",
+      "temperature_2m_max": 8.9,
+      "temperature_2m_min": -2.1,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 20.9
+     },
+     {
+      "time": "2026-10-15",
+      "temperature_2m_max": 8.0,
+      "temperature_2m_min": -2.9,
+      "precipitation_sum": 0.3,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 22.7
+     },
+     {
+      "time": "2026-10-16",
+      "temperature_2m_max": 8.9,
+      "temperature_2m_min": 3.6,
+      "precipitation_sum": 0.9,
+      "snowfall_sum": 0.42,
+      "wind_gusts_10m_max": 22.7
+     },
+     {
+      "time": "2026-10-17",
+      "temperature_2m_max": 9.2,
+      "temperature_2m_min": 5.3,
+      "precipitation_sum": 0.6,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 23.0
+     },
+     {
+      "time": "2026-10-18",
+      "temperature_2m_max": 7.4,
+      "temperature_2m_min": -0.5,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 15.3
+     }
+    ],
+    "district": "Bezirk Visp"
+   }
+  },
+  {
+   "source": "meteo",
+   "id": "6023",
+   "kind": "forecast",
+   "date": "2026-10-03",
+   "title": "Prévisions 16 jours — Conthey",
+   "text": "Conthey: 0 jours de gel, 1 jours de forte pluie (>=10mm), 2 jours de neige sur 16 jours.",
+   "url": "https://open-meteo.com/en/docs?latitude=46.224&longitude=7.302",
+   "canton": "VS",
+   "commune": "Conthey",
+   "bfs": 6023,
+   "company": null,
+   "lat": 46.224,
+   "lon": 7.302,
+   "extra": {
+    "frost_days": [],
+    "heavy_rain_days": [
+     "2026-10-08"
+    ],
+    "snow_days": [
+     "2026-10-10",
+     "2026-10-11"
+    ],
+    "daily": [
+     {
+      "time": "2026-10-03",
+      "temperature_2m_max": 24.8,
+      "temperature_2m_min": 13.7,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 28.8
+     },
+     {
+      "time": "2026-10-04",
+      "temperature_2m_max": 25.0,
+      "temperature_2m_min": 12.4,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 33.5
+     },
+     {
+      "time": "2026-10-05",
+      "temperature_2m_max": 24.3,
+      "temperature_2m_min": 12.7,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 16.6
+     },
+     {
+      "time": "2026-10-06",
+      "temperature_2m_max": 24.2,
+      "temperature_2m_min": 14.8,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 19.1
+     },
+     {
+      "time": "2026-10-07",
+      "temperature_2m_max": 21.4,
+      "temperature_2m_min": 13.6,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 20.2
+     },
+     {
+      "time": "2026-10-08",
+      "temperature_2m_max": 16.6,
+      "temperature_2m_min": 10.1,
+      "precipitation_sum": 17.4,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 24.5
+     },
+     {
+      "time": "2026-10-09",
+      "temperature_2m_max": 13.7,
+      "temperature_2m_min": 9.3,
+      "precipitation_sum": 1.2,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 30.2
+     },
+     {
+      "time": "2026-10-10",
+      "temperature_2m_max": 13.5,
+      "temperature_2m_min": 6.5,
+      "precipitation_sum": 6.0,
+      "snowfall_sum": 2.52,
+      "wind_gusts_10m_max": 20.9
+     },
+     {
+      "time": "2026-10-11",
+      "temperature_2m_max": 11.2,
+      "temperature_2m_min": 4.2,
+      "precipitation_sum": 7.2,
+      "snowfall_sum": 5.04,
+      "wind_gusts_10m_max": 21.2
+     },
+     {
+      "time": "2026-10-12",
+      "temperature_2m_max": 13.9,
+      "temperature_2m_min": 1.4,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 25.2
+     },
+     {
+      "time": "2026-10-13",
+      "temperature_2m_max": 15.9,
+      "temperature_2m_min": 3.8,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 25.9
+     },
+     {
+      "time": "2026-10-14",
+      "temperature_2m_max": 19.0,
+      "temperature_2m_min": 6.7,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 22.0
+     },
+     {
+      "time": "2026-10-15",
+      "temperature_2m_max": 21.2,
+      "temperature_2m_min": 5.8,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 31.0
+     },
+     {
+      "time": "2026-10-16",
+      "temperature_2m_max": 21.8,
+      "temperature_2m_min": 9.3,
+      "precipitation_sum": 0.0,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 24.1
+     },
+     {
+      "time": "2026-10-17",
+      "temperature_2m_max": 21.7,
+      "temperature_2m_min": 10.6,
+      "precipitation_sum": 0.6,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 23.8
+     },
+     {
+      "time": "2026-10-18",
+      "temperature_2m_max": 13.2,
+      "temperature_2m_min": 5.2,
+      "precipitation_sum": 0.6,
+      "snowfall_sum": 0.0,
+      "wind_gusts_10m_max": 13.2
+     }
+    ],
+    "district": "District de Conthey"
+   }
+  }
+ ]
+}

@@ -1,0 +1,786 @@
+{
+ "source": "penurie",
+ "fetched_at": "2026-10-03T11:37:41",
+ "params": {},
+ "count": 31,
+ "records": [
+  {
+   "source": "penurie",
+   "id": "2026-1221",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Directeurs et cadres de direction, ventes et marketing",
+   "text": "Directeurs et cadres de direction, ventes et marketing (CH-ISCO 1221) : taux de chômage 6.2 % (3176 chômeurs / 50931 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "1221"
+    ],
+    "isco_raw": "1221",
+    "unemployed": 3176,
+    "employed": 50931,
+    "unemployment_rate": 6.2,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-21130",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Chimistes",
+   "text": "Chimistes (CH-ISCO 21130) : taux de chômage 5.5 % (216 chômeurs / 3944 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "21130"
+    ],
+    "isco_raw": "21130",
+    "unemployed": 216,
+    "employed": 3944,
+    "unemployment_rate": 5.5,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-21310",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Biologistes, botanistes, zoologistes et assimilés",
+   "text": "Biologistes, botanistes, zoologistes et assimilés (CH-ISCO 21310) : taux de chômage 6.8 % (614 chômeurs / 8981 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "21310"
+    ],
+    "isco_raw": "21310",
+    "unemployed": 614,
+    "employed": 8981,
+    "unemployment_rate": 6.8,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-21330",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Spécialistes de la protection de l’environnement",
+   "text": "Spécialistes de la protection de l’environnement (CH-ISCO 21330) : taux de chômage 5.1 % (182 chômeurs / 3527 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "21330"
+    ],
+    "isco_raw": "21330",
+    "unemployed": 182,
+    "employed": 3527,
+    "unemployment_rate": 5.1,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-21660",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Concepteurs graphiques, multimédia – graphistes",
+   "text": "Concepteurs graphiques, multimédia – graphistes (CH-ISCO 21660) : taux de chômage 5.5 % (733 chômeurs / 13373 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "21660"
+    ],
+    "isco_raw": "21660",
+    "unemployed": 733,
+    "employed": 13373,
+    "unemployment_rate": 5.5,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-24331",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Spécialistes techniques des ventes (à l’exception des TIC), secteur technique",
+   "text": "Spécialistes techniques des ventes (à l’exception des TIC), secteur technique (CH-ISCO 24331) : taux de chômage 5.5 % (561 chômeurs / 10214 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "24331"
+    ],
+    "isco_raw": "24331",
+    "unemployed": 561,
+    "employed": 10214,
+    "unemployment_rate": 5.5,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-24332",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Spécialistes techniques des ventes (à l’exception des TIC), secteur médical",
+   "text": "Spécialistes techniques des ventes (à l’exception des TIC), secteur médical (CH-ISCO 24332) : taux de chômage 7.8 % (163 chômeurs / 2080 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "24332"
+    ],
+    "isco_raw": "24332",
+    "unemployed": 163,
+    "employed": 2080,
+    "unemployment_rate": 7.8,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-26310",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Économistes",
+   "text": "Économistes (CH-ISCO 26310) : taux de chômage 6.0 % (141 chômeurs / 2340 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "26310"
+    ],
+    "isco_raw": "26310",
+    "unemployed": 141,
+    "employed": 2340,
+    "unemployment_rate": 6.0,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-26320",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Sociologues, anthropologues et assimilés",
+   "text": "Sociologues, anthropologues et assimilés (CH-ISCO 26320) : taux de chômage 6.9 % (101 chômeurs / 1460 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "26320"
+    ],
+    "isco_raw": "26320",
+    "unemployed": 101,
+    "employed": 1460,
+    "unemployment_rate": 6.9,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-26330",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Philosophes, historiens et spécialistes des sciences politiques",
+   "text": "Philosophes, historiens et spécialistes des sciences politiques (CH-ISCO 26330) : taux de chômage 6.7 % (90 chômeurs / 1342 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "26330"
+    ],
+    "isco_raw": "26330",
+    "unemployed": 90,
+    "employed": 1342,
+    "unemployment_rate": 6.7,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-26550",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Acteurs",
+   "text": "Acteurs (CH-ISCO 26550) : taux de chômage 11.3 % (170 chômeurs / 1504 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "26550"
+    ],
+    "isco_raw": "26550",
+    "unemployed": 170,
+    "employed": 1504,
+    "unemployment_rate": 11.3,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-33320",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Organisateurs de conférences et d’événements",
+   "text": "Organisateurs de conférences et d’événements (CH-ISCO 33320) : taux de chômage 7.2 % (394 chômeurs / 5480 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "33320"
+    ],
+    "isco_raw": "33320",
+    "unemployed": 394,
+    "employed": 5480,
+    "unemployment_rate": 7.2,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-4222; 4223",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Employés de centre d’appel ; téléphonistes- standardistes",
+   "text": "Employés de centre d’appel ; téléphonistes- standardistes (CH-ISCO 4222; 4223) : taux de chômage 12.2 % (562 chômeurs / 4603 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "4222",
+     "4223"
+    ],
+    "isco_raw": "4222; 4223",
+    "unemployed": 562,
+    "employed": 4603,
+    "unemployment_rate": 12.2,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-42240",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Réceptionnistes, hôtellerie",
+   "text": "Réceptionnistes, hôtellerie (CH-ISCO 42240) : taux de chômage 7.7 % (289 chômeurs / 3740 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "42240"
+    ],
+    "isco_raw": "42240",
+    "unemployed": 289,
+    "employed": 3740,
+    "unemployment_rate": 7.7,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-4225-4229",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Employés, service d’information ; réceptionnistes ; études de marché",
+   "text": "Employés, service d’information ; réceptionnistes ; études de marché (CH-ISCO 4225-4229) : taux de chômage 5.4 % (633 chômeurs / 11711 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "4225",
+     "4229"
+    ],
+    "isco_raw": "4225-4229",
+    "unemployed": 633,
+    "employed": 11711,
+    "unemployment_rate": 5.4,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-51200",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Cuisiniers",
+   "text": "Cuisiniers (CH-ISCO 51200) : taux de chômage 5.3 % (2313 chômeurs / 43570 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "51200"
+    ],
+    "isco_raw": "51200",
+    "unemployed": 2313,
+    "employed": 43570,
+    "unemployment_rate": 5.3,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-51311",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Chefs de service de la restauration",
+   "text": "Chefs de service de la restauration (CH-ISCO 51311) : taux de chômage 9.0 % (528 chômeurs / 5862 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "51311"
+    ],
+    "isco_raw": "51311",
+    "unemployed": 528,
+    "employed": 5862,
+    "unemployment_rate": 9.0,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-51313",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Auxiliaires de restauration",
+   "text": "Auxiliaires de restauration (CH-ISCO 51313) : taux de chômage 7.4 % (1985 chômeurs / 26969 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "51313"
+    ],
+    "isco_raw": "51313",
+    "unemployed": 1985,
+    "employed": 26969,
+    "unemployment_rate": 7.4,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-71140",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Constructeurs en béton armé, maçons ragréeurs et assimilés",
+   "text": "Constructeurs en béton armé, maçons ragréeurs et assimilés (CH-ISCO 71140) : taux de chômage 10.4 % (423 chômeurs / 4074 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "71140"
+    ],
+    "isco_raw": "71140",
+    "unemployed": 423,
+    "employed": 4074,
+    "unemployment_rate": 10.4,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-71190",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Métiers qualifiés du bâtiment et assimilés non classés ailleurs",
+   "text": "Métiers qualifiés du bâtiment et assimilés non classés ailleurs (CH-ISCO 71190) : taux de chômage 7.0 % (347 chômeurs / 4983 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "71190"
+    ],
+    "isco_raw": "71190",
+    "unemployed": 347,
+    "employed": 4983,
+    "unemployment_rate": 7.0,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-71230",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Plâtriers, constructeurs à sec",
+   "text": "Plâtriers, constructeurs à sec (CH-ISCO 71230) : taux de chômage 10.0 % (775 chômeurs / 7777 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "71230"
+    ],
+    "isco_raw": "71230",
+    "unemployed": 775,
+    "employed": 7777,
+    "unemployment_rate": 10.0,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-71240; 71241",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Monteurs en isolation thermique et acoustique sans indication particulière; isoleurs, enveloppe des bâtiments",
+   "text": "Monteurs en isolation thermique et acoustique sans indication particulière; isoleurs, enveloppe des bâtiments (CH-ISCO 71240; 71241) : taux de chômage 7.0 % (346 chômeurs / 4966 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "71240",
+     "71241"
+    ],
+    "isco_raw": "71240; 71241",
+    "unemployed": 346,
+    "employed": 4966,
+    "unemployment_rate": 7.0,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-71310",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Peintres en bâtiment et poseurs de papiers peints",
+   "text": "Peintres en bâtiment et poseurs de papiers peints (CH-ISCO 71310) : taux de chômage 5.3 % (1077 chômeurs / 20388 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "71310"
+    ],
+    "isco_raw": "71310",
+    "unemployed": 1077,
+    "employed": 20388,
+    "unemployment_rate": 5.3,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-72120",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Soudeurs et oxycoupeurs",
+   "text": "Soudeurs et oxycoupeurs (CH-ISCO 72120) : taux de chômage 5.1 % (173 chômeurs / 3368 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "72120"
+    ],
+    "isco_raw": "72120",
+    "unemployed": 173,
+    "employed": 3368,
+    "unemployment_rate": 5.1,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-72240",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Meuleurs, polisseurs et affûteurs",
+   "text": "Meuleurs, polisseurs et affûteurs (CH-ISCO 72240) : taux de chômage 7.5 % (195 chômeurs / 2610 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "72240"
+    ],
+    "isco_raw": "72240",
+    "unemployed": 195,
+    "employed": 2610,
+    "unemployment_rate": 7.5,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-73112",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Opérateurs en horlogerie",
+   "text": "Opérateurs en horlogerie (CH-ISCO 73112) : taux de chômage 8.7 % (757 chômeurs / 8686 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "73112"
+    ],
+    "isco_raw": "73112",
+    "unemployed": 757,
+    "employed": 8686,
+    "unemployment_rate": 8.7,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-81570",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Conducteurs de machines de blanchisserie",
+   "text": "Conducteurs de machines de blanchisserie (CH-ISCO 81570) : taux de chômage 5.9 % (279 chômeurs / 4761 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "81570"
+    ],
+    "isco_raw": "81570",
+    "unemployed": 279,
+    "employed": 4761,
+    "unemployment_rate": 5.9,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-83440",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Conducteurs de chariots élévateurs et des travaux publics (excepté génie civil), des industries manufacturières et des transports",
+   "text": "Conducteurs de chariots élévateurs et des travaux publics (excepté génie civil), des industries manufacturières et des transports (CH-ISCO 83440) : taux de chômage 7.2 % (104 chômeurs / 1446 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "83440"
+    ],
+    "isco_raw": "83440",
+    "unemployed": 104,
+    "employed": 1446,
+    "unemployment_rate": 7.2,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-91120",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Agents d’entretien (bureaux, hôtels et autres établissements)",
+   "text": "Agents d’entretien (bureaux, hôtels et autres établissements) (CH-ISCO 91120) : taux de chômage 5.3 % (4243 chômeurs / 79529 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "91120"
+    ],
+    "isco_raw": "91120",
+    "unemployed": 4243,
+    "employed": 79529,
+    "unemployment_rate": 5.3,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-92110",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Manœuvres des cultures maraîchères et arboricoles",
+   "text": "Manœuvres des cultures maraîchères et arboricoles (CH-ISCO 92110) : taux de chômage 13.5 % (213 chômeurs / 1577 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "92110"
+    ],
+    "isco_raw": "92110",
+    "unemployed": 213,
+    "employed": 1577,
+    "unemployment_rate": 13.5,
+    "year": 2026
+   }
+  },
+  {
+   "source": "penurie",
+   "id": "2026-92140",
+   "kind": "obligation d'annonce",
+   "date": "2026-01-01",
+   "title": "Manœuvres, paysagisme et horticulture",
+   "text": "Manœuvres, paysagisme et horticulture (CH-ISCO 92140) : taux de chômage 7.2 % (386 chômeurs / 5372 actifs) — soumis à l'obligation d'annonce 2026",
+   "url": "https://www.arbeit.swiss/api/media/fileservice/sdweb-docs-prod-arbeitswiss-files/files/2026/07/13/591833ce-f2fc-43f0-91bc-cc28c656eab1.pdf",
+   "canton": null,
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "isco_codes": [
+     "92140"
+    ],
+    "isco_raw": "92140",
+    "unemployed": 386,
+    "employed": 5372,
+    "unemployment_rate": 7.2,
+    "year": 2026
+   }
+  }
+ ]
+}

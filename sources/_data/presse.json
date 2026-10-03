@@ -1,0 +1,1219 @@
+{
+ "source": "presse",
+ "fetched_at": "2026-10-03T11:37:54",
+ "params": {},
+ "count": 54,
+ "records": [
+  {
+   "source": "presse",
+   "id": "1516443",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-03",
+   "title": "«Maman sort danser»: la soirée 100% féminine à Sion qui fait réagir les internautes valaisans",
+   "text": "«Maman sort danser»: la soirée 100% féminine à Sion qui fait réagir les internautes valaisans\nMots-clés : Sion (Commune), Société",
+   "url": "https://www.lenouvelliste.ch/valais/valais-central/sion-district/sion-commune/maman-sort-danser-la-soiree-100-feminine-a-sion-qui-fait-reagir-les-internautes-valaisans-1516443",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Sion (Commune)",
+     "Société"
+    ],
+    "section": "valais-central"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1515804",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-03",
+   "title": "«Acheter du raisin, c’est d’abord le payer»: Philippe Nantermod dénonce la concurrence déloyale valaisanne",
+   "text": "«Acheter du raisin, c’est d’abord le payer»: Philippe Nantermod dénonce la concurrence déloyale valaisanne\nMots-clés : Valais, Viticulture, Interview",
+   "url": "https://www.lenouvelliste.ch/valais/acheter-du-raisin-cest-dabord-le-payer-philippe-nantermod-denonce-la-concurrence-deloyale-valaisanne-1515804",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Valais",
+     "Viticulture",
+     "Interview"
+    ],
+    "section": null
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516473",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-02",
+   "title": "Christian Constantin et le Cervin Coliseum: «Les 450 millions seront des fonds privés, certainement de ma poche»",
+   "text": "Christian Constantin et le Cervin Coliseum: «Les 450 millions seront des fonds privés, certainement de ma poche»\nMots-clés : FC Sion, Sion (Commune)",
+   "url": "https://www.lenouvelliste.ch/valais/valais-central/sion-district/sion-commune/christian-constantin-et-le-cervin-coliseum-les-450-millions-seront-des-fonds-prives-certainement-de-ma-poche-1516473",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "FC Sion",
+     "Sion (Commune)"
+    ],
+    "section": "valais-central"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516380",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-02",
+   "title": "Foire du Valais: le 2e visiteur, l’oscar du «rookie» de l’année, Top Gun avec Viola Amherdt… nos histoires décalées",
+   "text": "Foire du Valais: le 2e visiteur, l’oscar du «rookie» de l’année, Top Gun avec Viola Amherdt… nos histoires décalées\nMots-clés : La Foire du Valais, Martigny (Commune)",
+   "url": "https://www.lenouvelliste.ch/valais/bas-valais/martigny-district/martigny-commune/foire-du-valais-le-2e-visiteur-loscar-du-rookie-de-lannee-top-gun-avec-viola-amherdt-nos-histoires-decalees-1516380",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "La Foire du Valais",
+     "Martigny (Commune)"
+    ],
+    "section": "bas-valais"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516286",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-02",
+   "title": "«Quand tu pêches sans hameçon, tu peux aller un bout…» L’actu de la semaine dans la tête d’Hugolin",
+   "text": "«Quand tu pêches sans hameçon, tu peux aller un bout…» L’actu de la semaine dans la tête d’Hugolin\nMots-clés : Entre nous, Valais",
+   "url": "https://www.lenouvelliste.ch/valais/quand-tu-peches-sans-hamecon-tu-peux-aller-un-bout-lactu-de-la-semaine-dans-la-tete-dhugolin-1516286",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Entre nous",
+     "Valais"
+    ],
+    "section": null
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516436",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-02",
+   "title": "«Le fromage des morts» d’Anniviers: comment des meules racontent 150 ans d’évolution de la vallée",
+   "text": "«Le fromage des morts» d’Anniviers: comment des meules racontent 150 ans d’évolution de la vallée\nMots-clés : Grimentz, Anniviers, Terroir, Le terroir valaisan",
+   "url": "https://www.lenouvelliste.ch/valais/valais-central/sierre-district/anniviers/grimentz/le-fromage-des-morts-danniviers-comment-des-meules-racontent-150-ans-devolution-de-la-vallee-1516436",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Grimentz",
+     "Anniviers",
+     "Terroir",
+     "Le terroir valaisan"
+    ],
+    "section": "valais-central"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516396",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-02",
+   "title": "À nouveau privé d’une pièce importante, le BBC Monthey-Chablais s’en va défier Pully-Lausanne",
+   "text": "À nouveau privé d’une pièce importante, le BBC Monthey-Chablais s’en va défier Pully-Lausanne\nMots-clés : BBC Monthey, Monthey (District)",
+   "url": "https://www.lenouvelliste.ch/valais/chablais-valaisan/monthey-district/a-nouveau-prive-dune-piece-importante-le-bbc-monthey-chablais-sen-va-defier-pully-lausanne-1516396",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "BBC Monthey",
+     "Monthey (District)"
+    ],
+    "section": "chablais-valaisan"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1515865",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-02",
+   "title": "Que mangeait-on il y a 700 ans? A Sion, 131 recettes racontent la cuisine du Moyen Âge",
+   "text": "Que mangeait-on il y a 700 ans? A Sion, 131 recettes racontent la cuisine du Moyen Âge\nMots-clés : Sion (Commune), Gastronomie, Littérature",
+   "url": "https://www.lenouvelliste.ch/valais/valais-central/sion-district/sion-commune/que-mangeait-on-il-y-a-700-ans-a-sion-131-recettes-racontent-la-cuisine-du-moyen-age-1515865",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Sion (Commune)",
+     "Gastronomie",
+     "Littérature"
+    ],
+    "section": "valais-central"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516133",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-02",
+   "title": "Dans les coulisses de l’école qui forme les futurs Rast, Meillard et Odermatt: «On les prépare aussi à la vie active»",
+   "text": "Dans les coulisses de l’école qui forme les futurs Rast, Meillard et Odermatt: «On les prépare aussi à la vie active»\nMots-clés : Ski, Valais",
+   "url": "https://www.lenouvelliste.ch/valais/dans-les-coulisses-de-lecole-qui-forme-les-futurs-rast-meillard-et-odermatt-on-les-prepare-aussi-a-la-vie-active-1516133",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Ski",
+     "Valais"
+    ],
+    "section": null
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516456",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-02",
+   "title": "Prix créateurs BCVs: un assistant virtuel pour le personnel soignant décroche le coup de cœur",
+   "text": "Prix créateurs BCVs: un assistant virtuel pour le personnel soignant décroche le coup de cœur\nMots-clés : Valais, La Foire du Valais, Entreprises & innovation, Santé, Intelligence artificielle",
+   "url": "https://www.lenouvelliste.ch/valais/prix-createurs-bcvs-un-assistant-virtuel-pour-le-personnel-soignant-decroche-le-coup-de-coeur-1516456",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Valais",
+     "La Foire du Valais",
+     "Entreprises & innovation",
+     "Santé",
+     "Intelligence artificielle"
+    ],
+    "section": null
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516408",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-02",
+   "title": "Avant de partir, Guy Parmelin fâche les vignerons, Valaisans en tête",
+   "text": "Avant de partir, Guy Parmelin fâche les vignerons, Valaisans en tête\nMots-clés : Valais, Suisse, Viticulture",
+   "url": "https://www.lenouvelliste.ch/valais/avant-de-partir-guy-parmelin-fache-les-vignerons-valaisans-en-tete-1516408",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Valais",
+     "Suisse",
+     "Viticulture"
+    ],
+    "section": null
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516096",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-02",
+   "title": "Mila Thiessoz ne devait plus pouvoir chanter: la Sédunoise gagne le Tremplin Suisse 2026",
+   "text": "Mila Thiessoz ne devait plus pouvoir chanter: la Sédunoise gagne le Tremplin Suisse 2026\nMots-clés : Musique, Sion (Commune)",
+   "url": "https://www.lenouvelliste.ch/valais/valais-central/sion-district/sion-commune/la-sedunoise-mila-thiessoz-gagnante-du-tremplin-suisse-2026-1516096",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Musique",
+     "Sion (Commune)"
+    ],
+    "section": "valais-central"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1515933",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-02",
+   "title": "Ces déchets qui mettent le feu aux centres de tri et la table ronde Crans-Montana: ce que vous avez aimé… ou pas cette semaine",
+   "text": "Ces déchets qui mettent le feu aux centres de tri et la table ronde Crans-Montana: ce que vous avez aimé… ou pas cette semaine\nMots-clés : Entre nous, Valais",
+   "url": "https://www.lenouvelliste.ch/valais/ces-dechets-qui-mettent-le-feu-aux-centres-de-tri-et-la-table-ronde-crans-montana-ce-que-vous-avez-aime-ou-pas-cette-semaine-1515933",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Entre nous",
+     "Valais"
+    ],
+    "section": null
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516439",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-02",
+   "title": "FC Sion: le projet de futur stade à 21 000 places est déposé en enquête préalable",
+   "text": "FC Sion: le projet de futur stade à 21 000 places est déposé en enquête préalable\nMots-clés : FC Sion, Sion (Commune)",
+   "url": "https://www.lenouvelliste.ch/valais/valais-central/sion-district/sion-commune/fc-sion-le-projet-de-futur-stade-a-21-000-places-est-depose-en-enquete-prealable-1516439",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "FC Sion",
+     "Sion (Commune)"
+    ],
+    "section": "valais-central"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516425",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-02",
+   "title": "Incendie d’un garage automobile à Zermatt: 3 blessés, dont 2 héliportés à Lausanne et Zurich",
+   "text": "Incendie d’un garage automobile à Zermatt: 3 blessés, dont 2 héliportés à Lausanne et Zurich\nMots-clés : Zermatt, Fait divers",
+   "url": "https://www.lenouvelliste.ch/valais/haut-valais/zermatt/zermatt-3-blesses-dans-lincendie-dun-garage-automobile-1516425",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Zermatt",
+     "Fait divers"
+    ],
+    "section": "haut-valais"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516394",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-02",
+   "title": "HES-SO Valais-Wallis: Natalie Sarrasin distinguée dans le domaine de l’intelligence artificielle",
+   "text": "HES-SO Valais-Wallis: Natalie Sarrasin distinguée dans le domaine de l’intelligence artificielle\nMots-clés : Valais, Education & formation",
+   "url": "https://www.lenouvelliste.ch/valais/hes-so-valais-wallis-natalie-sarrasin-distinguee-dans-le-domaine-de-lintelligence-artificielle-1516394",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Valais",
+     "Education & formation"
+    ],
+    "section": null
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516381",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-02",
+   "title": "La Banque cantonale du Valais se dote d’un nouveau directeur général chargé de la gestion de fortune",
+   "text": "La Banque cantonale du Valais se dote d’un nouveau directeur général chargé de la gestion de fortune\nMots-clés : Valais, Finance",
+   "url": "https://www.lenouvelliste.ch/valais/la-banque-cantonale-du-valais-se-dote-dun-nouveau-directeur-general-charge-de-la-gestion-de-fortune-1516381",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Valais",
+     "Finance"
+    ],
+    "section": null
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1512942",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-02",
+   "title": "Une Valaisanne a perdu son bébé mort pendant la grossesse: comment raconter l’indicible? Les coulisses de l’info",
+   "text": "Une Valaisanne a perdu son bébé mort pendant la grossesse: comment raconter l’indicible? Les coulisses de l’info\nMots-clés : Entre nous, Valais",
+   "url": "https://www.lenouvelliste.ch/valais/les-annonces-electorales-des-elus-valaisans-les-coulisses-de-linfo-1512942",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Entre nous",
+     "Valais"
+    ],
+    "section": null
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516239",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-02",
+   "title": "Foire du Valais: dédicaces, pop-corn, concours, quiz… les animations du stand du «Nouvelliste» et de RhôneFM",
+   "text": "Foire du Valais: dédicaces, pop-corn, concours, quiz… les animations du stand du «Nouvelliste» et de RhôneFM\nMots-clés : La Foire du Valais, Martigny (Commune)",
+   "url": "https://www.lenouvelliste.ch/valais/bas-valais/martigny-district/martigny-commune/foire-du-valais-dedicaces-pop-corn-concours-quiz-les-animations-du-stand-du-nouvelliste-et-de-rhonefm-1516239",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "La Foire du Valais",
+     "Martigny (Commune)"
+    ],
+    "section": "bas-valais"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516255",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-02",
+   "title": "En manque de réserves, 2 caisses maladie valaisannes vont disparaître par fusion en 2027",
+   "text": "En manque de réserves, 2 caisses maladie valaisannes vont disparaître par fusion en 2027\nMots-clés : Entremont (District), Santé",
+   "url": "https://www.lenouvelliste.ch/valais/bas-valais/entremont-district/en-manque-de-reserves-2-caisses-maladie-valaisannes-vont-disparaitre-par-fusion-en-2027-1516255",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Entremont (District)",
+     "Santé"
+    ],
+    "section": "bas-valais"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516332",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-01",
+   "title": "Garage en feu à Zermatt: incendie maîtrisé et trafic ferroviaire rétabli",
+   "text": "Garage en feu à Zermatt: incendie maîtrisé et trafic ferroviaire rétabli\nMots-clés : Zermatt, Fait divers",
+   "url": "https://www.lenouvelliste.ch/valais/haut-valais/zermatt/un-garage-en-feu-a-zermatt-la-population-appelee-a-rester-chez-elle-1516332",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Zermatt",
+     "Fait divers"
+    ],
+    "section": "haut-valais"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516187",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-01",
+   "title": "Le cinéma se sent comme à la maison en Valais: 4 choses à savoir alors que la Foire célèbre le 7e art",
+   "text": "Le cinéma se sent comme à la maison en Valais: 4 choses à savoir alors que la Foire célèbre le 7e art\nMots-clés : La Foire du Valais, Valais, Cinéma",
+   "url": "https://www.lenouvelliste.ch/valais/le-cinema-se-sent-comme-a-la-maison-en-valais-4-choses-a-savoir-alors-que-la-foire-celebre-le-7e-art-1516187",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "La Foire du Valais",
+     "Valais",
+     "Cinéma"
+    ],
+    "section": null
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516122",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-01",
+   "title": "Les caisses maladie disposent de 2,8 milliards de réserves «en trop». Quelles conséquences en Valais?",
+   "text": "Les caisses maladie disposent de 2,8 milliards de réserves «en trop». Quelles conséquences en Valais?\nMots-clés : Valais, Santé",
+   "url": "https://www.lenouvelliste.ch/valais/les-caisses-maladie-disposent-de-28-milliards-de-reserves-en-trop-quelles-consequences-en-valais-1516122",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Valais",
+     "Santé"
+    ],
+    "section": null
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516235",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-01",
+   "title": "«J’ai fait du vélomoteur jusqu’à plus de 90 ans» A 106 ans, la Sierroise Madeleine Eggs est la doyenne du Valais",
+   "text": "«J’ai fait du vélomoteur jusqu’à plus de 90 ans» A 106 ans, la Sierroise Madeleine Eggs est la doyenne du Valais\nMots-clés : Sierre (Commune)",
+   "url": "https://www.lenouvelliste.ch/valais/valais-central/sierre-district/sierre-commune/jai-fait-du-velomoteur-jusqua-plus-de-90-ans-a-106-ans-la-sierroise-madeleine-eggs-est-la-doyenne-du-valais-1516235",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Sierre (Commune)"
+    ],
+    "section": "valais-central"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516326",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-01",
+   "title": "Troisième correction du Rhône: malgré les révisions valaisannes, le projet avance dans le Chablais",
+   "text": "Troisième correction du Rhône: malgré les révisions valaisannes, le projet avance dans le Chablais\nMots-clés : Chablais valaisan, Chablais vaudois, Vouvry (Commune), Massongex, Monthey (Commune), Collombey-Muraz (Commune), Dangers naturels, Les étapes des corrections du Rhône",
+   "url": "https://www.lenouvelliste.ch/valais/chablais-valaisan/monthey-district/vouvry-commune/troisieme-correction-du-rhone-malgre-les-revisions-valaisannes-le-projet-avance-dans-le-chablais-1516326",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Chablais valaisan",
+     "Chablais vaudois",
+     "Vouvry (Commune)",
+     "Massongex",
+     "Monthey (Commune)",
+     "Collombey-Muraz (Commune)",
+     "Dangers naturels",
+     "Les étapes des corrections du Rhône"
+    ],
+    "section": "chablais-valaisan"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516109",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-01",
+   "title": "Européens de cyclisme: pourquoi Valentine Rousseaux et Valentin Darbellay n’étaient pas attendus à ce niveau",
+   "text": "Européens de cyclisme: pourquoi Valentine Rousseaux et Valentin Darbellay n’étaient pas attendus à ce niveau\nMots-clés : Cyclisme, Martigny (Commune), Liddes",
+   "url": "https://www.lenouvelliste.ch/valais/bas-valais/martigny-district/martigny-commune/europeens-de-cyclisme-pourquoi-valentine-rousseaux-et-valentin-darbellay-netaient-pas-attendus-a-ce-niveau-1516109",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Cyclisme",
+     "Martigny (Commune)",
+     "Liddes"
+    ],
+    "section": "bas-valais"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1515486",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-01",
+   "title": "La vente de véhicules 100% électriques explose en Valais",
+   "text": "La vente de véhicules 100% électriques explose en Valais\nMots-clés : Valais, Mobilité",
+   "url": "https://www.lenouvelliste.ch/valais/la-vente-de-vehicules-100-electriques-explose-en-valais-1515486",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Valais",
+     "Mobilité"
+    ],
+    "section": null
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516321",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-01",
+   "title": "Sion et Sierre: 9 arrestations après des vols par effraction dans deux garages et une carrosserie",
+   "text": "Sion et Sierre: 9 arrestations après des vols par effraction dans deux garages et une carrosserie\nMots-clés : Sion (Commune), Sierre (Commune), Fait divers",
+   "url": "https://www.lenouvelliste.ch/valais/valais-central/sion-district/sion-commune/sion-et-sierre-9-arrestations-apres-des-vols-par-effraction-dans-deux-garages-et-une-carrosserie-1516321",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Sion (Commune)",
+     "Sierre (Commune)",
+     "Fait divers"
+    ],
+    "section": "valais-central"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516300",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-01",
+   "title": "Crans-Montana: feu vert fédéral aux JO 2038 sans passer par le peuple, «une victoire pour le Valais»",
+   "text": "Crans-Montana: feu vert fédéral aux JO 2038 sans passer par le peuple, «une victoire pour le Valais»\nMots-clés : Valais, Politique, Sport",
+   "url": "https://www.lenouvelliste.ch/valais/crans-montana-feu-vert-federal-aux-jo-2038-sans-passer-par-le-peuple-une-victoire-pour-le-valais-1516300",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Valais",
+     "Politique",
+     "Sport"
+    ],
+    "section": null
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516283",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-01",
+   "title": "Fully: la cavalière Sophie Gillioz collectionne les médailles aux championnats suisses d’équitation western",
+   "text": "Fully: la cavalière Sophie Gillioz collectionne les médailles aux championnats suisses d’équitation western\nMots-clés : Fully, Sport",
+   "url": "https://www.lenouvelliste.ch/valais/bas-valais/martigny-district/fully/fully-la-cavaliere-sophie-gillioz-collectionne-les-medailles-aux-championnats-suisses-dequitation-western-1516283",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Fully",
+     "Sport"
+    ],
+    "section": "bas-valais"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516236",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-01",
+   "title": "Sierre: le réaménagement de Muraz donnera plus de place aux piétons… mais son parking divise",
+   "text": "Sierre: le réaménagement de Muraz donnera plus de place aux piétons… mais son parking divise\nMots-clés : Sierre (Commune)",
+   "url": "https://www.lenouvelliste.ch/valais/valais-central/sierre-district/sierre-commune/sierre-le-reamenagement-de-muraz-donnera-plus-de-place-aux-pietons-mais-son-parking-divise-1516236",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Sierre (Commune)"
+    ],
+    "section": "valais-central"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1512735",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-01",
+   "title": "Une prime à 58 francs, une caisse avec un seul assuré: les étonnants débuts de la LAMAL en Valais",
+   "text": "Une prime à 58 francs, une caisse avec un seul assuré: les étonnants débuts de la LAMAL en Valais\nMots-clés : Entre nous, Valais",
+   "url": "https://www.lenouvelliste.ch/valais/la-premiere-fois-que-le-nouvelliste-a-parle-du-budget-de-letat-du-valais-en-1907-1512735",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Entre nous",
+     "Valais"
+    ],
+    "section": null
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516170",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-01",
+   "title": "Pétanque à Martigny-Croix: comment un petit club de village a réussi un exploit historique en Valais",
+   "text": "Pétanque à Martigny-Croix: comment un petit club de village a réussi un exploit historique en Valais\nMots-clés : Sport, Martigny-Combe (Commune)",
+   "url": "https://www.lenouvelliste.ch/valais/bas-valais/martigny-district/martigny-combe-commune/petanque-a-martigny-croix-comment-un-petit-club-de-village-a-reussi-un-exploit-historique-en-valais-1516170",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Sport",
+     "Martigny-Combe (Commune)"
+    ],
+    "section": "bas-valais"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516070",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-01",
+   "title": "En 50 ans, Caritas Valais a vu la précarité changer: désendettement, éducation, violences… les causes se cumulent aujourd’hui",
+   "text": "En 50 ans, Caritas Valais a vu la précarité changer: désendettement, éducation, violences… les causes se cumulent aujourd’hui\nMots-clés : Valais, Société",
+   "url": "https://www.lenouvelliste.ch/valais/en-50-ans-caritas-valais-a-vu-la-precarite-changer-desendettement-education-violences-les-causes-se-cumulent-aujourdhui-1516070",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Valais",
+     "Société"
+    ],
+    "section": null
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516160",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-01",
+   "title": "Une fresque monumentale au Lac Souterrain, le nouveau polar de Jean-Yves Gabbud… L’actu culturelle en bref",
+   "text": "Une fresque monumentale au Lac Souterrain, le nouveau polar de Jean-Yves Gabbud… L’actu culturelle en bref\nMots-clés : Expositions, Musique, Valais",
+   "url": "https://www.lenouvelliste.ch/valais/une-fresque-monumentale-au-lac-souterrain-le-nouveau-polar-de-jean-yves-gabbud-lactu-culturelle-en-bref-1516160",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Expositions",
+     "Musique",
+     "Valais"
+    ],
+    "section": null
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516229",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-01",
+   "title": "Entre Valère et Tourbillon, le Sierrois Thierry Epiney joue du marimba suspendu sur une tyrolienne de 120 mètres",
+   "text": "Entre Valère et Tourbillon, le Sierrois Thierry Epiney joue du marimba suspendu sur une tyrolienne de 120 mètres\nMots-clés : Musique, Sion (Commune), Sierre (Commune)",
+   "url": "https://www.lenouvelliste.ch/valais/valais-central/sion-district/sion-commune/entre-valere-et-tourbillon-le-sierrois-thierry-epiney-joue-du-marimba-suspendu-sur-une-tyrolienne-de-120-metres-1516229",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Musique",
+     "Sion (Commune)",
+     "Sierre (Commune)"
+    ],
+    "section": "valais-central"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1516151",
+   "kind": "Le Nouvelliste",
+   "date": "2026-10-01",
+   "title": "Châtaigneraie de Fully: après les abus des dernières années, la bourgeoisie serre la vis. «La forêt est en danger»",
+   "text": "Châtaigneraie de Fully: après les abus des dernières années, la bourgeoisie serre la vis. «La forêt est en danger»\nMots-clés : Fully, Tourisme",
+   "url": "https://www.lenouvelliste.ch/valais/bas-valais/martigny-district/fully/chataigneraie-de-fully-apres-les-abus-des-dernieres-annees-la-bourgeoisie-serre-la-vis-la-foret-est-en-danger-1516151",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Le Nouvelliste",
+    "keywords": [
+     "Fully",
+     "Tourisme"
+    ],
+    "section": "bas-valais"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "https://canal9.ch/fr/vendredi-02-10-2026/",
+   "kind": "Canal9",
+   "date": "2026-10-02",
+   "title": "Vendredi 02.10.2026",
+   "text": "Vendredi 02.10.2026\n",
+   "url": "https://canal9.ch/fr/vendredi-02-10-2026/",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Canal9",
+    "categories": [
+     "Le Journal"
+    ]
+   }
+  },
+  {
+   "source": "presse",
+   "id": "https://canal9.ch/de/die-unterwalliser-nachrichten-der-woche-vom-28-september-2026/",
+   "kind": "Canal9",
+   "date": "2026-10-02",
+   "title": "Die Unterwalliser Nachrichten der Woche vom 28. September 2026",
+   "text": "Die Unterwalliser Nachrichten der Woche vom 28. September 2026\nJeden Freitag fasst unsere welsche Redaktion die wichtigsten Themen der Woche zusammen, um Ihnen das aktuelle Geschehen aus dem anderen Teil des Kantons näherzubringen.",
+   "url": "https://canal9.ch/de/die-unterwalliser-nachrichten-der-woche-vom-28-september-2026/",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Canal9",
+    "categories": [
+     "ECHO",
+     "NACHRICHTEN"
+    ]
+   }
+  },
+  {
+   "source": "presse",
+   "id": "https://canal9.ch/fr/lactualite-du-haut-valais-de-la-semaine-du-28-septembre-2026/",
+   "kind": "Canal9",
+   "date": "2026-10-02",
+   "title": "L’actualité du haut-Valais de la semaine du 28 septembre 2026",
+   "text": "L’actualité du haut-Valais de la semaine du 28 septembre 2026\nChaque vendredi, notre rédaction haut-valaisanne présente une sélection des sujets marquants de la semaine pour résumer l’actualité de l’autre partie du canton.",
+   "url": "https://canal9.ch/fr/lactualite-du-haut-valais-de-la-semaine-du-28-septembre-2026/",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Canal9",
+    "categories": [
+     "ACTUALITÉS",
+     "ECHO"
+    ]
+   }
+  },
+  {
+   "source": "presse",
+   "id": "https://canal9.ch/de/tagesinfo-vom-02-10-2026/",
+   "kind": "Canal9",
+   "date": "2026-10-02",
+   "title": "TAGESINFO vom 02.10.2026",
+   "text": "TAGESINFO vom 02.10.2026\n50 JAHRE ABWASSERREINIGUNG 50 Jahre ARA Visp: 1976 war sie ein Pionierprojekt für die Umwelt. In den letzten Jahren wurde weiter stark investiert. ERSATZBRÜCKE IST DA Fussgängerbrücke Staldbach: Ersatzbrücke heute",
+   "url": "https://canal9.ch/de/tagesinfo-vom-02-10-2026/",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Canal9",
+    "categories": [
+     "NACHRICHTEN",
+     "Tagesinfo"
+    ]
+   }
+  },
+  {
+   "source": "presse",
+   "id": "https://canal9.ch/fr/la-premiere-foire-du-valais-de-la-directrice-carole-moos/",
+   "kind": "Canal9",
+   "date": "2026-10-02",
+   "title": "La première Foire du Valais de la directrice Carole Moos",
+   "text": "La première Foire du Valais de la directrice Carole Moos\nCarole Moos vivait aujourd’hui sa première journée à la Foire du Valais en tant que directrice. Avec une émotion particulière au moment d’accueillir le premier visiteur. Interview.",
+   "url": "https://canal9.ch/fr/la-premiere-foire-du-valais-de-la-directrice-carole-moos/",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Canal9",
+    "categories": [
+     "ACTUALITÉS"
+    ]
+   }
+  },
+  {
+   "source": "presse",
+   "id": "https://canal9.ch/fr/le-projet-du-futur-stade-du-fc-sion-depose-en-enquete-prealable/",
+   "kind": "Canal9",
+   "date": "2026-10-02",
+   "title": "Le projet du futur stade du FC Sion déposé en enquête préalable",
+   "text": "Le projet du futur stade du FC Sion déposé en enquête préalable\nLe FC Sion a profité du premier jour de la Foire du Valais pour présenter son projet de nouveau stade. Le Cervin Colliseum pourra accueillir 21’000 spectateurs en configuration football",
+   "url": "https://canal9.ch/fr/le-projet-du-futur-stade-du-fc-sion-depose-en-enquete-prealable/",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Canal9",
+    "categories": [
+     "ACTUALITÉS",
+     "Économie",
+     "Sport"
+    ]
+   }
+  },
+  {
+   "source": "presse",
+   "id": "https://canal9.ch/fr/pre-foire-du-club-des-amis-et-des-affaires-cest-le-facebook-du-valais/",
+   "kind": "Canal9",
+   "date": "2026-10-02",
+   "title": "Pré-foire du club des amis et des affaires: «C’est le Facebook du Valais»",
+   "text": "Pré-foire du club des amis et des affaires: «C’est le Facebook du Valais»\nCertains impatients ont déjà commencé leur Foire du Valais 2026 jeudi soir lors de la pré-ouverture, un événement réservé aux membres du club des amis et du club des Affaires.",
+   "url": "https://canal9.ch/fr/pre-foire-du-club-des-amis-et-des-affaires-cest-le-facebook-du-valais/",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Canal9",
+    "categories": [
+     "Non classé"
+    ]
+   }
+  },
+  {
+   "source": "presse",
+   "id": "https://canal9.ch/de/50-jahr-jubilaum-ein-rundgang-durch-die-ara-visp-die-grosste-abwasserreinigungsanlage-im-oberwallis/",
+   "kind": "Canal9",
+   "date": "2026-10-02",
+   "title": "50-Jahr-Jubiläum: Ein Rundgang durch die ARA Visp, die grösste Abwasserreinigungsanlage im Oberwallis",
+   "text": "50-Jahr-Jubiläum: Ein Rundgang durch die ARA Visp, die grösste Abwasserreinigungsanlage im Oberwallis\n",
+   "url": "https://canal9.ch/de/50-jahr-jubilaum-ein-rundgang-durch-die-ara-visp-die-grosste-abwasserreinigungsanlage-im-oberwallis/",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Canal9",
+    "categories": [
+     "NACHRICHTEN"
+    ]
+   }
+  },
+  {
+   "source": "presse",
+   "id": "https://canal9.ch/de/gemeinderatswahlen-fusionsgemeinde-visp-drei-kandidatinnen-drei-perspektiven/",
+   "kind": "Canal9",
+   "date": "2026-10-02",
+   "title": "Gemeinderatswahlen Fusionsgemeinde Visp: Drei Kandidatinnen, drei Perspektiven.",
+   "text": "Gemeinderatswahlen Fusionsgemeinde Visp: Drei Kandidatinnen, drei Perspektiven.\n",
+   "url": "https://canal9.ch/de/gemeinderatswahlen-fusionsgemeinde-visp-drei-kandidatinnen-drei-perspektiven/",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Canal9",
+    "categories": [
+     "NACHRICHTEN",
+     "POLITIK"
+    ]
+   }
+  },
+  {
+   "source": "presse",
+   "id": "https://canal9.ch/fr/le-debrief-de-jean-marc-dupont-et-raphael-naoux/",
+   "kind": "Canal9",
+   "date": "2026-10-02",
+   "title": "Le Débrief’ de Jean – Marc Dupont et Raphaël Naoux",
+   "text": "Le Débrief’ de Jean – Marc Dupont et Raphaël Naoux\nRetour sur l’actualité de la semaine en compagnie du président de la Fondation Tshoupi et du spécialiste du monde du travail. Au programme : – les coûts de la santé.",
+   "url": "https://canal9.ch/fr/le-debrief-de-jean-marc-dupont-et-raphael-naoux/",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Canal9",
+    "categories": [
+     "Le débrief - match des éditorialistes"
+    ]
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1788647",
+   "kind": "Rhône FM",
+   "date": "2026-10-02",
+   "title": "Du sport à la ville : quand les complexes sportifs deviennent les nouveaux cœurs des centres urbains",
+   "text": "Du sport à la ville : quand les complexes sportifs deviennent les nouveaux cœurs des centres urbains\nA la Foire du Valais, une table-ronde s'intéressait ce vendredi aux stades et patinoires devenant les nouveaux cœurs des villes valaisannes. Parmi les",
+   "url": "https://www.rhonefm.ch/valais/du-sport-a-la-ville--quand-les-complexes-sportifs-deviennent-les-nouveaux-coeurs-des-centres-urbains-1788647",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Rhône FM"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1788627",
+   "kind": "Rhône FM",
+   "date": "2026-10-02",
+   "title": "La start-up Sof-IA est le \"coup de coeur\" du Prix Créateurs BCVs",
+   "text": "La start-up Sof-IA est le \"coup de coeur\" du Prix Créateurs BCVs\nUn nouveau lauréat dans le Prix Créateurs BCVs. Le \"coup de coeur\" des anciens vainqueurs et finalistes a été désigné et son nom dévoilé à l'occasion de la",
+   "url": "https://www.rhonefm.ch/valais/la-start-up-sof-ia-est-le-coup-de-coeur-du-prix-createurs-bcvs-1788627",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Rhône FM"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1788310",
+   "kind": "Rhône FM",
+   "date": "2026-10-02",
+   "title": "Importations de vin : échec sur toute la ligne pour les interprofessions et cantons romands",
+   "text": "Importations de vin : échec sur toute la ligne pour les interprofessions et cantons romands\nC'est terminé. Le Conseil fédéral abandonne l'idée de lier les importations de vin à l'achat de raisins suisses.  Le conseiller fédéral Guy Parmelin",
+   "url": "https://www.rhonefm.ch/valais/importations-de-vin--echec-sur-toute-la-ligne-pour-les-interprofessions-et-cantons-romands-1788310",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Rhône FM"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1788211",
+   "kind": "Rhône FM",
+   "date": "2026-10-02",
+   "title": "Foire du Valais 2026 : les trois coups sont frappés",
+   "text": "Foire du Valais 2026 : les trois coups sont frappés\nLa 66ème Foire du Valais a ouvert ses portes ce vendredi. Une première pour la nouvelle directrice. Et une première aussi depuis l'inscription officielle",
+   "url": "https://www.rhonefm.ch/valais/foire-du-valais-2026--les-trois-coups-sont-frappes-1788211",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Rhône FM"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1788075",
+   "kind": "Rhône FM",
+   "date": "2026-10-02",
+   "title": "Le Valais lauréat d'un prix de la Ligue vaudoise contre les maladies cardiovasculaires",
+   "text": "Le Valais lauréat d'un prix de la Ligue vaudoise contre les maladies cardiovasculaires\nLa Ligue vaudoise contre les maladies cardiovasculaires a remis quatre prix jeudi soir à Lausanne. Son « Coup de cœur » revient à une étude valaisanne sur",
+   "url": "https://www.rhonefm.ch/valais/le-valais-laureat-d-un-prix-de-la-ligue-vaudoise-contre-les-maladies-cardiovasculaires-1788075",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Rhône FM"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1788054",
+   "kind": "Rhône FM",
+   "date": "2026-10-02",
+   "title": "L'incendie d'un garage à Zermatt a été maîtrisé",
+   "text": "L'incendie d'un garage à Zermatt a été maîtrisé\nUn important incendie dans un garage de Zermatt a provoqué jeudi un fort dégagement de fumée. L'alerte a été levée en soirée et le trafic ferroviaire",
+   "url": "https://www.rhonefm.ch/valais/l-incendie-d-un-garage-a-zermatt-a-ete-maitrise-1788054",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Rhône FM"
+   }
+  },
+  {
+   "source": "presse",
+   "id": "1787029",
+   "kind": "Rhône FM",
+   "date": "2026-10-01",
+   "title": "Neuf arrestations après une série de vols par effraction dans des garages valaisans",
+   "text": "Neuf arrestations après une série de vols par effraction dans des garages valaisans\nDeux groupes, auteurs de vols par effraction dans des garages valaisans, ont été interpellés en trois jours en Valais.",
+   "url": "https://www.rhonefm.ch/valais/neuf-arrestations-apres-une-serie-de-vols-par-effraction-dans-des-garages-valaisans-1787029",
+   "canton": "VS",
+   "commune": null,
+   "bfs": null,
+   "company": null,
+   "lat": null,
+   "lon": null,
+   "extra": {
+    "media": "Rhône FM"
+   }
+  }
+ ]
+}
