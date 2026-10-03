@@ -1,6 +1,12 @@
 __pycache__/
 *.pyc
+
 .DS_Store
+
 .env
+.env.*
+!.env.example
+
+
 sources/_data/cache/
 prototype/out/

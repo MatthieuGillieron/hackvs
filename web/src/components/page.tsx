@@ -4,19 +4,28 @@ import { useLocation } from "react-router"
 
 import { Badge } from "@/components/ui/badge"
 import { pageInfo } from "@/lib/nav"
+import { cn } from "@/lib/utils"
 
 // En-tête commun à toutes les pages : titre, sous-titre, actions éventuelles à droite.
-export function PageHeader({ actions, fictif = false }: { actions?: React.ReactNode; fictif?: boolean }) {
+// `compact` : titre réduit sans sous-titre, pour les pages denses (Alertes).
+export function PageHeader({ actions, fictif = false, title: titleOverride, compact = false }: {
+  actions?: React.ReactNode
+  fictif?: boolean
+  title?: string
+  compact?: boolean
+}) {
   const { pathname } = useLocation()
-  const { title, subtitle } = pageInfo(pathname)
+  const info = pageInfo(pathname)
+  const title = titleOverride ?? info.title
+  const subtitle = info.subtitle
   return (
     <div className="flex flex-wrap items-end justify-between gap-3">
       <div>
-        <h1 className="flex items-center gap-2 text-2xl font-semibold tracking-tight">
+        <h1 className={cn("flex items-center gap-2 font-semibold tracking-tight", compact ? "text-lg" : "text-2xl")}>
           {title}
           {fictif && <FictifBadge />}
         </h1>
-        {subtitle && <p className="text-sm text-muted-foreground">{subtitle}</p>}
+        {subtitle && !compact && <p className="text-sm text-muted-foreground">{subtitle}</p>}
       </div>
       {actions}
     </div>

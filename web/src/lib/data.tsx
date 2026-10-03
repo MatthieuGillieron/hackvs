@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import type { Candidate, Client, Meta, Opportunity, SourceStatus } from "@/lib/types"
+import type { Candidate, Client, Meta, Mission, Opportunity, SourceStatus } from "@/lib/types"
 
 export interface AppData {
   meta: Meta
@@ -8,6 +8,7 @@ export interface AppData {
   candidates: Candidate[]
   clients: Client[]
   sources: SourceStatus[]
+  missions: Mission[]
 }
 
 const DataContext = React.createContext<AppData | null>(null)
@@ -30,9 +31,10 @@ export function DataProvider({ children }: { children: React.ReactNode }) {
       getJson<Candidate[]>("candidates"),
       getJson<Client[]>("clients"),
       getJson<SourceStatus[]>("sources"),
+      getJson<Mission[]>("missions"),
     ])
-      .then(([meta, opportunities, candidates, clients, sources]) =>
-        setData({ meta, opportunities, candidates, clients, sources }),
+      .then(([meta, opportunities, candidates, clients, sources, missions]) =>
+        setData({ meta, opportunities, candidates, clients, sources, missions }),
       )
       .catch((e: Error) => setError(e.message))
   }, [])

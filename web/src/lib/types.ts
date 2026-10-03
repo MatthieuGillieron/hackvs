@@ -20,6 +20,8 @@ export interface Signal {
   fictif: boolean
   window: [string, string]
   phase: string | null
+  ia?: boolean          // fiche extraite du texte par LLM (prototype/extract.py)
+  preuve?: string       // extrait exact du texte source qui justifie la fiche
 }
 
 export interface Vivier {
@@ -30,14 +32,38 @@ export interface Vivier {
   a_sourcer: number
 }
 
+// Vue aérienne SWISSIMAGE réelle du lieu (prototype/images.py), jamais une photo d'illustration.
+export interface AlertImage {
+  src: string
+  place: string | null
+  precision: "parcelle" | "commune" | "district"
+  credit: string
+}
+
+export interface Registry {
+  name: string
+  uid: string | null
+  commune: string | null
+  address: string | null
+  purpose: string | null
+  branches: number
+  lastPublications: string[]
+  url: string
+}
+
 export interface Opportunity {
   id: number
+  key: string // stable d'un export à l'autre (« entreprise|frutiger|* ») : sert aux tâches enregistrées
   level: Level
   levelPublic: Level
   kind: "entreprise" | "zone"
   target: string
   company: string | null
+  registry: Registry | null // fiche Zefix de l'entreprise, si rapprochée
   district: string | null
+  place: string | null // commune (ou chef-lieu pour une zone) de la vignette
+  image: AlertImage | null
+  logo: { src: string; credit: string } | null // logo réel publié par l'entreprise (jobup), sinon null
   metiers: string[]
   families: Family[]
   window: [string, string]
@@ -45,6 +71,7 @@ export interface Opportunity {
   need: [number, number, number]
   team: [number, number, number]
   vivier: Vivier
+  pool: { disponibles: string[]; bientot: string[]; anciens: string[] } // ids des candidats comptés dans le vivier
   action: string
   probable: { company: string; share: number }[]
   signals: Signal[]
@@ -68,6 +95,8 @@ export interface Candidate {
   statut: "disponible" | "en mission" | "ancien" | "indisponible"
   disponible_des: string | null
   derniere_mission_fin: string | null
+  inscrit_le: string
+  taux_horaire_souhaite: number
   fictif: true
 }
 
@@ -83,13 +112,22 @@ export interface Client {
   potential: string
   alerts: number
   bestLevel: Level | null
+  since: string // client depuis
   lastContact: { date: string; type: string; objet: string } | null
+  registry: Registry | null // fiche Zefix (vraie entreprise) ; l'historique Flexsis reste fictif
   fictif: true
 }
 
+// Rôle d'une source dans le moteur : famille de signaux alimentée, ou usage sans signal.
+export type SourceUsage = Family | "vivier" | "contexte"
+
 export interface SourceStatus {
   name: string
+  title: string // nom lisible
   description: string
+  category: string
+  site: string | null
+  usage: SourceUsage | null // null = collectée mais pas encore exploitée par le moteur
   count: number
   fetchedAt?: string
   ageHours?: number
@@ -97,4 +135,19 @@ export interface SourceStatus {
   fill?: Record<string, number>
   fictif?: boolean
   status: "ok" | "ancien" | "vide" | "absent"
+}
+
+export interface Mission {
+  id: string
+  candidat: string // id du candidat
+  client: string
+  metier: string
+  debut: string
+  fin: string
+  heures: number
+  taux: number // CHF/h facturé
+  statut: "terminée" | "en cours"
+  note: number | null // évaluation client 1–5, null tant que la mission est en cours
+  district: string | null
+  fictif: true
 }

@@ -222,30 +222,54 @@ def named_contractor(rec: dict) -> Optional[str]:
 TEAM_BY_CLASS = {"grand": (4, 6, 8), "moyen": (2, 3, 4), "villa": (1, 1.5, 2), "renovation": (1, 2, 3)}
 
 
+def llm_permit_class(f: dict) -> Optional[str]:
+    """Fiche LLM (prototype/extract.py) -> même classes que permit_class."""
+    if not f["genere_emploi"] or f["ampleur"] == "mineur":
+        return None
+    if f["type_projet"] in ("renovation_transformation", "agrandissement"):
+        return "renovation" if f["ampleur"] in ("moyen", "grand") else None
+    return f["ampleur"]
+
+
 def permit_signals() -> list[Signal]:
+    from prototype.extract import extracted
+    llm = extracted("permis")
     out = []
     for r in load("permis_construire"):
         project = r["extra"].get("project") or r["title"]
-        cls = permit_class(project)
+        f = llm.get(r["id"])  # fiche LLM si dispo, sinon regex
+        if f:
+            cls, modif = llm_permit_class(f), f["modification"]
+            # nom exact du requérant / auteur des plans d'abord ; le LLM ajoute les entreprises citées ailleurs
+            contractor = named_contractor(r) or f["entreprise_travaux"]
+            text, trades = f["resume"], set(f["corps_de_metier"])
+        else:
+            cls, modif = permit_class(project), bool(re.search(MODIF, project, re.I))
+            contractor = named_contractor(r)
+            text, trades = project[:70], set()
         if cls in (None, "villa"):
             continue
-        modif = bool(re.search(MODIF, project, re.I))
-        contractor = named_contractor(r)
         d0 = _d(r["date"])
         phases = PHASES_RENOV if cls == "renovation" else PHASES_NEUF
         for phase, ms, m0, m1, crew, duration in phases:
             start, end = d0 + timedelta(days=30 * m0), d0 + timedelta(days=30 * m1)
             if end < TODAY:
                 continue
+            if cls == "renovation" and trades and not trades & set(ms):
+                continue  # rénovation : seulement les phases dont le LLM a vu les corps de métier
             team = tuple(x * crew for x in TEAM_BY_CLASS[cls])
+            weight = 22 if cls == "grand" else 12
+            if f and f["certitude"] == "faible":
+                weight *= 0.7  # texte vague : passe derrière à niveau égal (le poids ne sert qu'au tri)
             out.append(Signal(
-                "projet", "permis", contractor, _district(r), ms, (start, end), team, 22 if cls == "grand" else 12,
-                f"Mise à l'enquête ({cls}) {r['commune']} — {phase} : {project[:70]}"
+                "projet", "permis", contractor, _district(r), ms, (start, end), team, weight,
+                f"Mise à l'enquête ({cls}) {r['commune']} — {phase} : {text}"
                 + (f" [entreprise nommée : {contractor}]" if contractor else ""), r["url"], r["date"],
                 meta={"phase": phase, "classe": cls, "modification": modif, "commune": r["commune"],
                       "occupation": min(1.0, duration / (m1 - m0)),
                       "requerant": r["company"], "architecte": (r["extra"].get("architects") or [None])[-1],
-                      "permis_id": r["id"]},
+                      "permis_id": r["id"],
+                      **({"ia": True, "preuve": f["preuve"], "certitude": f["certitude"]} if f else {})},
             ))
     return out
 
@@ -272,7 +296,7 @@ def job_signals() -> list[Signal]:
                 out.append(Signal("recrutement", "annonce_directe", r["company"], _district(r), ms, win, None,
                                   18 if hard else 10,
                                   f"Annonce {'en ligne depuis ' + str(age) + ' j' if hard else 'récente'} : {r['title'][:60]}",
-                                  r["url"], r["date"], meta={"age_j": age, "difficile": hard}))
+                                  r["url"], r["date"], meta={"age_j": age, "difficile": hard, "commune": r["commune"]}))
     return out
 
 

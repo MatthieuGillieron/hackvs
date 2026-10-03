@@ -49,6 +49,7 @@ def _normalize(doc: dict, canton: str) -> dict:
         lon=coords.get("lon"),
         extra={
             "company_id": doc.get("company_id"),
+            "company_logo": doc.get("company_logo_file"),  # logo publié par l'entreprise sur jobup
             "company_segment": SEGMENTS.get(seg, seg),
             "is_staffing_agency": seg == "pdl",
             "employment_types": types,

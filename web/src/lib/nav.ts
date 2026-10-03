@@ -7,16 +7,31 @@ export interface NavItem {
   subtitle: string
 }
 
-export const CONSULTANT_NAV: NavItem[] = [
-  { title: "Dashboard", url: "/", icon: LayoutDashboardIcon, subtitle: "Votre semaine en un coup d'œil" },
-  { title: "Alertes", url: "/alertes", icon: BellRingIcon, subtitle: "Les signaux à traiter cette semaine" },
-  { title: "Carte", url: "/carte", icon: MapIcon, subtitle: "Les tensions par district et par métier" },
-  { title: "Clients", url: "/clients", icon: BuildingIcon, subtitle: "Votre portefeuille et ses opportunités" },
-  { title: "Candidats", url: "/candidats", icon: UsersIcon, subtitle: "Le bon vivier au bon moment" },
-]
+export interface NavSection {
+  label: string
+  items: NavItem[]
+}
 
-export const ADMIN_NAV: NavItem[] = [
-  { title: "Sources", url: "/admin/sources", icon: DatabaseIcon, subtitle: "État des sources de données" },
+export const NAV_SECTIONS: NavSection[] = [
+  {
+    label: "Prospection",
+    items: [
+      { title: "Dashboard", url: "/", icon: LayoutDashboardIcon, subtitle: "Votre semaine en un coup d'œil" },
+      { title: "Alertes", url: "/alertes", icon: BellRingIcon, subtitle: "Les signaux à traiter cette semaine" },
+      { title: "Carte", url: "/carte", icon: MapIcon, subtitle: "Les tensions par district et par métier" },
+    ],
+  },
+  {
+    label: "Portefeuille",
+    items: [
+      { title: "Clients", url: "/clients", icon: BuildingIcon, subtitle: "Toutes les entreprises clientes, actuelles et passées" },
+      { title: "Candidats", url: "/candidats", icon: UsersIcon, subtitle: "Tous les candidats, actuels et passés" },
+    ],
+  },
+  {
+    label: "Données",
+    items: [{ title: "Sources", url: "/sources", icon: DatabaseIcon, subtitle: "État des sources de données" }],
+  },
 ]
 
 export const OTHER_PAGES: Record<string, { title: string; subtitle: string }> = {
@@ -25,6 +40,6 @@ export const OTHER_PAGES: Record<string, { title: string; subtitle: string }> = 
 }
 
 export function pageInfo(pathname: string): { title: string; subtitle: string } {
-  const item = [...CONSULTANT_NAV, ...ADMIN_NAV].find((n) => n.url === pathname)
+  const item = NAV_SECTIONS.flatMap((s) => s.items).find((n) => n.url === pathname)
   return item ?? OTHER_PAGES[pathname] ?? { title: "FlexRadar", subtitle: "" }
 }

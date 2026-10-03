@@ -1,4 +1,4 @@
-import { ChevronsUpDownIcon, LogOutIcon, SettingsIcon, ShieldIcon, UserIcon, UsersIcon } from "lucide-react"
+import { ChevronsUpDownIcon, LogOutIcon, SettingsIcon, UserIcon } from "lucide-react"
 import { useNavigate } from "react-router"
 
 import { Avatar, AvatarFallback } from "@/components/ui/avatar"
@@ -28,7 +28,7 @@ function Identity({ user }: { user: Meta["user"] }) {
   )
 }
 
-export function NavUser({ user, admin }: { user: Meta["user"]; admin: boolean }) {
+export function NavUser({ user }: { user: Meta["user"] }) {
   const { isMobile } = useSidebar()
   const navigate = useNavigate()
 
@@ -62,18 +62,6 @@ export function NavUser({ user, admin }: { user: Meta["user"]; admin: boolean })
                 Paramètres
               </DropdownMenuItem>
             </DropdownMenuGroup>
-            <DropdownMenuSeparator />
-            {admin ? (
-              <DropdownMenuItem onSelect={() => navigate("/")}>
-                <UsersIcon />
-                Vue consultant
-              </DropdownMenuItem>
-            ) : (
-              <DropdownMenuItem onSelect={() => navigate("/admin/sources")}>
-                <ShieldIcon />
-                Vue admin
-              </DropdownMenuItem>
-            )}
             <DropdownMenuSeparator />
             <DropdownMenuItem disabled>
               <LogOutIcon />

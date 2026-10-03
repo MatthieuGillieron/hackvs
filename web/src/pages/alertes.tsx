@@ -1,17 +1,31 @@
 import * as React from "react"
-import { Building2Icon, CalendarIcon, ChevronRightIcon, ListIcon, MapPinIcon, RotateCcwIcon, SearchIcon, UsersIcon } from "lucide-react"
+import {
+  ArrowDownUpIcon,
+  CalendarIcon,
+  DatabaseIcon,
+  FlagIcon,
+  KanbanSquareIcon,
+  ListChecksIcon,
+  MapPinIcon,
+  NewspaperIcon,
+  RotateCcwIcon,
+  SearchIcon,
+  WrenchIcon,
+} from "lucide-react"
 import { useSearchParams } from "react-router"
 
+import { AlertCard } from "@/components/alerts/alert-card"
 import { AlertDetail } from "@/components/alerts/alert-detail"
-import { FamilyChip, LevelBadge } from "@/components/level-badge"
+import { TaskBoard } from "@/components/alerts/task-board"
 import { PageHeader } from "@/components/page"
 import { Button } from "@/components/ui/button"
+import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog"
 import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Sheet, SheetContent, SheetDescription, SheetTitle } from "@/components/ui/sheet"
-import { useMediaQuery } from "@/hooks/use-media-query"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { useData } from "@/lib/data"
-import { horizonLabel, LEVEL_ORDER, metiersLabel, needLabel, shortDistrict, shortMetier, sortFamilies } from "@/lib/format"
+import { alertTitle, LEVEL_ORDER, shortDistrict, shortMetier, SOURCE_GROUPS } from "@/lib/format"
+import { useTasks } from "@/lib/tasks"
 import type { Opportunity } from "@/lib/types"
 import { cn } from "@/lib/utils"
 
@@ -29,7 +43,6 @@ const LEVELS: Record<string, { label: string; test: (o: Opportunity) => boolean 
   SURVEILLER: { label: "SURVEILLER", test: (o) => o.level === "SURVEILLER" },
   [ALL]: { label: "Toutes les priorités", test: () => true },
 }
-const KINDS: Record<string, string> = { [ALL]: "Entreprises + zones", entreprise: "Entreprises", zone: "Zones" }
 const SORTS: Record<string, { label: string; cmp: (a: Opportunity, b: Opportunity) => number }> = {
   priority: {
     label: "Priorité",
@@ -38,7 +51,26 @@ const SORTS: Record<string, { label: string; cmp: (a: Opportunity, b: Opportunit
   horizon: { label: "Horizon", cmp: (a, b) => a.weeks - b.weeks || LEVEL_ORDER[a.level] - LEVEL_ORDER[b.level] },
   need: { label: "Besoin", cmp: (a, b) => b.need[1] - a.need[1] || LEVEL_ORDER[a.level] - LEVEL_ORDER[b.level] },
 }
-const DEFAULTS = { district: ALL, metier: ALL, horizon: ALL, level: "active", kind: ALL, sort: "priority", q: "", id: "" }
+const DEFAULTS = {
+  vue: "fil",
+  district: ALL,
+  metier: ALL,
+  horizon: ALL,
+  level: "active",
+  source: ALL,
+  sort: "priority",
+  dir: "",
+  q: "",
+  suivi: "nouvelles",
+  alerte: "", // clé stable de l'alerte ouverte dans le modal
+}
+const PAGE = 21 // multiple de 3 : la dernière ligne de la grille est pleine
+// Une alerte enregistrée dans « Mes tâches » quitte le fil par défaut (elle se traite dans la bibliothèque).
+const SUIVIS: Record<string, string> = {
+  nouvelles: "Hors mes tâches",
+  [ALL]: "Toutes les alertes",
+  taches: "Dans mes tâches",
+}
 type Filters = typeof DEFAULTS
 
 function FilterSelect({ label, icon: Icon, value, onChange, options }: {
@@ -69,63 +101,34 @@ function FilterSelect({ label, icon: Icon, value, onChange, options }: {
   )
 }
 
-function AlertItem({ o, selected, onSelect }: { o: Opportunity; selected: boolean; onSelect: () => void }) {
-  const reasons = o.signals.filter((s) => !s.fictif).slice(0, 3)
+// Fil en grille : 3 cartes par ligne (2 sur tablette, 1 sur mobile), lues ligne par ligne = ordre de priorité.
+function Feed({ rows, onOpen }: { rows: Opportunity[]; onOpen: (o: Opportunity) => void }) {
+  const [shown, setShown] = React.useState(PAGE)
+  const visible = rows.slice(0, shown)
   return (
-    <button
-      onClick={onSelect}
-      className={cn(
-        "flex w-full items-start gap-4 rounded-xl border bg-card p-4 text-left transition-colors hover:bg-accent/50",
-        selected && "border-primary ring-1 ring-primary",
-      )}
-    >
-      <div className="flex size-11 shrink-0 items-center justify-center rounded-lg bg-muted text-muted-foreground">
-        {o.kind === "entreprise" ? <Building2Icon className="size-5" /> : <MapPinIcon className="size-5" />}
-      </div>
-      <div className="min-w-0 flex-1 space-y-1">
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="truncate font-semibold">{o.target}</span>
-          <LevelBadge level={o.level} />
-        </div>
-        <div className="flex flex-wrap gap-x-3 gap-y-0.5 text-xs text-muted-foreground">
-          <span className="flex items-center gap-1">
-            <MapPinIcon className="size-3" /> {shortDistrict(o.district)}
-          </span>
-          <span className="flex items-center gap-1">
-            <UsersIcon className="size-3" /> {metiersLabel(o.metiers)}
-          </span>
-          <span className="flex items-center gap-1">
-            <CalendarIcon className="size-3" /> {horizonLabel(o)}
-          </span>
-        </div>
-        <div className="flex flex-wrap gap-1 pt-1">
-          {sortFamilies(o.families).map((f) => (
-            <FamilyChip key={f} family={f} />
-          ))}
-        </div>
-      </div>
-      <ul className="hidden w-56 shrink-0 space-y-1 text-xs text-muted-foreground 2xl:block">
-        {reasons.map((s, i) => (
-          <li key={i} className="line-clamp-1 before:mr-1.5 before:text-primary before:content-['•']">
-            {s.label}
-          </li>
+    <>
+      <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+        {visible.map((o) => (
+          <AlertCard key={o.key} o={o} onOpen={() => onOpen(o)} />
         ))}
-      </ul>
-      <div className="shrink-0 text-right">
-        <div className="text-xs text-muted-foreground">Renfort</div>
-        <div className="text-lg font-semibold tabular-nums">{needLabel(o)}</div>
       </div>
-      <ChevronRightIcon className="mt-3 size-4 shrink-0 text-muted-foreground" />
-    </button>
+      {rows.length > shown && (
+        <div className="flex justify-center pt-2">
+          <Button variant="outline" onClick={() => setShown((n) => n + PAGE)}>
+            Voir plus ({rows.length - shown} restantes)
+          </Button>
+        </div>
+      )}
+    </>
   )
 }
 
 export function AlertesPage() {
   const { opportunities } = useData()
+  const tasks = useTasks()
   const [params, setParams] = useSearchParams()
-  const wide = useMediaQuery("(min-width: 1280px)")
 
-  // Filtres et sélection vivent dans l'URL : un lien partagé rouvre la même vue.
+  // Onglet, filtres et alerte ouverte vivent dans l'URL : un lien partagé rouvre la même vue.
   const f: Filters = { ...DEFAULTS, ...Object.fromEntries(params) }
   const set = (patch: Partial<Filters>) => {
     const next = { ...f, ...patch }
@@ -133,7 +136,7 @@ export function AlertesPage() {
     for (const [k, v] of Object.entries(next)) if (v && v !== DEFAULTS[k as keyof Filters]) out.set(k, v)
     setParams(out, { replace: true })
   }
-  const select = (id: number | null) => set({ id: id === null ? "" : String(id) })
+  const open = (o: Opportunity | null) => set({ alerte: o?.key ?? "" })
 
   const districts = React.useMemo(
     () => [...new Set(opportunities.map((o) => o.district).filter((d): d is string => !!d))].sort(),
@@ -143,74 +146,84 @@ export function AlertesPage() {
 
   const q = f.q.toLowerCase()
   const rows = opportunities
-      .filter(
-        (o) =>
-          (LEVELS[f.level] ?? LEVELS.active).test(o) &&
-          (HORIZONS[f.horizon] ?? HORIZONS[ALL]).test(o) &&
-          (f.district === ALL || o.district === f.district) &&
-          (f.metier === ALL || o.metiers.includes(f.metier)) &&
-          (f.kind === ALL || o.kind === f.kind) &&
-          (!q || `${o.target} ${o.metiers.join(" ")} ${o.signals.map((s) => s.label).join(" ")}`.toLowerCase().includes(q)),
-      )
+    .filter(
+      (o) =>
+        (LEVELS[f.level] ?? LEVELS.active).test(o) &&
+        (HORIZONS[f.horizon] ?? HORIZONS[ALL]).test(o) &&
+        (f.district === ALL || o.district === f.district) &&
+        (f.metier === ALL || o.metiers.includes(f.metier)) &&
+        (f.source === ALL || o.signals.some((x) => SOURCE_GROUPS[f.source]?.types.includes(x.type))) &&
+        (f.suivi === ALL || (f.suivi === "taches") === !!tasks[o.key]) &&
+        (!q || `${o.target} ${o.place ?? ""} ${o.metiers.join(" ")} ${o.signals.map((s) => s.label).join(" ")}`.toLowerCase().includes(q)),
+    )
     .sort((SORTS[f.sort] ?? SORTS.priority).cmp)
+  if (f.dir === "desc") rows.reverse()
 
-  const dirty = (["district", "metier", "horizon", "level", "kind", "q"] as const).some((k) => f[k] !== DEFAULTS[k])
-  const selected = opportunities.find((o) => String(o.id) === f.id) ?? null
-
-  // Grand écran : la zone liste + détail remplit la hauteur restante, la liste défile seule.
-  const areaRef = React.useRef<HTMLDivElement>(null)
-  const [areaHeight, setAreaHeight] = React.useState<number | null>(null)
-  React.useLayoutEffect(() => {
-    if (!wide) return
-    const measure = () => {
-      const top = areaRef.current?.getBoundingClientRect().top ?? 0
-      setAreaHeight(Math.max(420, window.innerHeight - top - 16))
-    }
-    measure()
-    window.addEventListener("resize", measure)
-    return () => window.removeEventListener("resize", measure)
-  }, [wide, dirty])
+  const dirty = (["district", "metier", "horizon", "level", "source", "suivi", "q"] as const).some((k) => f[k] !== DEFAULTS[k])
+  const selected = opportunities.find((o) => o.key === f.alerte) ?? null
+  const nTasks = Object.keys(tasks).length
+  // Le fil repart en haut (20 cartes) quand les filtres changent.
+  const feedKey = JSON.stringify([f.district, f.metier, f.horizon, f.level, f.source, f.sort, f.dir, f.q, f.suivi])
 
   return (
     <>
-      <PageHeader />
+      <PageHeader title="Alertes & opportunités" compact />
 
-      <div className="flex flex-wrap items-end gap-3 rounded-xl border bg-card p-3">
-        <label className="grid min-w-44 flex-1 gap-1 text-xs text-muted-foreground">
-          <span className="flex items-center gap-1">
-            <SearchIcon className="size-3.5" /> Recherche
-          </span>
-          <Input value={f.q} onChange={(e) => set({ q: e.target.value })} placeholder="Entreprise, projet, métier…" className="bg-background" />
-        </label>
-        <FilterSelect label="Région" icon={MapPinIcon} value={f.district} onChange={(v) => set({ district: v })}
-          options={[[ALL, "Toutes les régions"], ...districts.map((d): [string, string] => [d, shortDistrict(d)])]} />
-        <FilterSelect label="Métier" icon={UsersIcon} value={f.metier} onChange={(v) => set({ metier: v })}
-          options={[[ALL, "Tous les métiers"], ...metiers.map((m): [string, string] => [m, shortMetier(m)])]} />
-        <FilterSelect label="Horizon" icon={CalendarIcon} value={f.horizon} onChange={(v) => set({ horizon: v })}
-          options={Object.entries(HORIZONS).map(([k, v]): [string, string] => [k, v.label])} />
-        <FilterSelect label="Priorité" icon={ListIcon} value={f.level} onChange={(v) => set({ level: v })}
-          options={Object.entries(LEVELS).map(([k, v]): [string, string] => [k, v.label])} />
-        <FilterSelect label="Cible" icon={Building2Icon} value={f.kind} onChange={(v) => set({ kind: v })}
-          options={Object.entries(KINDS)} />
-        <Button variant="ghost" disabled={!dirty} onClick={() => setParams(new URLSearchParams(), { replace: true })}>
-          <RotateCcwIcon /> Réinitialiser
-        </Button>
-      </div>
+      <Tabs value={f.vue} onValueChange={(v) => set({ vue: v })} className="-mt-2 flex-1 gap-0">
+        <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
+          <TabsList variant="line" className="justify-start">
+            <TabsTrigger value="fil" className="flex-none px-3">
+              <NewspaperIcon /> Fil d'alertes
+            </TabsTrigger>
+            <TabsTrigger value="taches" className="flex-none px-3">
+              <KanbanSquareIcon /> Mes tâches
+              {nTasks > 0 && (
+                <span className="rounded-full bg-primary px-1.5 text-[11px] leading-4 font-semibold text-primary-foreground tabular-nums">
+                  {nTasks}
+                </span>
+              )}
+            </TabsTrigger>
+          </TabsList>
+          {f.vue === "fil" && (
+            <div className="relative mb-1.5 w-full max-w-xs">
+              <SearchIcon className="absolute top-1/2 left-2.5 size-4 -translate-y-1/2 text-muted-foreground" />
+              <Input value={f.q} onChange={(e) => set({ q: e.target.value })} placeholder="Rechercher une entreprise, un projet…"
+                className="h-8 bg-background pl-8" aria-label="Rechercher une alerte" />
+            </div>
+          )}
+        </div>
 
-      <div
-        ref={areaRef}
-        style={wide && areaHeight ? { height: areaHeight } : undefined}
-        className={cn("grid min-h-0 gap-4", wide && selected && "grid-cols-[minmax(0,1fr)_minmax(420px,520px)]")}
-      >
-        <div className={cn("flex min-w-0 flex-col gap-3", wide && "min-h-0")}>
-          <div className="flex items-center justify-between gap-3">
-            <h2 className="flex items-center gap-2 font-semibold">
-              <ListIcon className="size-4" /> {rows.length} alerte{rows.length > 1 ? "s" : ""} détectée{rows.length > 1 ? "s" : ""}
-            </h2>
-            <div className="flex items-center gap-2 text-sm text-muted-foreground">
-              Trier par
+        {/* Contenu sur fond gris pleine largeur jusqu'en bas : sépare des onglets sans trait, et fait ressortir les cartes. */}
+        <div className="-mx-4 -mb-4 flex-1 bg-muted px-4 py-6 md:-mx-6 md:-mb-6 md:px-6">
+        <TabsContent value="fil" className="space-y-6">
+          <div className="grid grid-cols-2 items-end gap-3 rounded-xl border bg-card p-3 sm:grid-cols-3 lg:flex lg:flex-wrap">
+            <FilterSelect label="Région" icon={MapPinIcon} value={f.district} onChange={(v) => set({ district: v })}
+              options={[[ALL, "Toutes les régions"], ...districts.map((d): [string, string] => [d, shortDistrict(d)])]} />
+            <FilterSelect label="Métier" icon={WrenchIcon} value={f.metier} onChange={(v) => set({ metier: v })}
+              options={[[ALL, "Tous les métiers"], ...metiers.map((m): [string, string] => [m, shortMetier(m)])]} />
+            <FilterSelect label="Horizon" icon={CalendarIcon} value={f.horizon} onChange={(v) => set({ horizon: v })}
+              options={Object.entries(HORIZONS).map(([k, v]): [string, string] => [k, v.label])} />
+            <FilterSelect label="Priorité" icon={FlagIcon} value={f.level} onChange={(v) => set({ level: v })}
+              options={Object.entries(LEVELS).map(([k, v]): [string, string] => [k, v.label])} />
+            <FilterSelect label="Source" icon={DatabaseIcon} value={f.source} onChange={(v) => set({ source: v })}
+              options={[[ALL, "Toutes les sources"], ...Object.entries(SOURCE_GROUPS).map(([k, v]): [string, string] => [k, v.label])]} />
+            <FilterSelect label="Suivi" icon={ListChecksIcon} value={f.suivi} onChange={(v) => set({ suivi: v })}
+              options={Object.entries(SUIVIS)} />
+            <Button variant="ghost" size="icon" className="text-primary" disabled={!dirty}
+              aria-label="Réinitialiser les filtres" title="Réinitialiser les filtres"
+              onClick={() => set({ district: ALL, metier: ALL, horizon: ALL, level: "active", source: ALL, suivi: "nouvelles", q: "" })}>
+              <RotateCcwIcon />
+            </Button>
+          </div>
+
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <span className="text-sm font-medium tabular-nums">
+              {rows.length} alerte{rows.length > 1 ? "s" : ""}
+            </span>
+            <div className="flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
+              <span className="hidden sm:inline">Trier par</span>
               <Select value={f.sort} onValueChange={(v) => set({ sort: v })}>
-                <SelectTrigger size="sm" className="w-32">
+                <SelectTrigger size="sm" className="w-28">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
@@ -221,40 +234,36 @@ export function AlertesPage() {
                   ))}
                 </SelectContent>
               </Select>
+              <Button variant="outline" size="icon-sm" aria-label="Inverser l'ordre" title="Inverser l'ordre"
+                className={cn(f.dir === "desc" && "bg-accent")} onClick={() => set({ dir: f.dir === "desc" ? "" : "desc" })}>
+                <ArrowDownUpIcon />
+              </Button>
             </div>
           </div>
+
           {rows.length ? (
-            <div className={cn("space-y-2", wide && "min-h-0 flex-1 overflow-y-auto pr-1")}>
-              {rows.slice(0, 200).map((o) => (
-                <AlertItem key={o.id} o={o} selected={o.id === selected?.id} onSelect={() => select(o.id)} />
-              ))}
-              {rows.length > 200 && (
-                <p className="py-4 text-center text-sm text-muted-foreground">… {rows.length - 200} de plus : affinez les filtres.</p>
-              )}
-            </div>
+            <Feed key={feedKey} rows={rows} onOpen={open} />
           ) : (
-            <div className="rounded-xl border border-dashed p-10 text-center text-sm text-muted-foreground">
+            <div className="rounded-2xl border border-dashed p-12 text-center text-sm text-muted-foreground">
               Aucune alerte pour ces filtres.
             </div>
           )}
+        </TabsContent>
+
+        <TabsContent value="taches">
+          <TaskBoard onOpen={open} />
+        </TabsContent>
         </div>
+      </Tabs>
 
-        {wide && selected && (
-          <aside className="h-full min-h-0 overflow-hidden rounded-xl border bg-card">
-            <AlertDetail key={selected.id} o={selected} onClose={() => select(null)} />
-          </aside>
-        )}
-      </div>
-
-      {!wide && (
-        <Sheet open={!!selected} onOpenChange={(open) => !open && select(null)}>
-          <SheetContent className="w-full gap-0 p-0 sm:max-w-xl" showCloseButton={false}>
-            <SheetTitle className="sr-only">{selected?.target ?? "Détail"}</SheetTitle>
-            <SheetDescription className="sr-only">Détail de l'alerte</SheetDescription>
-            {selected && <AlertDetail key={selected.id} o={selected} onClose={() => select(null)} />}
-          </SheetContent>
-        </Sheet>
-      )}
+      <Dialog open={!!selected} onOpenChange={(v) => !v && open(null)}>
+        <DialogContent showCloseButton={false}
+          className="flex h-[min(88svh,900px)] flex-col gap-0 overflow-hidden p-0 sm:max-w-5xl">
+          <DialogTitle className="sr-only">{selected ? alertTitle(selected) : "Alerte"}</DialogTitle>
+          <DialogDescription className="sr-only">Détail de l'alerte</DialogDescription>
+          {selected && <AlertDetail key={selected.key} o={selected} onClose={() => open(null)} />}
+        </DialogContent>
+      </Dialog>
     </>
   )
 }

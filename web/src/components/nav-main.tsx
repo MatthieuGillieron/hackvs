@@ -24,17 +24,17 @@ export function NavMain({
   return (
     <SidebarGroup>
       <SidebarGroupLabel>{label}</SidebarGroupLabel>
-      <SidebarMenu>
+      <SidebarMenu className="gap-1">
         {items.map((item) => (
           <SidebarMenuItem key={item.url}>
-            <SidebarMenuButton asChild isActive={pathname === item.url} tooltip={item.title}>
+            <SidebarMenuButton asChild isActive={pathname === item.url} tooltip={item.title} className="h-10 gap-3 px-3 text-base [&_svg]:size-5">
               <NavLink to={item.url} end>
                 <item.icon />
                 <span>{item.title}</span>
               </NavLink>
             </SidebarMenuButton>
             {badges[item.url] ? (
-              <SidebarMenuBadge className="bg-destructive text-white">{badges[item.url]}</SidebarMenuBadge>
+              <SidebarMenuBadge className="top-2.5! right-2 bg-destructive text-white">{badges[item.url]}</SidebarMenuBadge>
             ) : null}
           </SidebarMenuItem>
         ))}

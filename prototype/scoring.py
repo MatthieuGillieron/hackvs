@@ -41,6 +41,7 @@ class Opportunity:
     team: tuple[float, float, float] = (0, 0, 0)
     need: tuple[int, int, int] = (0, 0, 0)
     vivier: dict = field(default_factory=dict)
+    pool: dict = field(default_factory=dict)   # ids des candidats comptés dans le vivier, par catégorie
     action: str = ""
     probable_companies: list[str] = field(default_factory=list)
     metiers_all: list[str] = field(default_factory=list)
@@ -214,7 +215,7 @@ def _evaluate(o: Opportunity, cands: list[dict], centroids: dict) -> None:
 
     # vivier (métier principal du candidat uniquement)
     center = centroids.get(o.district)
-    dispo = soon = old = 0
+    pool = {"disponibles": [], "bientot": [], "anciens": []}
     for c in cands:
         if o.metier != c["metier"]:
             continue
@@ -222,11 +223,13 @@ def _evaluate(o: Opportunity, cands: list[dict], centroids: dict) -> None:
             continue
         free = date.fromisoformat(c["disponible_des"]) if c.get("disponible_des") else None
         if c["statut"] == "disponible":
-            dispo += 1
+            pool["disponibles"].append(c["id"])
         elif c["statut"] == "en mission" and free and free <= o.window[0] + timedelta(days=7):
-            soon += 1
+            pool["bientot"].append(c["id"])
         elif c["statut"] == "ancien":
-            old += 1
+            pool["anciens"].append(c["id"])
+    o.pool = pool
+    dispo, soon, old = (len(pool[k]) for k in ("disponibles", "bientot", "anciens"))
     gap = max(o.need[1] - dispo - soon, 0)
     o.vivier = {"besoin": o.need[1], "disponibles": dispo, "bientot": soon, "anciens": old, "a_sourcer": gap}
 

@@ -1,6 +1,6 @@
 {
  "source": "jobup",
- "fetched_at": "2026-10-03T11:29:10",
+ "fetched_at": "2026-10-03T14:37:04",
  "params": {},
  "count": 570,
  "records": [
@@ -20,6 +20,7 @@
    "lon": 7.073329717573879,
    "extra": {
     "company_id": "66442",
+    "company_logo": "https://media.jobup.ch/media/370c68c6-f9d1-4dbb-8b06-908c65fd3924.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -60,6 +61,7 @@
    "lon": 7.514469,
    "extra": {
     "company_id": "59068",
+    "company_logo": "https://media.jobup.ch/media/aaaf645a-a738-4810-b666-9ba2be55a504.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -93,6 +95,7 @@
    "lon": 7.335775,
    "extra": {
     "company_id": "64140",
+    "company_logo": "https://media.jobup.ch/media/cbf237c5-4794-4456-9375-d0722432f5fe.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -125,6 +128,7 @@
    "lon": 7.545493370313293,
    "extra": {
     "company_id": "34701",
+    "company_logo": "https://media.jobup.ch/media/541d823f-f93a-4162-a5cf-4d95fe79fb1e.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -162,6 +166,7 @@
    "lon": 7.522691,
    "extra": {
     "company_id": "39998",
+    "company_logo": "https://media.jobup.ch/media/cc312c9c-b3d2-465c-aca4-d14e28c8c522.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -202,6 +207,7 @@
    "lon": 7.522691,
    "extra": {
     "company_id": "39998",
+    "company_logo": "https://media.jobup.ch/media/cc312c9c-b3d2-465c-aca4-d14e28c8c522.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -242,6 +248,7 @@
    "lon": 7.072735,
    "extra": {
     "company_id": "535",
+    "company_logo": "https://media.jobup.ch/media/78ccaf9f-2b78-4a4e-95d0-c8e86c7fca3d.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -279,6 +286,7 @@
    "lon": 7.530912,
    "extra": {
     "company_id": "46159",
+    "company_logo": "https://media.jobup.ch/media/9133b8c0-d66b-4a9f-85e1-24886271d6d0.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -316,6 +324,7 @@
    "lon": 7.292926,
    "extra": {
     "company_id": "33862",
+    "company_logo": "https://media.jobup.ch/media/4a24d510-c080-45ed-b697-7c637c6da427.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -348,6 +357,7 @@
    "lon": 6.946845,
    "extra": {
     "company_id": "828",
+    "company_logo": "https://media.jobup.ch/media/ce612d11-5d9b-4a83-b4e2-a31f01b70f26.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -381,6 +391,7 @@
    "lon": 7.36091,
    "extra": {
     "company_id": "b0293c36-f215-4298-8bf2-4d53a68b8771",
+    "company_logo": "https://media.jobs.ch/media/c9d3de94-b38e-4d6a-b924-e4dfe1662c96",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -415,6 +426,7 @@
    "lon": 6.96009,
    "extra": {
     "company_id": "73a88003-0069-451c-99bc-4463e3f1918e",
+    "company_logo": "https://media.jobs.ch/media/41f01a4e-9371-4dd6-9fa9-ad0f20912f9a",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -447,6 +459,7 @@
    "lon": 7.20179,
    "extra": {
     "company_id": "cf5ae6c9-032a-4798-b264-30a843030869",
+    "company_logo": "https://media.jobs.ch/media/e4ccdeae-b79a-4536-9852-3cc1abb23652",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -486,6 +499,7 @@
    "lon": 7.488143,
    "extra": {
     "company_id": "12282",
+    "company_logo": "https://media.jobup.ch/media/9bdafb0f-5637-48ed-969a-f8af27e64df5.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -518,6 +532,7 @@
    "lon": 7.488143,
    "extra": {
     "company_id": "12282",
+    "company_logo": "https://media.jobup.ch/media/9bdafb0f-5637-48ed-969a-f8af27e64df5.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -550,6 +565,7 @@
    "lon": 7.089738,
    "extra": {
     "company_id": "7106",
+    "company_logo": "https://media.jobup.ch/media/624ea960-7692-409a-866d-7aa28d0e1d28.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -584,6 +600,7 @@
    "lon": 7.352046,
    "extra": {
     "company_id": "47002",
+    "company_logo": "https://media.jobup.ch/media/2fddb042-1ae2-404d-8055-897771fd4c68.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -616,6 +633,7 @@
    "lon": null,
    "extra": {
     "company_id": "7196",
+    "company_logo": "https://media.jobup.ch/media/df009390-385f-4320-ab34-0783d3b85f78.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -652,6 +670,7 @@
    "lon": 7.357014,
    "extra": {
     "company_id": "8695",
+    "company_logo": "https://media.jobup.ch/media/c84938ba-bf68-4d98-bd66-73c6aac884d9.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -691,6 +710,7 @@
    "lon": 7.35888,
    "extra": {
     "company_id": "9650",
+    "company_logo": "https://media.jobup.ch/media/a08549f6-c1cf-45f0-8587-8325c70a0e21.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -728,6 +748,7 @@
    "lon": 7.292926,
    "extra": {
     "company_id": "33862",
+    "company_logo": "https://media.jobup.ch/media/4a24d510-c080-45ed-b697-7c637c6da427.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -764,6 +785,7 @@
    "lon": 7.22078,
    "extra": {
     "company_id": "942812de-82ac-4929-a050-42260e8ff767",
+    "company_logo": "https://media.jobs.ch/media/01b509b1-147e-4226-b7ad-ad73981027c1",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -796,6 +818,7 @@
    "lon": 7.366751,
    "extra": {
     "company_id": "30423",
+    "company_logo": "https://media.jobup.ch/media/d2e73a29-84f8-40d9-a02f-4054cba9bb76.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -835,6 +858,7 @@
    "lon": 7.35765,
    "extra": {
     "company_id": "b5fda50c-241b-455f-9d3d-3329824c9e5f",
+    "company_logo": "https://media.jobs.ch/media/cda81b05-2325-44ff-a48a-1cea9a2dfe50",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -867,6 +891,7 @@
    "lon": 7.626978,
    "extra": {
     "company_id": "69436",
+    "company_logo": "https://media.jobup.ch/media/2efeab74-ef90-4eea-9068-fb6c01983256.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -901,6 +926,7 @@
    "lon": 7.114654,
    "extra": {
     "company_id": "14545",
+    "company_logo": "https://media.jobup.ch/media/e1b04a87-77b0-43cd-8e20-7f719c40b9cd.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -938,6 +964,7 @@
    "lon": 7.357014,
    "extra": {
     "company_id": "1638",
+    "company_logo": "https://media.jobup.ch/media/db461257-0cc0-407c-939d-1758fe87de81.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -977,6 +1004,7 @@
    "lon": 7.042874,
    "extra": {
     "company_id": "3962",
+    "company_logo": "https://media.jobup.ch/media/b83302d0-5ae2-4e15-84db-c6319eff79af.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1009,6 +1037,7 @@
    "lon": 7.351331,
    "extra": {
     "company_id": "25613",
+    "company_logo": "https://media.jobup.ch/media/d2b2fa3a-efa0-4134-b2df-b2c842595fcb.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1045,6 +1074,7 @@
    "lon": null,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": null,
     "is_staffing_agency": false,
     "employment_types": [
@@ -1076,6 +1106,7 @@
    "lon": 7.357014,
    "extra": {
     "company_id": "17629",
+    "company_logo": "https://media.jobup.ch/media/04ec7498-1fd1-47f8-9459-b73df00835a1.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1111,6 +1142,7 @@
    "lon": 6.94987,
    "extra": {
     "company_id": "15224",
+    "company_logo": "https://media.jobup.ch/media/e145483a-7e6e-498f-903b-821399e23295.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1149,6 +1181,7 @@
    "lon": 7.35885,
    "extra": {
     "company_id": "6fc117a9-b1f9-4460-b30a-ff26735d778c",
+    "company_logo": "https://media.jobs.ch/media/a92e50b8-61c9-4506-bf4f-67e3520df298",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -1180,6 +1213,7 @@
    "lon": 7.218633,
    "extra": {
     "company_id": "65853",
+    "company_logo": "https://media.jobup.ch/media/c8795a9e-858c-45c8-a9b1-4edbd6e6dad2.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -1216,6 +1250,7 @@
    "lon": 6.94416,
    "extra": {
     "company_id": "9fa69459-ad48-40c1-b359-197792f705c6",
+    "company_logo": "https://media.jobs.ch/media/4800e1dd-78a1-4054-b2f9-bc0660b4d5de",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1248,6 +1283,7 @@
    "lon": 6.94987,
    "extra": {
     "company_id": "11133",
+    "company_logo": "https://media.jobup.ch/media/8793d6d7-8e33-4434-aa72-d49b18e25cd9.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1284,6 +1320,7 @@
    "lon": 7.006323,
    "extra": {
     "company_id": "11133",
+    "company_logo": "https://media.jobup.ch/media/8793d6d7-8e33-4434-aa72-d49b18e25cd9.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1322,6 +1359,7 @@
    "lon": 7.35888,
    "extra": {
     "company_id": "11133",
+    "company_logo": "https://media.jobup.ch/media/8793d6d7-8e33-4434-aa72-d49b18e25cd9.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1356,6 +1394,7 @@
    "lon": 7.006323,
    "extra": {
     "company_id": "11133",
+    "company_logo": "https://media.jobup.ch/media/8793d6d7-8e33-4434-aa72-d49b18e25cd9.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1396,6 +1435,7 @@
    "lon": 7.448847,
    "extra": {
     "company_id": "24595",
+    "company_logo": "https://media.jobup.ch/media/bd585656-3be7-4604-a00b-2ef5a1f0ad1f.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1428,6 +1468,7 @@
    "lon": 7.448847,
    "extra": {
     "company_id": "24595",
+    "company_logo": "https://media.jobup.ch/media/bd585656-3be7-4604-a00b-2ef5a1f0ad1f.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1462,6 +1503,7 @@
    "lon": 7.448847,
    "extra": {
     "company_id": "24595",
+    "company_logo": "https://media.jobup.ch/media/bd585656-3be7-4604-a00b-2ef5a1f0ad1f.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1496,6 +1538,7 @@
    "lon": 7.49912,
    "extra": {
     "company_id": "d9b40b28-cc29-4088-87a0-0c95ba935a39",
+    "company_logo": "https://media.jobs.ch/media/d07d1947-c5a0-4400-b0b3-53fe32a8da32",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1528,6 +1571,7 @@
    "lon": 7.21078,
    "extra": {
     "company_id": "10ffc325-0c2a-4b4c-8cb3-e6e7aa90f280",
+    "company_logo": "https://media.jobs.ch/media/6416bdc6-7385-4caa-840d-f04d3693159e",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1564,6 +1608,7 @@
    "lon": 7.18313,
    "extra": {
     "company_id": "6629e03a-1182-4205-a0f8-8eed99a47a8c",
+    "company_logo": "https://media.jobs.ch/media/23e0908f-13af-4ec8-b1e5-25cc51320f96",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1600,6 +1645,7 @@
    "lon": 7.357014,
    "extra": {
     "company_id": "65853",
+    "company_logo": "https://media.jobup.ch/media/c8795a9e-858c-45c8-a9b1-4edbd6e6dad2.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -1632,6 +1678,7 @@
    "lon": 7.35885,
    "extra": {
     "company_id": "503983d6-66f3-4235-af77-0cb9d41ba6b8",
+    "company_logo": "https://media.jobs.ch/media/710643f7-e061-4c06-94f8-f012baef55da",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1667,6 +1714,7 @@
    "lon": 7.3683,
    "extra": {
     "company_id": "69d2de82-7e78-4d82-b879-8822bdc9fee7",
+    "company_logo": "https://media.jobs.ch/media/de1e854d-b0a0-4a87-ba4a-3068d27dd81e",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1715,6 +1763,7 @@
    "lon": 7.1957,
    "extra": {
     "company_id": "6b0bb5af-aa10-4028-975c-990621bab3f1",
+    "company_logo": "https://media.jobs.ch/media/e7b89536-bf5f-43ec-afd8-256207d5db40",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1747,6 +1796,7 @@
    "lon": 7.303033875235052,
    "extra": {
     "company_id": "3268",
+    "company_logo": "https://media.jobs.ch/images/dfad3df2-23aa-421b-8622-69d3ac5b0152/124x44.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1779,6 +1829,7 @@
    "lon": 7.35888,
    "extra": {
     "company_id": "6580",
+    "company_logo": "https://media.jobup.ch/media/7fda50e4-3e5b-40bf-a292-6a481b30bf6d.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1812,6 +1863,7 @@
    "lon": 7.35888,
    "extra": {
     "company_id": "6580",
+    "company_logo": "https://media.jobup.ch/media/7fda50e4-3e5b-40bf-a292-6a481b30bf6d.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1845,6 +1897,7 @@
    "lon": 7.49436,
    "extra": {
     "company_id": "14653",
+    "company_logo": "https://media.jobup.ch/media/4022fde6-a0b1-4339-9e63-70133fa88bcc.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1879,6 +1932,7 @@
    "lon": 7.00431,
    "extra": {
     "company_id": "45487982-196d-4462-899b-2514b63061f4",
+    "company_logo": "https://media.jobs.ch/media/b03bf381-c4ed-43d6-b0d5-99f6c874c4b4",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1915,6 +1969,7 @@
    "lon": 7.145827,
    "extra": {
     "company_id": "66442",
+    "company_logo": "https://media.jobup.ch/media/370c68c6-f9d1-4dbb-8b06-908c65fd3924.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1952,6 +2007,7 @@
    "lon": 7.35888,
    "extra": {
     "company_id": "11133",
+    "company_logo": "https://media.jobup.ch/media/1adeafd2-71a5-49e2-9a9f-953eb75986f2.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -1987,6 +2043,7 @@
    "lon": 7.357014,
    "extra": {
     "company_id": "62329",
+    "company_logo": "https://media.jobup.ch/media/1715ad15-67fe-448d-a489-02d7e2cf8974.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -2027,6 +2084,7 @@
    "lon": 7.073296,
    "extra": {
     "company_id": "62329",
+    "company_logo": "https://media.jobup.ch/media/1715ad15-67fe-448d-a489-02d7e2cf8974.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -2068,6 +2126,7 @@
    "lon": 7.073296,
    "extra": {
     "company_id": "62329",
+    "company_logo": "https://media.jobup.ch/media/1715ad15-67fe-448d-a489-02d7e2cf8974.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -2112,6 +2171,7 @@
    "lon": 7.073296,
    "extra": {
     "company_id": "62329",
+    "company_logo": "https://media.jobup.ch/media/1715ad15-67fe-448d-a489-02d7e2cf8974.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -2146,6 +2206,7 @@
    "lon": 7.073296,
    "extra": {
     "company_id": "62329",
+    "company_logo": "https://media.jobup.ch/media/1715ad15-67fe-448d-a489-02d7e2cf8974.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -2182,6 +2243,7 @@
    "lon": 7.073296,
    "extra": {
     "company_id": "62329",
+    "company_logo": "https://media.jobup.ch/media/1715ad15-67fe-448d-a489-02d7e2cf8974.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -2217,6 +2279,7 @@
    "lon": 7.073296,
    "extra": {
     "company_id": "62329",
+    "company_logo": "https://media.jobup.ch/media/1715ad15-67fe-448d-a489-02d7e2cf8974.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -2251,6 +2314,7 @@
    "lon": 7.073296,
    "extra": {
     "company_id": "62329",
+    "company_logo": "https://media.jobup.ch/media/1715ad15-67fe-448d-a489-02d7e2cf8974.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -2286,6 +2350,7 @@
    "lon": 7.073296,
    "extra": {
     "company_id": "62329",
+    "company_logo": "https://media.jobup.ch/media/1715ad15-67fe-448d-a489-02d7e2cf8974.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -2320,6 +2385,7 @@
    "lon": 7.073296,
    "extra": {
     "company_id": "62329",
+    "company_logo": "https://media.jobup.ch/media/1715ad15-67fe-448d-a489-02d7e2cf8974.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -2355,6 +2421,7 @@
    "lon": 7.480627,
    "extra": {
     "company_id": "16660",
+    "company_logo": "https://media.jobup.ch/media/e4df878c-af85-43a1-8367-df3c0bac7dda.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -2387,6 +2454,7 @@
    "lon": 7.54938,
    "extra": {
     "company_id": "99dc67a4-4420-449c-97c7-7a93d9a514f0",
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -2419,6 +2487,7 @@
    "lon": 7.367177,
    "extra": {
     "company_id": "47081",
+    "company_logo": "https://media.jobup.ch/media/1e222078-5b29-44c2-9ebf-456c42a80c76.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -2454,6 +2523,7 @@
    "lon": 7.35942,
    "extra": {
     "company_id": "c6b26d87-e9cb-4a78-849a-17449c1a3d3a",
+    "company_logo": "https://media.jobs.ch/media/cd4671a8-a170-486e-b355-874501779f56",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -2490,6 +2560,7 @@
    "lon": 7.626978,
    "extra": {
     "company_id": "69436",
+    "company_logo": "https://media.jobup.ch/media/2efeab74-ef90-4eea-9068-fb6c01983256.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -2522,6 +2593,7 @@
    "lon": 7.340657,
    "extra": {
     "company_id": "44148",
+    "company_logo": "https://media.jobup.ch/media/4a84ce33-c1a8-45da-85cc-bd23ed04bcd8.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -2556,6 +2628,7 @@
    "lon": 7.22995,
    "extra": {
     "company_id": "d1059ffe-e658-408f-9f19-69dcd1f06f88",
+    "company_logo": "https://media.jobs.ch/media/20913b37-e68f-43b2-8f1a-55212f46d8eb",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -2588,6 +2661,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "958",
+    "company_logo": "https://media.jobs.ch/images/15d09179-83a5-4e0d-b449-6e412a2d226d",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -2620,6 +2694,7 @@
    "lon": 7.356914,
    "extra": {
     "company_id": "4234",
+    "company_logo": "https://media.jobup.ch/media/e02b14ea-37d9-400d-bfac-079696b326bb.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -2659,6 +2734,7 @@
    "lon": 7.308839,
    "extra": {
     "company_id": "8409",
+    "company_logo": "https://media.jobup.ch/media/9ac71bee-f2a4-46c0-aa29-3a3594309077.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -2693,6 +2769,7 @@
    "lon": 7.340657,
    "extra": {
     "company_id": "44148",
+    "company_logo": "https://media.jobup.ch/media/4a84ce33-c1a8-45da-85cc-bd23ed04bcd8.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -2725,6 +2802,7 @@
    "lon": 7.362875,
    "extra": {
     "company_id": "39998",
+    "company_logo": "https://media.jobup.ch/media/fc1bf331-2278-4d8a-b496-49c2fce1f279.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -2763,6 +2841,7 @@
    "lon": 7.362875,
    "extra": {
     "company_id": "39998",
+    "company_logo": "https://media.jobup.ch/media/fc1bf331-2278-4d8a-b496-49c2fce1f279.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -2801,6 +2880,7 @@
    "lon": 7.042874,
    "extra": {
     "company_id": "3962",
+    "company_logo": "https://media.jobup.ch/media/b83302d0-5ae2-4e15-84db-c6319eff79af.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -2835,6 +2915,7 @@
    "lon": 7.042874,
    "extra": {
     "company_id": "3962",
+    "company_logo": "https://media.jobup.ch/media/b83302d0-5ae2-4e15-84db-c6319eff79af.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -2869,6 +2950,7 @@
    "lon": 7.042874,
    "extra": {
     "company_id": "3962",
+    "company_logo": "https://media.jobup.ch/media/b83302d0-5ae2-4e15-84db-c6319eff79af.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -2901,6 +2983,7 @@
    "lon": 7.073329717573879,
    "extra": {
     "company_id": "11152",
+    "company_logo": "https://media.jobup.ch/media/97f07379-25bc-480b-ad0b-9417f9d0840b.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -2940,6 +3023,7 @@
    "lon": 7.042874,
    "extra": {
     "company_id": "3962",
+    "company_logo": "https://media.jobup.ch/media/b83302d0-5ae2-4e15-84db-c6319eff79af.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -2972,6 +3056,7 @@
    "lon": 7.042874,
    "extra": {
     "company_id": "3962",
+    "company_logo": "https://media.jobup.ch/media/b83302d0-5ae2-4e15-84db-c6319eff79af.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -3004,6 +3089,7 @@
    "lon": 6.902366815810885,
    "extra": {
     "company_id": "7105",
+    "company_logo": "https://media.jobup.ch/media/bad5cc72-dc2f-43c1-b7f4-9550ba4ca5b1.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -3039,6 +3125,7 @@
    "lon": 7.36453,
    "extra": {
     "company_id": "25613",
+    "company_logo": "https://media.jobup.ch/media/d2b2fa3a-efa0-4134-b2df-b2c842595fcb.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -3073,6 +3160,7 @@
    "lon": 7.357014,
    "extra": {
     "company_id": "22145",
+    "company_logo": "https://media.jobup.ch/media/a4425547-9ca3-4763-994d-9e7f70697845.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -3105,6 +3193,7 @@
    "lon": 7.357014,
    "extra": {
     "company_id": "22145",
+    "company_logo": "https://media.jobup.ch/media/a4425547-9ca3-4763-994d-9e7f70697845.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -3137,6 +3226,7 @@
    "lon": 7.073296,
    "extra": {
     "company_id": "22145",
+    "company_logo": "https://media.jobup.ch/media/a4425547-9ca3-4763-994d-9e7f70697845.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -3169,6 +3259,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "958",
+    "company_logo": "https://media.jobs.ch/images/15d09179-83a5-4e0d-b449-6e412a2d226d",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -3201,6 +3292,7 @@
    "lon": 7.073329717573879,
    "extra": {
     "company_id": "958",
+    "company_logo": "https://media.jobs.ch/images/70491fbc-0b71-4233-b152-43638549132c",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -3233,6 +3325,7 @@
    "lon": 7.626978,
    "extra": {
     "company_id": "60950",
+    "company_logo": "https://media.jobup.ch/media/be838023-a6d0-411e-9342-fb785ee2a8ff.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -3265,6 +3358,7 @@
    "lon": 7.22344,
    "extra": {
     "company_id": "6f2f3038-410d-4d59-9103-c7bbea19adcb",
+    "company_logo": "https://media.jobs.ch/media/aae6100b-1112-40ce-8ee0-35ce921c7ca4",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -3297,6 +3391,7 @@
    "lon": 6.94987,
    "extra": {
     "company_id": "3393",
+    "company_logo": "https://media.jobup.ch/media/a295ec66-f348-4dc3-8ae1-9d9f891a26a2.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -3331,6 +3426,7 @@
    "lon": 6.94987,
    "extra": {
     "company_id": "3393",
+    "company_logo": "https://media.jobup.ch/media/a295ec66-f348-4dc3-8ae1-9d9f891a26a2.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -3365,6 +3461,7 @@
    "lon": 7.626623,
    "extra": {
     "company_id": "12282",
+    "company_logo": "https://media.jobup.ch/media/9bdafb0f-5637-48ed-969a-f8af27e64df5.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -3397,6 +3494,7 @@
    "lon": 7.072735,
    "extra": {
     "company_id": "65853",
+    "company_logo": "https://media.jobup.ch/media/c8795a9e-858c-45c8-a9b1-4edbd6e6dad2.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -3433,6 +3531,7 @@
    "lon": 7.386218,
    "extra": {
     "company_id": "59672",
+    "company_logo": "https://media.jobup.ch/media/70243d54-daed-4414-bcbd-82df49c4f8eb.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -3470,6 +3569,7 @@
    "lon": 7.35885,
    "extra": {
     "company_id": "6fc117a9-b1f9-4460-b30a-ff26735d778c",
+    "company_logo": "https://media.jobs.ch/media/a92e50b8-61c9-4506-bf4f-67e3520df298",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -3505,6 +3605,7 @@
    "lon": 7.369991,
    "extra": {
     "company_id": "47002",
+    "company_logo": "https://media.jobup.ch/media/2fddb042-1ae2-404d-8055-897771fd4c68.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -3537,6 +3638,7 @@
    "lon": null,
    "extra": {
     "company_id": "66442",
+    "company_logo": "https://media.jobup.ch/media/370c68c6-f9d1-4dbb-8b06-908c65fd3924.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -3572,6 +3674,7 @@
    "lon": 7.303033875235052,
    "extra": {
     "company_id": "958",
+    "company_logo": "https://media.jobs.ch/images/70491fbc-0b71-4233-b152-43638549132c",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -3604,6 +3707,7 @@
    "lon": null,
    "extra": {
     "company_id": "66442",
+    "company_logo": "https://media.jobup.ch/media/370c68c6-f9d1-4dbb-8b06-908c65fd3924.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -3639,6 +3743,7 @@
    "lon": 7.536447,
    "extra": {
     "company_id": "25613",
+    "company_logo": "https://media.jobup.ch/media/d2b2fa3a-efa0-4134-b2df-b2c842595fcb.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -3675,6 +3780,7 @@
    "lon": 7.073,
    "extra": {
     "company_id": "66442",
+    "company_logo": "https://media.jobup.ch/media/370c68c6-f9d1-4dbb-8b06-908c65fd3924.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -3708,6 +3814,7 @@
    "lon": 7.357014,
    "extra": {
     "company_id": "3393",
+    "company_logo": "https://media.jobup.ch/media/ae500a1d-6b32-4284-aa7c-4c07ae42c388.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -3742,6 +3849,7 @@
    "lon": 7.250103,
    "extra": {
     "company_id": "14470",
+    "company_logo": "https://media.jobup.ch/media/186bb985-4e81-437d-aed2-25c9aa796993.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -3774,6 +3882,7 @@
    "lon": null,
    "extra": {
     "company_id": "7593",
+    "company_logo": "https://media.jobup.ch/media/f6ce5ee4-4e77-4a3c-b03a-67c4aca1eb1b.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -3805,6 +3914,7 @@
    "lon": 7.3522,
    "extra": {
     "company_id": "cd12abac-f943-47b9-af95-b70b6f4b2871",
+    "company_logo": "https://media.jobs.ch/media/99147ead-4e79-442b-a435-9040b52019e2",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -3841,6 +3951,7 @@
    "lon": 7.358831,
    "extra": {
     "company_id": "38959",
+    "company_logo": "https://media.jobup.ch/media/0adaee54-374a-4cfa-bb8f-99b76f4fb69a.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -3875,6 +3986,7 @@
    "lon": 6.997995,
    "extra": {
     "company_id": "19184",
+    "company_logo": "https://media.jobup.ch/media/3da99523-c098-4556-aa25-dc55336cb9b4.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -3911,6 +4023,7 @@
    "lon": 7.357014,
    "extra": {
     "company_id": "3393",
+    "company_logo": "https://media.jobup.ch/media/ae500a1d-6b32-4284-aa7c-4c07ae42c388.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -3945,6 +4058,7 @@
    "lon": 7.145899,
    "extra": {
     "company_id": "66442",
+    "company_logo": "https://media.jobup.ch/media/2307b761-3ba7-4f33-8789-10080d2234f9.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -3981,6 +4095,7 @@
    "lon": 7.480627,
    "extra": {
     "company_id": "4251",
+    "company_logo": "https://www.easytemp.ch/bin/mandant5120.gif?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -4015,6 +4130,7 @@
    "lon": 7.073296,
    "extra": {
     "company_id": "46159",
+    "company_logo": "https://media.jobup.ch/media/9133b8c0-d66b-4a9f-85e1-24886271d6d0.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -4050,6 +4166,7 @@
    "lon": null,
    "extra": {
     "company_id": "2712",
+    "company_logo": "https://media.jobup.ch/media/b690c27d-0da7-481a-945d-50cd1cab39a4.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -4084,6 +4201,7 @@
    "lon": 6.889088,
    "extra": {
     "company_id": "7105",
+    "company_logo": "https://media.jobup.ch/media/bad5cc72-dc2f-43c1-b7f4-9550ba4ca5b1.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -4118,6 +4236,7 @@
    "lon": 7.072985,
    "extra": {
     "company_id": "56354",
+    "company_logo": "https://media.jobup.ch/media/ae2e97bc-6123-41e3-941c-2c4fde08b692.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -4155,6 +4274,7 @@
    "lon": null,
    "extra": {
     "company_id": "2712",
+    "company_logo": "https://media.jobup.ch/media/b690c27d-0da7-481a-945d-50cd1cab39a4.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -4186,6 +4306,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "59672",
+    "company_logo": "https://media.jobup.ch/media/70243d54-daed-4414-bcbd-82df49c4f8eb.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -4227,6 +4348,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "59672",
+    "company_logo": "https://media.jobup.ch/media/3fd2ed4b-0ced-4116-949d-8e37f3202a3b.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -4269,6 +4391,7 @@
    "lon": 7.53594,
    "extra": {
     "company_id": "ea262f85-74be-42cf-b9b8-29c3506bbe26",
+    "company_logo": "https://media.jobs.ch/media/31ed9d49-7971-4594-8567-2112c2d36e19",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -4305,6 +4428,7 @@
    "lon": 7.35885,
    "extra": {
     "company_id": "503983d6-66f3-4235-af77-0cb9d41ba6b8",
+    "company_logo": "https://media.jobs.ch/media/710643f7-e061-4c06-94f8-f012baef55da",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -4340,6 +4464,7 @@
    "lon": 7.53249,
    "extra": {
     "company_id": "65d41690-2812-469d-8978-9ad7f07a846f",
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -4374,6 +4499,7 @@
    "lon": 7.53249,
    "extra": {
     "company_id": "65d41690-2812-469d-8978-9ad7f07a846f",
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -4410,6 +4536,7 @@
    "lon": 7.349178,
    "extra": {
     "company_id": "73587",
+    "company_logo": "https://media.jobup.ch/media/7f081ae7-5a22-4b90-beca-0d9aa635f2a2.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -4445,6 +4572,7 @@
    "lon": 7.17371,
    "extra": {
     "company_id": "95dae1aa-e718-479d-b945-c4ca8f5af0ee",
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -4481,6 +4609,7 @@
    "lon": 7.530912,
    "extra": {
     "company_id": "46159",
+    "company_logo": "https://media.jobup.ch/media/9133b8c0-d66b-4a9f-85e1-24886271d6d0.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -4518,6 +4647,7 @@
    "lon": 6.94987,
    "extra": {
     "company_id": "65853",
+    "company_logo": "https://media.jobup.ch/media/c8795a9e-858c-45c8-a9b1-4edbd6e6dad2.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -4550,6 +4680,7 @@
    "lon": 7.292926,
    "extra": {
     "company_id": "33862",
+    "company_logo": "https://media.jobup.ch/media/4a24d510-c080-45ed-b697-7c637c6da427.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -4582,6 +4713,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "5785306f-46bb-43a5-af0a-165ee143755f",
+    "company_logo": "https://media.jobs.ch/images/775b3107-78d9-4d0c-98fc-dc9ed7031242/490x490.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -4616,6 +4748,7 @@
    "lon": 7.357014,
    "extra": {
     "company_id": "46159",
+    "company_logo": "https://media.jobup.ch/media/9133b8c0-d66b-4a9f-85e1-24886271d6d0.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -4653,6 +4786,7 @@
    "lon": 7.073296,
    "extra": {
     "company_id": "46159",
+    "company_logo": "https://media.jobup.ch/media/9133b8c0-d66b-4a9f-85e1-24886271d6d0.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -4688,6 +4822,7 @@
    "lon": 7.073296,
    "extra": {
     "company_id": "46159",
+    "company_logo": "https://media.jobup.ch/media/9133b8c0-d66b-4a9f-85e1-24886271d6d0.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -4723,6 +4858,7 @@
    "lon": 6.94987,
    "extra": {
     "company_id": "46159",
+    "company_logo": "https://media.jobup.ch/media/9133b8c0-d66b-4a9f-85e1-24886271d6d0.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -4760,6 +4896,7 @@
    "lon": 7.530912,
    "extra": {
     "company_id": "46159",
+    "company_logo": "https://media.jobup.ch/media/9133b8c0-d66b-4a9f-85e1-24886271d6d0.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -4796,6 +4933,7 @@
    "lon": 7.357014,
    "extra": {
     "company_id": "6177",
+    "company_logo": "https://media.jobup.ch/media/f1cf875e-61aa-43de-8e29-50dae71741ee.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -4828,6 +4966,7 @@
    "lon": 6.916458,
    "extra": {
     "company_id": "60771",
+    "company_logo": "https://media.jobup.ch/media/67ac90db-f1d5-4f4d-b879-10cda82bb83c.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -4862,6 +5001,7 @@
    "lon": 7.073296,
    "extra": {
     "company_id": "3393",
+    "company_logo": "https://media.jobup.ch/media/ae500a1d-6b32-4284-aa7c-4c07ae42c388.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -4894,6 +5034,7 @@
    "lon": 7.536447,
    "extra": {
     "company_id": "25613",
+    "company_logo": "https://media.jobup.ch/media/d2b2fa3a-efa0-4134-b2df-b2c842595fcb.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -4926,6 +5067,7 @@
    "lon": 7.351331,
    "extra": {
     "company_id": "25613",
+    "company_logo": "https://media.jobup.ch/media/d2b2fa3a-efa0-4134-b2df-b2c842595fcb.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -4958,6 +5100,7 @@
    "lon": 7.36453,
    "extra": {
     "company_id": "25613",
+    "company_logo": "https://media.jobup.ch/media/d2b2fa3a-efa0-4134-b2df-b2c842595fcb.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -4990,6 +5133,7 @@
    "lon": 7.351331,
    "extra": {
     "company_id": "25613",
+    "company_logo": "https://media.jobup.ch/media/d2b2fa3a-efa0-4134-b2df-b2c842595fcb.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -5022,6 +5166,7 @@
    "lon": 7.357014,
    "extra": {
     "company_id": "46159",
+    "company_logo": "https://media.jobup.ch/media/9133b8c0-d66b-4a9f-85e1-24886271d6d0.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -5056,6 +5201,7 @@
    "lon": 7.530912,
    "extra": {
     "company_id": "46159",
+    "company_logo": "https://media.jobup.ch/media/9133b8c0-d66b-4a9f-85e1-24886271d6d0.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -5092,6 +5238,7 @@
    "lon": 7.357014,
    "extra": {
     "company_id": "46159",
+    "company_logo": "https://media.jobup.ch/media/9133b8c0-d66b-4a9f-85e1-24886271d6d0.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -5128,6 +5275,7 @@
    "lon": 7.357014,
    "extra": {
     "company_id": "46159",
+    "company_logo": "https://media.jobup.ch/media/9133b8c0-d66b-4a9f-85e1-24886271d6d0.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -5163,6 +5311,7 @@
    "lon": 7.41083,
    "extra": {
     "company_id": "cd12abac-f943-47b9-af95-b70b6f4b2871",
+    "company_logo": "https://media.jobs.ch/media/99147ead-4e79-442b-a435-9040b52019e2",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -5201,6 +5350,7 @@
    "lon": 7.36453,
    "extra": {
     "company_id": "25613",
+    "company_logo": "https://media.jobup.ch/media/d2b2fa3a-efa0-4134-b2df-b2c842595fcb.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -5235,6 +5385,7 @@
    "lon": 7.19102384238366,
    "extra": {
     "company_id": "34846",
+    "company_logo": "https://media.jobup.ch/media/1e3b8ef9-b37d-47cd-8436-ee8331e8967b.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -5269,6 +5420,7 @@
    "lon": null,
    "extra": {
     "company_id": "12809",
+    "company_logo": "https://media.jobup.ch/media/c39a88f0-4d02-4cde-b9c6-5dbbdb2f6712.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -5301,6 +5453,7 @@
    "lon": 7.17595,
    "extra": {
     "company_id": "1f52c795-7521-419a-b220-5e6f0ef8f657",
+    "company_logo": "https://media.jobs.ch/media/76590c5a-5b8d-4922-bdbd-d44dfcc6bc7c",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -5333,6 +5486,7 @@
    "lon": 7.42687,
    "extra": {
     "company_id": "08009b50-381a-489c-9891-bb54ed0873a0",
+    "company_logo": "https://media.jobs.ch/media/e99e6d80-f1be-4759-8cd9-82e461a52130",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -5369,6 +5523,7 @@
    "lon": 7.530912,
    "extra": {
     "company_id": "73574",
+    "company_logo": "https://media.jobup.ch/media/a3ba049d-1d36-492a-bbda-13e8043dc54c.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -5403,6 +5558,7 @@
    "lon": 7.98821,
    "extra": {
     "company_id": "47002",
+    "company_logo": "https://media.jobup.ch/media/2fddb042-1ae2-404d-8055-897771fd4c68.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -5436,6 +5592,7 @@
    "lon": 7.113861,
    "extra": {
     "company_id": "7593",
+    "company_logo": "https://media.jobup.ch/media/f6ce5ee4-4e77-4a3c-b03a-67c4aca1eb1b.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -5471,6 +5628,7 @@
    "lon": 7.35888,
    "extra": {
     "company_id": "4251",
+    "company_logo": "https://www.easytemp.ch/bin/mandant5120.gif?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -5505,6 +5663,7 @@
    "lon": 7.409788,
    "extra": {
     "company_id": "4251",
+    "company_logo": "https://www.easytemp.ch/bin/mandant5120.gif?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -5539,6 +5698,7 @@
    "lon": 7.35888,
    "extra": {
     "company_id": "4251",
+    "company_logo": "https://www.easytemp.ch/bin/mandant5120.gif?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -5573,6 +5733,7 @@
    "lon": 7.479072,
    "extra": {
     "company_id": "4251",
+    "company_logo": "https://www.easytemp.ch/bin/mandant5120.gif?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -5608,6 +5769,7 @@
    "lon": 7.531459,
    "extra": {
     "company_id": "7196",
+    "company_logo": "https://media.jobup.ch/media/df009390-385f-4320-ab34-0783d3b85f78.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -5640,6 +5802,7 @@
    "lon": 7.626978,
    "extra": {
     "company_id": "69436",
+    "company_logo": "https://media.jobup.ch/media/2efeab74-ef90-4eea-9068-fb6c01983256.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -5679,6 +5842,7 @@
    "lon": null,
    "extra": {
     "company_id": "7196",
+    "company_logo": "https://media.jobup.ch/media/df009390-385f-4320-ab34-0783d3b85f78.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -5715,6 +5879,7 @@
    "lon": 7.072735,
    "extra": {
     "company_id": "7631",
+    "company_logo": "https://pms.imgix.net/b63ca45887808b15275279a5d4db9983?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -5752,6 +5917,7 @@
    "lon": 7.0844837,
    "extra": {
     "company_id": "e3470ddf-2631-4ebc-922e-6b81e44973c2",
+    "company_logo": "https://media.jobs.ch/media/63f7469a-b00a-49a1-84ac-4acd3b5918f2",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -5784,6 +5950,7 @@
    "lon": 7.35888,
    "extra": {
     "company_id": "6580",
+    "company_logo": "https://media.jobup.ch/media/7fda50e4-3e5b-40bf-a292-6a481b30bf6d.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -5819,6 +5986,7 @@
    "lon": 7.35888,
    "extra": {
     "company_id": "6580",
+    "company_logo": "https://media.jobup.ch/media/7fda50e4-3e5b-40bf-a292-6a481b30bf6d.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -5854,6 +6022,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "22346",
+    "company_logo": "https://media.jobup.ch/media/cb1dd612-039b-4e3a-a0fb-b2d4f17bf14f.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -5886,6 +6055,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": "4049",
+    "company_logo": "https://media.jobs.ch/images/4edfc7d4-c3c9-43fd-8da9-8706fdaaea6c",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -5918,6 +6088,7 @@
    "lon": 7.0035,
    "extra": {
     "company_id": "9157d824-b953-444a-8b03-5ee4986ee462",
+    "company_logo": "https://media.jobs.ch/media/0f7e5444-e00f-41a8-8262-f5ddb6017979",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -5952,6 +6123,7 @@
    "lon": 7.36108,
    "extra": {
     "company_id": "a817f70a-273a-496e-b612-27a3f56184d6",
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -5988,6 +6160,7 @@
    "lon": 7.529496,
    "extra": {
     "company_id": "60771",
+    "company_logo": "https://media.jobup.ch/media/82049920-ed4c-470e-bf78-b335809ce9ed.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6024,6 +6197,7 @@
    "lon": 7.529496,
    "extra": {
     "company_id": "60771",
+    "company_logo": "https://media.jobup.ch/media/82049920-ed4c-470e-bf78-b335809ce9ed.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6060,6 +6234,7 @@
    "lon": 7.357014,
    "extra": {
     "company_id": "8695",
+    "company_logo": "https://media.jobup.ch/media/c84938ba-bf68-4d98-bd66-73c6aac884d9.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -6101,6 +6276,7 @@
    "lon": 7.17849,
    "extra": {
     "company_id": "80f954b7-a6fe-4663-b244-5bfbe5d140a5",
+    "company_logo": "https://media.jobs.ch/media/1325375c-479e-4d8d-9835-9287166a0e6f",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6133,6 +6309,7 @@
    "lon": 7.46851,
    "extra": {
     "company_id": "87aafbf2-111d-4f61-8c94-30b818252dec",
+    "company_logo": "https://media.jobs.ch/media/06f47f27-fd89-42ea-bd41-a748020d085e",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6165,6 +6342,7 @@
    "lon": 7.418657,
    "extra": {
     "company_id": "4251",
+    "company_logo": "https://www.easytemp.ch/bin/mandant5120.gif?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -6199,6 +6377,7 @@
    "lon": 7.35888,
    "extra": {
     "company_id": "4251",
+    "company_logo": "https://www.easytemp.ch/bin/mandant5120.gif?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -6233,6 +6412,7 @@
    "lon": 7.480627,
    "extra": {
     "company_id": "4251",
+    "company_logo": "https://www.easytemp.ch/bin/mandant5120.gif?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -6267,6 +6447,7 @@
    "lon": 7.073296,
    "extra": {
     "company_id": "535",
+    "company_logo": "https://media.jobup.ch/media/78ccaf9f-2b78-4a4e-95d0-c8e86c7fca3d.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6301,6 +6482,7 @@
    "lon": 7.98821,
    "extra": {
     "company_id": "47002",
+    "company_logo": "https://media.jobup.ch/media/2fddb042-1ae2-404d-8055-897771fd4c68.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6334,6 +6516,7 @@
    "lon": 7.74714,
    "extra": {
     "company_id": "6580",
+    "company_logo": "https://media.jobup.ch/media/7fda50e4-3e5b-40bf-a292-6a481b30bf6d.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6367,6 +6550,7 @@
    "lon": 7.174381,
    "extra": {
     "company_id": "37572",
+    "company_logo": "https://media.jobup.ch/media/e9846eb7-fe07-4ade-b78d-71b7ae5fef72.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6402,6 +6586,7 @@
    "lon": 7.357014,
    "extra": {
     "company_id": "65853",
+    "company_logo": "https://media.jobup.ch/media/c8795a9e-858c-45c8-a9b1-4edbd6e6dad2.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -6434,6 +6619,7 @@
    "lon": 6.9577,
    "extra": {
     "company_id": "2c7d993f-b5f9-42c7-ae51-be832856b199",
+    "company_logo": "https://media.jobs.ch/media/d41b0050-d2d9-41ef-94e5-7832d5d1be6f",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6471,6 +6657,7 @@
    "lon": 6.9577,
    "extra": {
     "company_id": "2c7d993f-b5f9-42c7-ae51-be832856b199",
+    "company_logo": "https://media.jobs.ch/media/d41b0050-d2d9-41ef-94e5-7832d5d1be6f",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6510,6 +6697,7 @@
    "lon": 6.9577,
    "extra": {
     "company_id": "2c7d993f-b5f9-42c7-ae51-be832856b199",
+    "company_logo": "https://media.jobs.ch/media/d41b0050-d2d9-41ef-94e5-7832d5d1be6f",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6549,6 +6737,7 @@
    "lon": 6.9577,
    "extra": {
     "company_id": "2c7d993f-b5f9-42c7-ae51-be832856b199",
+    "company_logo": "https://media.jobs.ch/media/d41b0050-d2d9-41ef-94e5-7832d5d1be6f",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6580,6 +6769,7 @@
    "lon": 6.947658,
    "extra": {
     "company_id": "13469",
+    "company_logo": "https://media.jobup.ch/media/066c723d-39fd-4e4a-9b74-465e1b860bf9.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6612,6 +6802,7 @@
    "lon": 7.0055,
    "extra": {
     "company_id": "979e4aee-989d-4b06-9eb9-59d655ed00cb",
+    "company_logo": "https://media.jobs.ch/media/a655f765-4d41-4979-895a-0304c7d34850",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6648,6 +6839,7 @@
    "lon": 7.0055,
    "extra": {
     "company_id": "979e4aee-989d-4b06-9eb9-59d655ed00cb",
+    "company_logo": "https://media.jobs.ch/media/a655f765-4d41-4979-895a-0304c7d34850",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6684,6 +6876,7 @@
    "lon": 7.1957,
    "extra": {
     "company_id": "6b0bb5af-aa10-4028-975c-990621bab3f1",
+    "company_logo": "https://media.jobs.ch/media/e7b89536-bf5f-43ec-afd8-256207d5db40",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6720,6 +6913,7 @@
    "lon": 7.1957,
    "extra": {
     "company_id": "6b0bb5af-aa10-4028-975c-990621bab3f1",
+    "company_logo": "https://media.jobs.ch/media/e7b89536-bf5f-43ec-afd8-256207d5db40",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6754,6 +6948,7 @@
    "lon": 6.947658,
    "extra": {
     "company_id": "13469",
+    "company_logo": "https://media.jobup.ch/media/066c723d-39fd-4e4a-9b74-465e1b860bf9.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6786,6 +6981,7 @@
    "lon": 7.22539,
    "extra": {
     "company_id": "5b99efd6-38cb-4d50-b60d-c0bf0d7ac07b",
+    "company_logo": "https://media.jobs.ch/media/527610a7-508c-4095-8a3f-97a48b69142c",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6818,6 +7014,7 @@
    "lon": 7.53952,
    "extra": {
     "company_id": "81fc4e7f-b05c-406d-b54e-d5f201d35078",
+    "company_logo": "https://media.jobs.ch/media/94a7a5e2-9b78-4917-9694-d389de271751",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6854,6 +7051,7 @@
    "lon": 7.357014,
    "extra": {
     "company_id": "2704",
+    "company_logo": "https://media.jobup.ch/media/7970a80a-9072-440a-9ef6-804523ed8d36.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6887,6 +7085,7 @@
    "lon": 7.35888,
    "extra": {
     "company_id": "5827",
+    "company_logo": "https://media.jobup.ch/media/da558721-4376-4840-b5ea-cd499c062095.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6919,6 +7118,7 @@
    "lon": 7.488143,
    "extra": {
     "company_id": "12282",
+    "company_logo": "https://media.jobup.ch/media/9bdafb0f-5637-48ed-969a-f8af27e64df5.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -6951,6 +7151,7 @@
    "lon": 7.480627,
    "extra": {
     "company_id": "16660",
+    "company_logo": "https://media.jobup.ch/media/e4df878c-af85-43a1-8367-df3c0bac7dda.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -6983,6 +7184,7 @@
    "lon": 7.480627,
    "extra": {
     "company_id": "50876",
+    "company_logo": "https://www.easytemp.ch/bin/mandant2031.gif?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -7017,6 +7219,7 @@
    "lon": 6.859227,
    "extra": {
     "company_id": "9078",
+    "company_logo": "https://media.jobup.ch/media/081e75fa-effd-488a-89a5-bf6a8ad0ef1a.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7048,6 +7251,7 @@
    "lon": 7.74714,
    "extra": {
     "company_id": "6580",
+    "company_logo": "https://media.jobup.ch/media/7fda50e4-3e5b-40bf-a292-6a481b30bf6d.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7083,6 +7287,7 @@
    "lon": 7.223382,
    "extra": {
     "company_id": "24847",
+    "company_logo": "https://media.jobup.ch/media/be789a99-3678-4f0f-a6c5-425ce99bcb14.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7120,6 +7325,7 @@
    "lon": 7.36042,
    "extra": {
     "company_id": "5fcfa5bb-8485-43db-af78-d150c301d745",
+    "company_logo": "https://media.jobs.ch/media/970e683e-347f-4839-befb-17547028ba0a",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7158,6 +7364,7 @@
    "lon": 7.0734,
    "extra": {
     "company_id": "1a4d64a0-3224-441c-99c4-bbffff11210f",
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7190,6 +7397,7 @@
    "lon": 7.087597,
    "extra": {
     "company_id": "24847",
+    "company_logo": "https://media.jobup.ch/media/be789a99-3678-4f0f-a6c5-425ce99bcb14.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7222,6 +7430,7 @@
    "lon": 7.35885,
    "extra": {
     "company_id": "857a7ea3-77c3-4660-8dae-9c2e90eebdb8",
+    "company_logo": "https://media.jobs.ch/media/4355176e-17a1-4c58-856d-55e0c4692bdd",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7258,6 +7467,7 @@
    "lon": 7.357014,
    "extra": {
     "company_id": "12282",
+    "company_logo": "https://media.jobup.ch/media/9bdafb0f-5637-48ed-969a-f8af27e64df5.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -7290,6 +7500,7 @@
    "lon": 6.95963,
    "extra": {
     "company_id": "306decca-f226-433d-97ca-f2242d7a54ac",
+    "company_logo": "https://media.jobs.ch/media/d7c39821-46bb-48d7-a43e-6431fede7353",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7322,6 +7533,7 @@
    "lon": 6.95963,
    "extra": {
     "company_id": "306decca-f226-433d-97ca-f2242d7a54ac",
+    "company_logo": "https://media.jobs.ch/media/d7c39821-46bb-48d7-a43e-6431fede7353",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7354,6 +7566,7 @@
    "lon": 7.360842,
    "extra": {
     "company_id": "60771",
+    "company_logo": "https://media.jobup.ch/media/abf32c5d-641f-4ad8-85cd-44508f7711ad.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7390,6 +7603,7 @@
    "lon": 7.35885,
    "extra": {
     "company_id": "23eefd4d-bf1d-4d03-af30-e04a999e21bd",
+    "company_logo": "https://media.jobs.ch/media/145472df-0bfc-43f2-b451-f933a4f51673",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7422,6 +7636,7 @@
    "lon": 7.073296,
    "extra": {
     "company_id": "27507",
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7454,6 +7669,7 @@
    "lon": 7.074827,
    "extra": {
     "company_id": "27507",
+    "company_logo": "https://media.jobup.ch/media/aa6fe742-85ec-4835-8a0f-1ac2bf6727fd.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7489,6 +7705,7 @@
    "lon": 7.074827,
    "extra": {
     "company_id": "27507",
+    "company_logo": "https://media.jobup.ch/media/aa6fe742-85ec-4835-8a0f-1ac2bf6727fd.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7524,6 +7741,7 @@
    "lon": 6.84985,
    "extra": {
     "company_id": "0305e893-9bc8-4814-8b70-32fdffd613d4",
+    "company_logo": "https://media.jobs.ch/media/e812cf86-a945-4189-a82e-742ce4a407d6",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7558,6 +7776,7 @@
    "lon": 7.072562,
    "extra": {
     "company_id": "11348",
+    "company_logo": "https://media.jobup.ch/media/fb3f8d4d-a363-4eec-bcc8-ccb5d50bc884.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -7592,6 +7811,7 @@
    "lon": 7.54084,
    "extra": {
     "company_id": "8f97bd32-cfda-40f7-98a9-583fe8fa7d13",
+    "company_logo": "https://media.jobs.ch/media/c9a2b763-c314-4de7-86ad-7f2f3401a9be",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7624,6 +7844,7 @@
    "lon": 7.54084,
    "extra": {
     "company_id": "8f97bd32-cfda-40f7-98a9-583fe8fa7d13",
+    "company_logo": "https://media.jobs.ch/media/c9a2b763-c314-4de7-86ad-7f2f3401a9be",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7656,6 +7877,7 @@
    "lon": 7.26835,
    "extra": {
     "company_id": "20377746-ab45-4612-92cc-2faceb128525",
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7692,6 +7914,7 @@
    "lon": 7.55106,
    "extra": {
     "company_id": "20c10cbe-c817-4faa-9261-1726d94d3a69",
+    "company_logo": "https://media.jobs.ch/media/0c60c77d-bdc4-4bd0-a887-74f4909d3e5f",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7726,6 +7949,7 @@
    "lon": 7.56098,
    "extra": {
     "company_id": "20c10cbe-c817-4faa-9261-1726d94d3a69",
+    "company_logo": "https://media.jobs.ch/media/0c60c77d-bdc4-4bd0-a887-74f4909d3e5f",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7758,6 +7982,7 @@
    "lon": 7.530912,
    "extra": {
     "company_id": "46159",
+    "company_logo": "https://media.jobup.ch/media/9133b8c0-d66b-4a9f-85e1-24886271d6d0.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -7795,6 +8020,7 @@
    "lon": 7.073296,
    "extra": {
     "company_id": "22145",
+    "company_logo": "https://media.jobup.ch/media/fe4558a8-9901-441a-93b7-511df8f51e40.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -7827,6 +8053,7 @@
    "lon": 7.53036,
    "extra": {
     "company_id": "d329fad0-423d-4c97-9592-e7d50709a436",
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7858,6 +8085,7 @@
    "lon": 7.37436,
    "extra": {
     "company_id": "11349b9c-47df-4c56-9bd6-6a567cd8a205",
+    "company_logo": "https://media.jobs.ch/media/374fcb1b-fef3-4a74-9124-5e44b4767b82",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7892,6 +8120,7 @@
    "lon": 7.28298,
    "extra": {
     "company_id": "d7c69641-a36e-46dd-aeea-595f1d040b72",
+    "company_logo": "https://media.jobs.ch/media/140e0d9b-74d5-46d3-b8a8-e83542b9f707",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7924,6 +8153,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "e7e9747f-a3f3-42a9-93b4-d32f4d723037",
+    "company_logo": "https://media.jobs.ch/images/4fc2495e-1363-4f1e-9866-ff6a312739d3",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7956,6 +8186,7 @@
    "lon": 7.073329717573879,
    "extra": {
     "company_id": "e7e9747f-a3f3-42a9-93b4-d32f4d723037",
+    "company_logo": "https://media.jobs.ch/images/4fc2495e-1363-4f1e-9866-ff6a312739d3",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -7988,6 +8219,7 @@
    "lon": 6.853286,
    "extra": {
     "company_id": "71230",
+    "company_logo": "https://media.jobup.ch/media/bf515b3c-87aa-4b3f-b0be-b0d6945910ed.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8021,6 +8253,7 @@
    "lon": 7.5072316,
    "extra": {
     "company_id": "62bb3c37-bb8c-42a4-aca6-eafff1b87411",
+    "company_logo": "https://media.jobs.ch/media/59640931-8dc3-4112-a7bb-e54f3d63f6b1",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8053,6 +8286,7 @@
    "lon": 6.853286,
    "extra": {
     "company_id": "71230",
+    "company_logo": "https://media.jobup.ch/media/bf515b3c-87aa-4b3f-b0be-b0d6945910ed.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8085,6 +8319,7 @@
    "lon": 6.90651,
    "extra": {
     "company_id": "b1849a45-9dd4-478c-9b9a-c95c32cb4af3",
+    "company_logo": "https://media.jobs.ch/media/5df8d5f8-ea28-442c-ae6b-77a196199b26",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8117,6 +8352,7 @@
    "lon": 6.94982,
    "extra": {
     "company_id": "20583",
+    "company_logo": "https://media.jobup.ch/media/ecd1f801-0a6d-4152-a80f-154b409a9fa2.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8149,6 +8385,7 @@
    "lon": 7.28262,
    "extra": {
     "company_id": "0de2e3c3-7eca-4187-820d-4434ebab47ab",
+    "company_logo": "https://media.jobs.ch/media/9f16ad92-4202-47d0-b08b-25acdd477b7d",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8181,6 +8418,7 @@
    "lon": 7.073296,
    "extra": {
     "company_id": "62329",
+    "company_logo": "https://media.jobup.ch/media/1715ad15-67fe-448d-a489-02d7e2cf8974.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -8217,6 +8455,7 @@
    "lon": 7.35925,
    "extra": {
     "company_id": "9243e550-b5d8-4231-a2dc-dfba592074b0",
+    "company_logo": "https://media.jobs.ch/media/65e14f08-ec20-4af3-8f53-1e80c006dc5a",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8251,6 +8490,7 @@
    "lon": 7.98234,
    "extra": {
     "company_id": "a64d6a4f-3f09-4efc-a5e9-6811c621b913",
+    "company_logo": "https://media.jobs.ch/media/0d66a8d4-4218-4598-9fa3-e56ae0962c02",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8283,6 +8523,7 @@
    "lon": 7.1957,
    "extra": {
     "company_id": "6b0bb5af-aa10-4028-975c-990621bab3f1",
+    "company_logo": "https://media.jobs.ch/media/e7b89536-bf5f-43ec-afd8-256207d5db40",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8315,6 +8556,7 @@
    "lon": 6.935468927023381,
    "extra": {
     "company_id": "4d8a0d22-b9b3-43ee-b241-bee034b57d7b",
+    "company_logo": "https://media.jobs.ch/images/ce763195-87b4-43cb-a764-45c4c6560b27/640x320.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8348,6 +8590,7 @@
    "lon": 7.3725963,
    "extra": {
     "company_id": "6a583b2a-6b0f-4363-b256-d6dcb22a20c6",
+    "company_logo": "https://media.jobs.ch/media/3d306415-5a2f-4524-b952-5eb204c2d69f",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8380,6 +8623,7 @@
    "lon": 7.467172,
    "extra": {
     "company_id": "24847",
+    "company_logo": "https://media.jobup.ch/media/f02e11f2-6cb4-47d1-b921-9d0c42361855.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8413,6 +8657,7 @@
    "lon": 7.186314,
    "extra": {
     "company_id": "12282",
+    "company_logo": "https://media.jobup.ch/media/9bdafb0f-5637-48ed-969a-f8af27e64df5.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -8445,6 +8690,7 @@
    "lon": 7.354,
    "extra": {
     "company_id": "fb9d2226-fc8a-47bf-b8a7-daf9db322be0",
+    "company_logo": "https://media.jobs.ch/media/5919a336-2714-4d2a-83f3-d568ac35fe92",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8483,6 +8729,7 @@
    "lon": 8.155556,
    "extra": {
     "company_id": "6580",
+    "company_logo": "https://media.jobup.ch/media/7fda50e4-3e5b-40bf-a292-6a481b30bf6d.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8518,6 +8765,7 @@
    "lon": 7.35885,
    "extra": {
     "company_id": "1e4b8b10-31fc-4a5b-9963-49b254ac2bc8",
+    "company_logo": "https://media.jobs.ch/media/abfad2d9-01db-474d-ba92-5b6058bd277c",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8550,6 +8798,7 @@
    "lon": 6.94829,
    "extra": {
     "company_id": "6ee6261a-6f77-45d0-9e02-6a3de197e9f4",
+    "company_logo": "https://media.jobs.ch/media/eb6f0ba7-2dfa-47ed-ad02-def9eef2fba7",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8586,6 +8835,7 @@
    "lon": 6.945639,
    "extra": {
     "company_id": "12282",
+    "company_logo": "https://media.jobup.ch/media/0a3aad86-d4dc-48d5-ac0e-a9a531bd233f.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -8618,6 +8868,7 @@
    "lon": 6.61418,
    "extra": {
     "company_id": "66d53719-fe6b-4fd9-9d79-e3d6689b8791",
+    "company_logo": "https://media.jobs.ch/media/e014b867-3883-429e-8813-710a5507c709",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8659,6 +8910,7 @@
    "lon": 6.94718,
    "extra": {
     "company_id": "5630a796-46ee-4658-8652-e591d79f64f0",
+    "company_logo": "https://media.jobs.ch/media/86246c51-028f-4789-a078-3ee4093a5846",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -8693,6 +8945,7 @@
    "lon": 7.073296,
    "extra": {
     "company_id": "8695",
+    "company_logo": "https://media.jobup.ch/media/c84938ba-bf68-4d98-bd66-73c6aac884d9.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -8727,6 +8980,7 @@
    "lon": 6.95963,
    "extra": {
     "company_id": "306decca-f226-433d-97ca-f2242d7a54ac",
+    "company_logo": "https://media.jobs.ch/media/d7c39821-46bb-48d7-a43e-6431fede7353",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8761,6 +9015,7 @@
    "lon": 7.35888,
    "extra": {
     "company_id": "44293",
+    "company_logo": "https://www.valjob.ch/wp-content/uploads/2025/02/LogoCarre_320x320px.png?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -8799,6 +9054,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": "1ed829d3-9e4d-4fdb-9293-684a8d8e0f0e",
+    "company_logo": "https://media.jobs.ch/images/381ef8b5-c47f-4b30-98ef-4e898602ae11/320x320.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -8832,6 +9088,7 @@
    "lon": 7.81257,
    "extra": {
     "company_id": "79ebbacd-2843-4d74-82f2-8a0988d36d7e",
+    "company_logo": "https://media.jobs.ch/media/3aaa9bc2-2958-41b2-ad05-3621229b28d2",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8864,6 +9121,7 @@
    "lon": 7.1957,
    "extra": {
     "company_id": "6b0bb5af-aa10-4028-975c-990621bab3f1",
+    "company_logo": "https://media.jobs.ch/media/e7b89536-bf5f-43ec-afd8-256207d5db40",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8896,6 +9154,7 @@
    "lon": 7.07367,
    "extra": {
     "company_id": "9da03f73-052d-4f59-88a0-7332d18c1285",
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8928,6 +9187,7 @@
    "lon": 7.1957,
    "extra": {
     "company_id": "6b0bb5af-aa10-4028-975c-990621bab3f1",
+    "company_logo": "https://media.jobs.ch/media/e7b89536-bf5f-43ec-afd8-256207d5db40",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8960,6 +9220,7 @@
    "lon": 7.368896,
    "extra": {
     "company_id": "43832",
+    "company_logo": "https://pms.imgix.net/ba9c27e6be757310c8bd5ef243f5dd23?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -8998,6 +9259,7 @@
    "lon": 7.21432,
    "extra": {
     "company_id": "134c116a-a077-4453-baa2-a9ed32a17533",
+    "company_logo": "https://media.jobs.ch/media/a57ef83a-7ac1-4f01-8775-c21da349ab0f",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9033,6 +9295,7 @@
    "lon": 6.95963,
    "extra": {
     "company_id": "306decca-f226-433d-97ca-f2242d7a54ac",
+    "company_logo": "https://media.jobs.ch/media/d7c39821-46bb-48d7-a43e-6431fede7353",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9065,6 +9328,7 @@
    "lon": 7.005433,
    "extra": {
     "company_id": "60771",
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9100,6 +9364,7 @@
    "lon": 7.36096,
    "extra": {
     "company_id": "7fdded6b-36fa-4e8c-906b-bb43ed6741f7",
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9131,6 +9396,7 @@
    "lon": 7.88733,
    "extra": {
     "company_id": "c94f4c77-0606-4640-a00f-eef354a10fad",
+    "company_logo": "https://media.jobs.ch/media/b8dfdda9-391d-4fce-b695-f62e0cb2cc02",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9165,6 +9431,7 @@
    "lon": 7.21987,
    "extra": {
     "company_id": "96422fd1-06de-4feb-8c64-05a46942c0c3",
+    "company_logo": "https://media.jobs.ch/media/1fbdcda2-db06-48c1-adcb-2d1bbc6013cb",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9201,6 +9468,7 @@
    "lon": 7.1957,
    "extra": {
     "company_id": "6b0bb5af-aa10-4028-975c-990621bab3f1",
+    "company_logo": "https://media.jobs.ch/media/e7b89536-bf5f-43ec-afd8-256207d5db40",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9233,6 +9501,7 @@
    "lon": 6.96814,
    "extra": {
     "company_id": "f304b0da-3391-472f-8699-5a9278970ef7",
+    "company_logo": "https://media.jobs.ch/media/95be5071-489b-437b-a6f5-089fde4a772c",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9271,6 +9540,7 @@
    "lon": 6.940167,
    "extra": {
     "company_id": "53585",
+    "company_logo": "https://media.jobup.ch/media/2c3d2729-33f4-4694-a5b8-e732751340a6.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9307,6 +9577,7 @@
    "lon": 7.36453,
    "extra": {
     "company_id": "25613",
+    "company_logo": "https://media.jobup.ch/media/d2b2fa3a-efa0-4134-b2df-b2c842595fcb.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9339,6 +9610,7 @@
    "lon": 6.94987,
    "extra": {
     "company_id": "47197",
+    "company_logo": "https://pms.imgix.net/dc6eeb0b21611ff0eb12468a41f569ed?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9375,6 +9647,7 @@
    "lon": 6.94987,
    "extra": {
     "company_id": "47197",
+    "company_logo": "https://pms.imgix.net/dc6eeb0b21611ff0eb12468a41f569ed?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9411,6 +9684,7 @@
    "lon": 6.94987,
    "extra": {
     "company_id": "47197",
+    "company_logo": "https://pms.imgix.net/dc6eeb0b21611ff0eb12468a41f569ed?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9447,6 +9721,7 @@
    "lon": 6.95963,
    "extra": {
     "company_id": "306decca-f226-433d-97ca-f2242d7a54ac",
+    "company_logo": "https://media.jobs.ch/media/d7c39821-46bb-48d7-a43e-6431fede7353",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9479,6 +9754,7 @@
    "lon": 7.357014,
    "extra": {
     "company_id": "14619",
+    "company_logo": "https://media.jobup.ch/media/523f15ea-be67-49af-a3d2-df2591c12468.jpg?dimensions=320x0",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -9511,6 +9787,7 @@
    "lon": 7.073329717573879,
    "extra": {
     "company_id": "958",
+    "company_logo": "https://media.jobs.ch/images/70491fbc-0b71-4233-b152-43638549132c",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9543,6 +9820,7 @@
    "lon": 7.303033875235052,
    "extra": {
     "company_id": "958",
+    "company_logo": "https://media.jobs.ch/images/70491fbc-0b71-4233-b152-43638549132c",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9575,6 +9853,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "958",
+    "company_logo": "https://media.jobs.ch/images/15d09179-83a5-4e0d-b449-6e412a2d226d",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9607,6 +9886,7 @@
    "lon": 7.36453,
    "extra": {
     "company_id": "25613",
+    "company_logo": "https://media.jobup.ch/media/d2b2fa3a-efa0-4134-b2df-b2c842595fcb.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9639,6 +9919,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "958",
+    "company_logo": "https://media.jobs.ch/images/15d09179-83a5-4e0d-b449-6e412a2d226d",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9671,6 +9952,7 @@
    "lon": 7.21173,
    "extra": {
     "company_id": "6c6210f8-1826-4b69-a770-886645c59c19",
+    "company_logo": "https://media.jobs.ch/media/f87eef10-61fd-4d72-b5cf-c22fdc73c8b9",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9705,6 +9987,7 @@
    "lon": 7.56097,
    "extra": {
     "company_id": "0a9b3ed8-2de9-4282-aa2a-be9f410e1d0f",
+    "company_logo": "https://media.jobs.ch/media/c4cc738b-9a9a-4d27-ba9f-e9b5ef4e4bc5",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9736,6 +10019,7 @@
    "lon": 7.14617,
    "extra": {
     "company_id": "c6b26d87-e9cb-4a78-849a-17449c1a3d3a",
+    "company_logo": "https://media.jobs.ch/media/cd4671a8-a170-486e-b355-874501779f56",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9771,6 +10055,7 @@
    "lon": 6.9515,
    "extra": {
     "company_id": "830cebb4-c581-46dd-9cd3-0b1c4b25f01f",
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9807,6 +10092,7 @@
    "lon": 7.09297,
    "extra": {
     "company_id": "555e892f-4ad7-424c-8d3d-c0c7959e82c2",
+    "company_logo": "https://media.jobs.ch/media/58f4220e-23fb-467d-b93c-cb204e59c824",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9843,6 +10129,7 @@
    "lon": 6.69478,
    "extra": {
     "company_id": "2b15076e-c231-4b80-b7d3-51c0727d35b0",
+    "company_logo": "https://media.jobs.ch/media/892aa065-bf02-46c0-bc8b-fb61b082a214",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -9876,6 +10163,7 @@
    "lon": 7.35885,
    "extra": {
     "company_id": "857a7ea3-77c3-4660-8dae-9c2e90eebdb8",
+    "company_logo": "https://media.jobs.ch/media/4355176e-17a1-4c58-856d-55e0c4692bdd",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9908,6 +10196,7 @@
    "lon": 7.1957,
    "extra": {
     "company_id": "6b0bb5af-aa10-4028-975c-990621bab3f1",
+    "company_logo": "https://media.jobs.ch/media/e7b89536-bf5f-43ec-afd8-256207d5db40",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9944,6 +10233,7 @@
    "lon": 7.1957,
    "extra": {
     "company_id": "6b0bb5af-aa10-4028-975c-990621bab3f1",
+    "company_logo": "https://media.jobs.ch/media/e7b89536-bf5f-43ec-afd8-256207d5db40",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -9976,6 +10266,7 @@
    "lon": 7.073296,
    "extra": {
     "company_id": "3393",
+    "company_logo": "https://media.jobup.ch/media/a6245ad5-e4f2-4214-b47a-d1c53f3ecbe2.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10008,6 +10299,7 @@
    "lon": 7.884619,
    "extra": {
     "company_id": "73574",
+    "company_logo": "https://media.jobup.ch/media/a3ba049d-1d36-492a-bbda-13e8043dc54c.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10046,6 +10338,7 @@
    "lon": 6.94718,
    "extra": {
     "company_id": "512ade01-eb0f-49d5-995e-cc7723ae57f7",
+    "company_logo": "https://media.jobs.ch/media/2a768748-8ff8-475b-9e0e-10ce348db046",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10078,6 +10371,7 @@
    "lon": 7.07426,
    "extra": {
     "company_id": "6db505c0-874c-42bf-b229-b2bbf7ee3158",
+    "company_logo": "https://media.jobs.ch/media/db123ad0-1b80-4d05-b3fd-e90e4f66cdc0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10114,6 +10408,7 @@
    "lon": 7.3396,
    "extra": {
     "company_id": "b27f729a-bd6a-46dd-8e47-6c110b1c7ef1",
+    "company_logo": "https://media.jobs.ch/media/d2fb663c-d54d-4a54-bab1-d48e7623e3af",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10146,6 +10441,7 @@
    "lon": 6.95963,
    "extra": {
     "company_id": "306decca-f226-433d-97ca-f2242d7a54ac",
+    "company_logo": "https://media.jobs.ch/media/d7c39821-46bb-48d7-a43e-6431fede7353",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10178,6 +10474,7 @@
    "lon": 6.95963,
    "extra": {
     "company_id": "306decca-f226-433d-97ca-f2242d7a54ac",
+    "company_logo": "https://media.jobs.ch/media/d7c39821-46bb-48d7-a43e-6431fede7353",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10213,6 +10510,7 @@
    "lon": 6.95963,
    "extra": {
     "company_id": "306decca-f226-433d-97ca-f2242d7a54ac",
+    "company_logo": "https://media.jobs.ch/media/d7c39821-46bb-48d7-a43e-6431fede7353",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10245,6 +10543,7 @@
    "lon": 6.95963,
    "extra": {
     "company_id": "306decca-f226-433d-97ca-f2242d7a54ac",
+    "company_logo": "https://media.jobs.ch/media/d7c39821-46bb-48d7-a43e-6431fede7353",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10277,6 +10576,7 @@
    "lon": 6.95963,
    "extra": {
     "company_id": "306decca-f226-433d-97ca-f2242d7a54ac",
+    "company_logo": "https://media.jobs.ch/media/d7c39821-46bb-48d7-a43e-6431fede7353",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10309,6 +10609,7 @@
    "lon": 7.430486905367163,
    "extra": {
     "company_id": "59672",
+    "company_logo": "https://media.jobup.ch/media/3fd2ed4b-0ced-4116-949d-8e37f3202a3b.jpg?dimensions=320x0",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10351,6 +10652,7 @@
    "lon": 6.65861,
    "extra": {
     "company_id": "1e4b8b10-31fc-4a5b-9963-49b254ac2bc8",
+    "company_logo": "https://media.jobs.ch/media/abfad2d9-01db-474d-ba92-5b6058bd277c",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10392,6 +10694,7 @@
    "lon": 6.65861,
    "extra": {
     "company_id": "1e4b8b10-31fc-4a5b-9963-49b254ac2bc8",
+    "company_logo": "https://media.jobs.ch/media/abfad2d9-01db-474d-ba92-5b6058bd277c",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10435,6 +10738,7 @@
    "lon": 7.072735,
    "extra": {
     "company_id": "12774",
+    "company_logo": "https://media.jobup.ch/media/2f205619-5192-4c4f-9e05-55ffcfacba14.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10467,6 +10771,7 @@
    "lon": 7.304084,
    "extra": {
     "company_id": "12774",
+    "company_logo": "https://media.jobup.ch/media/2f205619-5192-4c4f-9e05-55ffcfacba14.jpg?dimensions=320x0",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10499,6 +10804,7 @@
    "lon": 7.09535,
    "extra": {
     "company_id": "a8174fb3-c909-46df-ad5a-29d34e4b3a95",
+    "company_logo": "https://media.jobs.ch/media/11f8c0a1-bf81-475c-957b-bdf77fad47ba",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10531,6 +10837,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -10558,6 +10865,7 @@
    "lon": 7.9853245562952475,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -10590,6 +10898,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10620,6 +10929,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10650,6 +10960,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10680,6 +10991,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10710,6 +11022,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "1ed829d3-9e4d-4fdb-9293-684a8d8e0f0e",
+    "company_logo": "https://media.jobs.ch/images/381ef8b5-c47f-4b30-98ef-4e898602ae11/320x320.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -10741,6 +11054,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "ad94d73f-7a4a-4a62-83bc-6753708d6e5f",
+    "company_logo": "https://media.jobs.ch/images/cbe573f4-ea84-4441-838f-29dd943cb531/adecco_group-300x150.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [],
@@ -10769,6 +11083,7 @@
    "lon": 7.073329717573879,
    "extra": {
     "company_id": "1ed829d3-9e4d-4fdb-9293-684a8d8e0f0e",
+    "company_logo": "https://media.jobs.ch/images/381ef8b5-c47f-4b30-98ef-4e898602ae11/320x320.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -10802,6 +11117,7 @@
    "lon": 7.303033875235052,
    "extra": {
     "company_id": "7676e9a4-cfdb-496c-8eef-de68851851e8",
+    "company_logo": "https://media.jobup.ch/media/f15fcfea-773b-400b-b5f5-8454f608e0b3.jpg",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -10834,6 +11150,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "5785306f-46bb-43a5-af0a-165ee143755f",
+    "company_logo": "https://media.jobs.ch/images/775b3107-78d9-4d0c-98fc-dc9ed7031242/490x490.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -10866,6 +11183,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": "5785306f-46bb-43a5-af0a-165ee143755f",
+    "company_logo": "https://media.jobs.ch/images/775b3107-78d9-4d0c-98fc-dc9ed7031242/490x490.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -10898,6 +11216,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -10926,6 +11245,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -10954,6 +11274,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -10982,6 +11303,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -11010,6 +11332,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -11038,6 +11361,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -11066,6 +11390,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -11098,6 +11423,7 @@
    "lon": 7.752662760736783,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -11127,6 +11453,7 @@
    "lon": 7.752662760736783,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -11156,6 +11483,7 @@
    "lon": 7.4917490756588405,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -11186,6 +11514,7 @@
    "lon": 7.4917490756588405,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -11216,6 +11545,7 @@
    "lon": 7.809199714411955,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -11243,6 +11573,7 @@
    "lon": 7.545493370313293,
    "extra": {
     "company_id": "1ed829d3-9e4d-4fdb-9293-684a8d8e0f0e",
+    "company_logo": "https://media.jobs.ch/images/381ef8b5-c47f-4b30-98ef-4e898602ae11/320x320.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -11274,6 +11605,7 @@
    "lon": null,
    "extra": {
     "company_id": "1ed829d3-9e4d-4fdb-9293-684a8d8e0f0e",
+    "company_logo": "https://media.jobs.ch/images/381ef8b5-c47f-4b30-98ef-4e898602ae11/320x320.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -11305,6 +11637,7 @@
    "lon": 7.4917490756588405,
    "extra": {
     "company_id": "958",
+    "company_logo": "https://media.jobs.ch/images/0b493975-a7d6-46b5-b6f8-a8c7e6061e32",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -11340,6 +11673,7 @@
    "lon": 7.303033875235052,
    "extra": {
     "company_id": "958",
+    "company_logo": "https://media.jobs.ch/images/0b493975-a7d6-46b5-b6f8-a8c7e6061e32",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -11377,6 +11711,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -11405,6 +11740,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -11433,6 +11769,7 @@
    "lon": 7.229645494536715,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -11461,6 +11798,7 @@
    "lon": 7.073329717573879,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -11493,6 +11831,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "ad94d73f-7a4a-4a62-83bc-6753708d6e5f",
+    "company_logo": "https://media.jobs.ch/images/cbe573f4-ea84-4441-838f-29dd943cb531/adecco_group-300x150.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -11525,6 +11864,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "ad94d73f-7a4a-4a62-83bc-6753708d6e5f",
+    "company_logo": "https://media.jobs.ch/images/cbe573f4-ea84-4441-838f-29dd943cb531/adecco_group-300x150.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -11557,6 +11897,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -11591,6 +11932,7 @@
    "lon": null,
    "extra": {
     "company_id": "1ed829d3-9e4d-4fdb-9293-684a8d8e0f0e",
+    "company_logo": "https://media.jobs.ch/images/381ef8b5-c47f-4b30-98ef-4e898602ae11/320x320.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -11625,6 +11967,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "76304",
+    "company_logo": "https://media.jobs.ch/images/be1f5a05-d55c-4cae-ba70-85541af306ce/396x396.png",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -11657,6 +12000,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "76810",
+    "company_logo": "https://media.jobs.ch/images/3f578bdd-0869-499d-b33d-6ed76bb2a7ea/396x396.png",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -11691,6 +12035,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "a3f7acf4-78fc-4519-92c1-2935d7b52232",
+    "company_logo": "https://media.jobs.ch/images/552757a3-b1b1-4e11-a951-41728cfa8d88",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -11727,6 +12072,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "76304",
+    "company_logo": "https://media.jobs.ch/images/be1f5a05-d55c-4cae-ba70-85541af306ce/396x396.png",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -11765,6 +12111,7 @@
    "lon": 7.3070124949411515,
    "extra": {
     "company_id": "0fb7f075-a3f1-40b3-b3dd-6e6304f550f5",
+    "company_logo": "https://media.jobs.ch/images/a0bd708a-a5d8-4456-b5db-77326373f3ff/300x150.png",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -11800,6 +12147,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "1ed829d3-9e4d-4fdb-9293-684a8d8e0f0e",
+    "company_logo": "https://media.jobs.ch/images/381ef8b5-c47f-4b30-98ef-4e898602ae11/320x320.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -11833,6 +12181,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": "1ed829d3-9e4d-4fdb-9293-684a8d8e0f0e",
+    "company_logo": "https://media.jobs.ch/images/381ef8b5-c47f-4b30-98ef-4e898602ae11/320x320.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -11864,6 +12213,7 @@
    "lon": 6.898977877966554,
    "extra": {
     "company_id": "1351",
+    "company_logo": "https://media.jobs.ch/images/9020630a-03b6-4e38-8655-fd7a5fbed5b6/300x150.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -11897,6 +12247,7 @@
    "lon": 6.898977877966554,
    "extra": {
     "company_id": "1351",
+    "company_logo": "https://media.jobs.ch/images/9020630a-03b6-4e38-8655-fd7a5fbed5b6/300x150.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -11930,6 +12281,7 @@
    "lon": 6.898977877966554,
    "extra": {
     "company_id": "1351",
+    "company_logo": "https://media.jobs.ch/images/9020630a-03b6-4e38-8655-fd7a5fbed5b6/300x150.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -11963,6 +12315,7 @@
    "lon": 6.898977877966554,
    "extra": {
     "company_id": "1351",
+    "company_logo": "https://media.jobs.ch/images/9020630a-03b6-4e38-8655-fd7a5fbed5b6/300x150.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -11996,6 +12349,7 @@
    "lon": 7.752662760736783,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -12028,6 +12382,7 @@
    "lon": 7.752662760736783,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -12060,6 +12415,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -12088,6 +12444,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -12116,6 +12473,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -12144,6 +12502,7 @@
    "lon": 7.4917490756588405,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -12174,6 +12533,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": "1ed829d3-9e4d-4fdb-9293-684a8d8e0f0e",
+    "company_logo": "https://media.jobs.ch/images/381ef8b5-c47f-4b30-98ef-4e898602ae11/320x320.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -12205,6 +12565,7 @@
    "lon": 7.4917490756588405,
    "extra": {
     "company_id": "958",
+    "company_logo": "https://media.jobs.ch/images/0b493975-a7d6-46b5-b6f8-a8c7e6061e32",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -12242,6 +12603,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "1ed829d3-9e4d-4fdb-9293-684a8d8e0f0e",
+    "company_logo": "https://media.jobs.ch/images/381ef8b5-c47f-4b30-98ef-4e898602ae11/320x320.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -12277,6 +12639,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": "1ed829d3-9e4d-4fdb-9293-684a8d8e0f0e",
+    "company_logo": "https://media.jobs.ch/images/381ef8b5-c47f-4b30-98ef-4e898602ae11/320x320.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -12310,6 +12673,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": "1ed829d3-9e4d-4fdb-9293-684a8d8e0f0e",
+    "company_logo": "https://media.jobs.ch/images/381ef8b5-c47f-4b30-98ef-4e898602ae11/320x320.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -12345,6 +12709,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": "1ed829d3-9e4d-4fdb-9293-684a8d8e0f0e",
+    "company_logo": "https://media.jobs.ch/images/381ef8b5-c47f-4b30-98ef-4e898602ae11/320x320.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -12378,6 +12743,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "1ed829d3-9e4d-4fdb-9293-684a8d8e0f0e",
+    "company_logo": "https://media.jobs.ch/images/381ef8b5-c47f-4b30-98ef-4e898602ae11/320x320.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -12411,6 +12777,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "1ed829d3-9e4d-4fdb-9293-684a8d8e0f0e",
+    "company_logo": "https://media.jobs.ch/images/381ef8b5-c47f-4b30-98ef-4e898602ae11/320x320.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -12442,6 +12809,7 @@
    "lon": null,
    "extra": {
     "company_id": "1ed829d3-9e4d-4fdb-9293-684a8d8e0f0e",
+    "company_logo": "https://media.jobs.ch/images/381ef8b5-c47f-4b30-98ef-4e898602ae11/320x320.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -12477,6 +12845,7 @@
    "lon": null,
    "extra": {
     "company_id": "5965",
+    "company_logo": "https://media.jobs.ch/images/a07ca1e1-999d-4747-b36a-153669eaff22",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -12508,6 +12877,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": "12324",
+    "company_logo": "https://media.jobs.ch/images/bb9ed66b-c62f-47ea-839f-64cd5bcad8fc/248x88.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -12540,6 +12910,7 @@
    "lon": 7.545493370313293,
    "extra": {
     "company_id": "3467b0a9-48ff-4beb-8319-df27c49c3541",
+    "company_logo": "https://media.jobs.ch/images/a773c00a-68c2-4fa2-b57c-359a1eceac10/WS_rechteckig_mittel_blogweb-300x150.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -12577,6 +12948,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -12624,6 +12996,7 @@
    "lon": 7.615243566690428,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -12653,6 +13026,7 @@
    "lon": 7.615243566690428,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -12682,6 +13056,7 @@
    "lon": 7.111854493418151,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -12712,6 +13087,7 @@
    "lon": 7.809199714411955,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -12739,6 +13115,7 @@
    "lon": 7.229645494536715,
    "extra": {
     "company_id": "958",
+    "company_logo": "https://media.jobs.ch/images/0b493975-a7d6-46b5-b6f8-a8c7e6061e32",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -12776,6 +13153,7 @@
    "lon": 7.545493370313293,
    "extra": {
     "company_id": "3467b0a9-48ff-4beb-8319-df27c49c3541",
+    "company_logo": "https://media.jobs.ch/images/a773c00a-68c2-4fa2-b57c-359a1eceac10/WS_rechteckig_mittel_blogweb-300x150.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -12811,6 +13189,7 @@
    "lon": 7.545493370313293,
    "extra": {
     "company_id": "3467b0a9-48ff-4beb-8319-df27c49c3541",
+    "company_logo": "https://media.jobs.ch/images/a773c00a-68c2-4fa2-b57c-359a1eceac10/WS_rechteckig_mittel_blogweb-300x150.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -12846,6 +13225,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "5785306f-46bb-43a5-af0a-165ee143755f",
+    "company_logo": "https://media.jobs.ch/images/775b3107-78d9-4d0c-98fc-dc9ed7031242/490x490.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -12878,6 +13258,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "e7e9747f-a3f3-42a9-93b4-d32f4d723037",
+    "company_logo": "https://media.jobs.ch/images/4fc2495e-1363-4f1e-9866-ff6a312739d3",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -12920,6 +13301,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": "615da3f8-1009-43b3-ba80-8bfa7e86395a",
+    "company_logo": "https://media.jobs.ch/images/8098d1d2-34cc-4508-9e67-7ef93fb9a7ea/1666x413.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -12952,6 +13334,7 @@
    "lon": 7.899553189773679,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -12980,6 +13363,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "ef512be4-a849-4af7-a386-d863bfce15f0",
+    "company_logo": "https://media.jobs.ch/images/ac91b5b7-5dec-43b1-9b52-6956430503ad",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13012,6 +13396,7 @@
    "lon": 7.229645494536715,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -13044,6 +13429,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -13072,6 +13458,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -13100,6 +13487,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -13128,6 +13516,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13160,6 +13549,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": "141445",
+    "company_logo": "https://media.jobs.ch/images/dbc581d2-9a20-4a8c-b52a-0729b85e3fe4/320x320.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -13201,6 +13591,7 @@
    "lon": 7.898407159399336,
    "extra": {
     "company_id": "4049",
+    "company_logo": "https://media.jobs.ch/images/4edfc7d4-c3c9-43fd-8da9-8706fdaaea6c",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13237,6 +13628,7 @@
    "lon": 7.980325016681688,
    "extra": {
     "company_id": "3294",
+    "company_logo": "https://media.jobs.ch/images/9e35b20b-bace-4fb5-b8fe-e868551bf6c2",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13276,6 +13668,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": "78815",
+    "company_logo": "https://media.jobs.ch/images/49a9dba9-456a-49b9-a509-54c02bd1d598",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13308,6 +13701,7 @@
    "lon": 7.899553189773679,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13338,6 +13732,7 @@
    "lon": null,
    "extra": {
     "company_id": "79358",
+    "company_logo": "https://media.jobs.ch/images/2f7c2c2f-e15a-4001-91dd-71accb242f9a/1159x1472.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13369,6 +13764,7 @@
    "lon": 7.303033875235052,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -13401,6 +13797,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13431,6 +13828,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": "4049",
+    "company_logo": "https://media.jobs.ch/images/4edfc7d4-c3c9-43fd-8da9-8706fdaaea6c",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13462,6 +13860,7 @@
    "lon": 7.980325016681688,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13494,6 +13893,7 @@
    "lon": 7.073329717573879,
    "extra": {
     "company_id": "615da3f8-1009-43b3-ba80-8bfa7e86395a",
+    "company_logo": "https://media.jobs.ch/images/8098d1d2-34cc-4508-9e67-7ef93fb9a7ea/1666x413.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13526,6 +13926,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": "78823",
+    "company_logo": "https://media.jobs.ch/images/d702781a-d4c5-4a5c-9e92-7a814affcc4e",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13558,6 +13959,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13588,6 +13990,7 @@
    "lon": null,
    "extra": {
     "company_id": "615da3f8-1009-43b3-ba80-8bfa7e86395a",
+    "company_logo": "https://media.jobs.ch/images/8098d1d2-34cc-4508-9e67-7ef93fb9a7ea/1666x413.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13620,6 +14023,7 @@
    "lon": 8.03031459785211,
    "extra": {
     "company_id": "958",
+    "company_logo": "https://media.jobs.ch/images/0b493975-a7d6-46b5-b6f8-a8c7e6061e32",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13660,6 +14064,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13690,6 +14095,7 @@
    "lon": 7.777393285883467,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13732,6 +14138,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13762,6 +14169,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13796,6 +14204,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13826,6 +14235,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13856,6 +14266,7 @@
    "lon": 7.4917490756588405,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13886,6 +14297,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": "a0f71a3c-d611-4efd-9e8a-dacef8b86681",
+    "company_logo": "https://media.jobup.ch/media/dac098c8-3814-48f8-b109-85c52315a287.jpg",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -13918,6 +14330,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": "78821",
+    "company_logo": "https://media.jobs.ch/images/53bdda2b-5b19-480a-a9b0-82b44cc439fd",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -13954,6 +14367,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "12324",
+    "company_logo": "https://media.jobs.ch/images/bb9ed66b-c62f-47ea-839f-64cd5bcad8fc/248x88.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -13986,6 +14400,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "12324",
+    "company_logo": "https://media.jobs.ch/images/bb9ed66b-c62f-47ea-839f-64cd5bcad8fc/248x88.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -14018,6 +14433,7 @@
    "lon": 7.787003065309803,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -14046,6 +14462,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": "1ed829d3-9e4d-4fdb-9293-684a8d8e0f0e",
+    "company_logo": "https://media.jobs.ch/images/381ef8b5-c47f-4b30-98ef-4e898602ae11/320x320.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -14079,6 +14496,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": "1ed829d3-9e4d-4fdb-9293-684a8d8e0f0e",
+    "company_logo": "https://media.jobs.ch/images/381ef8b5-c47f-4b30-98ef-4e898602ae11/320x320.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -14110,6 +14528,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "615da3f8-1009-43b3-ba80-8bfa7e86395a",
+    "company_logo": "https://media.jobs.ch/images/8098d1d2-34cc-4508-9e67-7ef93fb9a7ea/1666x413.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14143,6 +14562,7 @@
    "lon": 7.229645494536715,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -14171,6 +14591,7 @@
    "lon": 8.096064143970919,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14201,6 +14622,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14233,6 +14655,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -14260,6 +14683,7 @@
    "lon": 7.096388983577438,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -14287,6 +14711,7 @@
    "lon": 7.229645494536715,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -14315,6 +14740,7 @@
    "lon": 7.229645494536715,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -14343,6 +14769,7 @@
    "lon": 8.096064143970919,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14375,6 +14802,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14407,6 +14835,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14437,6 +14866,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -14469,6 +14899,7 @@
    "lon": 7.073329717573879,
    "extra": {
     "company_id": "e7e9747f-a3f3-42a9-93b4-d32f4d723037",
+    "company_logo": "https://media.jobs.ch/images/4fc2495e-1363-4f1e-9866-ff6a312739d3",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14511,6 +14942,7 @@
    "lon": 7.073329717573879,
    "extra": {
     "company_id": "c0ae90e5-4970-4906-acf7-15eada1c9a43",
+    "company_logo": "https://media.jobs.ch/images/ee7fbf4c-8a22-466c-a695-f75fc986c143/898x437.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14547,6 +14979,7 @@
    "lon": 7.220105785905244,
    "extra": {
     "company_id": "4d8a0d22-b9b3-43ee-b241-bee034b57d7b",
+    "company_logo": "https://media.jobs.ch/images/ce763195-87b4-43cb-a764-45c4c6560b27/640x320.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14579,6 +15012,7 @@
    "lon": 6.935468927023381,
    "extra": {
     "company_id": "4d8a0d22-b9b3-43ee-b241-bee034b57d7b",
+    "company_logo": "https://media.jobs.ch/images/ce763195-87b4-43cb-a764-45c4c6560b27/640x320.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14612,6 +15046,7 @@
    "lon": 7.899553189773679,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14642,6 +15077,7 @@
    "lon": 7.303033875235052,
    "extra": {
     "company_id": "4d8a0d22-b9b3-43ee-b241-bee034b57d7b",
+    "company_logo": "https://media.jobs.ch/images/ce763195-87b4-43cb-a764-45c4c6560b27/640x320.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14675,6 +15111,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": "4d8a0d22-b9b3-43ee-b241-bee034b57d7b",
+    "company_logo": "https://media.jobs.ch/images/ce763195-87b4-43cb-a764-45c4c6560b27/640x320.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14708,6 +15145,7 @@
    "lon": 7.504494621410173,
    "extra": {
     "company_id": "4d8a0d22-b9b3-43ee-b241-bee034b57d7b",
+    "company_logo": "https://media.jobs.ch/images/ce763195-87b4-43cb-a764-45c4c6560b27/640x320.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14740,6 +15178,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14770,6 +15209,7 @@
    "lon": 8.096064143970919,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14802,6 +15242,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -14830,6 +15271,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": "4d8a0d22-b9b3-43ee-b241-bee034b57d7b",
+    "company_logo": "https://media.jobs.ch/images/ce763195-87b4-43cb-a764-45c4c6560b27/640x320.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14862,6 +15304,7 @@
    "lon": 7.303033875235052,
    "extra": {
     "company_id": "4d8a0d22-b9b3-43ee-b241-bee034b57d7b",
+    "company_logo": "https://media.jobs.ch/images/ce763195-87b4-43cb-a764-45c4c6560b27/640x320.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14894,6 +15337,7 @@
    "lon": 6.935468927023381,
    "extra": {
     "company_id": "4d8a0d22-b9b3-43ee-b241-bee034b57d7b",
+    "company_logo": "https://media.jobs.ch/images/ce763195-87b4-43cb-a764-45c4c6560b27/640x320.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14926,6 +15370,7 @@
    "lon": 7.752662760736783,
    "extra": {
     "company_id": "4d8a0d22-b9b3-43ee-b241-bee034b57d7b",
+    "company_logo": "https://media.jobs.ch/images/ce763195-87b4-43cb-a764-45c4c6560b27/640x320.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14959,6 +15404,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": "4d8a0d22-b9b3-43ee-b241-bee034b57d7b",
+    "company_logo": "https://media.jobs.ch/images/ce763195-87b4-43cb-a764-45c4c6560b27/640x320.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -14992,6 +15438,7 @@
    "lon": 8.096064143970919,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15024,6 +15471,7 @@
    "lon": 7.818282229235809,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15054,6 +15502,7 @@
    "lon": 7.818282229235809,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15083,6 +15532,7 @@
    "lon": 7.818282229235809,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15113,6 +15563,7 @@
    "lon": 7.899553189773679,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15143,6 +15594,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "5785306f-46bb-43a5-af0a-165ee143755f",
+    "company_logo": "https://media.jobs.ch/images/775b3107-78d9-4d0c-98fc-dc9ed7031242/490x490.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -15176,6 +15628,7 @@
    "lon": 8.096064143970919,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15208,6 +15661,7 @@
    "lon": 7.229645494536715,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -15236,6 +15690,7 @@
    "lon": 7.777393285883467,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15266,6 +15721,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -15294,6 +15750,7 @@
    "lon": 7.777393285883467,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15328,6 +15785,7 @@
    "lon": 7.899553189773679,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15358,6 +15816,7 @@
    "lon": 7.009846748615521,
    "extra": {
     "company_id": "958",
+    "company_logo": "https://media.jobs.ch/images/0b493975-a7d6-46b5-b6f8-a8c7e6061e32",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15395,6 +15854,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": "121107",
+    "company_logo": "https://media.jobs.ch/images/70491fbc-0b71-4233-b152-43638549132c",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15430,6 +15890,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": "121107",
+    "company_logo": "https://media.jobs.ch/images/70491fbc-0b71-4233-b152-43638549132c",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15466,6 +15927,7 @@
    "lon": 7.980325016681688,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15500,6 +15962,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15530,6 +15993,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15560,6 +16024,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15590,6 +16055,7 @@
    "lon": 7.899553189773679,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15620,6 +16086,7 @@
    "lon": 7.899553189773679,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15650,6 +16117,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "5785306f-46bb-43a5-af0a-165ee143755f",
+    "company_logo": "https://media.jobs.ch/images/775b3107-78d9-4d0c-98fc-dc9ed7031242/490x490.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -15684,6 +16152,7 @@
    "lon": 7.752662760736783,
    "extra": {
     "company_id": "958",
+    "company_logo": "https://media.jobs.ch/images/0b493975-a7d6-46b5-b6f8-a8c7e6061e32",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15724,6 +16193,7 @@
    "lon": 7.809199714411955,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -15751,6 +16221,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": null,
+    "company_logo": "https://media.jobs.ch/images/102e6e39-c772-4bd0-b859-e1e4f89ade9c",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -15783,6 +16254,7 @@
    "lon": 8.043080731562055,
    "extra": {
     "company_id": "78827",
+    "company_logo": "https://media.jobs.ch/images/c7798777-76f9-4a18-bc01-0f36febf6286",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15819,6 +16291,7 @@
    "lon": null,
    "extra": {
     "company_id": "9d8dca31-76ca-4347-b24b-37125285e773",
+    "company_logo": "https://media.jobs.ch/images/c1103def-cf97-4f9f-8985-acb8d945a749/meier-300x150.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15851,6 +16324,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15881,6 +16355,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -15911,6 +16386,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -15940,6 +16416,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -15968,6 +16445,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16001,6 +16479,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16035,6 +16514,7 @@
    "lon": 7.972351526951461,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16065,6 +16545,7 @@
    "lon": 7.899553189773679,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16095,6 +16576,7 @@
    "lon": 7.972351526951461,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16125,6 +16607,7 @@
    "lon": 7.516877560373741,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16154,6 +16637,7 @@
    "lon": 7.899553189773679,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16184,6 +16668,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16214,6 +16699,7 @@
    "lon": 8.157026285756722,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -16245,6 +16731,7 @@
    "lon": 7.8488903948949345,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -16276,6 +16763,7 @@
    "lon": 8.05635123921872,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -16315,6 +16803,7 @@
    "lon": 7.786975323191063,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -16354,6 +16843,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": "7676e9a4-cfdb-496c-8eef-de68851851e8",
+    "company_logo": "https://media.jobup.ch/media/f15fcfea-773b-400b-b5f5-8454f608e0b3.jpg",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16388,6 +16878,7 @@
    "lon": 7.545493370313293,
    "extra": {
     "company_id": "6b41478a-9e3c-4e2c-b8e5-22f08a4b6de0",
+    "company_logo": "https://media.jobs.ch/images/b237d3b0-6430-413f-b134-f0d26790ff5e/300x150.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16420,6 +16911,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": "5552",
+    "company_logo": "https://media.jobs.ch/images/88e86996-78d3-4f50-ae66-096a725553f2",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16458,6 +16950,7 @@
    "lon": 7.972351526951461,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16492,6 +16985,7 @@
    "lon": 7.229645494536715,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -16520,6 +17014,7 @@
    "lon": 7.073329717573879,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -16548,6 +17043,7 @@
    "lon": 7.752662760736783,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16585,6 +17081,7 @@
    "lon": 7.5237235358002845,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16614,6 +17111,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16644,6 +17142,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16674,6 +17173,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16704,6 +17204,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16734,6 +17235,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16766,6 +17268,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -16794,6 +17297,7 @@
    "lon": 7.752662760736783,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16824,6 +17328,7 @@
    "lon": 7.752662760736783,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16854,6 +17359,7 @@
    "lon": 7.899553189773679,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16884,6 +17390,7 @@
    "lon": 7.373487698740087,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -16913,6 +17420,7 @@
    "lon": 7.899553189773679,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -16943,6 +17451,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -16971,6 +17480,7 @@
    "lon": 7.811144817323018,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -17001,6 +17511,7 @@
    "lon": 7.811144817323018,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -17031,6 +17542,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "1480bf99-158a-4377-960d-3c7785f20d1d",
+    "company_logo": "https://media.jobup.ch/media/484c217c-ba09-4737-8416-76af228e1934.jpg",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -17063,6 +17575,7 @@
    "lon": 7.24612792370907,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -17090,6 +17603,7 @@
    "lon": 7.073329717573879,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -17118,6 +17632,7 @@
    "lon": 7.752662760736783,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -17148,6 +17663,7 @@
    "lon": 7.752662760736783,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -17178,6 +17694,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -17212,6 +17729,7 @@
    "lon": 7.899553189773679,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -17242,6 +17760,7 @@
    "lon": 7.229645494536715,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -17274,6 +17793,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -17303,6 +17823,7 @@
    "lon": 7.899553189773679,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -17333,6 +17854,7 @@
    "lon": 7.229645494536715,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -17361,6 +17883,7 @@
    "lon": 7.229645494536715,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -17389,6 +17912,7 @@
    "lon": 7.229645494536715,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -17417,6 +17941,7 @@
    "lon": 7.229645494536715,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -17445,6 +17970,7 @@
    "lon": 7.229645494536715,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -17473,6 +17999,7 @@
    "lon": 7.229645494536715,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -17501,6 +18028,7 @@
    "lon": 7.229645494536715,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -17529,6 +18057,7 @@
    "lon": 7.915093676788228,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -17556,6 +18085,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -17588,6 +18118,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": "6b41478a-9e3c-4e2c-b8e5-22f08a4b6de0",
+    "company_logo": "https://media.jobs.ch/images/b237d3b0-6430-413f-b134-f0d26790ff5e/300x150.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -17620,6 +18151,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": "e7e9747f-a3f3-42a9-93b4-d32f4d723037",
+    "company_logo": "https://media.jobs.ch/images/4fc2495e-1363-4f1e-9866-ff6a312739d3",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -17663,6 +18195,7 @@
    "lon": 7.915093676788228,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -17691,6 +18224,7 @@
    "lon": 7.972491569287192,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -17721,6 +18255,7 @@
    "lon": 7.972491569287192,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -17751,6 +18286,7 @@
    "lon": 7.899440379338363,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -17781,6 +18317,7 @@
    "lon": 7.899440379338363,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -17811,6 +18348,7 @@
    "lon": 7.899440379338363,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -17841,6 +18379,7 @@
    "lon": 7.899440379338363,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -17871,6 +18410,7 @@
    "lon": 7.899440379338363,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -17901,6 +18441,7 @@
    "lon": 7.073329717573879,
    "extra": {
     "company_id": "e7e9747f-a3f3-42a9-93b4-d32f4d723037",
+    "company_logo": "https://media.jobs.ch/images/4fc2495e-1363-4f1e-9866-ff6a312739d3",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -17943,6 +18484,7 @@
    "lon": 6.822441821835591,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -17973,6 +18515,7 @@
    "lon": 6.822441821835591,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -18001,6 +18544,7 @@
    "lon": 6.822441821835591,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -18034,6 +18578,7 @@
    "lon": 6.822441821835591,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -18064,6 +18609,7 @@
    "lon": 6.822441821835591,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -18094,6 +18640,7 @@
    "lon": 6.822441821835591,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -18124,6 +18671,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -18154,6 +18702,7 @@
    "lon": 7.111854493418151,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -18184,6 +18733,7 @@
    "lon": 7.111854493418151,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -18214,6 +18764,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -18243,6 +18794,7 @@
    "lon": 7.516877560373741,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -18273,6 +18825,7 @@
    "lon": 7.899553189773679,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -18303,6 +18856,7 @@
    "lon": 7.899553189773679,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [
@@ -18333,6 +18887,7 @@
    "lon": 7.762271013004238,
    "extra": {
     "company_id": null,
+    "company_logo": null,
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -18364,6 +18919,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": "e7e9747f-a3f3-42a9-93b4-d32f4d723037",
+    "company_logo": "https://media.jobs.ch/images/4fc2495e-1363-4f1e-9866-ff6a312739d3",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -18406,6 +18962,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": "114814",
+    "company_logo": "https://media.jobs.ch/images/c25aacce-e0df-4dae-9987-efb269ef31b6/1011x439.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -18438,6 +18995,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "0fffc947-1447-47fc-a113-af2cae413aa7",
+    "company_logo": "https://media.jobup.ch/media/0f2ee548-2da3-4dc8-a3eb-230fe7e4f5bf.jpg",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -18472,6 +19030,7 @@
    "lon": 6.630504388618854,
    "extra": {
     "company_id": "ba1aad54-46fc-443d-ba4f-f185e6cca245",
+    "company_logo": "https://media.jobs.ch/images/9889ebb3-f796-4855-85e9-b2ec96e7d2c9/1181x471.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -18511,6 +19070,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": "142049",
+    "company_logo": "https://media.jobs.ch/images/bdce58d4-1fa1-4dd5-b1fc-c14798a47348",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -18543,6 +19103,7 @@
    "lon": 6.891359612503015,
    "extra": {
     "company_id": "142049",
+    "company_logo": "https://media.jobs.ch/images/bdce58d4-1fa1-4dd5-b1fc-c14798a47348",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -18575,6 +19136,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": "599",
+    "company_logo": "https://media.jobs.ch/images/f37d9490-772a-4881-9669-fc213b6914a9",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -18607,6 +19169,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": "599",
+    "company_logo": "https://media.jobs.ch/images/f37d9490-772a-4881-9669-fc213b6914a9",
     "company_segment": "PME",
     "is_staffing_agency": false,
     "employment_types": [],
@@ -18639,6 +19202,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "0fffc947-1447-47fc-a113-af2cae413aa7",
+    "company_logo": "https://media.jobup.ch/media/0f2ee548-2da3-4dc8-a3eb-230fe7e4f5bf.jpg",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
@@ -18673,6 +19237,7 @@
    "lon": 7.9254438720007165,
    "extra": {
     "company_id": "e7e9747f-a3f3-42a9-93b4-d32f4d723037",
+    "company_logo": "https://media.jobs.ch/images/4fc2495e-1363-4f1e-9866-ff6a312739d3",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -18715,6 +19280,7 @@
    "lon": 7.914915684042659,
    "extra": {
     "company_id": "85876",
+    "company_logo": "https://media.jobs.ch/images/c1103def-cf97-4f9f-8985-acb8d945a749/meier-300x150.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -18747,6 +19313,7 @@
    "lon": 7.752662760736783,
    "extra": {
     "company_id": "e7e9747f-a3f3-42a9-93b4-d32f4d723037",
+    "company_logo": "https://media.jobs.ch/images/4fc2495e-1363-4f1e-9866-ff6a312739d3",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -18789,6 +19356,7 @@
    "lon": 7.073329717573879,
    "extra": {
     "company_id": "615da3f8-1009-43b3-ba80-8bfa7e86395a",
+    "company_logo": "https://media.jobs.ch/images/8098d1d2-34cc-4508-9e67-7ef93fb9a7ea/1666x413.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -18822,6 +19390,7 @@
    "lon": 7.3546796205693195,
    "extra": {
     "company_id": "615da3f8-1009-43b3-ba80-8bfa7e86395a",
+    "company_logo": "https://media.jobs.ch/images/8098d1d2-34cc-4508-9e67-7ef93fb9a7ea/1666x413.png",
     "company_segment": "grande entreprise",
     "is_staffing_agency": false,
     "employment_types": [
@@ -18855,6 +19424,7 @@
    "lon": 7.878213146497926,
    "extra": {
     "company_id": "93275",
+    "company_logo": "https://media.jobs.ch/images/06d01f84-f366-4a56-ace4-eb39ae76e571/248x88.png",
     "company_segment": "agence de placement",
     "is_staffing_agency": true,
     "employment_types": [
