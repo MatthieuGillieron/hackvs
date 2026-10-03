@@ -18,17 +18,28 @@ python3 -m prototype.html          # génère le brief -> prototype/out/brief.ht
 python3 -m prototype.brief -n 10   # ou le top 10 dans le terminal
 ```
 
+## Interface (web/)
+
+React + TypeScript + Vite + Tailwind + shadcn/ui. Le front lit les JSON exportés par le moteur.
+
+```bash
+python3 -m prototype.export        # moteur -> web/public/data/*.json (à relancer après un fetch)
+cd web && npm install && npm run dev   # http://localhost:5173
+```
+
 ## Organisation
 
 ```
 sources/      31 sources de données publiques + snapshots JSON (sources/_data/*.json)
               -> python3 -m sources list | stats | fetch all | show <source>
               -> détail des sources et pièges connus : sources/README.md
+web/          interface React (pages : Dashboard, Alertes, Carte, Clients, Candidats, Admin › Sources)
 prototype/    moteur de signaux
   signals.py    publication brute -> signal (familles, phasage, montant -> équipe, ASSUMPTIONS)
   scoring.py    regroupement par cible, niveau AGIR / PRÉPARER / SURVEILLER, vivier, action
   brief.py      brief terminal + export JSON
-  html.py       brief en page web autonome
+  html.py       brief en page web autonome (prototype)
+  export.py     JSON pour l'interface -> web/public/data/
               -> règles et constats du test : prototype/README.md
 ```
 
