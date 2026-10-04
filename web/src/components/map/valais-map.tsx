@@ -3,6 +3,7 @@ import { MinusIcon, PlusIcon, ScanIcon } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { LEVEL_DOT, LEVEL_FILL, rangeLabel, type DistrictStats } from "@/lib/carte"
+import { LEVEL_LABEL } from "@/lib/format"
 import type { Geo } from "@/lib/geo"
 import type { Level } from "@/lib/types"
 import { cn } from "@/lib/utils"
@@ -15,13 +16,14 @@ interface Props {
   stats: Map<string, DistrictStats>
   selected: string | null
   onSelect: (district: string) => void
+  compact?: boolean // widget : ni zoom ni légende détaillée, libellés plus gros
 }
 
-export function ValaisMap({ geo, stats, selected, onSelect }: Props) {
+export function ValaisMap({ geo, stats, selected, onSelect, compact = false }: Props) {
   const [, , W, H] = geo.viewBox
   const [zoom, setZoom] = React.useState(0)
   const [center, setCenter] = React.useState<[number, number]>([W / 2, H / 2])
-  const [hover, setHover] = React.useState<{ district: string; x: number; y: number; w: number } | null>(null)
+  const [hover, setHover] = React.useState<{ district: string; x: number; y: number; w: number; h: number } | null>(null)
   const boxRef = React.useRef<HTMLDivElement>(null)
   const drag = React.useRef<{ x: number; y: number; c: [number, number]; moved: boolean } | null>(null)
 
@@ -68,17 +70,21 @@ export function ValaisMap({ geo, stats, selected, onSelect }: Props) {
   }
   const showTip = (district: string, e: React.MouseEvent) => {
     const r = boxRef.current?.getBoundingClientRect()
-    if (r) setHover({ district, x: e.clientX - r.left, y: e.clientY - r.top, w: r.width })
+    if (r) setHover({ district, x: e.clientX - r.left, y: e.clientY - r.top, w: r.width, h: r.height })
   }
 
   const hovered = hover ? stats.get(hover.district) : undefined
   const hoveredGeo = hover ? geo.districts.find((d) => d.district === hover.district) : undefined
-  const label = 2.4 / Math.sqrt(k)
+  const label = (compact ? 3.6 : 2.4) / Math.sqrt(k)
 
   return (
     <div
       ref={boxRef}
-      className={cn("relative overflow-hidden rounded-xl border bg-muted/30 select-none", zoom > 0 && "cursor-grab active:cursor-grabbing")}
+      className={cn(
+        "relative overflow-hidden select-none",
+        !compact && "rounded-xl border bg-muted/30",
+        zoom > 0 && "cursor-grab active:cursor-grabbing",
+      )}
       style={{ aspectRatio: `${W} / ${H}` }}
       onPointerDown={onPointerDown}
       onPointerMove={onPointerMove}
@@ -189,7 +195,7 @@ export function ValaisMap({ geo, stats, selected, onSelect }: Props) {
       </svg>
 
       {/* Zoom */}
-      <div className="absolute top-3 left-3 flex flex-col overflow-hidden rounded-lg border bg-background/95 shadow-sm">
+      <div className={cn("absolute top-3 left-3 flex flex-col overflow-hidden rounded-lg border bg-background/95 shadow-sm", compact && "hidden!")}>
         <Button variant="ghost" size="icon-sm" className="rounded-none" disabled={zoom === ZOOMS.length - 1} onClick={() => zoomTo(zoom + 1)} aria-label="Zoomer">
           <PlusIcon />
         </Button>
@@ -202,12 +208,12 @@ export function ValaisMap({ geo, stats, selected, onSelect }: Props) {
       </div>
 
       {/* Légende */}
-      <div className="absolute right-3 bottom-3 hidden rounded-lg border bg-background/95 p-3 text-xs shadow-sm sm:block">
+      <div className={cn("absolute right-3 bottom-3 hidden rounded-lg border bg-background/95 p-3 text-xs shadow-sm sm:block", compact && "hidden!")}>
         <div className="mb-1.5 font-semibold">Niveau du district</div>
         <ul className="space-y-1">
           {(["AGIR", "PRÉPARER", "SURVEILLER"] as Level[]).map((l) => (
             <li key={l} className="flex items-center gap-2">
-              <span className={cn("size-2.5 rounded-full", LEVEL_DOT[l])} /> {l}
+              <span className={cn("size-2.5 rounded-full", LEVEL_DOT[l])} /> {LEVEL_LABEL[l]}
             </li>
           ))}
           <li className="flex items-center gap-2 text-muted-foreground">
@@ -221,23 +227,36 @@ export function ValaisMap({ geo, stats, selected, onSelect }: Props) {
 
       {hover && hoveredGeo && (
         <div
-          className="pointer-events-none absolute z-10 w-52 rounded-lg border bg-popover p-2.5 text-xs text-popover-foreground shadow-md"
+          className={cn(
+            "pointer-events-none absolute z-10 rounded-lg border bg-popover text-xs text-popover-foreground shadow-md",
+            compact ? "w-36 px-2 py-1.5" : "w-52 p-2.5",
+          )}
           style={{
-            left: Math.min(hover.x + 14, hover.w - 216),
-            top: Math.max(8, hover.y - 10),
+            left: hover.x + 14 + (compact ? 144 : 208) > hover.w ? Math.max(4, hover.x - 14 - (compact ? 144 : 208)) : hover.x + 14,
+            top: Math.max(4, Math.min(hover.y - 10, hover.h - (compact ? 64 : 104))),
           }}
         >
           <div className="flex items-center justify-between gap-2 font-semibold">
             {hoveredGeo.name}
             {hovered?.level && <span className={cn("size-2 rounded-full", LEVEL_DOT[hovered.level])} />}
           </div>
-          {hovered?.opps.length ? (
+          {hovered?.opps.length && compact ? (
+            <div className="mt-0.5 leading-snug text-muted-foreground">
+              <div>
+                <span className="font-medium text-foreground tabular-nums">{hovered.counts.AGIR}</span> urgent ·{" "}
+                <span className="font-medium text-foreground tabular-nums">{hovered.counts.PRÉPARER}</span> à anticiper
+              </div>
+              <div>
+                Renfort <span className="font-medium text-foreground tabular-nums">{hovered.active.length ? rangeLabel(hovered.need) : "—"}</span>
+              </div>
+            </div>
+          ) : hovered?.opps.length ? (
             <dl className="mt-1.5 grid grid-cols-[1fr_auto] gap-x-3 gap-y-0.5 text-muted-foreground">
-              <dt>AGIR · PRÉPARER</dt>
+              <dt>Urgent · Anticiper</dt>
               <dd className="text-right font-medium text-foreground tabular-nums">
                 {hovered.counts.AGIR} · {hovered.counts.PRÉPARER}
               </dd>
-              <dt>SURVEILLER</dt>
+              <dt>En veille</dt>
               <dd className="text-right tabular-nums">{hovered.counts.SURVEILLER}</dd>
               <dt>Renfort estimé</dt>
               <dd className="text-right font-medium text-foreground tabular-nums">

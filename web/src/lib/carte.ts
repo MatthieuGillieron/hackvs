@@ -1,16 +1,9 @@
-// Agrégation des alertes par district pour la page Carte.
+// Agrégation des alertes par district (carte de la page Analytics).
 // Règles du moteur : le niveau d'un district = le meilleur niveau de ses alertes ; le renfort ne compte que
 // AGIR + PRÉPARER (fourchette = somme des bornes) ; le vivier (fictif) ne change jamais le niveau.
 
 import { LEVEL_ORDER } from "@/lib/format"
-import type { Candidate, Family, Level, Opportunity, Signal } from "@/lib/types"
-
-export const PERIODS = {
-  "7": { label: "J+7", weeks: 1 },
-  "30": { label: "J+30", weeks: 4 },
-  "90": { label: "J+90", weeks: 13 },
-} as const
-export type PeriodKey = keyof typeof PERIODS
+import type { Candidate, Family, Level, Opportunity } from "@/lib/types"
 
 export interface DistrictStats {
   district: string
@@ -27,11 +20,6 @@ export interface DistrictStats {
 
 const byPriority = (a: Opportunity, b: Opportunity) =>
   LEVEL_ORDER[a.level] - LEVEL_ORDER[b.level] || a.weeks - b.weeks || b.need[1] - a.need[1] || a.id - b.id
-
-export function filterOpps(opps: Opportunity[], period: PeriodKey, metier: string | null): Opportunity[] {
-  const max = PERIODS[period].weeks
-  return opps.filter((o) => o.weeks <= max && (!metier || o.metiers.includes(metier)))
-}
 
 export function districtStats(
   district: string,
@@ -64,69 +52,15 @@ export function districtStats(
   }
 }
 
-// Classement des zones chaudes : niveau, puis nombre d'alertes AGIR / PRÉPARER, puis renfort.
-export function compareStats(a: DistrictStats, b: DistrictStats): number {
-  const la = a.level ? LEVEL_ORDER[a.level] : 9
-  const lb = b.level ? LEVEL_ORDER[b.level] : 9
-  return la - lb || b.counts.AGIR - a.counts.AGIR || b.counts.PRÉPARER - a.counts.PRÉPARER || b.need[1] - a.need[1]
-}
-
-// Signaux publics (jamais les fictifs), dédoublonnés, Projet et Recrutement d'abord puis du plus récent.
-export function keySignals(opps: Opportunity[], max = 3): Signal[] {
-  const seen = new Set<string>()
-  const out: Signal[] = []
-  for (const o of opps)
-    for (const s of o.signals)
-      if (!s.fictif && !seen.has(s.label)) {
-        seen.add(s.label)
-        out.push(s)
-      }
-  const rank = (s: Signal) => (s.family === "projet" ? 0 : s.family === "recrutement" ? 1 : 2)
-  out.sort((a, b) => rank(a) - rank(b) || (b.date ?? "").localeCompare(a.date ?? ""))
-  // Varier les types (adjudication, permis, annonces…) avant de répéter le même.
-  const types = new Set<string>()
-  const first = out.filter((s) => !types.has(s.type) && types.add(s.type))
-  return [...first, ...out.filter((s) => !first.includes(s))].slice(0, max)
-}
-
-export interface WeekPoint {
-  date: string // lundi de la semaine (ISO)
-  need: [number, number, number] // renfort simultané : somme des fourchettes des alertes en cours cette semaine
-  available: number // vivier compatible disponible à cette date (fictif)
-}
-
-function addDays(iso: string, days: number): string {
-  const d = new Date(iso + "T00:00:00Z")
-  d.setUTCDate(d.getUTCDate() + days)
-  return d.toISOString().slice(0, 10)
-}
-
-// Projection semaine par semaine à partir des fenêtres des alertes AGIR + PRÉPARER.
-export function weeklyProjection(s: DistrictStats, today: string, weeks = 13): WeekPoint[] {
-  const pts: WeekPoint[] = []
-  for (let w = 0; w < weeks; w++) {
-    const start = addDays(today, 7 * w)
-    const end = addDays(start, 6)
-    const need: [number, number, number] = [0, 0, 0]
-    for (const o of s.active)
-      if (o.window[0] <= end && o.window[1] >= start) for (let i = 0; i < 3; i++) need[i] += o.need[i]
-    const available =
-      s.available.length + s.soon.filter((c) => c.disponible_des && c.disponible_des <= end).length
-    pts.push({ date: start, need, available })
-  }
-  return pts
-}
-
-// Couleurs alignées sur LevelBadge (AGIR orange, PRÉPARER ambre, SURVEILLER gris).
 export const LEVEL_FILL: Record<Level | "none", string> = {
-  AGIR: "fill-orange-500",
-  PRÉPARER: "fill-amber-400",
+  AGIR: "fill-red-500",
+  PRÉPARER: "fill-yellow-400",
   SURVEILLER: "fill-slate-400",
   none: "fill-transparent",
 }
 export const LEVEL_DOT: Record<Level, string> = {
-  AGIR: "bg-orange-500",
-  PRÉPARER: "bg-amber-400",
+  AGIR: "bg-red-500",
+  PRÉPARER: "bg-yellow-400",
   SURVEILLER: "bg-slate-400",
 }
 

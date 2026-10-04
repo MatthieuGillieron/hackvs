@@ -4,8 +4,8 @@ import { TooltipProvider } from "@/components/ui/tooltip"
 import { AppLayout } from "@/layouts/app-layout"
 import { DataProvider } from "@/lib/data"
 import { AlertesPage } from "@/pages/alertes"
+import { AnalyticsPage } from "@/pages/analytics"
 import { CandidatsPage } from "@/pages/candidats"
-import { CartePage } from "@/pages/carte"
 import { ClientsPage } from "@/pages/clients"
 import { DashboardPage } from "@/pages/dashboard"
 import { ParametresPage } from "@/pages/parametres"
@@ -21,7 +21,9 @@ export default function App() {
             <Route element={<AppLayout />}>
               <Route index element={<DashboardPage />} />
               <Route path="alertes" element={<AlertesPage />} />
-              <Route path="carte" element={<CartePage />} />
+              <Route path="analytics" element={<AnalyticsPage />} />
+              <Route path="statistiques" element={<Navigate to="/analytics?vue=marche" replace />} />
+              <Route path="carte" element={<Navigate to="/analytics?vue=marche" replace />} />
               <Route path="clients" element={<ClientsPage />} />
               <Route path="candidats" element={<CandidatsPage />} />
               <Route path="profil" element={<ProfilPage />} />
