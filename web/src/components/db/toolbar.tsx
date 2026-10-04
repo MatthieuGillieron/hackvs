@@ -6,33 +6,38 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 
-// Barre des bases Clients / Candidats : pastilles de statut + recherche, puis « N résultats » et filtres compacts.
-export function DbToolbar({ tabs, tab, onTab, q, onQ, placeholder, count, filters, onReset }: {
+// Bandeau blanc des bases Clients / Candidats (comme les onglets d'Alertes) : pastilles de statut + recherche.
+export function DbTabsBar({ tabs, tab, onTab, q, onQ, placeholder }: {
   tabs: React.ComponentProps<typeof StateTabs>["items"]
   tab: string
   onTab: (v: string) => void
   q: string
   onQ: (v: string) => void
   placeholder: string
+}) {
+  return (
+    <div className="flex flex-wrap items-center justify-between gap-3">
+      <StateTabs value={tab} onChange={onTab} items={tabs} />
+      <div className="relative w-full sm:w-64">
+        <SearchIcon className="pointer-events-none absolute top-1/2 left-2.5 size-4 -translate-y-1/2 text-muted-foreground" />
+        <Input value={q} onChange={(e) => onQ(e.target.value)} placeholder={placeholder} className="bg-background pl-8" />
+      </div>
+    </div>
+  )
+}
+
+// En tête du fond gris : « N résultats », puis Réinitialiser et filtres compacts.
+export function DbFilterBar({ count, filters, onReset }: {
   count: string
   filters: React.ReactNode
   onReset?: () => void
 }) {
   return (
-    <div className="grid gap-4">
-      <div className="flex flex-wrap items-center justify-between gap-3">
-        <StateTabs value={tab} onChange={onTab} items={tabs} />
-        <div className="relative w-full sm:w-64">
-          <SearchIcon className="pointer-events-none absolute top-1/2 left-2.5 size-4 -translate-y-1/2 text-muted-foreground" />
-          <Input value={q} onChange={(e) => onQ(e.target.value)} placeholder={placeholder} className="bg-background pl-8" />
-        </div>
-      </div>
-      <div className="flex flex-wrap items-center justify-between gap-2">
-        <span className="text-sm text-muted-foreground">{count}</span>
-        <div className="flex flex-wrap items-center gap-2">
-          {onReset && <Button variant="ghost" size="sm" onClick={onReset}>Réinitialiser</Button>}
-          {filters}
-        </div>
+    <div className="flex flex-wrap items-center justify-between gap-2">
+      <span className="text-sm text-muted-foreground">{count}</span>
+      <div className="flex flex-wrap items-center gap-2">
+        {onReset && <Button variant="ghost" size="sm" onClick={onReset}>Réinitialiser</Button>}
+        {filters}
       </div>
     </div>
   )

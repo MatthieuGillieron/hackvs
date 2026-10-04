@@ -1,11 +1,11 @@
 import * as React from "react"
+import { BellIcon } from "lucide-react"
 
 import { InternalBase } from "@/components/db/internal-base"
 import { Initials, RecordCard, StatusDot } from "@/components/db/record-card"
-import { CompactSelect, DbToolbar, MoreButton } from "@/components/db/toolbar"
+import { CompactSelect, DbFilterBar, DbTabsBar, MoreButton } from "@/components/db/toolbar"
 import { ClientDetail } from "@/components/entreprises/client-detail"
-import { LevelBadge } from "@/components/level-badge"
-import { PageHeader } from "@/components/page"
+import { PageBody, PageHeader } from "@/components/page"
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog"
 import { useData } from "@/lib/data"
 import { fmtDate, metiersLabel, shortDistrict } from "@/lib/format"
@@ -57,9 +57,11 @@ function ClientCard({ h, onOpen }: { h: ClientHistory; onOpen: () => void }) {
         <>
           <span>Client depuis {new Date(c.since).getFullYear()} · {c.size}</span>
           {c.bestLevel ? (
-            <span className="inline-flex items-center gap-1.5" title={`${c.alerts} alerte(s) en cours`}>
-              <LevelBadge level={c.bestLevel} />
-              {c.alerts > 1 && `×${c.alerts}`}
+            <span className="relative inline-flex" title={`${c.alerts} alerte${c.alerts > 1 ? "s" : ""} en cours`}>
+              <BellIcon className="size-5 text-foreground" />
+              <span className="absolute -top-1.5 -right-1.5 flex size-4 items-center justify-center rounded-full bg-red-600 text-[10px] leading-none font-semibold text-white ring-2 ring-card">
+                {c.alerts}
+              </span>
             </span>
           ) : (
             c.lastContact && <span title={c.lastContact.objet}>Contact {fmtDate(c.lastContact.date)}</span>
@@ -102,7 +104,7 @@ export function ClientsPage() {
       <PageHeader fictif />
       <InternalBase items={[["entreprises", clients.length], ["missions", missions.length]]} sources={["fx_clients", "fx_contacts", "fx_missions"]} />
 
-      <DbToolbar
+      <DbTabsBar
         tab={f.etat}
         onTab={(v) => filter({ etat: v })}
         tabs={[
@@ -113,35 +115,40 @@ export function ClientsPage() {
         q={f.q}
         onQ={(v) => filter({ q: v })}
         placeholder="Nom, commune, IDE, métier…"
-        count={`${rows.length} entreprise${rows.length > 1 ? "s" : ""}`}
-        onReset={dirty(["entreprise", "etat", "q"]) ? () => reset(["etat", "q"]) : undefined}
-        filters={
-          <>
-            <CompactSelect label="Secteur" value={f.secteur} onChange={(v) => filter({ secteur: v })}
-              options={[[ALL, "Tous"], ...sectors.map((s): [string, string] => [s, cap(s)])]} />
-            <CompactSelect label="District" value={f.district} onChange={(v) => filter({ district: v })}
-              options={[[ALL, "Tous"], ...districts.map((d): [string, string] => [d, shortDistrict(d)])]} />
-            <CompactSelect label="Taille" value={f.taille} onChange={(v) => filter({ taille: v })}
-              options={[[ALL, "Toutes"], ...sizes.map((s): [string, string] => [s, cap(s)])]} />
-            <CompactSelect label="Tri" value={f.tri} onChange={(v) => filter({ tri: v })}
-              options={Object.entries(SORTS).map(([k, s]): [string, string] => [k, s.label])} />
-          </>
-        }
       />
 
-      {rows.length ? (
-        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-          {rows.slice(0, shown).map((h) => (
-            <ClientCard key={h.client.id} h={h} onOpen={() => set({ entreprise: h.client.id })} />
-          ))}
-        </div>
-      ) : (
-        <p className="py-16 text-center text-sm text-muted-foreground">Aucune entreprise ne correspond aux filtres.</p>
-      )}
-      <MoreButton left={rows.length - shown} onMore={() => setShown((n) => n + PAGE)} />
+      <PageBody>
+        <DbFilterBar
+          count={`${rows.length} entreprise${rows.length > 1 ? "s" : ""}`}
+          onReset={dirty(["entreprise", "etat", "q"]) ? () => reset(["etat", "q"]) : undefined}
+          filters={
+            <>
+              <CompactSelect label="Secteur" value={f.secteur} onChange={(v) => filter({ secteur: v })}
+                options={[[ALL, "Tous"], ...sectors.map((s): [string, string] => [s, cap(s)])]} />
+              <CompactSelect label="District" value={f.district} onChange={(v) => filter({ district: v })}
+                options={[[ALL, "Tous"], ...districts.map((d): [string, string] => [d, shortDistrict(d)])]} />
+              <CompactSelect label="Taille" value={f.taille} onChange={(v) => filter({ taille: v })}
+                options={[[ALL, "Toutes"], ...sizes.map((s): [string, string] => [s, cap(s)])]} />
+              <CompactSelect label="Tri" value={f.tri} onChange={(v) => filter({ tri: v })}
+                options={Object.entries(SORTS).map(([k, s]): [string, string] => [k, s.label])} />
+            </>
+          }
+        />
+
+        {rows.length ? (
+          <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+            {rows.slice(0, shown).map((h) => (
+              <ClientCard key={h.client.id} h={h} onOpen={() => set({ entreprise: h.client.id })} />
+            ))}
+          </div>
+        ) : (
+          <p className="py-16 text-center text-sm text-muted-foreground">Aucune entreprise ne correspond aux filtres.</p>
+        )}
+        <MoreButton left={rows.length - shown} onMore={() => setShown((n) => n + PAGE)} />
+      </PageBody>
 
       <Dialog open={!!selected} onOpenChange={(v) => !v && set({ entreprise: "" })}>
-        <DialogContent className="max-h-[90svh] overflow-y-auto sm:max-w-2xl">
+        <DialogContent className="max-h-[92svh] overflow-y-auto p-6 sm:max-w-5xl sm:p-8">
           <DialogTitle className="sr-only">{selected?.client.name ?? "Entreprise"}</DialogTitle>
           <DialogDescription className="sr-only">Fiche entreprise : registre du commerce et relation Flexsis</DialogDescription>
           {selected && <ClientDetail h={selected} people={people} today={today} />}

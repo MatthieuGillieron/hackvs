@@ -1,6 +1,7 @@
 import { CarIcon, MapPinIcon } from "lucide-react"
 
 import { InfoRow, MissionTable } from "@/components/db/mission-table"
+import { CandidateAvatar } from "@/components/db/record-card"
 import { FictifBadge } from "@/components/page"
 import { Badge } from "@/components/ui/badge"
 import { fmtDate, shortDistrict, shortMetier } from "@/lib/format"
@@ -31,11 +32,14 @@ export function CandidateDetail({ h, today }: { h: CandidateHistory; today: stri
   return (
     <div className="grid gap-5">
       <div className="flex flex-wrap items-start justify-between gap-3 pr-8">
-        <div>
-          <h2 className="flex items-center gap-2 text-lg font-semibold">
-            {c.prenom} {c.nom} <FictifBadge />
-          </h2>
-          <p className="text-sm text-muted-foreground">{c.metierLabel} · {c.id}</p>
+        <div className="flex items-center gap-4">
+          <CandidateAvatar c={c} className="size-20 rounded-2xl" />
+          <div>
+            <h2 className="flex items-center gap-2 text-xl font-semibold">
+              {c.prenom} {c.nom} <FictifBadge />
+            </h2>
+            <p className="text-sm text-muted-foreground">{c.metierLabel} · {c.id}</p>
+          </div>
         </div>
         <StatutLabel c={c} today={today} />
       </div>

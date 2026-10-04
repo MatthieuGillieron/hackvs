@@ -1,16 +1,19 @@
 import * as React from "react"
 
 import { Separator } from "@/components/ui/separator"
+import { candidateAvatar } from "@/lib/avatar"
+import type { Candidate } from "@/lib/types"
 import { cn } from "@/lib/utils"
 
 // Carte courte des bases Clients / Candidats (même anatomie que les cartes d'alerte) : en-tête, mini-titre,
 // 3 repères, pied. Le détail complet s'ouvre au clic.
-export function RecordCard({ avatar, title, subtitle, badge, headline, stats, footer, onOpen, dim = false }: {
+export function RecordCard({ avatar, title, subtitle, badge, headline, extra, stats, footer, onOpen, dim = false }: {
   avatar: React.ReactNode
   title: string
   subtitle: React.ReactNode
   badge?: React.ReactNode
   headline: React.ReactNode
+  extra?: React.ReactNode // ligne propre au contexte (ex. raisons du rapprochement dans une alerte)
   stats: { label: string; value: React.ReactNode; hint?: string }[]
   footer: React.ReactNode
   onOpen: () => void
@@ -37,6 +40,7 @@ export function RecordCard({ avatar, title, subtitle, badge, headline, stats, fo
       <Separator className="my-3" />
 
       <p className="line-clamp-2 text-sm leading-snug font-medium">{headline}</p>
+      {extra && <div className="mt-2">{extra}</div>}
 
       <dl className="mt-4 mb-4 grid grid-cols-3 divide-x">
         {stats.map((s, i) => (
@@ -58,6 +62,18 @@ export function Initials({ text, className }: { text: string; className?: string
     <span className={cn("flex size-12 shrink-0 items-center justify-center rounded-xl bg-muted text-sm font-semibold text-muted-foreground", className)}>
       {text}
     </span>
+  )
+}
+
+// Avatar illustré d'un candidat (dessin généré, pas une photo : candidats simulés).
+export function CandidateAvatar({ c, className }: { c: Pick<Candidate, "id" | "prenom" | "nom">; className?: string }) {
+  return (
+    <img
+      src={candidateAvatar(c)}
+      alt={`Avatar de ${c.prenom} ${c.nom}`}
+      className={cn("size-12 shrink-0 rounded-xl bg-muted", className)}
+      loading="lazy"
+    />
   )
 }
 

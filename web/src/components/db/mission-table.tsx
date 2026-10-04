@@ -2,22 +2,24 @@ import type * as React from "react"
 
 import { StarIcon } from "lucide-react"
 
+import { CandidateAvatar } from "@/components/db/record-card"
 import { Badge } from "@/components/ui/badge"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { fmtDate, shortMetier } from "@/lib/format"
-import type { Mission } from "@/lib/types"
+import type { Candidate, Mission } from "@/lib/types"
 
 const d = (iso: string) => fmtDate(iso, { day: "numeric", month: "short", year: "2-digit" })
 
 // Historique des missions (simulé) : côté candidat on affiche le client, côté entreprise l'intérimaire.
-export function MissionTable({ missions, who, onWho }: {
+export function MissionTable({ missions, who, onWho, avatar }: {
   missions: Mission[]
   who: (m: Mission) => string
   onWho?: (m: Mission) => void
+  avatar?: (m: Mission) => Candidate | undefined
 }) {
   if (!missions.length) return <p className="text-sm text-muted-foreground">Aucune mission enregistrée.</p>
   return (
-    <div className="max-h-72 overflow-y-auto rounded-lg border">
+    <div className="max-h-[26rem] overflow-y-auto rounded-lg border">
       <Table>
         <TableHeader className="sticky top-0 bg-background">
           <TableRow>
@@ -31,12 +33,20 @@ export function MissionTable({ missions, who, onWho }: {
           {missions.map((m) => (
             <TableRow key={m.id}>
               <TableCell className="pl-3">
-                {onWho ? (
-                  <button className="font-medium hover:underline" onClick={() => onWho(m)}>{who(m)}</button>
-                ) : (
-                  <div className="font-medium">{who(m)}</div>
-                )}
-                <div className="text-xs text-muted-foreground">{shortMetier(m.metier)}</div>
+                <div className="flex items-center gap-2.5">
+                  {avatar && (() => {
+                    const p = avatar(m)
+                    return p ? <CandidateAvatar c={p} className="size-8 rounded-lg" /> : null
+                  })()}
+                  <div>
+                    {onWho ? (
+                      <button className="font-medium hover:underline" onClick={() => onWho(m)}>{who(m)}</button>
+                    ) : (
+                      <div className="font-medium">{who(m)}</div>
+                    )}
+                    <div className="text-xs text-muted-foreground">{shortMetier(m.metier)}</div>
+                  </div>
+                </div>
               </TableCell>
               <TableCell className="text-xs whitespace-nowrap">
                 {d(m.debut)} → {d(m.fin)}
