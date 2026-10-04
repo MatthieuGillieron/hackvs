@@ -41,7 +41,21 @@ Après toute modif du moteur ou un fetch : `python3 -m prototype.export` (racine
   12–36 mois, validés), **sans renfort chiffré**. Signaux marqués `ia` + `preuve` (badge « Extrait par IA »).
 - `prototype/emails.py` : emails de prospection pré-rédigés (alertes entreprise AGIR/PRÉPARER, FR ou DE selon le
   district) -> `web/public/data/emails.json` ; `components/alerts/email-dialog.tsx` (bouton « Générer un email »).
-  Ordre : `python3 -m prototype.export && python3 -m prototype.emails`.
+- `prototype/calls.py` : fiches « Préparer l'appel » (AGIR/PRÉPARER, entreprise ou zone avec entreprises probables)
+  -> `web/public/data/calls.json` : faits (contact FICTIF déterministe, tél. `027 000 …`, relation, demandes non
+  pourvues, agences concurrentes hors Flexsis/job boards, délais de placement) + guide LLM (accroche, qui demander,
+  questions dépliables (pourquoi / à noter), objections, conclusion, objectif + durée, pitch par profil).
+  `components/alerts/call-sheet.tsx` (d'après maquette) : remplace le détail dans le modal d'alerte (bouton retour),
+  `CallButton` pour l'ouvrir hors modal (Dashboard) ; gauche = en-tête (#n priorité top 3 AGIR, secteur + phases),
+  besoin, pourquoi maintenant (groupé par type), relation, contact ; droite = onglets Guide / Profils / Compte-rendu,
+  accent orange ; guide **personnel** (« j'ai vu votre projet, j'ai anticipé, j'ai déjà ces profils prêts », jamais
+  « meilleure agence », limites de mots) ; `match_profiles` (calls.py) : vivier + disponibles des métiers de l'alerte,
+  meilleur profil par métier puis complément, atouts = distance au chantier / dispo avant démarrage / missions chez
+  ce client (note si ≥ 4) / certifs ; étape « Vos profils prêts » + email des profils ; onglet Profils = `CandidateCard`
+  (`components/candidates/candidate-card.tsx`, partagée avec la page Candidats), fiche candidat ouverte sur place ;
+  compte-rendu
+  (`logCall` dans `tasks.ts` : Pas de besoin -> Traité, sinon En cours).
+  Ordre : `python3 -m prototype.export && python3 -m prototype.emails && python3 -m prototype.calls`.
 
 ## Règles du moteur (validées avec l'utilisateur — ne pas changer sans demander)
 
@@ -63,29 +77,64 @@ Après toute modif du moteur ou un fetch : `python3 -m prototype.export` (racine
 ## Interface (décisions prises)
 
 - **Un seul compte, pas de vue admin** (supprimée à la demande de l'utilisateur) : Julie Martin, Consultante (fictif).
-- Sidebar shadcn (`sidebar-07` adapté, `lib/nav.ts` → `NAV_SECTIONS`) : logo radar + « FlexRadar » seuls en haut (pas de
-  sous-titre), séparateur pleine largeur dessous ; sections
-  **Prospection** : Dashboard · Alertes (badge = nb AGIR) · Carte ; **Portefeuille** : Clients · Candidats ;
+- Sidebar shadcn (`sidebar-07` adapté, `lib/nav.ts` → `NAV_SECTIONS`) : logo officiel **Flexsis** seul en haut (`web/public/img/brand/` : logo complet clair/sombre, symbole quand la sidebar est repliée, aussi favicon ; récupérés sur flexsis.ch). Nom affiché de l'app = « Flexsis » (onglet, sidebar) ; « FlexRadar » reste le nom de projet du pitch ; pas de
+  sous-titre, séparateur pleine largeur dessous ; sections
+  **Prospection** : Accueil · Alertes (badge = nb AGIR) · Analytics ; **Portefeuille** : Clients · Candidats ;
   **Données** : Sources. Profil en bas avec menu : Mon profil, Paramètres, Déconnexion (désactivée).
 - Bouton rond de repli sur la bordure de la sidebar (`sidebar-edge-toggle.tsx`) ; plus d'en-tête de page global
   (`app-header.tsx` supprimé), le titre est dans `PageHeader` (`components/page.tsx`).
 - Typo : `text-xs` = 13 px, `text-sm` = 15 px (`index.css`) ; entrées de sidebar plus hautes (h-10, texte 16 px,
   icônes 20 px, `nav-main.tsx`).
+- **Squelette de page commun, modèle = Alertes** : en-tête sur fond blanc (titre, onglets / pastilles de statut,
+  recherche), puis `PageBody` (`components/page.tsx`) = fond gris pleine largeur jusqu'en bas, cartes blanches dessus.
+  Appliqué : Alertes, Clients, Candidats (`DbTabsBar` en blanc, `DbFilterBar` + grille en gris), Sources, Profil,
+  Paramètres. Analytics aussi.
 - Pas de page Rapports en v1. Pages minimales d'abord. Données chargées via `DataProvider` (`web/src/lib/data.tsx`).
-- **Dashboard** (`pages/dashboard.tsx`, « Brief de la semaine ») : doit tenir sans défiler (≥ 1366×768 ; depuis la
-  hausse de la typo, dépasse de ~7 px à 1366×768 fenêtre). 4 KPIs (appels,
-  renfort en fourchette, profils prêts, « Votre avance » = AGIR dus à l'historique, `level` ≠ `levelPublic`) ;
-  3 cartes Priorité paginées (‹ ›) parmi les AGIR, même tri que le badge #1/#2/#3 d'Alertes (vue aérienne, renfort,
-  « Pourquoi ? » via `shortReasons`, familles, vivier, couverture) ; sous la carte sélectionnée : candidats du `pool`
-  + action recommandée, synthèse sans IA (copiable), lien `/alertes?id=<id>` — **à corriger** : Alertes ouvre une
-  fiche via `?alerte=<key>`, ce lien n'ouvre donc rien. Écartés : mini-carte (page Carte),
-  courbe de tension (pas d'historique), scores, « +x % vs semaine dernière ».
-- Fait : shell, Dashboard, **Alertes** (voir « Page Alertes v2 » plus bas), Carte, Clients, Candidats, Sources.
-- **Carte** (`pages/carte.tsx`, `components/map/`, `lib/carte.ts`) : SVG des 13 districts sur relief swisstopo,
-  zoom/déplacement, filtres Période (J+7/30/90 = début du besoin) · Métier dans l'URL ; couleur = meilleur niveau
-  du district, taille de bulle = renfort ; zones chaudes classées (niveau, nb AGIR/PRÉPARER, renfort) ;
-  panneau district (vue aérienne, niveau + confiance en mots, renfort = somme des fourchettes AGIR+PRÉPARER,
-  vivier = union des `pool` filtrée par métier, signaux publics, action) ; projection 13 semaines.
+- **Accueil** (ex-Dashboard, `/`, `pages/dashboard.tsx`, « Bonjour Julie · Voici ce qui demande votre attention
+  aujourd'hui ») : même squelette qu'Alertes (`PageHeader` blanc + `PageBody` gris). Rangée du haut (h-64, 2 col.) :
+  **Pipeline de suivi** en 2×2 (À faire | En cours / En attente = dernier appel « à rappeler » | Clos 7 j ; icône
+  orange + séparateur vertical, même style pour les 4) et **Rappels** (callbacks, pastille Client si
+  `clients[].alertKeys`). Dessous : **Top 3 des nouvelles opportunités** = 3 premières alertes actives hors tâches
+  (tri d'Alertes), affichées avec `AlertCard` du fil, clic = `/alertes?alerte=<key>`. Puis **Projets détectés par semaine** (ex-« Pouls du radar »), bandeau sur une rangée
+  en 2 parties (titre + 2 chiffres | barres) qui prend la hauteur restante (lg : page = hauteur d'écran, aucun défilement) : nouveaux projets publics (famille Projet, signaux dédoublonnés) par semaine glissante sur 12 semaines, barres fines, survol =
+  détail par type au-dessus des barres ; à gauche « N nouveaux projets ces 7 derniers jours » et « N offres d'emploi
+  actives » (pas de pourcentage, retiré à la demande).
+  Recrutement exclu de la courbe : les annonces n'ont pas d'historique (visibles seulement tant qu'elles sont en
+  ligne), une courbe « tous signaux » ferait croire à une accélération du marché. Retirés à la demande : tuiles
+  de chiffres, plan d'action, tableau d'opportunités, couverture du vivier, activité récente.
+- Fait : shell, Accueil, **Alertes** (voir « Page Alertes v2 » plus bas), Analytics, Clients, Candidats, Sources.
+- **Analytics** (`/analytics`, ex-Statistiques ; `/statistiques` et `/carte` redirigés ; `pages/analytics.tsx`,
+  `components/analytics/ui.tsx`, `lib/analytics.ts`) : **une seule page, l'essentiel** (pas d'onglets), d'après une
+  maquette de l'utilisateur (4 oct.) ; squelette Alertes ; **tout tient à l'écran sans défiler** (exigé, vérifié à
+  1366×681 : `PageBody` lg de hauteur `100svh - 6.375rem`, la 2e rangée prend le reste ; attention à la largeur
+  minimale de la bande, qui peut faire déborder la page à droite). Période 30 j / **90 j (défaut)** / 12 mois
+  (`?periode=`) = date de **détection** (1er signal public daté) et date des actions. Clic sur une tuile de district =
+  filtre de toute la page (`?district=`, la bande Zones l'ignore). De haut en bas :
+  1. **Du signal au client** (pièce maîtresse de la démo), widget d'après mockup (4 oct.) : 5 cartes verticales
+     (icône orange, trait horizontal, étape, grand chiffre en gras, sous-titre : analysées / identifiées / en cours /
+     contactées / qualifiés), reliées par des flèches **sans taux** (retirés à la demande), chiffres text-lg / text-3xl,
+     badge « Activité en partie démo ». Format complet dès 820 px de haut ; compact en dessous (icône + étape sur une
+     ligne, sous-titre à côté du chiffre). Phrase de synthèse retirée (absente du mockup).
+  2. Rangée `flex-[2.1] tall:flex-[2.6]` (proportions du mockup : tableau + chiffres ≈ 2,6 × la carte ; 2,1 sous
+     820 px de haut, minimum pour les chiffres) : **Tension par métier** (tableau Métier / Tension / Couverture / Statut ; statut en
+     texte, « ⚠ X à sourcer » en texte normal noir (icône orange) / « ✓ Couvert » vert, sans pastille ; **jamais de ligne coupée** : n'affiche
+     que les lignes qui tiennent (hauteurs mesurées dans le navigateur) + « Voir les N autres métiers » qui déplie la
+     liste complète en défilement interne ; manques d'abord, couverture = vivier / bas de fourchette ; clic sur une
+     ligne = détail + « voir les alertes ») | colonne de 20rem : **un seul widget** avec les 3 **chiffres** séparés par des traits (`Stat` sans carte propre, compacts sous 820 px de haut, format mockup au-delà via
+     `tall:`) :
+     Anticipation (médiane 1er signal -> début du besoin ; sous-texte réduit à « pour 8 alertes sur 10 » à la demande), Couverture du vivier (simulé, sans pastille « à sourcer »),
+     Clients intéressés (cohorte des alertes suivies + taux d'appels « Intéressé », bouton Démo).
+  3. **Zones** en bande pleine largeur `flex-1` (la carte a été retirée à la demande : trop petite dans une bande
+     large) : les 13 districts en tuiles **regroupées par niveau** (urgent -> à anticiper -> veille -> sans alerte, le plus
+     d'alertes d'abord à niveau égal ; `lg:grid-cols-13`), barre de couleur = niveau le plus élevé,
+     nom, nombre d'alertes urgentes ou à anticiper, renfort en fourchette ; clic = filtre `?district=`. Légende à
+     droite du titre. `components/map/valais-map.tsx` n'est plus utilisé par aucune page.
+  Disposition et proportions = mockup de l'utilisateur (4 oct., dessiné sur ~1366×1010), sans scroll à toute hauteur.
+  Icônes comme le « Pipeline de suivi » de l'Accueil : orange **sans fond**, suivies d'un **trait vertical** (étapes de
+  l'entonnoir, chiffres) ; titres de widgets = icône orange simple.
+  **Pas de « vs période précédente »** (l'export ne garde que les alertes vivantes : artefact) ni de « missions
+  gagnées » (aucune donnée ne relie une alerte à une mission). Démo : `demoTasks` déterministe, tâches `demo: true`,
+  retirables (`clearDemoTasks`), jamais sur une tâche réelle.
 - **Sources** (`/sources`, `pages/sources.tsx`, `components/sources/`, `lib/sources-config.ts`) : UI épurée façon
   Fivetran — liste groupée par catégorie, une ligne = icône, nom lisible (`title` exporté), famille alimentée, fraîcheur,
   interrupteur ; détail + édition dans un panneau latéral (Sheet). **Sources publiques seulement** : les bases internes
@@ -98,6 +147,10 @@ Après toute modif du moteur ou un fetch : `python3 -m prototype.export` (racine
   pastilles par statut (candidat : disponible / en mission / indisponible / ancien ; entreprise : actif = mission
   < 12 mois, ancien, sans mission), filtres + fiche (`?candidat=` / `?entreprise=`) avec historique des missions
   (`missions.json`, fictif). Fiche entreprise = registre Zefix réel (`registry` dans clients.json) + relation simulée.
+  Fiches en modal large (`sm:max-w-5xl`). Candidats : avatar illustré DiceBear `personas` généré localement depuis
+  l'id (`lib/avatar.ts`, `CandidateAvatar`, genre déduit du prénom) — dessin, jamais de photo (candidats fictifs).
+  Carte entreprise : cloche + pastille rouge (nb d'alertes AGIR/PRÉPARER), pas de badge de niveau ; la fiche liste
+  chaque alerte (lien « Voir l'alerte » seul, sans pastille de niveau -> `/alertes?alerte=<key>`, clés exportées dans `clients.json` `alertKeys`).
 - À faire (pages encore en `Placeholder`) : Mon profil, Paramètres ;
   « Préparer l'appel » et « Générer un email » (désactivés, « Bientôt disponible ») ; mail rédigé par LLM.
 
@@ -114,12 +167,30 @@ Après toute modif du moteur ou un fetch : `python3 -m prototype.export` (racine
 - 🔖 = « À faire », bouton « Traiter » (icône UserRoundCheck) = « En cours » ; ensuite menu de statut.
 - Filtre **Suivi** : par défaut « Hors mes tâches » (une alerte enregistrée quitte le fil), sinon « Toutes les
   alertes » / « Dans mes tâches ». Note libre par tâche (dans le modal, onglet Vue d'ensemble).
-- Modal (`alert-detail.tsx`) : en-tête (vignette, nom, lieu, projet, familles ; suivi + fermer) sans pastille renfort ;
-  navigation en tuile (4 onglets) ; corps gris à tuiles blanches : Informations + Confiance / Chronologie +
-  Recommandations ; 3 boutons toujours visibles en pied : Préparer l'appel et Générer un email (désactivés,
-  « Bientôt disponible »), Matchmaking candidats (ouvre l'onglet Candidats).
-- Recommandations = règles dans `web/src/lib/reco.ts` (chaque action s'appuie sur un fait de la fiche ; vivier et
-  historique marqués « Simulé »). Piste : reformulation LLM à l'export via `prototype/extract.py`.
+- Modal (`alert-detail.tsx`, refonte 3 oct.) : **tout tient à l'écran sans défiler** (≥ 1366×768, modal
+  `h-[min(92svh,900px)]`), les listes longues défilent dans leur tuile ; **seul l'onglet Candidats défile**.
+  Accent = `--primary` orange (changé dans `index.css`, comme « Préparer l'appel ») ; couleurs des familles inchangées.
+  En-tête compact (vignette, nom + niveau, lieu · projet ; suivi + fermer — **pas de lien registre**, il est dans
+  l'onglet Entreprise) ; espacements serrés sous 820 px de haut, plus aérés au-delà (variante `tall:` de `index.css`) ;
+  onglets soulignés avec icônes ; corps gris à tuiles blanches ; pied : Générer un email + Préparer l'appel.
+- Vue d'ensemble : Informations clés (grille 2×2) + Confiance (2 colonnes égales, textes non tronqués), puis Chronologie qui prend la hauteur restante
+  (`alert-timeline.tsx` : vraie échelle de temps aujourd'hui → fin du besoin ; 2 étapes Projet max en barres datées,
+  infos à gauche (19rem) : « Dans x semaines | le jj.mm.aa » + pastille de durée estimée ; métiers en pastilles sous « Pic de besoin » seulement (écrans hauts) ;
+  barres fines et claires ; **pic de besoin = histogramme** des candidats adéquats libres par
+  semaine (quinzaine si > 40 sem., simulé, survol = nombre), orange dans la fenêtre du besoin ;
+  note de tâche à côté). `web/src/lib/reco.ts` reste inutilisé.
+- Onglet Signaux (`signal-board.tsx`) : une colonne par famille, regroupés par type (« pourquoi c'est important » =
+  `SIGNAL_WHY` dans `format.ts`, texte fixe), 3 visibles puis « Voir les N autres » ; les phases d'un même permis
+  sont fusionnées ; carte = titre, résumé, faits en pastilles, lien « Voir la source · site » toujours visible.
+  Contenu = champ `detail` des signaux (`signals.py` `detail()` : résumé des fiches LLM **déjà en cache** pour
+  permis / annonces de projet, champs structurés pour SIMAP / annonces / FOSC / historique) — **aucun appel LLM**.
+- Onglet Entreprise : 2 colonnes — `CompanyHistory` (chiffres, métiers fournis, dernier contact, missions qui
+  défilent ; simulé) | Registre du commerce (libellés au-dessus des valeurs) + Événements FOSC. Zone : entreprises
+  probables avec barres de part + explication. Onglet Candidats : `CandidateMatcher` = DA de la page Candidats
+  (pastilles de disponibilité + recherche, `DbFilterBar` Expérience / Tarif max, interrupteurs, grille de
+  `CandidateCard` avec `reasons` « pourquoi lui », « Voir plus » par 21, fiche `CandidateDetail` sur place avec retour) ;
+  logique dans `web/src/lib/match.ts`.
+- Une autre session travaille aussi sur `alert-detail.tsx` (bouton email, `email-dialog.tsx`) : relire avant d'éditer.
 - Tâches en `localStorage` (`flexradar.tasks.v1`, `web/src/lib/tasks.ts`), indexées par `key` stable de l'export
   (`entreprise|<nom normalisé>|*` ou `zone|<district>|<métier>`), jamais par `id` (= position, change à chaque export).
 - Zones : silhouette du district sur le relief (`geo.json`) au lieu de la photo du chef-lieu ; titre
