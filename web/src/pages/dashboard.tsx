@@ -1,441 +1,309 @@
 import * as React from "react"
-import { Link } from "react-router"
+import { Link, useNavigate } from "react-router"
 import {
-  ArrowRightIcon,
-  CalendarIcon,
-  CheckIcon,
-  ChevronLeftIcon,
-  ChevronRightIcon,
-  CloudSunIcon,
-  CopyIcon,
-  HardHatIcon,
-  MapPinIcon,
-  ZapIcon,
+  BellIcon,
+  ChartNoAxesColumnIcon,
+  CheckCircle2Icon,
+  ClockIcon,
+  HistoryIcon,
+  PhoneIcon,
+  PlayIcon,
+  RadarIcon,
+  SparklesIcon,
+  type LucideIcon,
 } from "lucide-react"
 
-import { AlertThumb } from "@/components/alerts/alert-thumb"
-import { FamilyChip, LevelBadge } from "@/components/level-badge"
-import { FictifBadge, PageHeader, Placeholder } from "@/components/page"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { Card, CardAction, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
+import { AlertCard } from "@/components/alerts/alert-card"
+import { PageBody, PageHeader } from "@/components/page"
 import { useData } from "@/lib/data"
-import {
-  LEVEL_ORDER,
-  fmtDate,
-  metiersLabel,
-  needLabel,
-  shortDistrict,
-  shortMetier,
-  shortReasons,
-  sortFamilies,
-  weeksRange,
-} from "@/lib/format"
-import type { Candidate, Meta, Opportunity } from "@/lib/types"
+import { LEVEL_ORDER, SIGNAL_TYPE_LABEL, fmtDate } from "@/lib/format"
+import { CALL_OUTCOME_LABEL, useTasks, type Task } from "@/lib/tasks"
+import type { Opportunity } from "@/lib/types"
 import { cn } from "@/lib/utils"
 
-// Dashboard = le brief de la semaine, lisible sans défiler sur un écran de portable :
-// les 3 priorités, puis l'action et les candidats de la priorité sélectionnée.
-// Règles du projet : aucun score sur 100, volumes en fourchettes, sources citées, données internes marquées.
+// Accueil = « ce qui demande votre attention aujourd'hui » : pipeline de suivi + rappels (tâches et appels de
+// `lib/tasks.ts`), puis le top 3 des alertes pas encore suivies, avec la carte du fil d'alertes.
 
-const PAGE = 3
+const DAY = 86_400_000
+const addDays = (iso: string, n: number) => new Date(Date.parse(iso) + n * DAY).toISOString().slice(0, 10)
+const alertUrl = (o: Pick<Opportunity, "key">) => `/alertes?alerte=${encodeURIComponent(o.key)}`
+const TASKS_URL = "/alertes?vue=taches"
 
-// Même ordre que le badge « #1/#2/#3 Priorité » de la page Alertes.
+// Même ordre que la page Alertes.
 const byPriority = (a: Opportunity, b: Opportunity) =>
   LEVEL_ORDER[a.level] - LEVEL_ORDER[b.level] || a.weeks - b.weeks || b.need[1] - a.need[1] || a.id - b.id
 
-const ready = (o: Opportunity) => o.vivier.disponibles + o.vivier.bientot
-
-// Part du besoin couverte par le vivier mobilisable (disponibles + bientôt libres).
-function coverage(o: Opportunity) {
-  return o.vivier.besoin ? Math.min(1, ready(o) / o.vivier.besoin) : 1
-}
-
-// Synthèse construite uniquement à partir des champs de la fiche (aucune IA) : chaque élément est traçable.
-function synthese(o: Opportunity, today: string): string {
-  const reasons = shortReasons(o.signals, 4)
-    .map((r, i) => (i ? r.charAt(0).toLowerCase() + r.slice(1) : r))
-    .join(", ")
-  const vivier =
-    o.vivier.a_sourcer > 0
-      ? `${ready(o)} profil(s) prêt(s), ${o.vivier.a_sourcer} à sourcer`
-      : `${ready(o)} profil(s) prêt(s) pour ${o.vivier.besoin} poste(s)`
-  return (
-    `${o.target} (${o.place ?? shortDistrict(o.district)}) : ${reasons}. ` +
-    `Besoin estimé ${needLabel(o)} personnes (${metiersLabel(o.metiers, 3)}), ${weeksRange(o.window, today).toLowerCase()}. ` +
-    `Vivier (simulé) : ${vivier}.`
-  )
+function dayLabel(iso: string, today: string): string {
+  if (iso < today) return `En retard (${fmtDate(iso)})`
+  if (iso === today) return "Aujourd'hui"
+  if (iso === addDays(today, 1)) return "Demain"
+  const d = fmtDate(iso, { weekday: "long", day: "numeric", month: "short" })
+  return d.charAt(0).toUpperCase() + d.slice(1)
 }
 
 // ------------------------------------------------------------------ page
 
 export function DashboardPage() {
-  const { meta, opportunities, candidates } = useData()
+  const { meta, opportunities } = useData()
+  const tasks = useTasks()
+  const all = React.useMemo(() => new Map(opportunities.map((o) => [o.key, o])), [opportunities])
+  const active = React.useMemo(() => opportunities.filter((o) => o.level !== "SURVEILLER").sort(byPriority), [opportunities])
 
-  const active = React.useMemo(
-    () => opportunities.filter((o) => o.level !== "SURVEILLER").sort(byPriority),
-    [opportunities],
-  )
-  // Les priorités = les AGIR ; à défaut, les meilleures PRÉPARER.
-  const agir = active.filter((o) => o.level === "AGIR")
-  const priorities = agir.length ? agir : active.slice(0, PAGE)
-
-  const [page, setPage] = React.useState(0)
-  const pages = Math.max(1, Math.ceil(priorities.length / PAGE))
-  const shown = priorities.slice(page * PAGE, page * PAGE + PAGE)
-  const [selectedId, setSelectedId] = React.useState<number | undefined>(priorities[0]?.id)
-  const selected = shown.find((o) => o.id === selectedId) ?? shown[0]
-
-  const goTo = (p: number) => {
-    setPage(p)
-    setSelectedId(priorities[p * PAGE]?.id)
-  }
+  const list = Object.values(tasks)
+  // Rappels : dernier appel avec une date de rappel à venir, ou « À rappeler » sans date encore fixée
+  // (même règle que « En attente » du pipeline, pour que les deux blocs se répondent).
+  const callbacks = list.filter((t) => {
+    const last = t.calls?.[0]
+    if (t.status === "traite" || !last) return false
+    return last.callback ? last.callback >= meta.today : last.outcome === "a_rappeler"
+  })
 
   return (
-    <div className="flex flex-col gap-4 lg:h-[calc(100svh-3rem)] lg:min-h-[640px]">
-      <PageHeader title="Brief de la semaine" actions={<Today meta={meta} />} />
-      <Kpis priorities={priorities} opportunities={opportunities} />
-
-      <section className="flex flex-col gap-2">
-        <div className="flex items-center justify-between gap-2">
-          <h2 className="text-sm font-semibold">
-            {agir.length ? "À appeler cette semaine" : "Aucune alerte AGIR : les meilleures à préparer"}
-            {shown.length > 0 && (
-              <span className="ml-2 font-normal text-muted-foreground">
-                {page * PAGE + 1}–{page * PAGE + shown.length} sur {priorities.length}
-              </span>
-            )}
-          </h2>
-          <div className="flex items-center gap-1">
-            {pages > 1 && (
-              <>
-                <Button variant="ghost" size="icon-sm" disabled={page === 0} onClick={() => goTo(page - 1)} aria-label="Priorités précédentes">
-                  <ChevronLeftIcon />
-                </Button>
-                <Button variant="ghost" size="icon-sm" disabled={page >= pages - 1} onClick={() => goTo(page + 1)} aria-label="Priorités suivantes">
-                  <ChevronRightIcon />
-                </Button>
-              </>
-            )}
-            <Button variant="link" size="sm" asChild>
-              <Link to="/alertes">
-                Toutes les alertes ({active.length}) <ArrowRightIcon />
-              </Link>
-            </Button>
+    <>
+      <PageHeader title={`Bonjour ${meta.user.name.split(" ")[0]}`} />
+      <PageBody>
+        {/* lg+ : la page tient dans l'écran ; le bandeau « Projets détectés » prend la hauteur restante. */}
+        <div className="flex flex-col gap-6 lg:h-[calc(100svh-10rem)] lg:min-h-[640px]">
+          {/* Rangée du haut : où en est mon suivi, et qui je dois rappeler. Même hauteur pour les deux. */}
+          <div className="grid shrink-0 gap-6 lg:h-64 lg:grid-cols-2">
+            <Pipeline tasks={list} />
+            <Callbacks tasks={callbacks} all={all} className="min-h-0" />
           </div>
+          <TopOpportunities active={active} tasks={tasks} />
+          <RadarPulse className="min-h-0 flex-1" />
         </div>
-        {shown.length ? (
-          <div className="grid gap-3 md:grid-cols-3">
-            {shown.map((o, i) => (
-              <PriorityCard
-                key={o.id}
-                o={o}
-                rank={page * PAGE + i + 1}
-                today={meta.today}
-                selected={o.id === selected?.id}
-                onSelect={() => setSelectedId(o.id)}
-              />
-            ))}
-          </div>
-        ) : (
-          <Placeholder>Aucune opportunité à traiter cette semaine.</Placeholder>
-        )}
-      </section>
-
-      {selected && (
-        <div className="grid min-h-0 flex-1 gap-3 lg:grid-cols-3">
-          <CandidatesCard o={selected} candidates={candidates} today={meta.today} className="lg:col-span-2" />
-          <ActionCard o={selected} today={meta.today} />
-        </div>
-      )}
-    </div>
+      </PageBody>
+    </>
   )
 }
 
-// ------------------------------------------------------------------ blocs
+// ------------------------------------------------------------------ briques
 
-function Today({ meta }: { meta: Meta }) {
-  const w = meta.weather
-  const day = fmtDate(meta.today, { weekday: "long", day: "numeric", month: "long", year: "numeric" })
-  return (
-    <div className="flex items-center gap-3 text-sm text-muted-foreground">
-      <span>{day.charAt(0).toUpperCase() + day.slice(1)}</span>
-      {w && (
-        <span className="flex items-center gap-1.5 border-l pl-3" title={`Météo du jour à ${w.place} (Open-Meteo)`}>
-          <CloudSunIcon className="size-4" />
-          {w.place} {Math.round(w.tmax)}° / {Math.round(w.tmin)}°{w.frostDays > 0 && ` · ${w.frostDays} j. de gel prévus`}
-        </span>
-      )}
-    </div>
-  )
+// Pastille Client / Prospect des rappels.
+const TONE = {
+  blue: "bg-blue-50 text-blue-600 dark:bg-blue-500/10 dark:text-blue-400",
+  gray: "bg-muted text-muted-foreground",
 }
 
-function Kpis({ priorities, opportunities }: { priorities: Opportunity[]; opportunities: Opportunity[] }) {
-  const sum = (f: (o: Opportunity) => number) => priorities.reduce((a, o) => a + f(o), 0)
-  const toSource = priorities.filter((o) => o.vivier.a_sourcer > 0).length
-  // Ce que l'historique Flexsis ajoute aux signaux publics, que la concurrence voit aussi.
-  const upgraded = opportunities.filter((o) => o.level === "AGIR" && o.levelPublic !== "AGIR").length
-  const kpis = [
-    { label: "Appels à passer", value: priorities.length, sub: toSource ? `dont ${toSource} à sourcer d'abord` : "tous avec des profils prêts" },
-    { label: "Renfort estimé", value: `${sum((o) => o.need[0])}–${sum((o) => o.need[2])}`, sub: "personnes, toutes priorités" },
-    {
-      label: "Profils prêts",
-      value: sum((o) => Math.min(o.vivier.besoin, ready(o))),
-      sub: `${sum((o) => o.vivier.a_sourcer)} poste(s) à sourcer`,
-      fictif: true,
-    },
-    { label: "Votre avance", value: `+${upgraded}`, sub: "AGIR grâce à votre historique", fictif: true },
-  ]
-  return (
-    <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
-      {kpis.map((k) => (
-        <div key={k.label} className="flex items-start justify-between gap-3 rounded-xl bg-card px-4 py-2.5 ring-1 ring-foreground/10">
-          <div className="min-w-0">
-            <div className="text-xs text-muted-foreground">{k.label}</div>
-            <div className="text-2xl font-semibold tabular-nums">{k.value}</div>
-            <div className="truncate text-xs text-muted-foreground">{k.sub}</div>
-          </div>
-          {k.fictif && <FictifBadge label="Simulé" />}
-        </div>
-      ))}
-    </div>
-  )
-}
-
-function CoverageBar({ o }: { o: Opportunity }) {
-  const pct = Math.round(coverage(o) * 100)
-  return (
-    <div className="flex items-center gap-2 text-xs">
-      <span className="text-muted-foreground">Couverture</span>
-      <div
-        className="h-1.5 flex-1 overflow-hidden rounded-full bg-muted"
-        role="meter"
-        aria-label="Couverture du besoin par le vivier"
-        aria-valuenow={pct}
-        aria-valuemin={0}
-        aria-valuemax={100}
-      >
-        <div className={cn("h-full rounded-full", pct < 100 ? "bg-amber-500" : "bg-primary")} style={{ width: `${pct}%` }} />
-      </div>
-      <span className="min-w-9 text-right font-medium whitespace-nowrap tabular-nums">{pct} %</span>
-    </div>
-  )
-}
-
-function PriorityCard({ o, rank, today, selected, onSelect }: {
-  o: Opportunity
-  rank: number
-  today: string
-  selected: boolean
-  onSelect: () => void
+function Panel({ title, icon: Icon, aside, className, children, id }: {
+  title: string
+  icon: LucideIcon
+  aside?: React.ReactNode
+  className?: string
+  children: React.ReactNode
+  id?: string
 }) {
-  const v = o.vivier
-  const cells = [
-    { label: "Besoin", value: v.besoin },
-    { label: "Disponibles", value: v.disponibles },
-    { label: "Bientôt libres", value: v.bientot },
-    { label: "À sourcer", value: v.a_sourcer, alert: v.a_sourcer > 0 },
-  ]
-  const place = o.place && o.place !== shortDistrict(o.district) ? `${o.place} · ` : ""
   return (
-    <button
-      type="button"
-      onClick={onSelect}
-      aria-pressed={selected}
-      className={cn(
-        "flex min-w-0 flex-col gap-2.5 rounded-xl bg-card p-3 text-left text-sm ring-1 ring-foreground/10 transition-shadow hover:ring-foreground/25",
-        selected && "ring-2 ring-primary hover:ring-primary",
-      )}
+    <section id={id} className={cn("flex flex-col rounded-xl bg-card ring-1 ring-foreground/10", className)}>
+      <header className="flex items-center justify-between gap-2 px-5 pt-4 pb-3">
+        <h2 className="flex items-center gap-2 text-base font-semibold">
+          <Icon className="size-5 text-primary" />
+          {title}
+          {aside}
+        </h2>
+      </header>
+      <div className="min-h-0 flex-1 overflow-y-auto px-5 pb-4">{children}</div>
+    </section>
+  )
+}
+
+function Empty({ children }: { children: React.ReactNode }) {
+  return <p className="py-4 text-center text-sm text-muted-foreground">{children}</p>
+}
+
+function Chip({ children, className }: { children: React.ReactNode; className?: string }) {
+  return <span className={cn("inline-flex h-6 items-center rounded-md px-2 text-xs font-medium", className)}>{children}</span>
+}
+
+// ------------------------------------------------------------------ Top 3 des nouvelles opportunités
+
+// Les 3 meilleures alertes pas encore dans mes tâches (même ordre que la page Alertes), avec la carte du fil.
+function TopOpportunities({ active, tasks }: { active: Opportunity[]; tasks: Record<string, Task> }) {
+  const navigate = useNavigate()
+  const fresh = active.filter((o) => !tasks[o.key])
+  return (
+    <Panel
+      title="Top 3 des nouvelles opportunités"
+      icon={SparklesIcon}
+      className="shrink-0"
     >
-      <div className="flex items-start gap-3">
-        <AlertThumb o={o} credit className="h-[84px] w-24" />
-        <div className="min-w-0 flex-1">
-          <div className="flex items-center gap-1.5">
-            <Badge variant={rank === 1 ? "default" : "secondary"} className="h-5 px-1.5 text-[11px]">
-              #{rank} Priorité
-            </Badge>
-            <LevelBadge level={o.level} className="h-5" />
-          </div>
-          <div className="mt-1 truncate leading-tight font-semibold" title={o.target}>
-            {o.target}
-          </div>
-          <div className="mt-0.5 space-y-0.5 text-xs text-muted-foreground">
-            <div className="flex items-center gap-1 truncate">
-              <MapPinIcon className="size-3 shrink-0" />
-              {place}
-              {shortDistrict(o.district)}
-            </div>
-            <div className="flex items-center gap-1 truncate" title={o.metiers.join(", ")}>
-              <HardHatIcon className="size-3 shrink-0" />
-              {metiersLabel(o.metiers, 2)}
-            </div>
-            <div className="flex items-center gap-1 truncate">
-              <CalendarIcon className="size-3 shrink-0" />
-              {weeksRange(o.window, today)}
-            </div>
-          </div>
-        </div>
-        <div className="shrink-0 rounded-lg bg-primary/10 px-2.5 py-1.5 text-center" title="Renfort intérimaire estimé (fourchette)">
-          <div className="text-[10px] text-muted-foreground">Renfort</div>
-          <div className="text-lg leading-tight font-semibold tabular-nums">{needLabel(o)}</div>
-          <div className="text-[10px] text-muted-foreground">pers.</div>
-        </div>
-      </div>
-
-      <div>
-        <div className="text-xs font-semibold">Pourquoi ?</div>
-        <ul className="mt-0.5 list-inside list-disc space-y-0.5 text-xs text-muted-foreground">
-          {shortReasons(o.signals, 3).map((r) => (
-            <li key={r} className="truncate">
-              {r}
-            </li>
+      {fresh.length ? (
+        <div className="grid gap-4 md:grid-cols-3">
+          {fresh.slice(0, 3).map((o) => (
+            <AlertCard key={o.key} o={o} onOpen={() => navigate(alertUrl(o))} />
           ))}
-        </ul>
-      </div>
+        </div>
+      ) : (
+        <Empty>Toutes les alertes sont déjà dans vos tâches.</Empty>
+      )}
+    </Panel>
+  )
+}
 
-      <div className="flex flex-wrap gap-1">
-        {sortFamilies(o.families).map((f) => (
-          <FamilyChip key={f} family={f} />
+// ------------------------------------------------------------------ Pipeline de suivi
+
+function Pipeline({ tasks }: { tasks: Task[] }) {
+  const [weekAgo] = React.useState(() => Date.now() - 7 * DAY)
+  const waiting = (t: Task) => t.status === "en_cours" && t.calls?.[0]?.outcome === "a_rappeler"
+  const cells = [
+    { icon: ClockIcon, label: "À faire", value: tasks.filter((t) => t.status === "a_faire").length, hint: "Alertes à traiter" },
+    { icon: PlayIcon, label: "En cours", value: tasks.filter((t) => t.status === "en_cours" && !waiting(t)).length, hint: "En traitement" },
+    { icon: HistoryIcon, label: "En attente", value: tasks.filter(waiting).length, hint: "Rappel prévu" },
+    {
+      icon: CheckCircle2Icon,
+      label: "Clos cette semaine",
+      value: tasks.filter((t) => t.status === "traite" && Date.parse(t.updatedAt) >= weekAgo).length,
+      hint: "Depuis 7 jours",
+    },
+  ]
+  return (
+    <Panel title="Pipeline de suivi" icon={ChartNoAxesColumnIcon}>
+      {/* 2 × 2 : À faire | En cours, puis En attente | Clos cette semaine. */}
+      <div className="grid h-full grid-cols-2 grid-rows-2 gap-3">
+        {cells.map((c) => (
+          <Link key={c.label} to={TASKS_URL} className="flex min-w-0 items-center gap-2.5 rounded-xl border px-2.5 py-2 hover:bg-muted/40">
+            <c.icon className="size-5 shrink-0 text-primary" />
+            <span className="w-px self-stretch bg-border" aria-hidden />
+            <div className="min-w-0 flex-1">
+              <div className="truncate text-xs font-medium" title={c.label}>{c.label}</div>
+              <div className="text-2xl leading-tight font-semibold tabular-nums">{c.value}</div>
+              <div className="truncate text-xs text-muted-foreground" title={c.hint}>{c.hint}</div>
+            </div>
+          </Link>
         ))}
       </div>
+    </Panel>
+  )
+}
 
-      <div className="mt-auto space-y-2">
-        <div className="grid grid-cols-4 divide-x rounded-lg border text-center">
-          {cells.map((c) => (
-            <div key={c.label} className="min-w-0 px-1 py-1">
-              <div className="truncate text-[10px] text-muted-foreground">{c.label}</div>
-              <div className={cn("font-semibold tabular-nums", c.alert && "text-destructive")}>{c.value}</div>
+// ------------------------------------------------------------------ Rappels
+
+function Callbacks({ tasks, all, className }: { tasks: Task[]; all: Map<string, Opportunity>; className?: string }) {
+  const { meta, clients } = useData()
+  const clientKeys = React.useMemo(() => new Set(clients.flatMap((c) => c.alertKeys ?? [])), [clients])
+  const rows = tasks
+    .map((t) => ({ t, o: all.get(t.key), cb: t.calls![0].callback }))
+    .filter((r): r is { t: Task; o: Opportunity; cb: string | null } => !!r.o)
+    // Datés d'abord (du plus proche au plus lointain), puis ceux dont la date reste à fixer.
+    .sort((a, b) => (a.cb ?? "9999").localeCompare(b.cb ?? "9999"))
+  return (
+    <Panel title="Rappels" icon={BellIcon} className={className}>
+      {rows.length ? (
+        <ul className="divide-y">
+          {rows.map(({ t, o, cb }) => {
+            const client = clientKeys.has(o.key)
+            return (
+              <li key={t.key} className="flex items-center gap-3 py-1.5">
+                <span className="flex size-8 shrink-0 items-center justify-center rounded-lg bg-orange-50 text-orange-600 dark:bg-orange-500/10 dark:text-orange-400">
+                  <PhoneIcon className="size-4" />
+                </span>
+                <Link to={alertUrl(o)} className="min-w-0 flex-1 hover:underline">
+                  <div className="truncate text-sm leading-tight font-semibold">{o.target}</div>
+                  <div className="truncate text-xs leading-tight text-muted-foreground">
+                    {CALL_OUTCOME_LABEL[t.calls![0].outcome]}
+                    {/* Le contact n'est utile que s'il diffère du nom affiché (zone, ou personne nommée). */}
+                    {t.calls![0].contact && t.calls![0].contact !== o.target ? ` · ${t.calls![0].contact}` : ""}
+                  </div>
+                </Link>
+                <span className="shrink-0 text-xs text-muted-foreground">{cb ? dayLabel(cb, meta.today) : "Date à fixer"}</span>
+                <Chip className={client ? TONE.blue : TONE.gray}>{client ? "Client" : "Prospect"}</Chip>
+              </li>
+            )
+          })}
+        </ul>
+      ) : (
+        <Empty>Aucun rappel planifié. Ils apparaissent après un compte-rendu d'appel.</Empty>
+      )}
+    </Panel>
+  )
+}
+
+// ------------------------------------------------------------------ Projets détectés par semaine
+
+// Nouveaux projets publics captés par semaine (12 semaines glissantes). Seule la famille Projet a un vrai historique :
+// les annonces d'emploi ne sont visibles que tant qu'elles sont en ligne, d'où un chiffre « en ligne » à part.
+const WEEKS = 12
+
+function RadarPulse({ className }: { className?: string }) {
+  const { meta, opportunities } = useData()
+  const [hover, setHover] = React.useState<number | null>(null)
+
+  const { weeks, ads } = React.useMemo(() => {
+    // Un même signal peut appartenir à plusieurs alertes (entreprise + zone) : compté une fois.
+    const seen = new Set<string>()
+    const weeks = Array.from({ length: WEEKS }, () => ({ total: 0, byType: {} as Record<string, number> }))
+    let ads = 0
+    for (const o of opportunities) {
+      for (const s of o.signals) {
+        if (s.fictif || !s.date) continue
+        const id = `${s.type}|${s.url ?? s.label}|${s.date.slice(0, 10)}`
+        if (seen.has(id)) continue
+        seen.add(id)
+        if (s.family === "recrutement") ads++
+        if (s.family !== "projet") continue
+        const ago = Math.floor((Date.parse(meta.today) - Date.parse(s.date.slice(0, 10))) / DAY / 7)
+        if (ago < 0 || ago >= WEEKS) continue
+        const w = weeks[WEEKS - 1 - ago] // de la plus ancienne (gauche) à la semaine en cours (droite)
+        w.total++
+        w.byType[s.type] = (w.byType[s.type] ?? 0) + 1
+      }
+    }
+    return { weeks, ads }
+  }, [opportunities, meta.today])
+
+  const max = Math.max(1, ...weeks.map((w) => w.total))
+  const current = weeks[WEEKS - 1].total
+  const weekEnd = (i: number) => addDays(meta.today, -7 * (WEEKS - 1 - i))
+  const shown = hover ?? WEEKS - 1
+
+  const detail = `${fmtDate(addDays(weekEnd(shown), -6))} – ${fmtDate(weekEnd(shown))} · ${weeks[shown].total} projet(s)`
+  const types = Object.entries(weeks[shown].byType)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 3)
+    .map(([t, n]) => `${SIGNAL_TYPE_LABEL[t] ?? t} ${n}`)
+    .join(" · ")
+
+  // Bandeau sur une rangée (titre · chiffres · barres) : il prend la hauteur restante sans faire défiler la page.
+  return (
+    <section className={cn("flex min-h-24 items-stretch gap-6 rounded-xl bg-card px-5 py-3 ring-1 ring-foreground/10", className)}>
+      {/* Une seule section à gauche : le titre, puis les deux chiffres clés. */}
+      <div className="flex shrink-0 flex-col justify-center gap-1.5">
+        <h2 className="flex items-center gap-2 text-base font-semibold">
+          <RadarIcon className="size-5 text-primary" />
+          Projets détectés par semaine
+        </h2>
+        <div className="flex items-baseline gap-5 text-xs whitespace-nowrap text-muted-foreground">
+          <span className="flex items-baseline gap-1.5">
+            <span className="text-lg font-semibold text-foreground tabular-nums">{current}</span> nouveaux projets ces 7 derniers jours
+          </span>
+          <span className="flex items-baseline gap-1.5">
+            <span className="text-lg font-semibold text-foreground tabular-nums">{ads}</span> offres d'emploi actives
+          </span>
+        </div>
+      </div>
+
+      <div className="flex min-w-0 flex-1 flex-col border-l pl-6">
+        {/* Semaine survolée (par défaut : la semaine en cours). */}
+        <div className="truncate text-xs text-muted-foreground" title={`${detail} · ${types}`}>
+          <span className="text-foreground">{detail}</span>
+          {types && ` · ${types}`}
+        </div>
+        <div className="mt-1 flex min-h-8 flex-1 items-end gap-1.5" onMouseLeave={() => setHover(null)}>
+          {weeks.map((w, i) => (
+            <div
+              key={i}
+              className="flex h-full flex-1 cursor-default items-end justify-center"
+              onMouseEnter={() => setHover(i)}
+              aria-label={`Semaine au ${fmtDate(weekEnd(i))} : ${w.total} nouveaux projets`}
+            >
+              <div
+                className={cn("w-full max-w-5 rounded-t-[4px] transition-colors", i === shown ? "bg-primary" : "bg-primary/30")}
+                style={{ height: `${Math.max(4, (w.total / max) * 100)}%` }}
+              />
             </div>
           ))}
         </div>
-        <CoverageBar o={o} />
       </div>
-    </button>
-  )
-}
-
-const POOL_LABEL = { disponibles: "Disponible", bientot: "Bientôt libre", anciens: "Ancien à réactiver" } as const
-
-function availability(c: Candidate, today: string) {
-  if (c.statut === "ancien") {
-    return c.derniere_mission_fin ? `Dernière mission ${fmtDate(c.derniere_mission_fin, { month: "short", year: "numeric" })}` : "—"
-  }
-  if (!c.disponible_des || c.disponible_des <= today) return "Dès maintenant"
-  return `Dès le ${fmtDate(c.disponible_des)}`
-}
-
-function CandidatesCard({ o, candidates, today, className }: {
-  o: Opportunity
-  candidates: Candidate[]
-  today: string
-  className?: string
-}) {
-  const byId = React.useMemo(() => new Map(candidates.map((c) => [c.id, c])), [candidates])
-  const rows = (Object.keys(POOL_LABEL) as (keyof typeof POOL_LABEL)[]).flatMap((k) =>
-    (o.pool?.[k] ?? []).flatMap((id) => {
-      const c = byId.get(id)
-      return c ? [{ kind: k, c }] : []
-    }),
-  )
-  return (
-    <Card size="sm" className={cn("min-h-0", className)}>
-      <CardHeader>
-        <CardTitle>
-          Candidats compatibles · {o.target} <span className="font-normal text-muted-foreground">({rows.length})</span>
-        </CardTitle>
-        <CardDescription>Métier principal recherché, dans leur rayon de déplacement · disponibles d'abord</CardDescription>
-        <CardAction>
-          <FictifBadge />
-        </CardAction>
-      </CardHeader>
-      <CardContent className="min-h-0 flex-1 overflow-y-auto">
-        {rows.length ? (
-          <Table>
-            <TableHeader className="sticky top-0 bg-card">
-              <TableRow>
-                <TableHead>Nom</TableHead>
-                <TableHead>Métier</TableHead>
-                <TableHead>Commune</TableHead>
-                <TableHead>Disponibilité</TableHead>
-                <TableHead>Statut</TableHead>
-                <TableHead className="text-right">Expérience</TableHead>
-              </TableRow>
-            </TableHeader>
-            <TableBody>
-              {rows.map(({ kind, c }) => (
-                <TableRow key={c.id}>
-                  <TableCell className="font-medium">
-                    {c.prenom} {c.nom}
-                  </TableCell>
-                  <TableCell>{shortMetier(c.metierLabel)}</TableCell>
-                  <TableCell>{c.commune}</TableCell>
-                  <TableCell>{availability(c, today)}</TableCell>
-                  <TableCell>
-                    <Badge variant={kind === "anciens" ? "outline" : "secondary"} className="font-normal">
-                      {POOL_LABEL[kind]}
-                    </Badge>
-                  </TableCell>
-                  <TableCell className="text-right tabular-nums">{c.experience_ans} ans</TableCell>
-                </TableRow>
-              ))}
-            </TableBody>
-          </Table>
-        ) : (
-          <p className="py-6 text-center text-sm text-muted-foreground">Aucun candidat du vivier pour ce métier : sourcing nécessaire.</p>
-        )}
-      </CardContent>
-    </Card>
-  )
-}
-
-function ActionCard({ o, today }: { o: Opportunity; today: string }) {
-  const text = synthese(o, today)
-  // id de la fiche copiée : changer de fiche réinitialise le bouton sans effet
-  const [copiedId, setCopiedId] = React.useState<number | null>(null)
-  const copied = copiedId === o.id
-  const copy = async () => {
-    try {
-      await navigator.clipboard.writeText(text)
-      setCopiedId(o.id)
-    } catch {
-      setCopiedId(null)
-    }
-  }
-  const sourcing = o.vivier.a_sourcer > 0
-
-  return (
-    <Card size="sm" className="min-h-0">
-      <CardHeader>
-        <CardTitle className="flex items-center gap-2">
-          <ZapIcon className="size-4 text-primary" />
-          Action recommandée
-        </CardTitle>
-        <CardDescription className="truncate">{o.target}</CardDescription>
-      </CardHeader>
-      <CardContent className="flex min-h-0 flex-1 flex-col gap-3">
-        <div className="flex min-h-0 flex-1 flex-col gap-3 overflow-y-auto">
-          <p className={cn("rounded-lg border p-2.5 text-sm font-medium", sourcing ? "border-amber-500/40 bg-amber-500/10" : "bg-muted/50")}>
-            {o.action}
-          </p>
-          <div>
-            <div className="mb-1 text-xs font-semibold">Synthèse</div>
-            <p className="text-xs leading-relaxed text-muted-foreground">{text}</p>
-            <p className="mt-1 text-[10px] text-muted-foreground/80">Générée à partir des signaux de la fiche, sans IA.</p>
-          </div>
-        </div>
-        <div className="grid shrink-0 grid-cols-2 gap-2">
-          <Button size="sm" asChild>
-            <Link to={`/alertes?id=${o.id}`}>
-              Ouvrir la fiche <ArrowRightIcon />
-            </Link>
-          </Button>
-          <Button size="sm" variant="outline" onClick={copy}>
-            {copied ? <CheckIcon /> : <CopyIcon />}
-            {copied ? "Copiée" : "Copier la synthèse"}
-          </Button>
-        </div>
-      </CardContent>
-    </Card>
+    </section>
   )
 }
