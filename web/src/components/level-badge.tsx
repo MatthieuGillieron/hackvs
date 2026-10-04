@@ -1,10 +1,10 @@
-import { FAMILY_HINT, FAMILY_LABEL } from "@/lib/format"
+import { FAMILY_HINT, FAMILY_LABEL, LEVEL_LABEL } from "@/lib/format"
 import type { Family, Level } from "@/lib/types"
 import { cn } from "@/lib/utils"
 
 const LEVEL_STYLE: Record<Level, string> = {
-  AGIR: "bg-orange-100 text-orange-700 ring-orange-200 dark:bg-orange-500/15 dark:text-orange-300 dark:ring-orange-500/30",
-  PRÉPARER: "bg-amber-50 text-amber-700 ring-amber-200 dark:bg-amber-500/10 dark:text-amber-300 dark:ring-amber-500/30",
+  AGIR: "bg-red-50 text-red-700 ring-red-200 dark:bg-red-500/15 dark:text-red-300 dark:ring-red-500/30",
+  PRÉPARER: "bg-yellow-50 text-yellow-800 ring-yellow-300 dark:bg-yellow-500/10 dark:text-yellow-300 dark:ring-yellow-500/30",
   SURVEILLER: "bg-muted text-muted-foreground ring-border",
 }
 
@@ -17,7 +17,7 @@ export function LevelBadge({ level, className }: { level: Level; className?: str
         className,
       )}
     >
-      {level}
+      {LEVEL_LABEL[level]}
     </span>
   )
 }

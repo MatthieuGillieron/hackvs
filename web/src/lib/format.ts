@@ -2,6 +2,10 @@ import type { Family, Level, Opportunity, Signal, SourceUsage } from "@/lib/type
 
 export const LEVEL_ORDER: Record<Level, number> = { AGIR: 0, PRÉPARER: 1, SURVEILLER: 2 }
 
+// Libellé affiché d'un niveau (le nom interne du moteur reste AGIR / PRÉPARER / SURVEILLER).
+// Nom + couleur disent le degré : rouge = urgent, jaune = à anticiper, gris = en veille.
+export const LEVEL_LABEL: Record<Level, string> = { AGIR: "Urgent", PRÉPARER: "Anticiper", SURVEILLER: "En veille" }
+
 export const FAMILY_LABEL: Record<Family, string> = {
   projet: "Projet",
   recrutement: "Recrutement",
@@ -259,4 +263,32 @@ export function weeksShort(window: [string, string], today: string): string {
   if (lo === 0) return hi === 0 ? "Cette sem." : hi <= 12 ? `≤ ${hi} sem.` : "Maintenant"
   if (hi - lo > 12) return `Dès ${lo} sem.`
   return `${lo}–${hi} sem.`
+}
+
+// « Pourquoi c'est important » : une phrase fixe par type de signal (texte déterministe, pas de LLM).
+export const SIGNAL_WHY: Record<string, string> = {
+  adjudication: "Marché attribué : l'entreprise doit monter son équipe pour démarrer le chantier.",
+  appel_offres: "Marché en cours d'attribution : le lauréat aura besoin de renfort après l'adjudication.",
+  permis: "Permis déposé : chaque phase du chantier mobilise des corps de métier différents.",
+  plans_consultation: "Projet public annoncé : chantier à moyen terme, à suivre dès maintenant.",
+  presse: "Projet annoncé dans la presse : chantier à moyen terme, sans date ferme.",
+  communique: "Projet annoncé par l'État : chantier à moyen terme, sans date ferme.",
+  annonce_directe: "L'entreprise recrute elle-même ce profil : le besoin existe déjà.",
+  agences_concurrentes: "Un concurrent cherche déjà ce profil dans la zone : la demande est là.",
+  tension_zone: "Plusieurs agences cherchent les mêmes profils : le marché local est tendu.",
+  augmentation: "L'entreprise renforce ses fonds propres : signe de croissance.",
+  fusion: "L'entreprise grandit par rachat : plus de chantiers à couvrir.",
+  ouverture: "Nouvelle implantation en Valais : besoin de main-d'œuvre locale.",
+  client_recurrent: "Ce client a eu ce besoin à la même période les années précédentes.",
+}
+
+// « simap.ch », « jobup.ch » : nom du site d'une source, pour le lien « Voir la source ».
+export function sourceHost(url: string | null): string | null {
+  if (!url) return null
+  try {
+    const h = new URL(url.startsWith("http") ? url : `https://${url}`).hostname.replace(/^(www|api)\./, "")
+    return h === "amtsblattportal.ch" ? "Bulletin officiel" : h
+  } catch {
+    return null
+  }
 }

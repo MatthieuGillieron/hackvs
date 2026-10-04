@@ -55,7 +55,7 @@ export function AlertThumb({ o, className, credit = false }: { o: Opportunity; c
     >
       <img src={img.src} alt={`Vue aérienne de ${img.place ?? "la zone"}`} loading="lazy" className="size-full object-cover" />
       {credit && (
-        <figcaption className="absolute right-0 bottom-0 rounded-tl bg-black/50 px-1 text-[9px] leading-4 text-white">
+        <figcaption className="absolute right-0 bottom-0 max-w-full truncate rounded-tl bg-black/50 px-1 text-[9px] leading-4 text-white">
           <MapPinIcon className="mr-0.5 inline size-2.5" />
           {img.place} {img.credit}
         </figcaption>

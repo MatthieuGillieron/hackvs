@@ -17,7 +17,7 @@ import { useSearchParams } from "react-router"
 import { AlertCard } from "@/components/alerts/alert-card"
 import { AlertDetail } from "@/components/alerts/alert-detail"
 import { TaskBoard } from "@/components/alerts/task-board"
-import { PageHeader } from "@/components/page"
+import { PageBody, PageHeader } from "@/components/page"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog"
 import { Input } from "@/components/ui/input"
@@ -31,17 +31,17 @@ import { cn } from "@/lib/utils"
 
 const ALL = "all"
 const HORIZONS: Record<string, { label: string; test: (o: Opportunity) => boolean }> = {
-  [ALL]: { label: "Tous les horizons", test: () => true },
+  [ALL]: { label: "Tous", test: () => true },
   now: { label: "Immédiat (< 2 sem.)", test: (o) => o.weeks < 2 },
   soon: { label: "2 à 8 semaines", test: (o) => o.weeks >= 2 && o.weeks <= 8 },
   later: { label: "Plus de 8 semaines", test: (o) => o.weeks > 8 },
 }
 const LEVELS: Record<string, { label: string; test: (o: Opportunity) => boolean }> = {
-  active: { label: "AGIR + PRÉPARER", test: (o) => o.level !== "SURVEILLER" },
-  AGIR: { label: "AGIR", test: (o) => o.level === "AGIR" },
-  PRÉPARER: { label: "PRÉPARER", test: (o) => o.level === "PRÉPARER" },
-  SURVEILLER: { label: "SURVEILLER", test: (o) => o.level === "SURVEILLER" },
-  [ALL]: { label: "Toutes les priorités", test: () => true },
+  active: { label: "Hors veille", test: (o) => o.level !== "SURVEILLER" },
+  AGIR: { label: "Urgent", test: (o) => o.level === "AGIR" },
+  PRÉPARER: { label: "Anticiper", test: (o) => o.level === "PRÉPARER" },
+  SURVEILLER: { label: "En veille", test: (o) => o.level === "SURVEILLER" },
+  [ALL]: { label: "Toutes", test: () => true },
 }
 const SORTS: Record<string, { label: string; cmp: (a: Opportunity, b: Opportunity) => number }> = {
   priority: {
@@ -67,7 +67,7 @@ const DEFAULTS = {
 const PAGE = 21 // multiple de 3 : la dernière ligne de la grille est pleine
 // Une alerte enregistrée dans « Mes tâches » quitte le fil par défaut (elle se traite dans la bibliothèque).
 const SUIVIS: Record<string, string> = {
-  nouvelles: "Hors mes tâches",
+  nouvelles: "Hors tâches",
   [ALL]: "Toutes les alertes",
   taches: "Dans mes tâches",
 }
@@ -81,12 +81,12 @@ function FilterSelect({ label, icon: Icon, value, onChange, options }: {
   options: [string, string][]
 }) {
   return (
-    <label className="grid gap-1 text-xs text-muted-foreground">
+    <label className="grid min-w-0 gap-1 text-xs text-muted-foreground lg:flex-1">
       <span className="flex items-center gap-1">
         <Icon className="size-3.5" /> {label}
       </span>
       <Select value={value} onValueChange={onChange}>
-        <SelectTrigger className="w-full min-w-36 bg-background">
+        <SelectTrigger className="w-full min-w-0 bg-background">
           <SelectValue />
         </SelectTrigger>
         <SelectContent>
@@ -194,19 +194,19 @@ export function AlertesPage() {
         </div>
 
         {/* Contenu sur fond gris pleine largeur jusqu'en bas : sépare des onglets sans trait, et fait ressortir les cartes. */}
-        <div className="-mx-4 -mb-4 flex-1 bg-muted px-4 py-6 md:-mx-6 md:-mb-6 md:px-6">
+        <PageBody className="block">
         <TabsContent value="fil" className="space-y-6">
-          <div className="grid grid-cols-2 items-end gap-3 rounded-xl border bg-card p-3 sm:grid-cols-3 lg:flex lg:flex-wrap">
+          <div className="grid grid-cols-2 items-end gap-3 rounded-xl border bg-card p-3 sm:grid-cols-3 lg:flex lg:flex-nowrap">
             <FilterSelect label="Région" icon={MapPinIcon} value={f.district} onChange={(v) => set({ district: v })}
-              options={[[ALL, "Toutes les régions"], ...districts.map((d): [string, string] => [d, shortDistrict(d)])]} />
+              options={[[ALL, "Toutes"], ...districts.map((d): [string, string] => [d, shortDistrict(d)])]} />
             <FilterSelect label="Métier" icon={WrenchIcon} value={f.metier} onChange={(v) => set({ metier: v })}
-              options={[[ALL, "Tous les métiers"], ...metiers.map((m): [string, string] => [m, shortMetier(m)])]} />
+              options={[[ALL, "Tous"], ...metiers.map((m): [string, string] => [m, shortMetier(m)])]} />
             <FilterSelect label="Horizon" icon={CalendarIcon} value={f.horizon} onChange={(v) => set({ horizon: v })}
               options={Object.entries(HORIZONS).map(([k, v]): [string, string] => [k, v.label])} />
             <FilterSelect label="Priorité" icon={FlagIcon} value={f.level} onChange={(v) => set({ level: v })}
               options={Object.entries(LEVELS).map(([k, v]): [string, string] => [k, v.label])} />
             <FilterSelect label="Source" icon={DatabaseIcon} value={f.source} onChange={(v) => set({ source: v })}
-              options={[[ALL, "Toutes les sources"], ...Object.entries(SOURCE_GROUPS).map(([k, v]): [string, string] => [k, v.label])]} />
+              options={[[ALL, "Toutes"], ...Object.entries(SOURCE_GROUPS).map(([k, v]): [string, string] => [k, v.label])]} />
             <FilterSelect label="Suivi" icon={ListChecksIcon} value={f.suivi} onChange={(v) => set({ suivi: v })}
               options={Object.entries(SUIVIS)} />
             <Button variant="ghost" size="icon" className="text-primary" disabled={!dirty}
@@ -253,12 +253,12 @@ export function AlertesPage() {
         <TabsContent value="taches">
           <TaskBoard onOpen={open} />
         </TabsContent>
-        </div>
+        </PageBody>
       </Tabs>
 
       <Dialog open={!!selected} onOpenChange={(v) => !v && open(null)}>
         <DialogContent showCloseButton={false}
-          className="flex h-[min(88svh,900px)] flex-col gap-0 overflow-hidden p-0 sm:max-w-5xl">
+          className="flex h-[min(92svh,900px)] flex-col gap-0 overflow-hidden p-0 sm:max-w-5xl">
           <DialogTitle className="sr-only">{selected ? alertTitle(selected) : "Alerte"}</DialogTitle>
           <DialogDescription className="sr-only">Détail de l'alerte</DialogDescription>
           {selected && <AlertDetail key={selected.key} o={selected} onClose={() => open(null)} />}

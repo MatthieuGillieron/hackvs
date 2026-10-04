@@ -1,4 +1,4 @@
-import { BookmarkIcon, CheckIcon, ChevronDownIcon, Trash2Icon, UserRoundCheckIcon } from "lucide-react"
+import { BookmarkIcon, CheckIcon, ChevronDownIcon, Trash2Icon } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import {
@@ -40,7 +40,7 @@ export function StatusMenu({ taskKey, status, size = "xs" }: { taskKey: string; 
   )
 }
 
-// Actions de suivi d'une alerte : l'ajouter aux tâches (À faire) ou la mettre en traitement (En cours).
+// Suivi d'une alerte : « Enregistrer » l'ajoute aux tâches (À faire), ensuite un menu règle le statut.
 export function TaskControl({ taskKey, className }: { taskKey: string; className?: string }) {
   const task = useTasks()[taskKey]
   if (task) {
@@ -52,30 +52,16 @@ export function TaskControl({ taskKey, className }: { taskKey: string; className
     )
   }
   return (
-    <div className={cn("flex items-center gap-2", className)}>
-      <Tooltip>
-        <TooltipTrigger asChild>
-          <Button variant="outline" size="icon-xs" aria-label="Ajouter à mes tâches"
-            onClick={(e) => {
-              e.stopPropagation()
-              setTaskStatus(taskKey, "a_faire")
-            }}>
-            <BookmarkIcon />
-          </Button>
-        </TooltipTrigger>
-        <TooltipContent>Ajouter à mes tâches (À faire)</TooltipContent>
-      </Tooltip>
-      <Tooltip>
-        <TooltipTrigger asChild>
-          <Button size="xs" onClick={(e) => {
-            e.stopPropagation()
-            setTaskStatus(taskKey, "en_cours")
-          }}>
-            <UserRoundCheckIcon /> Traiter
-          </Button>
-        </TooltipTrigger>
-        <TooltipContent>Je m'en occupe : ajouter à mes tâches (En cours)</TooltipContent>
-      </Tooltip>
-    </div>
+    <Tooltip>
+      <TooltipTrigger asChild>
+        <Button size="xs" className={className} onClick={(e) => {
+          e.stopPropagation()
+          setTaskStatus(taskKey, "a_faire")
+        }}>
+          <BookmarkIcon /> Enregistrer
+        </Button>
+      </TooltipTrigger>
+      <TooltipContent>Ajouter à mes tâches</TooltipContent>
+    </Tooltip>
   )
 }
