@@ -114,6 +114,21 @@ class Signal:
     meta: dict = field(default_factory=dict)
 
 
+def detail(titre: Optional[str], resume: Optional[str] = None, faits=()) -> dict:
+    """Ce que dit la source, lisible sans l'ouvrir : titre, résumé (fiche LLM déjà en cache) et faits structurés."""
+    return {"titre": (titre or "").strip() or None, "resume": resume or None, "faits": [f for f in faits if f]}
+
+
+def _chf_short(chf: Optional[float]) -> Optional[str]:
+    if not chf:
+        return None
+    return f"{chf / 1e6:.1f} MCHF".replace(".", ",") if chf >= 1e6 else f"{chf / 1e3:.0f} kCHF"
+
+
+def _buyer(b: Optional[str]) -> Optional[str]:
+    return re.split(r" / | - ", b)[0].strip() if b else None
+
+
 def norm_company(name: Optional[str]) -> str:
     n = re.sub(r"\b(sa|s\.a\.|sàrl|sarl|s\.à r\.l\.|ag|gmbh|holding|succursale.*|filiale.*|filial .*)\b", " ", (name or "").lower())
     return re.sub(r"[^a-z0-9äöüéèàç]+", " ", n).strip()
@@ -158,6 +173,14 @@ def team_from_amount(chf: float) -> tuple[tuple[float, float, float], float]:
     return team, months
 
 
+def _simap_scope(r: dict) -> Optional[str]:
+    """Description du marché dans la publication SIMAP (lignes après l'en-tête technique)."""
+    lines = [x.strip() for x in r["text"].split("\n")[1:] if x.strip()]
+    lines = [x for x in lines if not re.match(r"(Adjudicateur|Lieu|Type|CPV|Adjudicataire)\s*:", x)]
+    txt = " ".join(lines)
+    return (txt[:220].rsplit(" ", 1)[0] + "…") if len(txt) > 220 else (txt or None)
+
+
 def simap_signals() -> list[Signal]:
     out = []
     for r in load("simap"):
@@ -179,7 +202,14 @@ def simap_signals() -> list[Signal]:
                     "projet", "adjudication", w["name"], dist, ms,
                     (start, d0 + timedelta(days=hi)), team, 30,
                     f"Adjudication SIMAP {w['price_chf'] / 1e6:.2f} MCHF : {r['title'][:70]}",
-                    r["url"], r["date"], meta={"montant": w["price_chf"], "mois": round(months, 1), "commune": r["commune"]},
+                    r["url"], r["date"], meta={"montant": w["price_chf"], "mois": round(months, 1), "commune": r["commune"],
+                                                "detail": detail(r["title"], _simap_scope(r), [
+                                                    f"Attribué à {w['name']}" + (f" ({w['city']})" if w.get("city") else ""),
+                                                    _chf_short(w["price_chf"]),
+                                                    f"Maître d'ouvrage : {_buyer(r['extra'].get('buyer'))}" if r["extra"].get("buyer") else None,
+                                                    f"{r['extra']['number_of_submissions']} offres reçues" if r["extra"].get("number_of_submissions") else None,
+                                                    f"Chantier ~{months:.0f} mois (estimé)",
+                                                ])},
                 ))
         else:  # appel d'offres ouvert : lauréat inconnu -> signal de zone, plus lointain
             deadline = next(iter(r["extra"]["dates"].get("offerDeadline") or []), None)
@@ -188,7 +218,12 @@ def simap_signals() -> list[Signal]:
                 "projet", "appel_offres", None, dist, ms,
                 (d0 + timedelta(days=45), d0 + timedelta(days=150)), None, 15,
                 f"Appel d'offres SIMAP (délai {d0.isoformat()}) : {r['title'][:70]}", r["url"], r["date"],
-                meta={"commune": r["commune"]},
+                meta={"commune": r["commune"], "detail": detail(r["title"], _simap_scope(r), [
+                    f"Offres attendues le {d0.strftime('%d.%m.%Y')}",
+                    "Procédure ouverte" if r["extra"].get("process_type") == "open" else "Procédure sur invitation",
+                    f"Maître d'ouvrage : {_buyer(r['extra'].get('buyer'))}" if r["extra"].get("buyer") else None,
+                    *[b["label"]["fr"] for b in (r["extra"].get("bkp_codes") or [])[:3]],
+                ])},
             ))
     return out
 
@@ -246,10 +281,14 @@ def permit_signals() -> list[Signal]:
             # nom exact du requérant / auteur des plans d'abord ; le LLM ajoute les entreprises citées ailleurs
             contractor = named_contractor(r) or f["entreprise_travaux"]
             text, trades = f["resume"], set(f["corps_de_metier"])
+            info = detail(f["batiment"] or project, f["resume"], [
+                f"Ampleur {f['ampleur']}", f"{f['logements']} logements" if f["logements"] else None,
+                "Texte vague (certitude faible)" if f["certitude"] == "faible" else None])
         else:
             cls, modif = permit_class(project), bool(re.search(MODIF, project, re.I))
             contractor = named_contractor(r)
             text, trades = project[:70], set()
+            info = detail(project)
         if cls in (None, "villa"):
             continue
         d0 = _d(r["date"])
@@ -272,6 +311,9 @@ def permit_signals() -> list[Signal]:
                       "occupation": min(1.0, duration / (m1 - m0)),
                       "requerant": r["company"], "architecte": (r["extra"].get("architects") or [None])[-1],
                       "permis_id": r["id"],
+                      "detail": detail(info["titre"], info["resume"], [f"Phase {phase} (estimée)", *info["faits"],
+                                                   f"Requérant : {r['company']}" if r["company"] else None,
+                                                   f"Entreprise citée : {contractor}" if contractor and contractor != r["company"] else None]),
                       **({"ia": True, "preuve": f["preuve"], "certitude": f["certitude"]} if f else {})},
             ))
     return out
@@ -322,7 +364,12 @@ def announcement_signals() -> list[Signal]:
                 "projet", typ, f["entreprise_travaux"], district, ms, win, None,
                 {"tres_grand": 14, "grand": 10}.get(f["ampleur"], 6),
                 f"{prefix} {f['commune'] or district} : {f['resume']}{chf}", r["url"], r["date"],
-                meta={"ia": True, "preuve": f["preuve"], "commune": f["commune"], "ampleur": f["ampleur"]},
+                meta={"ia": True, "preuve": f["preuve"], "commune": f["commune"], "ampleur": f["ampleur"],
+                      "detail": detail(r["title"], f["resume"], [
+                          f"Ampleur {f['ampleur'].replace('_', ' ')}", _chf_short(f["montant_chf"]),
+                          f"Maître d'ouvrage : {f['maitre_ouvrage']}" if f["maitre_ouvrage"] else None,
+                          f"Début des travaux : {f['debut_travaux']}" if f["debut_travaux"] else None,
+                          f"Entreprise citée : {f['entreprise_travaux']}" if f["entreprise_travaux"] else None])},
             ))
     return out
 
@@ -341,15 +388,24 @@ def job_signals() -> list[Signal]:
             agency = r["extra"].get("is_staffing_agency") or r["extra"].get("is_job_board")
             lo, hi = ASSUMPTIONS["delai_annonce_besoin_j"]
             win = (TODAY + timedelta(days=lo), TODAY + timedelta(days=hi + 30))
+            wl = [int(x) for x in (r["extra"].get("workload") or []) if str(x).isdigit()]
+            info = detail(r["title"], None, [
+                r["company"], r["commune"],
+                (f"{min(wl)}–{max(wl)} %" if min(wl) != max(wl) else f"{wl[0]} %") if wl else None,
+                ", ".join(r["extra"].get("employment_types") or []) or (r["kind"] if r["kind"] in ("fixe", "temporaire") else None),
+                f"{r['extra']['number_of_jobs']} poste(s)" if str(r["extra"].get("number_of_jobs") or "").isdigit() and int(r["extra"]["number_of_jobs"]) > 1 else None,
+                "Entrée immédiate" if r["extra"].get("immediately") else None,
+                f"En ligne depuis {age} j" if age >= 7 else None])
             if agency:  # concurrence : signal de zone
                 out.append(Signal("recrutement", "agences_concurrentes", None, _district(r), ms, win, None, 6,
-                                  f"Agence {r['company']} recrute ({r['title'][:50]}, {r['commune']})", r["url"], r["date"]))
+                                  f"Agence {r['company']} recrute ({r['title'][:50]}, {r['commune']})", r["url"], r["date"],
+                                  meta={"agence": r["company"], "detail": info}))
             else:
                 hard = age >= ASSUMPTIONS["annonce_difficile_j"]
                 out.append(Signal("recrutement", "annonce_directe", r["company"], _district(r), ms, win, None,
                                   18 if hard else 10,
                                   f"Annonce {'en ligne depuis ' + str(age) + ' j' if hard else 'récente'} : {r['title'][:60]}",
-                                  r["url"], r["date"], meta={"age_j": age, "difficile": hard, "commune": r["commune"]}))
+                                  r["url"], r["date"], meta={"age_j": age, "difficile": hard, "commune": r["commune"], "detail": info}))
     return out
 
 
@@ -390,7 +446,8 @@ def company_signals() -> list[Signal]:
         d0 = _d(r["date"])
         ms = [m for m in metiers.detect(purpose) if m in BTP] or ["macon", "manoeuvre"]
         out.append(Signal("entreprise", why.split(" ")[0].lower(), r["company"], _district(r), ms,
-                          (d0, d0 + timedelta(days=150)), None, 10, f"FOSC {r['date']} : {why}", r["url"], r["date"]))
+                          (d0, d0 + timedelta(days=150)), None, 10, f"FOSC {r['date']} : {why}", r["url"], r["date"],
+                          meta={"detail": detail(why, None, [r["company"], r["commune"], "Publication FOSC officielle"])}))
     return out
 
 
@@ -415,5 +472,7 @@ def history_signals(demandes: list[dict]) -> list[Signal]:
         out.append(Signal("historique", "client_recurrent", client, ds[0]["district"], [m],
                           (target - timedelta(days=21), target + timedelta(days=30)), None, 25,
                           f"[FICTIF] Demandes Flexsis à la même période en {', '.join(years)} ({n} postes)",
-                          None, None, fictif=True))
+                          None, None, fictif=True,
+                          meta={"detail": detail(f"{n} poste{'s' if n > 1 else ''} demandé{'s' if n > 1 else ''} à Flexsis à cette période", None,
+                                                 [f"Années : {', '.join(years)}", f"{len(ds)} demande(s)"])}))
     return out

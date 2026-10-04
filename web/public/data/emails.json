@@ -1,500 +1,467 @@
 {
  "entreprise|frutiger|*": {
-  "objet": "Maurer für Ihr Projekt in Zermatt",
-  "corps": "Sehr geehrte Damen und Herren\n\nHerzliche Gratulation zur SIMAP-Zuschlagserteilung für die Bauarbeiten an der Galerie Schusslaui, Los 2, im Projekt NG13 Täsch-Zermatt.\n\nAls bestehender Partner von Frutiger AG möchten wir Ihnen folgende verfügbare Maurerprofile vorstellen:\n\n• 12 Jahre Erfahrung, AFP als Maurerhelfer, eigenes Fahrzeug, wohnhaft in Fieschertal, verfügbar ab 17.10.2026\n• 21 Jahre Erfahrung, wohnhaft in Sierre, verfügbar ab 03.10.2026\n• 12 Jahre Erfahrung, AFP als Maurerhelfer, eigenes Fahrzeug, wohnhaft in Saas-Grund, verfügbar ab 03.10.2026\n\nGerne besprechen wir kurz, ob eines dieser Profile für Ihre aktuellen Arbeiten in Zermatt interessant ist. Passt Ihnen ein kurzer Anruf diese Woche?\n\nFreundliche Grüsse\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Verfügbare Maurer für Ihre Bauarbeiten in Zermatt",
+  "corps": "Sehr geehrte Damen und Herren\n\nHerzliche Gratulation zur SIMAP-Zuschlagserteilung über 14.11 MCHF für NG13 Täsch-Zermatt, Galerie Schusslaui, Los 2.\n\nFür Ihre Bauarbeiten in Zermatt kann ich Ihnen drei erfahrene Maurer anbieten: 12 Jahre Erfahrung, AFP als Baupraktiker, eigenes Fahrzeug, verfügbar ab 18.10.2026 (Fieschertal); 21 Jahre Erfahrung, verfügbar ab 04.10.2026 (Siders); sowie 12 Jahre Erfahrung, AFP als Baupraktiker, eigenes Fahrzeug, verfügbar ab 07.10.2026 (Saas-Grund).\n\nGerne bespreche ich mit Ihnen kurz, ob diese Profile für Ihre aktuellen Vorhaben interessant sind. Haben Sie diese Woche Zeit für einen kurzen Telefontermin?\n\nFreundliche Grüsse\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
-   "04.08.2026 — Adjudication SIMAP 14.11 MCHF : NG13 Täsch-Zermatt, Travaux de construction, galerie Schusslaui, lot 2",
-   "Maçon · 12 ans d'expérience · certifications : AFP aide-maçon · véhiculé · basé à Fieschertal · disponible dès le 17.10.2026",
-   "Maçon · 21 ans d'expérience · basé à Sierre · disponible dès le 03.10.2026",
-   "Maçon · 12 ans d'expérience · certifications : AFP aide-maçon · véhiculé · basé à Saas-Grund · disponible dès le 03.10.2026"
+   "04.08.2026 — Adjudication SIMAP 14.11 MCHF : NG13 Täsch-Zermatt, Travaux de construction, galerie Schusslaui, lot 2"
   ],
   "langue": "allemand",
-  "hash": "595d7bc3fb8d",
+  "hash": "626964665e5d",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:45",
+  "genere_le": "2026-10-04T11:09:04",
   "fictif": true
  },
  "entreprise|melly constructions|*": {
   "objet": "Trois maçons disponibles pour vos prochains chantiers",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP du 27.08.2026 concernant les travaux de génie civil du Dépotoir de Viouc.\n\nDans le cadre de notre collaboration, je peux vous proposer trois maçons :\n\n• 12 ans d’expérience, AFP aide-maçon, véhiculé, basé à Fieschertal, disponible dès le 17.10.2026 ;\n• 21 ans d’expérience, basé à Sierre, disponible dès le 03.10.2026 ;\n• 13 ans d’expérience, CFC maçon, AFP aide-maçon et premiers secours, véhiculé, basé à Saint-Léonard, disponible dès le 10.10.2026.\n\nAuriez-vous 10 minutes cette semaine pour en discuter ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP de 0.43 MCHF concernant le Dépotoir de Viouc – travaux de génie civil.\n\nDéjà partenaire de MELLY CONSTRUCTIONS SA, Flexsis peut vous proposer trois maçons expérimentés :\n\n• 12 ans d’expérience, AFP aide-maçon, véhiculé, basé à Fieschertal, disponible dès le 18.10.2026 ;\n• 21 ans d’expérience, basé à Sierre, disponible dès le 04.10.2026 ;\n• 24 ans d’expérience, CFC maçon et AFP aide-maçon, formations Premiers secours et SUVA sécurité chantier, véhiculé, basé à Fully, disponible dès le 18.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos prochains besoins ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
    "27.08.2026 — Adjudication SIMAP 0.43 MCHF : Appel d'offres N° 26-504 Dépotoir de Viouc - Travaux de génie civil et"
   ],
   "langue": "français",
-  "hash": "a6416fbdcefd",
+  "hash": "b2eef3b894e2",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:43",
+  "genere_le": "2026-10-04T11:09:04",
   "fictif": true
  },
  "entreprise|marcel bonvin et fils|*": {
-  "objet": "Deux charpentiers disponibles dès le 06.10.2026",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP 1.19 MCHF : SAV_AO_2240 - Ferblanterie et couverture du 03.09.2026.\n\nDans le cadre de vos prochains travaux, nous pouvons vous proposer deux charpentiers :\n\n• 28 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Visp ;\n• 7 ans d’expérience, certification Premiers secours, véhiculé, basé à Mont-Noble.\n\nTous deux sont disponibles dès le 06.10.2026. Je serais ravie d’échanger avec vous afin de voir si l’un de ces profils peut répondre à vos besoins.\n\nAuriez-vous 10 minutes pour un court appel cette semaine ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Félicitations pour l’adjudication de ferblanterie et couverture",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP liée aux travaux de ferblanterie et de couverture à Savièse.\n\nNous pouvons vous présenter un charpentier disposant de 7 ans d’expérience, véhiculé, titulaire d’une certification Premiers secours et basé à Mont-Noble. Il sera disponible dès le 18.10.2026.\n\nDéjà à vos côtés, nous serions heureux d’échanger sur vos éventuels besoins pour ce projet et de voir si ce profil peut vous être utile.\n\nSeriez-vous disponible pour un court appel cette semaine ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
    "03.09.2026 — Adjudication SIMAP 1.19 MCHF : SAV_AO_2240 - Ferblanterie et couverture"
   ],
   "langue": "français",
-  "hash": "ef43ca0999a8",
+  "hash": "77808c00d299",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:42",
+  "genere_le": "2026-10-04T11:09:02",
   "fictif": true
  },
  "entreprise|sébastien cheseaux|*": {
-  "objet": "Installateurs sanitaires disponibles pour vos travaux à Sion",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication du 16.09.2026 concernant le « Campus du Pôle Santé - CFC 854.1 - Installations sanitaires pour puits ».\n\nNous pouvons vous proposer trois installateurs sanitaires :\n- 23 ans d’expérience, certifications Premiers secours et SUVA sécurité chantier, véhiculé, disponible dès le 03.10.2026, basé à Inden ;\n- 3 ans d’expérience, mêmes certifications, véhiculé, disponible dès le 06.10.2026, basé à Isérables ;\n- 1 an d’expérience, certification SUVA sécurité chantier, basé à Vouvry, disponible dès le 17.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins ?\n\nMeilleures salutations,\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Profils sanitaires disponibles pour votre chantier à Sion",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP du 16.09.2026 concernant les installations sanitaires pour puits du Campus du Pôle Santé.\n\nPour accompagner vos équipes, nous pouvons vous proposer trois installateurs sanitaires :\n\n• 1 an d’expérience, certification SUVA sécurité chantier, basé à Vouvry, disponible dès le 11.10.2026 ;\n• 23 ans d’expérience, certifications Premiers secours et SUVA sécurité chantier, véhiculé, basé à Inden, disponible dès le 07.10.2026 ;\n• 3 ans d’expérience, mêmes certifications, véhiculé, basé à Isérables, disponible dès le 11.10.2026.\n\nAuriez-vous 10 minutes cette semaine pour en discuter et déterminer le profil le plus adapté ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
-   "16.09.2026 — Adjudication SIMAP 0.17 MCHF : Campus du Pôle Santé - CFC 854.1 - Installations sanitaires pour puits"
+   "16.09.2026 — Adjudication SIMAP 0.17 MCHF : Campus du Pôle Santé - CFC 854.1 - Installations sanitaires pour puits",
+   "Installateur sanitaire · 1 ans d'expérience · certifications : SUVA sécurité chantier · basé à Vouvry · disponible dès le 11.10.2026",
+   "Installateur sanitaire · 23 ans d'expérience · certifications : Premiers secours, SUVA sécurité chantier · véhiculé · basé à Inden · disponible dès le 07.10.2026",
+   "Installateur sanitaire · 3 ans d'expérience · certifications : Premiers secours, SUVA sécurité chantier · véhiculé · basé à Isérables · disponible dès le 11.10.2026"
   ],
   "langue": "français",
-  "hash": "67639d95a7c8",
+  "hash": "b82532b710aa",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:45",
+  "genere_le": "2026-10-04T11:09:04",
   "fictif": true
  },
  "entreprise|jm rossa|*": {
-  "objet": "Trois installateurs sanitaires disponibles dès octobre",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP du 25.09.2026 concernant la construction et transformation des ateliers de l’EPCL sur le site de C, d’un montant de 0.50 MCHF.\n\nDans le cadre de vos prochains travaux, nous pouvons vous présenter trois installateurs sanitaires, selon vos besoins en chauffage et installations techniques :\n\n• 23 ans d’expérience, certifications Premiers secours et SUVA sécurité chantier, véhiculé, disponible dès le 03.10.2026 ;\n• 3 ans d’expérience, mêmes certifications, véhiculé, disponible dès le 06.10.2026 ;\n• 13 ans d’expérience, certification SUVA sécurité chantier, disponible dès le 10.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’évaluer leur adéquation ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Profils d’installateurs en chauffage disponibles",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP de 0.50 MCHF concernant la construction et la transformation des ateliers de l’EPCL sur le site de C.\n\nDans ce contexte, nous pouvons vous proposer trois installateurs en chauffage :\n- 8 ans d’expérience, véhiculé, basé à Brig-Glis, disponible dès le 04.10.2026 ;\n- 4 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Collonges, disponible dès le 04.10.2026 ;\n- 21 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Grächen, disponible dès le 18.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins actuels ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
    "25.09.2026 — Adjudication SIMAP 0.50 MCHF : Construction et transformation des ateliers de l'EPCL sur le site de C"
   ],
   "langue": "français",
-  "hash": "098b2eef1ed1",
+  "hash": "930ab9527f7c",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:46",
+  "genere_le": "2026-10-04T11:09:03",
   "fictif": true
  },
  "entreprise|zurbriggen|*": {
   "objet": "Menuisiers disponibles pour vos prochains travaux à Grône",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication concernant l’agrandissement du centre scolaire de Grône. Dans ce contexte, nous pouvons vous proposer trois menuisiers disponibles prochainement :\n\n• 8 ans d’expérience, véhiculé, basé à Saint-Léonard, disponible dès le 17.10.2026 ;\n• 10 ans d’expérience, certifications Premiers secours et SUVA sécurité chantier, véhiculé, basé à Salvan, disponible dès le 17.10.2026 ;\n• 30 ans d’expérience, certification Premiers secours, basé à Saillon, disponible dès le 10.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins et les profils à vous présenter ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication du projet « Ecole de Grône - Agrandissement du centre scolaires », annoncée le 25.09.2026 (0.35 MCHF).\n\nDans ce contexte, nous pouvons vous proposer trois menuisiers :\n• 8 ans d’expérience, véhiculé, basé à Saint-Léonard, disponible dès le 18.10.2026 ;\n• 10 ans d’expérience, véhiculé, basé à Salvan, certifications Premiers secours et SUVA sécurité chantier, disponible dès le 07.10.2026 ;\n• 30 ans d’expérience, basé à Saillon, certification Premiers secours, disponible dès le 11.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
    "25.09.2026 — Adjudication SIMAP 0.35 MCHF : Ecole de Grône - Agrandissement du centre scolaires"
   ],
   "langue": "français",
-  "hash": "0f4a9a192aab",
+  "hash": "30f85fa985d1",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:43",
+  "genere_le": "2026-10-04T11:09:03",
   "fictif": true
  },
  "entreprise|ulrich imboden|*": {
-  "objet": "Erfahrene Maurer für Ihr Projekt in Zermatt",
-  "corps": "Sehr geehrte Damen und Herren\n\nHerzlichen Glückwunsch zur SIMAP-Vergabe vom 29.09.2026 über 2,14 Mio. CHF für «HWS Triftbach – Geschiebesperre».\n\nGerne bieten wir Ihnen drei erfahrene Maurer an:\n\n• 12 Jahre Erfahrung, AFP aide-maçon, eigenes Fahrzeug, wohnhaft in Fieschertal, verfügbar ab 17.10.2026\n• 21 Jahre Erfahrung, wohnhaft in Siders, verfügbar ab 03.10.2026\n• 12 Jahre Erfahrung, AFP aide-maçon, eigenes Fahrzeug, wohnhaft in Saas-Grund, verfügbar ab 03.10.2026\n\nGerne besprechen wir kurz, ob und wann diese Profile Ihr Team unterstützen können. Passt Ihnen ein kurzer Anruf diese Woche?\n\nFreundliche Grüsse\n\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Maschinisten für Ihr Projekt HWS Triftbach",
+  "corps": "Sehr geehrte Damen und Herren\n\nHerzlichen Glückwunsch zur Vergabe von «HWS Triftbach – Geschiebesperre» im Umfang von 2,14 MCHF am 29.09.2026.\n\nGerne bieten wir Ihnen folgende Maschinisten an:\n\n• 28 Jahre Erfahrung, SUVA-Sicherheitszertifizierung, eigenes Fahrzeug, wohnhaft in Hérémence, verfügbar ab 04.10.2026\n• 18 Jahre Erfahrung, SUVA-Sicherheitszertifizierung, eigenes Fahrzeug, wohnhaft in Visperterminen, verfügbar ab 18.10.2026\n• Ohne Berufserfahrung, Bewilligungen M1–M6 und SUVA-Sicherheitszertifizierung, wohnhaft in Fully, verfügbar ab 11.10.2026\n\nGerne besprechen wir kurz, ob eines dieser Profile für Sie interessant ist. Hätten Sie diese Woche Zeit für einen kurzen Austausch?\n\nFreundliche Grüsse\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
-   "29.09.2026 — Adjudication SIMAP 2.14 MCHF : HWS Triftbach - Geschiebesperre",
-   "Maçon · 12 ans d'expérience · certifications : AFP aide-maçon · véhiculé · basé à Fieschertal · disponible dès le 17.10.2026",
-   "Maçon · 21 ans d'expérience · basé à Sierre · disponible dès le 03.10.2026",
-   "Maçon · 12 ans d'expérience · certifications : AFP aide-maçon · véhiculé · basé à Saas-Grund · disponible dès le 03.10.2026"
+   "29.09.2026 — Adjudication SIMAP 2.14 MCHF : HWS Triftbach - Geschiebesperre"
   ],
   "langue": "allemand",
-  "hash": "5f03e3ecd790",
+  "hash": "b27cf863e65d",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:44",
+  "genere_le": "2026-10-04T11:09:04",
   "fictif": true
  },
  "entreprise|epiney construction|*": {
-  "objet": "Machinistes disponibles pour vos prochains travaux",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP de 0.47 MCHF concernant la réfection de la rue du Village aux Condémines.\n\nPour vos travaux à Nendaz, nous pouvons vous proposer trois machinistes :\n\n• 2 ans d’expérience, Premiers secours, véhiculé, basé à Bovernier, disponible dès le 03.10.2026 ;\n• 18 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Visperterminen, disponible dès le 03.10.2026 ;\n• débutant, permis machiniste M1-M6 et SUVA sécurité chantier, basé à Fully, disponible dès le 17.10.2026.\n\nAuriez-vous 10 minutes cette semaine pour échanger sur vos besoins et les profils à retenir ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Machinistes disponibles pour vos prochains chantiers",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication du marché de réfection de la rue du Village aux Condémines. Dans le cadre de vos prochains chantiers, nous pouvons vous proposer trois machinistes :\n\n• 2 ans d’expérience, premiers secours, véhiculé, basé à Bovernier, disponible dès le 18.10.2026 ;\n• 28 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Hérémence, disponible dès le 04.10.2026 ;\n• 18 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Visperterminen, disponible dès le 18.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
-   "02.10.2026 — Adjudication SIMAP 0.47 MCHF : Réfection de la rue du Village aux Condémines ",
-   "Machiniste · 2 ans d'expérience · certifications : Premiers secours · véhiculé · basé à Bovernier · disponible dès le 03.10.2026",
-   "Machiniste · 18 ans d'expérience · certifications : SUVA sécurité chantier · véhiculé · basé à Visperterminen · disponible dès le 03.10.2026",
-   "Machiniste · 0 ans d'expérience · certifications : Permis machiniste M1-M6, SUVA sécurité chantier · basé à Fully · disponible dès le 17.10.2026"
+   "02.10.2026 — Adjudication SIMAP 0.47 MCHF : Réfection de la rue du Village aux Condémines "
   ],
   "langue": "français",
-  "hash": "4fd73cacbda3",
+  "hash": "a5b7cb3e27c0",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:44",
-  "fictif": true
- },
- "entreprise|dénériaz b timent et infrastructures|*": {
-  "objet": "Un charpentier disponible dès le 6 octobre",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP du projet « Usine de Châtelard I – Travaux d’assainissement », d’un montant de 12.17 MCHF.\n\nNous pouvons vous proposer un charpentier avec 7 ans d’expérience, une certification Premiers secours, véhiculé et basé à Mont-Noble. Il est disponible dès le 06.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins actuels ou à venir ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
-  "faits_utilises": [
-   "07.08.2026 — Adjudication SIMAP 12.17 MCHF : Usine de Châtelard I – Travaux d’assainissement",
-   "Charpentier · 7 ans d'expérience · certifications : Premiers secours · véhiculé · basé à Mont-Noble · disponible dès le 06.10.2026"
-  ],
-  "langue": "français",
-  "hash": "87c7e42fcf80",
-  "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:46",
+  "genere_le": "2026-10-04T11:09:07",
   "fictif": true
  },
  "entreprise|praderlosinger|*": {
-  "objet": "Deux machinistes disponibles pour vos prochains chantiers",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP de 1.68 MCHF concernant le chantier « 104 La Chaux - Pissevache / Affaissement de bord de chaussée ».\n\nNous pouvons vous proposer deux machinistes :\n• un machiniste avec 2 ans d’expérience, premiers secours, véhiculé, basé à Bovernier, disponible dès le 03.10.2026 ;\n• un machiniste sans expérience, titulaire des permis machiniste M1-M6 et de la certification SUVA sécurité chantier, basé à Fully, disponible dès le 17.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins actuels ou à venir ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Trois machinistes disponibles pour vos prochains chantiers",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP de 1.08 MCHF concernant la Rénovation de l'aménagement des FGB, Lot GC, annoncée le 28.08.2026.\n\nDéjà partenaire de PraderLosinger SA, Flexsis peut vous proposer trois machinistes :\n- 2 ans d’expérience, premiers secours, véhiculé, basé à Bovernier, disponible dès le 18.10.2026 ;\n- 28 ans d’expérience, SUVA sécurité chantier, véhiculé, basé à Hérémence, disponible dès le 04.10.2026 ;\n- permis machiniste M1-M6 et SUVA sécurité chantier, basé à Fully, disponible dès le 11.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos prochains besoins ?\n\nMeilleures salutations,\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
-   "04.09.2026 — Adjudication SIMAP 1.68 MCHF : 104 La Chaux - Pissevache / Affaissement de bord de chaussée"
+   "28.08.2026 — Adjudication SIMAP 1.08 MCHF : Rénovation de l'aménagement des FGB, Lot GC"
   ],
   "langue": "français",
-  "hash": "9ae50fe2b5dc",
+  "hash": "9c42dfd43529",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:48",
+  "genere_le": "2026-10-04T11:09:10",
   "fictif": true
  },
  "entreprise|evéquoz|*": {
-  "objet": "Profils couvreurs disponibles prochainement en Valais",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP de 7.27 MCHF concernant la STEP III de Noës, pour l’extension de la STEP et le traitement des micropolluants.\n\nNous pouvons vous proposer deux couvreurs :\n• 20 ans d’expérience, certifié Travail en hauteur EPI et Premiers secours, véhiculé, basé à Raron, disponible dès le 06.10.2026 ;\n• 2 ans d’expérience, certifié Travail en hauteur EPI et SUVA sécurité chantier, véhiculé, basé à Ardon, disponible dès le 17.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins actuels ou à venir ?\n\nMeilleures salutations,\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Profils de couvreurs disponibles pour vos chantiers",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP de 7.27 MCHF concernant la STEP III Noës, un projet d’envergure à Sierre.\n\nFlexsis peut vous proposer deux couvreurs disponibles prochainement :\n• un couvreur avec 20 ans d’expérience, formé au travail en hauteur EPI et aux premiers secours, véhiculé, disponible dès le 07.10.2026 ;\n• un couvreur avec 2 ans d’expérience, certifié travail en hauteur EPI et SUVA sécurité chantier, véhiculé, disponible dès le 11.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins actuels ou à venir ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
-   "11.09.2026 — Adjudication SIMAP 7.27 MCHF : STEP III Noës : Extension de la STEP et traitement des micropolluants "
+   "11.09.2026 — Adjudication SIMAP 7.27 MCHF : STEP III Noës : Extension de la STEP et traitement des micropolluants ",
+   "Couvreur · 20 ans d'expérience · certifications : Travail en hauteur EPI, Premiers secours · véhiculé · basé à Raron · disponible dès le 07.10.2026",
+   "Couvreur · 2 ans d'expérience · certifications : Travail en hauteur EPI, SUVA sécurité chantier · véhiculé · basé à Ardon · disponible dès le 11.10.2026"
   ],
   "langue": "français",
-  "hash": "71102ab3d4a7",
+  "hash": "6065fcae685d",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:47",
+  "genere_le": "2026-10-04T11:09:08",
   "fictif": true
  },
  "entreprise|weibel|*": {
   "objet": "Machinistes disponibles pour vos prochains chantiers",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP du 02.10.2026 concernant H203 Virage des Esserces : revêtements bitumineux - lot 26210.\n\nPour vos prochains travaux, nous pouvons vous proposer :\n\n• Un machiniste avec 2 ans d’expérience, premiers secours, véhiculé, basé à Bovernier et disponible dès le 03.10.2026.\n• Un machiniste titulaire des permis M1-M6 et de la certification SUVA sécurité chantier, basé à Fully et disponible dès le 17.10.2026.\n\nJe serais ravie d’échanger brièvement avec vous afin de voir si l’un de ces profils peut correspondre à vos besoins. Auriez-vous quelques minutes pour un appel cette semaine ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP de 104 Les Marais - Epinassey / Adaptation routière et construction d'un .\n\nDans le cadre de notre collaboration, nous pouvons vous proposer trois machinistes :\n\n• 28 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Hérémence, disponible dès le 04.10.2026 ;\n• 2 ans d’expérience, premiers secours, véhiculé, basé à Bovernier, disponible dès le 18.10.2026 ;\n• débutant, permis machiniste M1-M6 et SUVA sécurité chantier, basé à Fully, disponible dès le 11.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins ?\n\nMeilleures salutations,\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
-   "02.10.2026 — Adjudication SIMAP 0.12 MCHF : H203 Virage des Esserces : revêtements bitumineux - lot 26210"
+   "12.08.2026 — Adjudication SIMAP 0.68 MCHF : 104 Les Marais - Epinassey / Adaptation routière et construction d'un "
   ],
   "langue": "français",
-  "hash": "deb987271782",
+  "hash": "4a08acf71fb3",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:50",
+  "genere_le": "2026-10-04T11:09:03",
   "fictif": true
  },
  "entreprise|société de travaux publics joseph carron|*": {
-  "objet": "Profils de machinistes disponibles dès le 03.10.2026",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP du 12.08.2026 — Adjudication SIMAP 0.75 MCHF : 94 Le Cotterg - Les Chenevaires / Restructuration routière avec revête.\n\nNous pouvons vous proposer trois machinistes :\n• 2 ans d’expérience, premiers secours, véhiculé, basé à Bovernier ;\n• 26 ans d’expérience, permis machiniste M1-M6, premiers secours, véhiculé, basé à Sierre ;\n• 18 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Visperterminen.\n\nTous sont disponibles dès le 03.10.2026. Un court appel cette semaine vous conviendrait-il pour échanger sur vos besoins ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Trois machinistes disponibles pour vos chantiers",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP du 12.08.2026 concernant « 94 Le Cotterg - Les Chenevaires / Restructuration routière avec revête ».\n\nDans le cadre de vos prochains besoins, je peux vous proposer trois machinistes :\n• 2 ans d’expérience, Premiers secours, véhiculé, basé à Bovernier, disponible dès le 18.10.2026 ;\n• 26 ans d’expérience, permis machiniste M1-M6 et Premiers secours, véhiculé, basé à Sierre, disponible dès le 04.10.2026 ;\n• 28 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Hérémence, disponible dès le 04.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
    "12.08.2026 — Adjudication SIMAP 0.75 MCHF : 94 Le Cotterg - Les Chenevaires / Restructuration routière avec revête"
   ],
   "langue": "français",
-  "hash": "2906753f1e88",
+  "hash": "f8ff73d55100",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:50",
+  "genere_le": "2026-10-04T11:09:08",
   "fictif": true
  },
  "entreprise|arge bächler güttinger volken group|*": {
-  "objet": "Erfahrene Landschaftsgärtner für Ihre Projekte",
-  "corps": "Sehr geehrte Damen und Herren\n\nZur Vergabe SIMAP vom 23.09.2026 über 3.72 MCHF für die Gartenarbeiten des Hôpital du Valais gratuliere ich Ihnen herzlich.\n\nAls bereits bestehende Kundin möchte ich Ihnen drei verfügbare Landschaftsgärtner vorstellen: ein Kandidat mit 4 Jahren Erfahrung, Erste-Hilfe- und SUVA-Sicherheitszertifikat, wohnhaft in Sion und ab dem 17.10.2026 verfügbar. Zwei weitere verfügen über 26 beziehungsweise 16 Jahre Erfahrung, sind fahrzeugmobil und ab dem 03.10.2026 verfügbar; sie wohnen in Lalden beziehungsweise Grimisuat. Der Kandidat mit 26 Jahren Erfahrung besitzt zudem ein SUVA-Sicherheitszertifikat.\n\nDürfen wir diese Woche kurz telefonieren, um Ihren Bedarf zu besprechen?\n\nFreundliche Grüsse\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Verstärkung für Ihre Gartenbauarbeiten im Wallis",
+  "corps": "Sehr geehrte Damen und Herren\n\nHerzliche Gratulation zur Vergabe des Auftrags für die Gartenbauarbeiten am Spital Wallis. Gerne unterstützen wir Sie mit folgenden verfügbaren Landschaftsgärtnern:\n\n• 4 Jahre Erfahrung, Erste-Hilfe- und SUVA-Baustellensicherheitszertifikate, eigenes Fahrzeug, wohnhaft in Sitten, verfügbar ab 07.10.2026\n• 16 Jahre Erfahrung, eigenes Fahrzeug, wohnhaft in Grimisuat, verfügbar ab 07.10.2026\n• 10 Jahre Erfahrung, Erste-Hilfe-Zertifikat, eigenes Fahrzeug, wohnhaft in Obergoms, verfügbar ab 11.10.2026\n\nGerne besprechen wir kurz, ob diese Profile für Ihre kommenden Arbeiten passen. Haben Sie diese Woche Zeit für einen kurzen Anruf?\n\nFreundliche Grüsse\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
-   "23.09.2026 — Adjudication SIMAP 3.72 MCHF : Hôpital du Valais - SKP 420 Travaux de jardinage",
-   "Paysagiste · 4 ans d'expérience · certifications : Premiers secours, SUVA sécurité chantier · véhiculé · basé à Sion · disponible dès le 17.10.2026",
-   "Paysagiste · 26 ans d'expérience · certifications : SUVA sécurité chantier · véhiculé · basé à Lalden · disponible dès le 03.10.2026",
-   "Paysagiste · 16 ans d'expérience · véhiculé · basé à Grimisuat · disponible dès le 03.10.2026"
+   "23.09.2026 — Adjudication SIMAP 3.72 MCHF : Hôpital du Valais - SKP 420 Travaux de jardinage"
   ],
   "langue": "allemand",
-  "hash": "7bbf68fa72e4",
+  "hash": "9ee495ab977c",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:50",
+  "genere_le": "2026-10-04T11:09:08",
   "fictif": true
  },
  "entreprise|gd climat sion vs|*": {
-  "objet": "Profils d’installateurs en chauffage disponibles",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP du 17.09.2026 concernant la construction d’une NCUAPE à Vollèges, en lien avec le CFC 242.\n\nDans le cadre de notre collaboration, nous pouvons vous proposer :\n• un installateur en chauffage avec 21 ans d’expérience, certification SUVA sécurité chantier, véhiculé, disponible dès le 03.10.2026 ;\n• un installateur avec 16 ans d’expérience, certification SUVA sécurité chantier, véhiculé, disponible dès le 06.10.2026 ;\n• un installateur avec 4 ans d’expérience, certification SUVA sécurité chantier, véhiculé, disponible dès le 17.10.2026.\n\nAuriez-vous un court créneau pour en parler cette semaine ?\n\nMeilleures salutations,\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Renforts qualifiés en chauffage pour vos chantiers",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP du 17.09.2026 concernant la construction d’une NCUAPE à Vollèges. Déjà partenaire de GD Climat SA, Flexsis peut vous proposer trois installateurs en chauffage :\n\n• 4 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Collonges, disponible dès le 04.10.2026 ;\n• 16 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Val-d’Illiez, disponible dès le 07.10.2026 ;\n• 21 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Grächen, disponible dès le 18.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins actuels ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
    "17.09.2026 — Adjudication SIMAP 0.33 MCHF : Construction d'une NCUAPE à Vollèges - CFC 242 Installations de chauff"
   ],
   "langue": "français",
-  "hash": "6f04185a06dc",
+  "hash": "71cfc6d2637d",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:52",
+  "genere_le": "2026-10-04T11:09:10",
   "fictif": true
  },
  "entreprise|bitz savoye constructions métalliques|*": {
-  "objet": "Menuisiers disponibles pour vos prochains travaux",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication du marché d’extension et de rénovation du Lycée-collège de St-Maurice. Pour accompagner vos prochains travaux, nous pouvons vous proposer trois menuisiers :\n\n• 8 ans d’expérience, véhiculé, basé à Saint-Léonard, disponible dès le 17.10.2026 ;\n• 10 ans d’expérience, certifications Premiers secours et SUVA sécurité chantier, véhiculé, basé à Salvan, disponible dès le 17.10.2026 ;\n• 30 ans d’expérience, certification Premiers secours, basé à Saillon, disponible dès le 10.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins et les profils pertinents ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Profils de menuisiers disponibles pour votre projet",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication concernant l’extension et la rénovation du Lycée-collège de St-Maurice. Pour accompagner ce projet, nous pouvons vous proposer les profils suivants :\n\n• Menuisier, 8 ans d’expérience, véhiculé, basé à Saint-Léonard, disponible dès le 18.10.2026.\n• Menuisier, 10 ans d’expérience, véhiculé, basé à Salvan, certifié Premiers secours et SUVA sécurité chantier, disponible dès le 07.10.2026.\n• Menuisier, 30 ans d’expérience, basé à Saillon, certifié Premiers secours, disponible dès le 11.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
    "15.07.2026 — Adjudication SIMAP 0.59 MCHF : Extension et rénovation du Lycée-collège de St-Maurice - CFC 221.4"
   ],
   "langue": "français",
-  "hash": "3b4989ca4dbc",
+  "hash": "1ec25ac24780",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:51",
+  "genere_le": "2026-10-04T11:09:09",
   "fictif": true
  },
  "entreprise|gombau|*": {
-  "objet": "Renforts machinistes pour vos prochains travaux",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP du projet de protection contre les crues Blinnenbach, d’un montant de 1,15 MCHF, annoncée le 01.08.2026.\n\nDans le cadre de vos prochains travaux, nous pouvons vous proposer trois machinistes disponibles dès le 03.10.2026 :\n• 2 ans d’expérience, premiers secours, véhiculé, basé à Bovernier ;\n• 26 ans d’expérience, permis machiniste M1-M6 et premiers secours, véhiculé, basé à Sierre ;\n• 18 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Visperterminen.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins ?\n\nMeilleures salutations,\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Machinistes disponibles pour vos prochains chantiers",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP de 1.15 MCHF concernant le Hochwasserschutzprojekt Blinnenbach.\n\nPour accompagner vos prochains travaux, nous pouvons vous proposer trois machinistes :\n\n• 26 ans d’expérience, permis machiniste M1-M6, premiers secours, véhiculé, basé à Sierre, disponible dès le 04.10.2026 ;\n• 28 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Hérémence, disponible dès le 04.10.2026 ;\n• 2 ans d’expérience, premiers secours, véhiculé, basé à Bovernier, disponible dès le 18.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins actuels ou à venir ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
-   "01.08.2026 — Adjudication SIMAP 1.15 MCHF : Hochwasserschutzprojekt Blinnenbach",
-   "Machiniste · 2 ans d'expérience · certifications : Premiers secours · véhiculé · basé à Bovernier · disponible dès le 03.10.2026",
-   "Machiniste · 26 ans d'expérience · certifications : Permis machiniste M1-M6, Premiers secours · véhiculé · basé à Sierre · disponible dès le 03.10.2026",
-   "Machiniste · 18 ans d'expérience · certifications : SUVA sécurité chantier · véhiculé · basé à Visperterminen · disponible dès le 03.10.2026"
+   "01.08.2026 — Adjudication SIMAP 1.15 MCHF : Hochwasserschutzprojekt Blinnenbach"
   ],
   "langue": "français",
-  "hash": "346812477425",
+  "hash": "c566790d6f70",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:51",
+  "genere_le": "2026-10-04T11:09:09",
   "fictif": true
  },
  "entreprise|josef stoffel|*": {
-  "objet": "Zwei verfügbare Machinisten für Ihre Bauarbeiten",
-  "corps": "Sehr geehrte Damen und Herren\n\nZur erfolgreichen Vergabe «27.08.2026 — Adjudication SIMAP 0.60 MCHF : Erhalt der Rebberge und Trockenmauern - Mauersanierung 4. Etappe» gratuliere ich Ihnen herzlich.\n\nGerne stelle ich Ihnen zwei verfügbare Machinisten vor:\n\n• 18 Jahre Erfahrung, SUVA-Sicherheitszertifikat, eigenes Fahrzeug, wohnhaft in Visperterminen, verfügbar ab 03.10.2026.\n• Keine Berufserfahrung, jedoch mit Maschinistenbewilligungen M1–M6 und SUVA-Sicherheitszertifikat, wohnhaft in Fully, verfügbar ab 17.10.2026.\n\nGerne erläutere ich Ihnen die Profile in einem kurzen Telefonat diese Woche. Wann passt es Ihnen?\n\nFreundliche Grüsse\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Machinisten für Ihre Arbeiten in Visperterminen",
+  "corps": "Sehr geehrte Damen und Herren\n\nHerzlichen Glückwunsch zur Zuschlagserteilung für «Erhalt der Rebberge und Trockenmauern – Mauersanierung 4. Etappe» im Umfang von 0.60 MCHF.\n\nFür Ihre Arbeiten können wir Ihnen folgende Machinisten vorstellen:\n\n• 28 Jahre Erfahrung, SUVA-zertifiziert, eigenes Fahrzeug, wohnhaft in Hérémence, verfügbar ab 04.10.2026\n• 18 Jahre Erfahrung, SUVA-zertifiziert, eigenes Fahrzeug, wohnhaft in Visperterminen, verfügbar ab 18.10.2026\n• Einsteiger mit Permis machiniste M1–M6 und SUVA-Zertifizierung, wohnhaft in Fully, verfügbar ab 11.10.2026\n\nGerne besprechen wir kurz diese Woche, welche Profile für Sie interessant sind. Wann passt Ihnen ein kurzer Anruf?\n\nFreundliche Grüsse\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
-   "27.08.2026 — Adjudication SIMAP 0.60 MCHF : Erhalt der Rebberge und Trockenmauern - Mauersanierung 4. Etappe",
-   "Machiniste · 18 ans d'expérience · certifications : SUVA sécurité chantier · véhiculé · basé à Visperterminen · disponible dès le 03.10.2026",
-   "Machiniste · 0 ans d'expérience · certifications : Permis machiniste M1-M6, SUVA sécurité chantier · basé à Fully · disponible dès le 17.10.2026"
+   "27.08.2026 — Adjudication SIMAP 0.60 MCHF : Erhalt der Rebberge und Trockenmauern - Mauersanierung 4. Etappe"
   ],
   "langue": "allemand",
-  "hash": "7fc9c858d8e5",
+  "hash": "cfc38ac2b189",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:55",
+  "genere_le": "2026-10-04T11:09:12",
   "fictif": true
  },
  "entreprise|l atelier du paysage|*": {
   "objet": "Profils de paysagistes disponibles à Sion",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP de 0.44 MCHF concernant PISCINE 10 – AMEX CFC 496 : Architecte Paysagiste. Pour vos prochains besoins, nous pouvons vous proposer plusieurs paysagistes :\n\n• 3 ans d’expérience, premiers secours, basé à Vétroz, disponible dès le 06.10.2026 ;\n• 4 ans d’expérience, premiers secours et SUVA sécurité chantier, véhiculé, basé à Sion, disponible dès le 17.10.2026 ;\n• 26 ans d’expérience, SUVA sécurité chantier, véhiculé, basé à Lalden, disponible dès le 03.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins ?\n\nMeilleures salutations,\nJulie Martin\nConsultante\nFlexsis",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP du projet PISCINE 10 – AMEX CFC 496 : Architecte Paysagiste, d’un montant de 0.44 MCHF.\n\nNous pouvons vous proposer trois paysagistes :\n- 3 ans d’expérience, premiers secours, basé à Vétroz, disponible dès le 11.10.2026 ;\n- 4 ans d’expérience, premiers secours et SUVA sécurité chantier, véhiculé, basé à Sion, disponible dès le 07.10.2026 ;\n- 16 ans d’expérience, véhiculé, basé à Grimisuat, disponible dès le 07.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos projets et ces profils ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
-   "24.08.2026 — Adjudication SIMAP 0.44 MCHF : PISCINE 10 – AMEX CFC 496 : Architecte Paysagiste",
-   "Paysagiste · 3 ans d'expérience · certifications : Premiers secours · basé à Vétroz · disponible dès le 06.10.2026",
-   "Paysagiste · 4 ans d'expérience · certifications : Premiers secours, SUVA sécurité chantier · véhiculé · basé à Sion · disponible dès le 17.10.2026",
-   "Paysagiste · 26 ans d'expérience · certifications : SUVA sécurité chantier · véhiculé · basé à Lalden · disponible dès le 03.10.2026"
+   "24.08.2026 — Adjudication SIMAP 0.44 MCHF : PISCINE 10 – AMEX CFC 496 : Architecte Paysagiste "
   ],
   "langue": "français",
-  "hash": "30483e49563b",
+  "hash": "3b016f584137",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:52",
+  "genere_le": "2026-10-04T11:09:12",
   "fictif": true
  },
  "entreprise|swisscom schweiz|*": {
-  "objet": "Électriciens disponibles pour vos projets à Sion",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP du 17.08.2026 concernant la couverture mobile inhouse du Campus du Pôle Santé à Sion.\n\nPour vos travaux, nous pouvons vous proposer trois électriciens expérimentés : un professionnel avec 19 ans d’expérience, véhiculé et disponible dès le 06.10.2026 ; un électricien avec 24 ans d’expérience, autorisation OIBT, véhiculé et disponible dès le 03.10.2026 ; ainsi qu’un électricien avec 14 ans d’expérience, CFC d’installateur-électricien et formation SUVA sécurité chantier, disponible dès le 10.10.2026.\n\nAuriez-vous 10 minutes cette semaine pour en discuter ?\n\nMeilleures salutations,\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Électriciens disponibles pour vos prochains travaux à Sion",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP du Campus du Pôle Santé, portant sur la couverture mobile inhouse. Nous pouvons vous proposer trois électriciens/monteurs électriciens expérimentés :\n\n• 19 ans d’expérience, véhiculé, basé à Saillon, disponible dès le 18.10.2026 ;\n• 24 ans d’expérience, autorisation OIBT, véhiculé, basé à Crans-Montana, disponible dès le 04.10.2026 ;\n• 14 ans d’expérience, CFC installateur-électricien et formation SUVA sécurité chantier, basé à Bürchen, disponible dès le 07.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins et les profils adaptés ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
    "17.08.2026 — Adjudication SIMAP 0.32 MCHF : Campus du Pôle Santé - CFC 239.0 - Couverture mobile inhouse",
-   "Électricien · 19 ans d'expérience · véhiculé · basé à Saillon · disponible dès le 06.10.2026",
-   "Électricien · 24 ans d'expérience · certifications : OIBT autorisation · véhiculé · basé à Crans-Montana · disponible dès le 03.10.2026",
-   "Électricien · 14 ans d'expérience · certifications : CFC installateur-électricien, SUVA sécurité chantier · basé à Bürchen · disponible dès le 10.10.2026"
+   "Électricien · 19 ans d'expérience · véhiculé · basé à Saillon · disponible dès le 18.10.2026",
+   "Électricien · 24 ans d'expérience · certifications : OIBT autorisation · véhiculé · basé à Crans-Montana · disponible dès le 04.10.2026",
+   "Électricien · 14 ans d'expérience · certifications : CFC installateur-électricien, SUVA sécurité chantier · basé à Bürchen · disponible dès le 07.10.2026"
   ],
   "langue": "français",
-  "hash": "fdb367557a43",
+  "hash": "553b21a4f756",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:54",
+  "genere_le": "2026-10-04T11:09:12",
   "fictif": true
  },
  "entreprise|florey yves renotec|*": {
-  "objet": "Plästerprofile für die Renovation des Internats in Brig",
-  "corps": "Sehr geehrte Damen und Herren\n\nDie SIMAP-Ausschreibung vom 17.08.2026 zur Renovation des Internats im Collège de Brique ist ein interessantes Projekt. Gerne stellen wir Ihnen dafür passende Plästerprofile vor:\n\n• Pläster mit 24 Jahren Erfahrung, eigenem Fahrzeug, wohnhaft in Vex\n• Pläster mit 1 Jahr Erfahrung, eigenem Fahrzeug, wohnhaft in Saas-Almagell\n• Pläster mit 16 Jahren Erfahrung, SUVA-Zertifizierung Baustellensicherheit, eigenem Fahrzeug, wohnhaft in Mörel-Filet\n\nAlle drei sind ab dem 03.10.2026 verfügbar. Gerne kläre ich in einem kurzen Gespräch diese Woche, ob eine Unterstützung für Sie interessant ist. Wann passt es Ihnen?\n\nFreundliche Grüsse\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Erfahrene Plâtriers für Ihre Bauprojekte im Wallis",
+  "corps": "Sehr geehrte Damen und Herren\n\nDie SIMAP-Adjudikation über 0.75 MCHF für die Renovation des Internats im Collège de Brique ist ein interessantes Projekt für den Bereich Crépi.\n\nFür Ihre Bauvorhaben stehen folgende Plâtriers zur Verfügung:\n\n• 1 Jahr Erfahrung, eigenes Fahrzeug, wohnhaft in Saas-Almagell, verfügbar ab 04.10.2026\n• 6 Jahre Erfahrung, SUVA-Zertifizierung für Baustellensicherheit, wohnhaft in Visp, verfügbar ab 04.10.2026\n• 29 Jahre Erfahrung, eigenes Fahrzeug, wohnhaft in Mörel-Filet\n\nGerne erläutere ich Ihnen die Profile kurz. Hätten Sie diese Woche Zeit für ein kurzes Telefonat?\n\nFreundliche Grüsse\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
    "17.08.2026 — Adjudication SIMAP 0.75 MCHF : Collège de Brique - Rénovation de l'internat / CFC 271.0 + 271.1 Crépi",
-   "Plâtrier · 24 ans d'expérience · véhiculé · basé à Vex · disponible dès le 03.10.2026",
-   "Plâtrier · 1 ans d'expérience · véhiculé · basé à Saas-Almagell · disponible dès le 03.10.2026",
-   "Plâtrier · 16 ans d'expérience · certifications : SUVA sécurité chantier · véhiculé · basé à Mörel-Filet · disponible dès le 03.10.2026"
+   "Plâtrier · 1 ans d'expérience · véhiculé · basé à Saas-Almagell · disponible dès le 04.10.2026",
+   "Plâtrier · 6 ans d'expérience · certifications : SUVA sécurité chantier · basé à Visp · disponible dès le 04.10.2026",
+   "Plâtrier · 29 ans d'expérience · véhiculé · basé à Mörel-Filet · disponible dès le 04.10.2026"
   ],
   "langue": "allemand",
-  "hash": "fbea11d00ead",
+  "hash": "708b8c137773",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:57",
+  "genere_le": "2026-10-04T11:09:14",
   "fictif": true
  },
  "entreprise|atra|*": {
-  "objet": "Profil de machiniste disponible dès le 17.10.2026",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP du 12.08.2026 concernant « H201 : Lévaux / Arrêts de bus », à Troistorrents.\n\nPour vos travaux, nous pouvons vous présenter un machiniste basé à Fully, titulaire des permis machiniste M1-M6 et de la certification SUVA sécurité chantier. Il est disponible dès le 17.10.2026.\n\nJe serais ravie d’échanger brièvement avec vous afin de voir si ce profil peut répondre à vos besoins pour ce projet. Seriez-vous disponible pour un court appel cette semaine ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Machinistes disponibles pour votre projet à Troistorrents",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication du marché « H201 : Lévaux / Arrêts de bus » à Troistorrents.\n\nDans ce contexte, je peux vous proposer deux machinistes :\n\n• 28 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Hérémence, disponible dès le 04.10.2026 ;\n• débutant, titulaire des permis machiniste M1-M6 et de la certification SUVA sécurité chantier, basé à Fully, disponible dès le 11.10.2026.\n\nCes profils pourraient compléter vos équipes selon l’avancement de vos travaux. Seriez-vous disponible pour un court appel cette semaine afin d’en discuter ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
-   "12.08.2026 — Adjudication SIMAP 0.27 MCHF : H201 : Lévaux / Arrêts de bus",
-   "Machiniste · 0 ans d'expérience · certifications : Permis machiniste M1-M6, SUVA sécurité chantier · basé à Fully · disponible dès le 17.10.2026"
+   "12.08.2026 — Adjudication SIMAP 0.27 MCHF : H201 : Lévaux / Arrêts de bus"
   ],
   "langue": "français",
-  "hash": "6be51b445b0c",
+  "hash": "1a3dd4298818",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:55",
+  "genere_le": "2026-10-04T11:09:14",
   "fictif": true
  },
  "entreprise|helvepark|*": {
-  "objet": "Profils maçons disponibles pour vos chantiers à Chalais",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP du Skatepark Bozon à Chalais, d’un montant de 0.35 MCHF.\n\nNous pouvons vous proposer trois maçons expérimentés :\n• 12 ans d’expérience, AFP aide-maçon, véhiculé, basé à Fieschertal, disponible dès le 17.10.2026 ;\n• 21 ans d’expérience, basé à Sierre, disponible dès le 03.10.2026 ;\n• 13 ans d’expérience, CFC maçon et AFP aide-maçon, formé aux premiers secours, véhiculé, basé à Saint-Léonard, disponible dès le 10.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins actuels ou à venir ?\n\nMeilleures salutations,\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Profils de maçons disponibles pour vos projets",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP concernant le Skatepark Bozon à Chalais. Nous pouvons vous proposer trois maçons expérimentés :\n\n• 12 ans d’expérience, AFP aide-maçon, véhiculé, basé à Fieschertal, disponible dès le 18.10.2026 ;\n• 21 ans d’expérience, basé à Sierre, disponible dès le 04.10.2026 ;\n• 24 ans d’expérience, CFC maçon et AFP aide-maçon, Premiers secours et SUVA sécurité chantier, véhiculé, basé à Fully, disponible dès le 18.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins éventuels ?\n\nMeilleures salutations,\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
    "30.07.2026 — Adjudication SIMAP 0.35 MCHF : Skatepark Bozon"
   ],
   "langue": "français",
-  "hash": "65886928e90f",
+  "hash": "50ef806553a5",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:55",
+  "genere_le": "2026-10-04T11:09:14",
   "fictif": true
  },
  "entreprise|christian jean|*": {
-  "objet": "Machinistes disponibles pour vos prochains chantiers à Arbaz",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication du réaménagement de la route du village à Arbaz. Pour vos prochains travaux, nous pouvons vous proposer trois machinistes :\n\n• 26 ans d’expérience, permis M1-M6, premiers secours, véhiculé, basé à Sierre, disponible dès le 03.10.2026 ;\n• 18 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Visperterminen, disponible dès le 03.10.2026 ;\n• permis M1-M6 et certification SUVA sécurité chantier, basé à Fully, disponible dès le 17.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins et les profils adaptés ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Machinistes disponibles pour vos travaux à Arbaz",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP concernant le réaménagement de la route du village à Arbaz. Dans ce contexte, nous pouvons vous proposer trois machinistes expérimentés :\n\n• 26 ans d’expérience, permis M1-M6, premiers secours, véhiculé, basé à Sierre, disponible dès le 04.10.2026 ;\n• 28 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Hérémence, disponible dès le 04.10.2026 ;\n• 18 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Visperterminen, disponible dès le 18.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
    "11.07.2026 — Adjudication SIMAP 0.72 MCHF : Commune d'Arbaz / Réaménagement de la route du village"
   ],
   "langue": "français",
-  "hash": "42ba10350ffc",
+  "hash": "2db6542a8552",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:57",
+  "genere_le": "2026-10-04T11:09:16",
   "fictif": true
  },
  "entreprise|cde construction|*": {
-  "objet": "Un machiniste disponible pour votre projet à Monthey",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour votre projet de démolition et d’immeuble de 6 appartements avec couvert et photovoltaïque à Monthey, actuellement mis à l’enquête.\n\nPour vos travaux de terrassement, nous pouvons vous proposer un machiniste basé à Fully, disponible dès le 17.10.2026. Il dispose des permis machiniste M1-M6 ainsi que de la certification SUVA sécurité chantier.\n\nJe serais ravie d’échanger avec vous afin de voir si ce profil peut répondre à vos besoins. Auriez-vous 10 minutes pour un court appel cette semaine ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Mise à l’enquête à Monthey – profils machinistes disponibles",
+  "corps": "Madame, Monsieur,\n\nNous avons pris connaissance de la mise à l’enquête du 02.10.2026 à Monthey pour la démolition et la construction d’un immeuble de 6 appartements avec couvert et photovoltaïque. Un projet intéressant pour CDE Construction Sàrl.\n\nNous pouvons vous proposer deux machinistes :\n• 28 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Hérémence, disponible dès le 04.10.2026 ;\n• permis machiniste M1-M6 et certification SUVA sécurité chantier, basé à Fully, disponible dès le 11.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
-   "02.10.2026 — Mise à l'enquête (grand) Monthey — terrassement : Démolition et immeuble de 6 appartements avec couvert et photovoltaïque [entreprise nommée : CDE Construction Sàrl]",
-   "Machiniste · 0 ans d'expérience · certifications : Permis machiniste M1-M6, SUVA sécurité chantier · basé à Fully · disponible dès le 17.10.2026"
+   "02.10.2026 — Mise à l'enquête (grand) Monthey — terrassement : Démolition et immeuble de 6 appartements avec couvert et photovoltaïque [entreprise nommée : CDE Construction Sàrl]"
   ],
   "langue": "français",
-  "hash": "6be7ff1b2263",
+  "hash": "33a9610d1191",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:17:58",
+  "genere_le": "2026-10-04T11:09:14",
   "fictif": true
  },
  "entreprise|anton fercher stahl und metallbau|*": {
-  "objet": "Maschinisten für die neue Gewerbehalle in Visp",
-  "corps": "Sehr geehrte Damen und Herren\n\nDie geplante neue Gewerbehalle in Visp – mit Ausschreibungen für Erdarbeiten, Rohbau, Dach / Gebäudehülle, Technik und Ausbau – klingt nach einem spannenden Vorhaben.\n\nFür Erdarbeiten können wir Ihnen folgende Profile vorstellen:\n\n• Maschinist mit 18 Jahren Erfahrung, SUVA-Zertifizierung Arbeitssicherheit, eigenem Fahrzeug, wohnhaft in Visperterminen; verfügbar ab 03.10.2026.\n• Maschinist mit Bewilligungen M1–M6 und SUVA-Zertifizierung Arbeitssicherheit, wohnhaft in Fully; verfügbar ab 17.10.2026.\n\nGerne klären wir kurz, ob eines der Profile für Ihr Vorhaben interessant ist. Hätten Sie diese Woche Zeit für einen kurzen Austausch?\n\nFreundliche Grüsse\n\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Maschinisten für Ihre neue Gewerbehalle in Visp",
+  "corps": "Sehr geehrte Damen und Herren\n\nHerzlichen Glückwunsch zur geplanten neuen Gewerbehalle in Visp – das öffentlich aufgelegte Bauvorhaben umfasst unter anderem Erdarbeiten und Rohbau.\n\nFür entsprechende Einsätze können wir Ihnen folgende Maschinisten vorstellen:\n\n• 28 Jahre Erfahrung, SUVA-Sicherheitszertifikat, eigenes Fahrzeug, wohnhaft in Hérémence, verfügbar ab 04.10.2026\n• 18 Jahre Erfahrung, SUVA-Sicherheitszertifikat, eigenes Fahrzeug, wohnhaft in Visperterminen, verfügbar ab 18.10.2026\n• Keine Berufserfahrung, jedoch Führerausweise M1–M6 und SUVA-Sicherheitszertifikat, wohnhaft in Fully, verfügbar ab 11.10.2026\n\nGerne erläutere ich Ihnen die Profile kurz telefonisch. Passt Ihnen ein kurzer Austausch diese Woche?\n\nFreundliche Grüsse\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
    "31.07.2026 — Mise à l'enquête (grand) Visp — terrassement : Construction neuve d’une halle commerciale à Viège [entreprise nommée : Anton Fercher, Stahl- und Metallbau AG]",
    "31.07.2026 — Mise à l'enquête (grand) Visp — gros œuvre : Construction neuve d’une halle commerciale à Viège [entreprise nommée : Anton Fercher, Stahl- und Metallbau AG]",
-   "31.07.2026 — Mise à l'enquête (grand) Visp — toiture / enveloppe : Construction neuve d’une halle commerciale à Viège [entreprise nommée : Anton Fercher, Stahl- und Metallbau AG]",
-   "31.07.2026 — Mise à l'enquête (grand) Visp — technique : Construction neuve d’une halle commerciale à Viège [entreprise nommée : Anton Fercher, Stahl- und Metallbau AG]",
-   "31.07.2026 — Mise à l'enquête (grand) Visp — finitions : Construction neuve d’une halle commerciale à Viège [entreprise nommée : Anton Fercher, Stahl- und Metallbau AG]",
-   "Machiniste · 18 ans d'expérience · certifications : SUVA sécurité chantier · véhiculé · basé à Visperterminen · disponible dès le 03.10.2026",
-   "Machiniste · 0 ans d'expérience · certifications : Permis machiniste M1-M6, SUVA sécurité chantier · basé à Fully · disponible dès le 17.10.2026"
+   "Machiniste · 28 ans d'expérience · certifications : SUVA sécurité chantier · véhiculé · basé à Hérémence · disponible dès le 04.10.2026",
+   "Machiniste · 18 ans d'expérience · certifications : SUVA sécurité chantier · véhiculé · basé à Visperterminen · disponible dès le 18.10.2026",
+   "Machiniste · 0 ans d'expérience · certifications : Permis machiniste M1-M6, SUVA sécurité chantier · basé à Fully · disponible dès le 11.10.2026"
   ],
   "langue": "allemand",
-  "hash": "c4d3da620fbb",
+  "hash": "630a86019aa2",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:18:01",
+  "genere_le": "2026-10-04T11:09:18",
   "fictif": true
  },
  "entreprise|ensapp ensembles d appareillage|*": {
-  "objet": "Électriciens disponibles pour vos prochains besoins à Sion",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP liée au Campus du Pôle Santé – CFC 231.21 – Tableaux électriques principaux. Pour vos prochains besoins, nous pouvons vous proposer trois électriciens / monteurs électriciens expérimentés :\n\n• 19 ans d’expérience, véhiculé, basé à Saillon, disponible dès le 06.10.2026 ;\n• 24 ans d’expérience, autorisation OIBT, véhiculé, basé à Crans-Montana, disponible dès le 03.10.2026 ;\n• 14 ans d’expérience, CFC installateur-électricien et sécurité chantier SUVA, basé à Bürchen, disponible dès le 10.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Profils d’électriciens pour vos prochains travaux à Sion",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP du Campus du Pôle Santé, CFC 231.21 – Tableaux électriques principaux.\n\nPour vos prochains travaux, nous pouvons vous proposer :\n• un électricien avec 19 ans d’expérience, véhiculé, disponible dès le 18.10.2026 ;\n• un électricien avec 24 ans d’expérience, autorisation OIBT, véhiculé, disponible dès le 04.10.2026 ;\n• un électricien avec 14 ans d’expérience, CFC installateur-électricien et certification SUVA sécurité chantier, disponible dès le 07.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
    "21.08.2026 — Adjudication SIMAP 0.12 MCHF : Campus du Pôle Santé - CFC 231.21 - Tableaux électriques principaux"
   ],
   "langue": "français",
-  "hash": "38ff508b48e0",
+  "hash": "b0a8daeae711",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:18:01",
+  "genere_le": "2026-10-04T11:09:16",
   "fictif": true
  },
  "entreprise|riverside construction|*": {
-  "objet": "Électriciens disponibles pour votre projet à Ayent",
-  "corps": "Madame, Monsieur,\n\nVotre projet d’aménagement d’un 4e appartement dans un immeuble en construction à Ayent a retenu notre attention.\n\nNous pouvons vous proposer trois électriciens :\n• 19 ans d’expérience, véhiculé, basé à Saillon, disponible dès le 06.10.2026 ;\n• 24 ans d’expérience, autorisation OIBT, véhiculé, basé à Crans-Montana, disponible dès le 03.10.2026 ;\n• 14 ans d’expérience, CFC installateur-électricien et formation SUVA sécurité chantier, basé à Bürchen, disponible dès le 10.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins et les profils adaptés ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Électriciens disponibles pour vos prochains travaux à Ayent",
+  "corps": "Madame, Monsieur,\n\nJ’ai pris connaissance avec intérêt de votre mise à l’enquête concernant l’aménagement d’un 4e appartement dans un immeuble en construction à Ayent.\n\nNous pouvons vous proposer trois électriciens expérimentés :\n• 19 ans d’expérience, véhiculé, basé à Saillon, disponible dès le 18.10.2026 ;\n• 24 ans d’expérience, autorisation OIBT, véhiculé, basé à Crans-Montana, disponible dès le 04.10.2026 ;\n• 14 ans d’expérience, CFC installateur-électricien et formation SUVA sécurité chantier, basé à Bürchen, disponible dès le 07.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
    "31.07.2026 — Mise à l'enquête (renovation) Ayent — technique : Aménagement d’un 4e appartement dans un immeuble en construction [entreprise nommée : Riverside Construction Sàrl]"
   ],
   "langue": "français",
-  "hash": "f2eb6468a810",
+  "hash": "68f75c3e0368",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:18:02",
+  "genere_le": "2026-10-04T11:09:17",
   "fictif": true
  },
  "entreprise|grichting valterio electro|*": {
-  "objet": "Électriciens expérimentés disponibles prochainement",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP concernant les installations électriques de la NCUAPE à Vollèges, ainsi que pour celle liée au Campus du Pôle Santé.\n\nPour vos prochains besoins, je peux vous proposer trois électriciens expérimentés :\n• 19 ans d’expérience, véhiculé, basé à Saillon, disponible dès le 06.10.2026 ;\n• 24 ans d’expérience, autorisation OIBT, véhiculé, basé à Crans-Montana, disponible dès le 03.10.2026 ;\n• 14 ans d’expérience, CFC installateur-électricien et formation SUVA sécurité chantier, basé à Bürchen, disponible dès le 10.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Électriciens disponibles pour vos prochains chantiers",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP du 17.09.2026 concernant la construction d’une NCUAPE à Vollèges – CFC 230 Installations électriques.\n\nNous pouvons vous proposer trois électriciens :\n• 19 ans d’expérience, véhiculé, basé à Saillon, disponible dès le 18.10.2026 ;\n• 24 ans d’expérience, autorisation OIBT, véhiculé, basé à Crans-Montana, disponible dès le 04.10.2026 ;\n• 14 ans d’expérience, CFC installateur-électricien et formation SUVA sécurité chantier, basé à Bürchen, disponible dès le 07.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos prochains besoins ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
-   "17.09.2026 — Adjudication SIMAP 0.43 MCHF : Construction d'une NCUAPE à Vollèges - CFC 230 Installations électriqu",
-   "16.09.2026 — Adjudication SIMAP 0.09 MCHF : Campus du Pôle Santé - CFC 853 - Electricité pour puits de pompage"
+   "17.09.2026 — Adjudication SIMAP 0.43 MCHF : Construction d'une NCUAPE à Vollèges - CFC 230 Installations électriqu"
   ],
   "langue": "français",
-  "hash": "6e9424e1ad30",
+  "hash": "6ccb20cfeabf",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:18:00",
+  "genere_le": "2026-10-04T11:09:18",
   "fictif": true
  },
  "entreprise|rithner|*": {
-  "objet": "Renfort machinistes pour vos travaux de terrassement",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP concernant la construction d’une NCUAPE à Vollèges, incluant les travaux de terrassement.\n\nDans le cadre de notre collaboration, nous pouvons vous proposer deux machinistes :\n\n• 2 ans d’expérience, Premiers secours, véhiculé, basé à Bovernier, disponible dès le 03.10.2026 ;\n• profil junior, titulaire des permis machiniste M1-M6 et de la certification SUVA sécurité chantier, basé à Fully, disponible dès le 17.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins liés à ce chantier ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Machinistes disponibles pour vos prochains chantiers",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication du projet de construction d’une NCUAPE à Vollèges, dans le cadre des terrassements CFC 201.1.\n\nEn tant que partenaire de RITHNER SA, nous pouvons vous proposer les profils suivants :\n• Machiniste, 28 ans d’expérience, certification SUVA sécurité chantier, véhiculé, disponible dès le 04.10.2026.\n• Machiniste, 2 ans d’expérience, premiers secours, véhiculé, disponible dès le 18.10.2026.\n• Machiniste débutant, permis machiniste M1-M6 et SUVA sécurité chantier, disponible dès le 11.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins à venir ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
    "17.09.2026 — Adjudication SIMAP 0.39 MCHF : Construction d'une NCUAPE à Vollèges - CFC 201.1 Terrassements",
-   "Machiniste · 2 ans d'expérience · certifications : Premiers secours · véhiculé · basé à Bovernier · disponible dès le 03.10.2026",
-   "Machiniste · 0 ans d'expérience · certifications : Permis machiniste M1-M6, SUVA sécurité chantier · basé à Fully · disponible dès le 17.10.2026"
+   "Machiniste · 2 ans d'expérience · certifications : Premiers secours · véhiculé · basé à Bovernier · disponible dès le 18.10.2026",
+   "Machiniste · 28 ans d'expérience · certifications : SUVA sécurité chantier · véhiculé · basé à Hérémence · disponible dès le 04.10.2026",
+   "Machiniste · 0 ans d'expérience · certifications : Permis machiniste M1-M6, SUVA sécurité chantier · basé à Fully · disponible dès le 11.10.2026"
   ],
   "langue": "français",
-  "hash": "ab2ce8f905a8",
+  "hash": "c213030038ea",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:18:02",
+  "genere_le": "2026-10-04T11:09:19",
   "fictif": true
  },
  "entreprise|conforti|*": {
-  "objet": "Profils maçons disponibles pour vos prochains travaux",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP de 3.25 MCHF concernant la construction d’une NCUAPE à Vollèges, en CFC 211 Maçonnerie.\n\nDans ce contexte, nous pouvons vous proposer trois maçons expérimentés :\n• 12 ans d’expérience, CFC maçon, AFP aide-maçon, Premiers secours, véhiculé, disponible dès le 06.10.2026 ;\n• 13 ans d’expérience, mêmes certifications, véhiculé, disponible dès le 10.10.2026 ;\n• 27 ans d’expérience, AFP aide-maçon et SUVA sécurité chantier, disponible dès le 03.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins ?\n\nMeilleures salutations,\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Renforts manœuvres pour votre chantier à Vollèges",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP de 3.25 MCHF concernant la construction d’une NCUAPE à Vollèges – CFC 211 Maçonnerie.\n\nPour accompagner vos équipes sur ce chantier, nous pouvons vous proposer trois manœuvres expérimentés :\n• 24 ans d’expérience, certification SUVA sécurité chantier, basé à Sion, disponible dès le 07.10.2026 ;\n• 25 ans d’expérience, certification Premiers secours, basé à Brig-Glis, disponible dès le 04.10.2026 ;\n• 23 ans d’expérience, véhiculé, basé à Vex, disponible dès le 07.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins et les disponibilités ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
    "17.09.2026 — Adjudication SIMAP 3.25 MCHF : Construction d'une NCUAPE à Vollèges - CFC 211 Maçonnerie",
-   "Maçon · 12 ans d'expérience · certifications : CFC maçon, AFP aide-maçon, Premiers secours · véhiculé · basé à Trient · disponible dès le 06.10.2026",
-   "Maçon · 13 ans d'expérience · certifications : CFC maçon, AFP aide-maçon, Premiers secours · véhiculé · basé à Saint-Léonard · disponible dès le 10.10.2026",
-   "Maçon · 27 ans d'expérience · certifications : AFP aide-maçon, SUVA sécurité chantier · basé à Raron · disponible dès le 03.10.2026"
+   "Manœuvre · 24 ans d'expérience · certifications : SUVA sécurité chantier · basé à Sion · disponible dès le 07.10.2026",
+   "Manœuvre · 25 ans d'expérience · certifications : Premiers secours · basé à Brig-Glis · disponible dès le 04.10.2026",
+   "Manœuvre · 23 ans d'expérience · véhiculé · basé à Vex · disponible dès le 07.10.2026"
   ],
   "langue": "français",
-  "hash": "5397da900996",
+  "hash": "02d7a07eacdf",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:18:02",
+  "genere_le": "2026-10-04T11:09:19",
   "fictif": true
  },
  "entreprise|oiken solutions|*": {
   "objet": "Électriciens disponibles pour vos projets à Sierre",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP de 0.22 MCHF concernant la construction du Campus EDHEA et de l’École de couture du Valais à Sierre.\n\nFlexsis peut vous proposer trois électriciens expérimentés :\n• 19 ans d’expérience, véhiculé, disponible dès le 06.10.2026 ;\n• 24 ans d’expérience, autorisation OIBT, véhiculé, disponible dès le 03.10.2026 ;\n• 14 ans d’expérience, CFC d’installateur-électricien et certification SUVA sécurité chantier, disponible dès le 10.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins ?\n\nMeilleures salutations,\nJulie Martin\nConsultante\nFlexsis",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication du projet « Construction du Campus EDHEA et Ecole de couture du Valais à Sierre ».\n\nNous pouvons vous présenter trois électriciens expérimentés :\n\n• 19 ans d’expérience, véhiculé, basé à Saillon, disponible dès le 18.10.2026 ;\n• 24 ans d’expérience, autorisation OIBT, véhiculé, basé à Crans-Montana, disponible dès le 04.10.2026 ;\n• 14 ans d’expérience, CFC installateur-électricien et certification SUVA sécurité chantier, basé à Bürchen, disponible dès le 07.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins actuels ou à venir ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
    "18.09.2026 — Adjudication SIMAP 0.22 MCHF : Construction du Campus EDHEA et Ecole de couture du Valais à Sierre - ",
-   "Électricien · 19 ans d'expérience · véhiculé · basé à Saillon · disponible dès le 06.10.2026",
-   "Électricien · 24 ans d'expérience · certifications : OIBT autorisation · véhiculé · basé à Crans-Montana · disponible dès le 03.10.2026",
-   "Électricien · 14 ans d'expérience · certifications : CFC installateur-électricien, SUVA sécurité chantier · basé à Bürchen · disponible dès le 10.10.2026"
+   "Électricien · 19 ans d'expérience · véhiculé · basé à Saillon · disponible dès le 18.10.2026",
+   "Électricien · 24 ans d'expérience · certifications : OIBT autorisation · véhiculé · basé à Crans-Montana · disponible dès le 04.10.2026",
+   "Électricien · 14 ans d'expérience · certifications : CFC installateur-électricien, SUVA sécurité chantier · basé à Bürchen · disponible dès le 07.10.2026"
   ],
   "langue": "français",
-  "hash": "e05dbe8d5836",
+  "hash": "0cf07297343d",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:18:03",
+  "genere_le": "2026-10-04T11:09:22",
   "fictif": true
  },
  "entreprise|astori|*": {
-  "objet": "Renforts charpentiers pour vos prochains chantiers",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP de 1.20 MCHF concernant l’agrandissement du centre scolaire de Grône.\n\nNous pouvons vous proposer deux charpentiers disponibles dès le 06.10.2026 :\n\n• Un professionnel avec 28 ans d’expérience, certification SUVA sécurité chantier, véhiculé et basé à Visp.\n• Un charpentier avec 7 ans d’expérience, certification Premiers secours, véhiculé et basé à Mont-Noble.\n\nDéjà à vos côtés, Flexsis se tient à votre disposition pour accompagner vos prochains besoins en renfort sur chantier.\n\nAuriez-vous 10 minutes cette semaine pour en discuter par téléphone ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Profils de charpentiers disponibles pour vos projets",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP du 24.09.2026 concernant la construction d’une NCUAPE à Vollèges – CFC 214.2 Charpente.\n\nDans le cadre de vos prochains besoins, nous pouvons vous proposer deux charpentiers expérimentés :\n\n• 7 ans d’expérience, certification Premiers secours, véhiculé, basé à Mont-Noble, disponible dès le 18.10.2026 ;\n• 15 ans d’expérience, véhiculé, basé à Veysonnaz, disponible dès le 12.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos projets et les profils qui pourraient vous convenir ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
-   "25.09.2026 — Adjudication SIMAP 1.20 MCHF : Ecole de Grône - Agrandissement du centre scolaire",
-   "Charpentier · 28 ans d'expérience · certifications : SUVA sécurité chantier · véhiculé · basé à Visp · disponible dès le 06.10.2026",
-   "Charpentier · 7 ans d'expérience · certifications : Premiers secours · véhiculé · basé à Mont-Noble · disponible dès le 06.10.2026"
+   "24.09.2026 — Adjudication SIMAP 0.97 MCHF : Construction d'une NCUAPE à Vollèges - CFC 214.2 Charpente"
   ],
   "langue": "français",
-  "hash": "c175c9c7e53e",
+  "hash": "a673ef02db8e",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:18:04",
+  "genere_le": "2026-10-04T11:09:21",
   "fictif": true
  },
  "entreprise|luyet constructions metalliques|*": {
-  "objet": "Menuisiers disponibles dès octobre pour vos projets",
-  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP concernant l’agrandissement du centre scolaire de Grône.\n\nPour vos projets, nous pouvons vous proposer trois menuisiers :\n\n• 8 ans d’expérience, véhiculé, basé à Saint-Léonard, disponible dès le 17.10.2026 ;\n• 10 ans d’expérience, certifications Premiers secours et SUVA sécurité chantier, véhiculé, basé à Salvan, disponible dès le 17.10.2026 ;\n• 30 ans d’expérience, certification Premiers secours, basé à Saillon, disponible dès le 10.10.2026.\n\nAuriez-vous 10 minutes cette semaine pour échanger sur vos besoins et les profils correspondant à votre activité ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Menuisiers disponibles pour vos prochains travaux à Grône",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP du 24.09.2026 concernant l’agrandissement du centre scolaire de Grône. Nous pouvons vous proposer trois menuisiers selon vos besoins :\n\n• 8 ans d’expérience, véhiculé, basé à Saint-Léonard, disponible dès le 18.10.2026 ;\n• 10 ans d’expérience, certifications Premiers secours et SUVA sécurité chantier, véhiculé, basé à Salvan, disponible dès le 07.10.2026 ;\n• 30 ans d’expérience, certification Premiers secours, basé à Saillon, disponible dès le 11.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins ?\n\nMeilleures salutations,\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
-   "24.09.2026 — Adjudication SIMAP 0.19 MCHF : Ecole de Grône - Agrandissement du centre scolaires"
+   "24.09.2026 — Adjudication SIMAP 0.19 MCHF : Ecole de Grône - Agrandissement du centre scolaires",
+   "Menuisier · 8 ans d'expérience · véhiculé · basé à Saint-Léonard · disponible dès le 18.10.2026",
+   "Menuisier · 10 ans d'expérience · certifications : Premiers secours, SUVA sécurité chantier · véhiculé · basé à Salvan · disponible dès le 07.10.2026",
+   "Menuisier · 30 ans d'expérience · certifications : Premiers secours · basé à Saillon · disponible dès le 11.10.2026"
   ],
   "langue": "français",
-  "hash": "2f4ebee9a9ed",
+  "hash": "e648a3743a74",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:18:07",
+  "genere_le": "2026-10-04T11:09:20",
   "fictif": true
  },
  "entreprise|lbf constructions réalisations|*": {
-  "objet": "Électriciens disponibles pour vos prochains travaux à Vouvry",
-  "corps": "Madame, Monsieur,\n\nVotre mise à l’enquête à Vouvry pour la surélévation d’un immeuble avec couvert à vélos et deux places de parc a retenu notre attention.\n\nNous pouvons vous proposer plusieurs électriciens selon vos besoins :\n\n• 19 ans d’expérience, véhiculé, basé à Saillon, disponible dès le 06.10.2026 ;\n• 24 ans d’expérience, autorisation OIBT, véhiculé, basé à Crans-Montana, disponible dès le 03.10.2026 ;\n• 10 ans d’expérience, CFC d’installateur-électricien, basé à Nendaz, disponible dès le 03.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur votre projet ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Électriciens disponibles pour votre projet à Vouvry",
+  "corps": "Madame, Monsieur,\n\nLa mise à l’enquête du 21.08.2026 concernant la surélévation d’un immeuble à Vouvry, avec couvert à vélos et deux places de parc, retient notre attention.\n\nPour vos travaux électriques, nous pouvons vous proposer :\n• un électricien avec 19 ans d’expérience, véhiculé, basé à Saillon, disponible dès le 18.10.2026 ;\n• un électricien avec 24 ans d’expérience, au bénéfice d’une autorisation OIBT, véhiculé, basé à Crans-Montana, disponible dès le 04.10.2026 ;\n• un électricien avec 10 ans d’expérience, titulaire d’un CFC d’installateur-électricien, basé à Nendaz, disponible dès le 18.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins ?\n\nMeilleures salutations,\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
    "21.08.2026 — Mise à l'enquête (renovation) Vouvry — technique : Surélévation d’un immeuble avec couvert à vélos et deux places de parc [entreprise nommée : LBF constructions & réalisations sàrl]",
-   "Électricien · 19 ans d'expérience · véhiculé · basé à Saillon · disponible dès le 06.10.2026",
-   "Électricien · 24 ans d'expérience · certifications : OIBT autorisation · véhiculé · basé à Crans-Montana · disponible dès le 03.10.2026",
-   "Électricien · 10 ans d'expérience · certifications : CFC installateur-électricien · basé à Nendaz · disponible dès le 03.10.2026"
+   "Électricien · 19 ans d'expérience · véhiculé · basé à Saillon · disponible dès le 18.10.2026",
+   "Électricien · 24 ans d'expérience · certifications : OIBT autorisation · véhiculé · basé à Crans-Montana · disponible dès le 04.10.2026",
+   "Électricien · 10 ans d'expérience · certifications : CFC installateur-électricien · basé à Nendaz · disponible dès le 18.10.2026"
   ],
   "langue": "français",
-  "hash": "603822388ef6",
+  "hash": "d9e851dc8581",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:18:06",
-  "fictif": true
- },
- "entreprise|genedis|*": {
-  "objet": "Profils d’électriciens disponibles dès début octobre",
-  "corps": "Madame, Monsieur,\n\nVos annonces récentes pour des postes d’apprenti-e électricien-ne de réseau témoignent de vos besoins actuels en développement de compétences.\n\nDans ce contexte, nous pouvons vous proposer trois électriciens expérimentés :\n\n• 19 ans d’expérience, véhiculé, basé à Saillon, disponible dès le 06.10.2026 ;\n• 24 ans d’expérience, autorisation OIBT, véhiculé, basé à Crans-Montana, disponible dès le 03.10.2026 ;\n• 10 ans d’expérience, CFC d’installateur-électricien, basé à Nendaz, disponible dès le 03.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur ces profils ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
-  "faits_utilises": [
-   "26.09.2026 — Annonce récente : Apprenti-e Electricien-ne de réseau",
-   "25.09.2026 — Annonce récente : Apprenti Electricien-ne de réseau",
-   "30.09.2026 — Annonce récente : Apprenti-e Electricien-ne de réseau"
-  ],
-  "langue": "français",
-  "hash": "e0ee18444c0f",
-  "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:18:05",
+  "genere_le": "2026-10-04T11:09:24",
   "fictif": true
  },
  "entreprise|debons métal|*": {
-  "objet": "Profils de serruriers disponibles pour vos prochains besoins",
-  "corps": "Madame, Monsieur,\n\nVotre annonce récente : Constructeur métallique CFC, publiée le 24.09.2026, a retenu notre attention.\n\nNous pouvons vous proposer trois serruriers expérimentés :\n• 20 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Icogne, disponible dès le 17.10.2026 ;\n• 27 ans d’expérience, certification Premiers secours, véhiculé, basé à Monthey, disponible dès le 10.10.2026 ;\n• 22 ans d’expérience, certification Premiers secours, basé à Liddes, disponible dès le 03.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur vos besoins actuels ou à venir ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
+  "objet": "Profils de serruriers disponibles dès le 4 octobre",
+  "corps": "Madame, Monsieur,\n\nVotre annonce récente pour un constructeur métallique CFC, publiée le 24.09.2026, a retenu notre attention.\n\nNous pouvons vous présenter trois serruriers expérimentés : 20 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Icogne, disponible dès le 04.10.2026 ; 27 ans d’expérience, certification premiers secours, véhiculé, basé à Monthey, disponible dès le 04.10.2026 ; ou 22 ans d’expérience, certification premiers secours, basé à Liddes, disponible dès le 07.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’échanger sur ces profils ?\n\nMeilleures salutations,\n\nJulie Martin\nConsultante\nFlexsis",
   "faits_utilises": [
    "24.09.2026 — Annonce récente : Constructeur métallique CFC",
-   "Serrurier · 20 ans d'expérience · certifications : SUVA sécurité chantier · véhiculé · basé à Icogne · disponible dès le 17.10.2026",
-   "Serrurier · 27 ans d'expérience · certifications : Premiers secours · véhiculé · basé à Monthey · disponible dès le 10.10.2026",
-   "Serrurier · 22 ans d'expérience · certifications : Premiers secours · basé à Liddes · disponible dès le 03.10.2026"
+   "Serrurier · 20 ans d'expérience · certifications : SUVA sécurité chantier · véhiculé · basé à Icogne · disponible dès le 04.10.2026",
+   "Serrurier · 27 ans d'expérience · certifications : Premiers secours · véhiculé · basé à Monthey · disponible dès le 04.10.2026",
+   "Serrurier · 22 ans d'expérience · certifications : Premiers secours · basé à Liddes · disponible dès le 07.10.2026"
   ],
   "langue": "français",
-  "hash": "d94b0b23c469",
+  "hash": "6b2c74209202",
   "model": "gpt-5.6-luna",
-  "genere_le": "2026-10-03T17:18:07",
+  "genere_le": "2026-10-04T11:09:22",
+  "fictif": true
+ },
+ "entreprise|imwinkelried lüftung und klima|*": {
+  "objet": "Profils d’installateurs en chauffage disponibles en octobre",
+  "corps": "Madame, Monsieur,\n\nFélicitations pour l’adjudication SIMAP du 17.09.2026 concernant la construction d’une NCUAPE à Vollèges – CFC 244 Installations de ventil.\n\nDans le cadre de vos prochains travaux, nous pouvons vous proposer trois installateurs en chauffage :\n\n• 4 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Collonges, disponible dès le 04.10.2026 ;\n• 16 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Val-d’Illiez, disponible dès le 07.10.2026 ;\n• 21 ans d’expérience, certification SUVA sécurité chantier, véhiculé, basé à Grächen, disponible dès le 18.10.2026.\n\nSeriez-vous disponible pour un court appel cette semaine afin d’en discuter ?\n\nMeilleures salutations,\nJulie Martin\nConsultante\nFlexsis",
+  "faits_utilises": [
+   "17.09.2026 — Adjudication SIMAP 0.26 MCHF : Construction d'une NCUAPE à Vollèges - CFC 244 Installations de ventil"
+  ],
+  "langue": "français",
+  "hash": "92662ea1cacf",
+  "model": "gpt-5.6-luna",
+  "genere_le": "2026-10-04T11:09:18",
   "fictif": true
  }
 }

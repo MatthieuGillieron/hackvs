@@ -82,6 +82,8 @@ def opportunities(opps) -> list[dict]:
                 "family": s.family, "type": s.type, "label": s.label, "url": s.url, "date": s.date,
                 "fictif": s.fictif, "window": [s.window[0].isoformat(), s.window[1].isoformat()],
                 "phase": s.meta.get("phase"),
+                "metiers": [LABELS.get(m, m) for m in s.metiers],
+                **({"detail": s.meta["detail"]} if s.meta.get("detail") else {}),
                 **({"ia": True, "preuve": s.meta["preuve"]} if s.meta.get("ia") else {}),
             } for s in sigs],
         })
@@ -106,7 +108,7 @@ def clients(fx, opps) -> list[dict]:
     alerts = defaultdict(list)
     for o in opps:
         if o.company and o.level != "SURVEILLER":
-            alerts[norm_company(o.company)].append(o.level)
+            alerts[norm_company(o.company)].append(o)
     last_contact = {}
     for c in fx["fx_contacts"]:
         if c["date"] > last_contact.get(c["client_id"], {}).get("date", ""):
@@ -114,10 +116,12 @@ def clients(fx, opps) -> list[dict]:
     companies = _companies()
     out = []
     for c in fx["fx_clients"]:
-        lv = alerts.get(norm_company(c["name"]), [])
+        ops = sorted(alerts.get(norm_company(c["name"]), []), key=lambda o: LEVELS.index(o.level))
+        lv = [o.level for o in ops]
         lc = last_contact.get(c["id"])
         out.append({**c, "metiers": [LABELS.get(m, m) for m in c["metiers"]],
-                    "alerts": len(lv), "bestLevel": min(lv, key=LEVELS.index) if lv else None,
+                    "alerts": len(lv), "bestLevel": lv[0] if lv else None,
+                    "alertKeys": ["|".join(map(str, o.key)) for o in ops],
                     "lastContact": {"date": lc["date"], "type": lc["type"], "objet": lc["objet"]} if lc else None,
                     "registry": companies.get(norm_company(c["name"])), "fictif": True})
     return out
@@ -129,7 +133,7 @@ SOURCE_INFO: dict[str, tuple[str, str | None, str | None]] = {
     "communes": ("Référentiels", "https://www.agvchapp.bfs.admin.ch/", "contexte"),
     "calendrier": ("Référentiels", "https://www.vs.ch/web/se/vacances-scolaires", None),
     "permis_construire": ("Chantiers & projets", "https://www.vs.ch/web/bo", "projet"),
-    "grands_projets": ("Chantiers & projets", "https://www.vs.ch/web/bo", None),
+    "grands_projets": ("Chantiers & projets", "https://www.vs.ch/web/bo", "projet"),
     "simap": ("Chantiers & projets", "https://www.simap.ch/", "projet"),
     "registre_commerce": ("Entreprises", "https://www.shab.ch/", "entreprise"),
     "faillites": ("Entreprises", "https://www.shab.ch/", None),
@@ -148,8 +152,8 @@ SOURCE_INFO: dict[str, tuple[str, str | None, str | None]] = {
     "places_vacantes": ("Statistiques OFS", "https://www.pxweb.bfs.admin.ch/", None),
     "meteo": ("Météo", "https://open-meteo.com/", "contexte"),
     "meteosuisse": ("Météo", "https://www.meteosuisse.admin.ch/", None),
-    "presse": ("Presse & web", "https://www.lenouvelliste.ch/", None),
-    "communiques_vs": ("Presse & web", "https://www.vs.ch/", None),
+    "presse": ("Presse & web", "https://www.lenouvelliste.ch/", "projet"),
+    "communiques_vs": ("Presse & web", "https://www.vs.ch/", "projet"),
     "sites_web": ("Presse & web", None, None),
     "fx_clients": ("Interne Flexsis (simulé)", None, "contexte"),
     "fx_candidats": ("Interne Flexsis (simulé)", None, "vivier"),

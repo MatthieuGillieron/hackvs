@@ -22,6 +22,16 @@ export interface Signal {
   phase: string | null
   ia?: boolean          // fiche extraite du texte par LLM (prototype/extract.py)
   preuve?: string       // extrait exact du texte source qui justifie la fiche
+  metiers: string[]
+  detail?: SignalDetail
+}
+
+// Ce que dit la source, lisible sans l'ouvrir (prototype/signals.py `detail`) : fiche LLM déjà en cache
+// (permis, annonces de projet) ou champs structurés (SIMAP, annonces d'emploi, FOSC).
+export interface SignalDetail {
+  titre: string | null
+  resume: string | null
+  faits: string[]
 }
 
 export interface Vivier {
@@ -112,6 +122,7 @@ export interface Client {
   potential: string
   alerts: number
   bestLevel: Level | null
+  alertKeys: string[] // clés des alertes en cours (AGIR puis PRÉPARER), pour ouvrir /alertes?alerte=<key>
   since: string // client depuis
   lastContact: { date: string; type: string; objet: string } | null
   registry: Registry | null // fiche Zefix (vraie entreprise) ; l'historique Flexsis reste fictif

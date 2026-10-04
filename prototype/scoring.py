@@ -128,7 +128,9 @@ def build(real_clients: bool = True, key_mode: str = "entreprise_metier",
                 o.signals.append(Signal("recrutement", "tension_zone", None, o.district, sorted(ms),
                                         (TODAY, TODAY + timedelta(days=45)), None, 8,
                                         f"{len(ctx)} annonces d'agences concurrentes pour ces métiers dans le {o.district}",
-                                        ctx[0].url, None))
+                                        ctx[0].url, None,
+                                        meta={"detail": {"titre": f"{len(ctx)} annonces d'agences dans la zone", "resume": None,
+                                                         "faits": sorted({a.meta.get("agence") for a in ctx if a.meta.get("agence")})[:6]}}))
 
     # Projet et Recrutement déclenchent une opportunité ; Entreprise et Historique ne font que confirmer
     opps = {k: o for k, o in opps.items() if any(s.family in ("projet", "recrutement") for s in o.signals)}
