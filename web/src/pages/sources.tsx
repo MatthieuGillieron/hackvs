@@ -6,7 +6,7 @@ import { SourceSheet } from "@/components/sources/source-sheet"
 import { Switch } from "@/components/sources/switch"
 import { StateTabs } from "@/components/db/state-tabs"
 import { FAMILY_DOT } from "@/components/level-badge"
-import { PageHeader } from "@/components/page"
+import { PageBody, PageHeader } from "@/components/page"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { useData } from "@/lib/data"
@@ -104,46 +104,50 @@ export function SourcesPage() {
   const freshest = Math.min(...rows.filter((r) => r.enabled && r.status).map((r) => r.status!.ageHours ?? Infinity))
 
   return (
-    <div className="mx-auto grid w-full max-w-4xl gap-6">
-      <PageHeader
-        actions={
-          <Button onClick={() => openSheet(null)}>
-            <PlusIcon /> Ajouter
-          </Button>
-        }
-      />
-
-      <p className="-mt-3 text-sm text-muted-foreground">
-        {active} sources actives · {feeding} alimentent les alertes · dernière collecte {ageLabel(freshest)}
-      </p>
-
-      <div className="flex flex-wrap items-center justify-between gap-3">
-        <StateTabs
-          value={f.vue}
-          onChange={(v) => set({ vue: v })}
-          items={Object.entries(VIEWS)
-            .map(([k, v]) => ({ value: k, label: v.label, count: rows.filter(v.test).length }))
-            .filter((it) => it.value === ALL || it.value === f.vue || it.count > 0)}
+    <>
+      <div className="mx-auto grid w-full max-w-4xl gap-6">
+        <PageHeader
+          actions={
+            <Button onClick={() => openSheet(null)}>
+              <PlusIcon /> Ajouter
+            </Button>
+          }
         />
-        <div className="relative w-full sm:w-56">
-          <SearchIcon className="pointer-events-none absolute top-1/2 left-2.5 size-4 -translate-y-1/2 text-muted-foreground" />
-          <Input value={f.q} onChange={(e) => set({ q: e.target.value })} placeholder="Rechercher" className="bg-background pl-8" />
+
+        <p className="-mt-3 text-sm text-muted-foreground">
+          {active} sources actives · {feeding} alimentent les alertes · dernière collecte {ageLabel(freshest)}
+        </p>
+
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <StateTabs
+            value={f.vue}
+            onChange={(v) => set({ vue: v })}
+            items={Object.entries(VIEWS)
+              .map(([k, v]) => ({ value: k, label: v.label, count: rows.filter(v.test).length }))
+              .filter((it) => it.value === ALL || it.value === f.vue || it.count > 0)}
+          />
+          <div className="relative w-full sm:w-56">
+            <SearchIcon className="pointer-events-none absolute top-1/2 left-2.5 size-4 -translate-y-1/2 text-muted-foreground" />
+            <Input value={f.q} onChange={(e) => set({ q: e.target.value })} placeholder="Rechercher" className="bg-background pl-8" />
+          </div>
         </div>
       </div>
 
-      <div className="grid gap-8">
-        {groups.map(([cat, list]) => (
-          <section key={cat} className="grid gap-2">
-            <h2 className="px-1 text-xs font-medium tracking-wide text-muted-foreground uppercase">{cat}</h2>
-            <ul className="divide-y overflow-hidden rounded-xl border bg-card">
-              {list.map((r) => <SourceLine key={r.id} row={r} onOpen={() => openSheet(r.id)} />)}
-            </ul>
-          </section>
-        ))}
-        {!groups.length && <p className="py-16 text-center text-sm text-muted-foreground">Aucune source.</p>}
-      </div>
+      <PageBody>
+        <div className="mx-auto grid w-full max-w-4xl gap-8">
+          {groups.map(([cat, list]) => (
+            <section key={cat} className="grid gap-2">
+              <h2 className="px-1 text-xs font-medium tracking-wide text-muted-foreground uppercase">{cat}</h2>
+              <ul className="divide-y overflow-hidden rounded-xl border bg-card">
+                {list.map((r) => <SourceLine key={r.id} row={r} onOpen={() => openSheet(r.id)} />)}
+              </ul>
+            </section>
+          ))}
+          {!groups.length && <p className="py-16 text-center text-sm text-muted-foreground">Aucune source.</p>}
+        </div>
+      </PageBody>
 
       <SourceSheet key={sheetKey} open={sheetOpen} onOpenChange={setSheetOpen} row={current} categories={categories} />
-    </div>
+    </>
   )
 }
