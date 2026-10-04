@@ -1,4 +1,4 @@
-import { BellRingIcon, BuildingIcon, DatabaseIcon, LayoutDashboardIcon, MapIcon, UsersIcon, type LucideIcon } from "lucide-react"
+import { BellRingIcon, BuildingIcon, ChartColumnIcon, DatabaseIcon, HouseIcon, UsersIcon, type LucideIcon } from "lucide-react"
 
 export interface NavItem {
   title: string
@@ -16,9 +16,9 @@ export const NAV_SECTIONS: NavSection[] = [
   {
     label: "Prospection",
     items: [
-      { title: "Dashboard", url: "/", icon: LayoutDashboardIcon, subtitle: "Votre semaine en un coup d'œil" },
+      { title: "Accueil", url: "/", icon: HouseIcon, subtitle: "Voici ce qui demande votre attention aujourd'hui." },
       { title: "Alertes", url: "/alertes", icon: BellRingIcon, subtitle: "Les signaux à traiter cette semaine" },
-      { title: "Carte", url: "/carte", icon: MapIcon, subtitle: "Les tensions par district et par métier" },
+      { title: "Analytics", url: "/analytics", icon: ChartColumnIcon, subtitle: "Ce que le radar vous apporte, et ce que vous en faites." },
     ],
   },
   {
@@ -41,5 +41,5 @@ export const OTHER_PAGES: Record<string, { title: string; subtitle: string }> = 
 
 export function pageInfo(pathname: string): { title: string; subtitle: string } {
   const item = NAV_SECTIONS.flatMap((s) => s.items).find((n) => n.url === pathname)
-  return item ?? OTHER_PAGES[pathname] ?? { title: "FlexRadar", subtitle: "" }
+  return item ?? OTHER_PAGES[pathname] ?? { title: "Flexsis", subtitle: "" }
 }

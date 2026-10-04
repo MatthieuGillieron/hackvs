@@ -1,5 +1,4 @@
 import * as React from "react"
-import { RadarIcon } from "lucide-react"
 import { Link } from "react-router"
 
 import { NavMain } from "@/components/nav-main"
@@ -19,16 +18,18 @@ import {
 import { useData } from "@/lib/data"
 import { NAV_SECTIONS } from "@/lib/nav"
 
+// Logo officiel Flexsis (flexsis.ch) : logo complet, symbole seul quand la sidebar est repliée.
 function Brand() {
   return (
     <SidebarMenu>
       <SidebarMenuItem>
-        <SidebarMenuButton size="lg" asChild>
-          <Link to="/">
-            <div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-              <RadarIcon className="size-5" />
-            </div>
-            <span className="truncate font-semibold">FlexRadar</span>
+        <SidebarMenuButton size="lg" asChild className="hover:bg-transparent">
+          <Link to="/" aria-label="Flexsis — accueil">
+            <img src="/img/brand/flexsis-symbole.png" alt="" className="hidden size-8 shrink-0 object-contain group-data-[collapsible=icon]:block" />
+            <span className="flex h-8 items-center px-1 group-data-[collapsible=icon]:hidden">
+              <img src="/img/brand/flexsis-logo.png" alt="Flexsis" className="h-7 w-auto dark:hidden" />
+              <img src="/img/brand/flexsis-logo-white.png" alt="Flexsis" className="hidden h-7 w-auto dark:block" />
+            </span>
           </Link>
         </SidebarMenuButton>
       </SidebarMenuItem>
