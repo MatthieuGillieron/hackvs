@@ -1,8 +1,11 @@
 # Hackathon Foire du Valais 2026 (HackVS)
 
-Can we anticipate staffing needs before they become critical?
 
-<video src="docs/motion.mp4" controls width="100%"></video>
+**Theme:** Can we anticipate staffing needs before they become critical?
+
+
+https://github.com/user-attachments/assets/fa0bae63-4cce-4c55-89f8-70bd3e99669d
+
 
 ## Run the project
 
