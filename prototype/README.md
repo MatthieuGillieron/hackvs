@@ -1,12 +1,9 @@
 # prototype/ — moteur de signaux FlexRadar (essai)
 
 ```bash
-python3 -m prototype.html                  # page HTML du brief -> prototype/out/brief.html
-python3 -m prototype.brief                 # top 10 entreprises dans le terminal
-python3 -m prototype.brief --zones -n 20   # inclut les opportunités de zone (district × métier)
-python3 -m prototype.brief --fictional-clients --no-zone-context   # signaux publics bruts
+python3 -m prototype.export && python3 -m prototype.emails && python3 -m prototype.calls
 ```
-Sortie complète : `prototype/out/opportunities.json`.
+Sortie : `web/public/data/*.json` (lue par l'interface `web/`).
 
 ## Règles
 - **Signal** = famille + cible + métiers + fenêtre de besoin + volume estimé + source (`signals.py`).
