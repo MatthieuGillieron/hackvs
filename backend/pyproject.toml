@@ -1,0 +1,27 @@
+[project]
+name = "flexradar"
+version = "1.0.0"
+description = "FlexRadar : anticiper les besoins en personnel temporaire à partir de signaux publics (Valais)."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []  # bibliothèque standard uniquement
+
+[tool.setuptools]
+packages = { find = { include = ["sources*", "engine*"] } }
+
+[tool.ruff]
+line-length = 140
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = [
+    "E501",   # longueur de ligne : le code est dense volontairement
+    "E701",   # plusieurs instructions sur une ligne (tables de règles)
+    "E731",   # lambdas nommées (tables de tâches LLM)
+    "B905",   # zip() sans strict= (Python 3.9)
+    "UP007",  # Optional[X] -> X | None : incompatible 3.9 à l'exécution
+    "UP045",
+    "E741",   # variables courtes (l = longitude, langue) dans les formules
+    "UP031",  # "%g" : plus lisible pour les tracés SVG
+]
