@@ -1,11 +1,16 @@
+# Python
 __pycache__/
 *.pyc
 
-.DS_Store
-
+# Secrets
 .env
 .env.*
 !.env.example
 
+# Cache HTTP brut des sources (~190 Mo, reconstructible)
+backend/data/cache/
 
-sources/_data/cache/
+# Outils locaux
+.DS_Store
+.claude/
+CLAUDE.md

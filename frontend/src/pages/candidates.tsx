@@ -1,0 +1,115 @@
+import * as React from "react"
+
+import { CandidateCard } from "@/features/candidates/candidate-card"
+import { CandidateDetail } from "@/features/candidates/candidate-detail"
+import { InternalBase } from "@/components/records/internal-base"
+import { CompactSelect, DbFilterBar, DbTabsBar, MoreButton } from "@/components/records/toolbar"
+import { PageBody, PageHeader } from "@/components/layout/page"
+import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog"
+import { useData } from "@/lib/data"
+import { shortDistrict, shortMetier } from "@/lib/format"
+import { CANDIDATE_STATUT, candidateHistory, type CandidateHistory } from "@/lib/history"
+import type { Candidate } from "@/lib/types"
+import { useUrlFilters } from "@/lib/url-filters"
+
+// Candidats : la base des candidats Flexsis, actuels et passés (DONNÉES SIMULÉES).
+// Grille de cartes courtes ; la fiche complète (profil, certifications, missions) s'ouvre au clic.
+
+const ALL = "all"
+const DEFAULTS = { statut: ALL, q: "", metier: ALL, district: ALL, mobilite: ALL, tri: "nom", candidat: "" }
+const PAGE = 21 // multiple de 3
+const STATUTS = Object.keys(CANDIDATE_STATUT) as Candidate["statut"][]
+
+const SORTS: Record<string, { label: string; fn: (a: CandidateHistory, b: CandidateHistory) => number }> = {
+  nom: { label: "Nom", fn: (a, b) => `${a.candidate.nom} ${a.candidate.prenom}`.localeCompare(`${b.candidate.nom} ${b.candidate.prenom}`, "fr") },
+  dispo: { label: "Disponibilité", fn: (a, b) => (a.candidate.disponible_des ?? "9999").localeCompare(b.candidate.disponible_des ?? "9999") },
+  mission: { label: "Dernière mission", fn: (a, b) => Number(!!b.current) - Number(!!a.current) || (b.last ?? "").localeCompare(a.last ?? "") },
+  missions: { label: "Nb de missions", fn: (a, b) => b.missions.length - a.missions.length },
+  experience: { label: "Expérience", fn: (a, b) => b.candidate.experience_ans - a.candidate.experience_ans },
+  inscription: { label: "Inscription", fn: (a, b) => b.candidate.inscrit_le.localeCompare(a.candidate.inscrit_le) },
+}
+
+export function CandidatesPage() {
+  const { candidates, missions, meta } = useData()
+  const today = meta.today
+  const { f, set, reset, dirty } = useUrlFilters(DEFAULTS)
+  const [shown, setShown] = React.useState(PAGE)
+  const filter = (patch: Partial<typeof DEFAULTS>) => {
+    setShown(PAGE)
+    set(patch)
+  }
+
+  const all = React.useMemo(() => candidateHistory(candidates, missions, today), [candidates, missions, today])
+  const metiers = React.useMemo(() => [...new Set(candidates.map((c) => c.metierLabel))].sort(), [candidates])
+  const districts = React.useMemo(() => [...new Set(candidates.map((c) => c.district))].sort(), [candidates])
+
+  const q = f.q.trim().toLowerCase()
+  const matches = all.filter(({ candidate: c }) => {
+    if (q && !`${c.prenom} ${c.nom} ${c.id} ${c.commune} ${c.metierLabel} ${c.certifications.join(" ")}`.toLowerCase().includes(q)) return false
+    if (f.metier !== ALL && c.metierLabel !== f.metier && !c.metiersSecondaires.includes(f.metier)) return false
+    if (f.district !== ALL && c.district !== f.district) return false
+    if (f.mobilite === "vehicule" && !c.vehicule) return false
+    if (f.mobilite === "40" && c.rayon_km < 40) return false
+    return true
+  })
+  // Les pastilles comptent les candidats qui passent les autres filtres.
+  const rows = matches.filter((h) => f.statut === ALL || h.candidate.statut === f.statut).sort(SORTS[f.tri]?.fn ?? SORTS.nom.fn)
+  const selected = f.candidat ? all.find((h) => h.candidate.id === f.candidat) : undefined
+
+  return (
+    <>
+      <PageHeader fictif />
+      <InternalBase items={[["candidats", candidates.length], ["missions", missions.length]]} sources={["fx_candidats", "fx_missions"]} />
+
+      <DbTabsBar
+        tab={f.statut}
+        onTab={(v) => filter({ statut: v })}
+        tabs={[
+          { value: ALL, label: "Tous", count: matches.length },
+          ...STATUTS.map((s) => ({ value: s, label: CANDIDATE_STATUT[s].plural, dot: CANDIDATE_STATUT[s].dot, count: matches.filter((h) => h.candidate.statut === s).length })),
+        ]}
+        q={f.q}
+        onQ={(v) => filter({ q: v })}
+        placeholder="Nom, commune, certification…"
+      />
+
+      <PageBody>
+        <DbFilterBar
+          count={`${rows.length} candidat${rows.length > 1 ? "s" : ""}`}
+          onReset={dirty(["candidat", "statut", "q"]) ? () => reset(["statut", "q"]) : undefined}
+          filters={
+            <>
+              <CompactSelect label="Métier" value={f.metier} onChange={(v) => filter({ metier: v })}
+                options={[[ALL, "Tous"], ...metiers.map((m): [string, string] => [m, shortMetier(m)])]} />
+              <CompactSelect label="District" value={f.district} onChange={(v) => filter({ district: v })}
+                options={[[ALL, "Tous"], ...districts.map((d): [string, string] => [d, shortDistrict(d)])]} />
+              <CompactSelect label="Mobilité" value={f.mobilite} onChange={(v) => filter({ mobilite: v })}
+                options={[[ALL, "Toutes"], ["vehicule", "Véhiculé"], ["40", "Rayon ≥ 40 km"]]} />
+              <CompactSelect label="Tri" value={f.tri} onChange={(v) => filter({ tri: v })}
+                options={Object.entries(SORTS).map(([k, s]): [string, string] => [k, s.label])} />
+            </>
+          }
+        />
+
+        {rows.length ? (
+          <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+            {rows.slice(0, shown).map((h) => (
+              <CandidateCard key={h.candidate.id} h={h} today={today} onOpen={() => set({ candidat: h.candidate.id })} />
+            ))}
+          </div>
+        ) : (
+          <p className="py-16 text-center text-sm text-muted-foreground">Aucun candidat ne correspond aux filtres.</p>
+        )}
+        <MoreButton left={rows.length - shown} onMore={() => setShown((n) => n + PAGE)} />
+      </PageBody>
+
+      <Dialog open={!!selected} onOpenChange={(v) => !v && set({ candidat: "" })}>
+        <DialogContent className="max-h-[92svh] overflow-y-auto p-6 sm:max-w-5xl sm:p-8">
+          <DialogTitle className="sr-only">{selected ? `${selected.candidate.prenom} ${selected.candidate.nom}` : "Candidat"}</DialogTitle>
+          <DialogDescription className="sr-only">Fiche candidat (données simulées)</DialogDescription>
+          {selected && <CandidateDetail h={selected} today={today} />}
+        </DialogContent>
+      </Dialog>
+    </>
+  )
+}
